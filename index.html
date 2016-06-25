@@ -1,0 +1,43 @@
+--- 
+layout: home 
+title: Typora Wiki
+---
+
+<div id="content" class="content">
+    <h3>Quick Start</h3>
+    <ul class="category basic-posts"> 
+         {% for post in site.categories.basic reversed %}
+         {% unless post.draft %}
+         {% assign title = post.title %}
+            <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+    <h3>How-Tos</h3>
+    <ul class="category howto-posts"> 
+         {% for post in site.categories.how-to reversed %}
+         {% unless post.draft %}
+         {% assign title = post.title %}
+            <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+</div>
