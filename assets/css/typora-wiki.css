@@ -40,6 +40,7 @@
   overflow: hidden;
   border-bottom: 1px solid #eeeeee;
   margin-bottom: 10px;
+  line-height: 24px;
 }
 
 .category .article .title a {
@@ -52,12 +53,23 @@
   color: inherit;
 }
 
+@media (max-width: 48em) {
+  .date {
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 330px) {
+  .product-name {
+    display: none;
+  }
+}
+
 .category .article .date {
   float: right;
   font-size: 12px;
   text-transform: uppercase;
   color: rgba(0,0,0,0.2);
-  line-height: 24px;
   margin-top: 7px;
   margin-bottom: 0;
 }
