@@ -1,6 +1,6 @@
 # Typora Wiki Website
 
-<http://wiki.typora.io>
+<http://support.typora.io>
 
 Knowledge base for Typora. And also an examples about using Typora with static site generators like Jekyll.
 

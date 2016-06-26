@@ -1,6 +1,6 @@
-name: Typora Wiki
+name: Typora Support
 url: https://themes.typora.io
-description: Wikis, How-Tos, and FAQs for typora
+description: Docs, How-Tos, and FAQs for typora
 
 permalink: /:title/
 
@@ -20,7 +20,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: true
+      line_numbers: false
       start_line: 1
 
 

@@ -47,8 +47,7 @@
   color: inherit;
 }
 
-.category .article .title a:hover, 
-.category .article .title a:focus {
+.category .article .title a:hover {
   text-decoration: none;
   color: inherit;
 }
@@ -63,6 +62,10 @@
   margin-bottom: 0;
 }
 
+.contact-posts .article .date {
+  text-transform: none;
+}
+
 .nav .pure-menu-list {
     float: right;
     margin-bottom: 0;
@@ -72,6 +75,7 @@
     display: inline-block;
     max-width: 100%;
     overflow-x: hidden;
+    margin-right:2em;
 }
 
 #content {
@@ -98,6 +102,10 @@
 
 .math * {
     color: inherit !important;
+}
+
+code.highlighter-rouge * {
+  color: initial !important;
 }
 
 blockquote {
