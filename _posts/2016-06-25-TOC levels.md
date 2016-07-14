@@ -13,7 +13,7 @@ In typora `[TOC]` will generate "Table of Contents", by default it will show hea
 To hide low level headings, for instance, `h6`, you would append css:
 
 ```css
-h6 {
+.md-toc-h6 {
   display: none;
 }
 ```
