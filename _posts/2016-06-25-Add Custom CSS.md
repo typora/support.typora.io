@@ -3,6 +3,7 @@ layout: post
 title: Add Custom CSS
 author: typora.io
 category: basic
+tags: [style, tutorial]
 typora-root-url: ../../
 ---
 

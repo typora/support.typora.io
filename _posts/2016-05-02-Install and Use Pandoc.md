@@ -3,6 +3,7 @@ layout: post
 title: Install and Use Pandoc
 category: basic
 author: typora.io
+tags: [pandoc, tutorial, docx]
 typora-root-url: ../../
 ---
 
@@ -45,7 +46,7 @@ Download a package installer from pandoc's [download page](https://github.com/j
 For developers using [homebrew](http://brew.sh/), installing pandoc can be one line from terminal:
 
 ```sh
-sodu brew install pandoc
+sudo brew install pandoc
 ```
 
 ### For Windows User

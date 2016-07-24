@@ -3,6 +3,7 @@ layout: post
 title: Language Support in Code Fences
 author: typora.io
 category: reference
+tags: [code fences]
 typora-root-url: ../../
 ---
 
@@ -79,5 +80,7 @@ The latest version of Typora support syntax highlight of following languages (in
 - tiki (alias: tikiwiki, tiki-wiki)
 - properties (alias: ini)
 - livescript
+- assembly (alias: asm, nasm, gas)
+- toml
 
 Please note that the language you specific in <code>```{lang}</code> is case insensitive for typora when choose the corresponding syntax highlight.

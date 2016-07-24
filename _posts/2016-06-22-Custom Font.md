@@ -3,6 +3,7 @@ layout: post
 title: Custom Font
 author: typora.io
 category: how-to
+tags: [style, font]
 typora-root-url: ../../
 ---
 

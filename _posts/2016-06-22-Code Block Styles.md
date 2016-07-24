@@ -3,6 +3,7 @@ layout: post
 title: Code Block Styles/Themes
 author: typora.io
 category: how-to
+tags: [style, code fences]
 thumbnail: code-block-style.png
 typora-root-url: ../../
 ---

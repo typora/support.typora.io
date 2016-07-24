@@ -14,7 +14,7 @@ title: Typora Support
                 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
                     <header class="post-header">
                         <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
-                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                        <time class="date">{% for tag in post.tags %}{{ tag }}{% unless tag == post.tags.last %}, {% endunless %}{% endfor %}</time>
                     </header>
                 </article>
             </div>
@@ -32,7 +32,7 @@ title: Typora Support
                 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
                     <header class="post-header">
                         <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
-                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                        <time class="date">{% for tag in post.tags %}{{ tag }}{% unless tag == post.tags.last %}, {% endunless %}{% endfor %}</time>
                     </header>
                 </article>
             </div>
@@ -50,7 +50,7 @@ title: Typora Support
                 <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
                     <header class="post-header">
                         <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
-                        <time class="date" itemprop="datePublished" datetime="{{post.date | date: "%Y-%m-%d"}}">{{post.date | date: "%B %e, %Y"}}</time>
+                        <time class="date">{% for tag in post.tags %}{{ tag }}{% unless tag == post.tags.last %}, {% endunless %}{% endfor %}</time>
                     </header>
                 </article>
             </div>

@@ -4,6 +4,7 @@ title: Auto Numbering for Headings
 date: 2016-06-06
 category: how-to
 author: typora.io
+tags: [style]
 typora-root-url: ../../
 ---
 
