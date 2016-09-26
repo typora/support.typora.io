@@ -21,9 +21,14 @@ sudo apt-get update
 sudo apt-get install typora
 ```
 
-### Update Typora
+### Upgrade Typora
 
-After install Typora, typora package will be managed by apt-get, so when your system update installed packages, or command `sudo apt-get upgrade` is executed, typora will also be updated to latest version.
+After install Typora, typora package will be managed by apt-get, so when your system update installed packages, or execute apt-get upgrade command, typora will also be updated to latest version.
+
+```bash
+# upgrade all packages include Typora
+sudo apt-get upgrade
+```
 
 ## RedHat/Fedora/SUSE
 
@@ -40,7 +45,7 @@ Another way is to `alien` to install Typora's deb, but you need to manually upgr
 
 ## Distribution Support
 
-Typora for Linux is tested only on Ubuntu distribution. So, if you met a problem on other distributions, please email us <hi@typora>.
+Typora for Linux is tested only on Ubuntu distribution. So, if you meet a problem on other distributions, please email us <hi@typora>.
 
 ## Screenshots
 
