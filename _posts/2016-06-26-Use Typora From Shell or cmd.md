@@ -5,6 +5,7 @@ author: typora.io
 category: how-to
 tags: [dev, shell]
 typora-root-url: ../../
+date: 2016-09-26
 ---
 
 ## macOS
@@ -24,3 +25,12 @@ in your `.bash_profile` or other configuration file, then you would be able to
 If Typora is set as the default markdown editor, then in cmd.exe, input `.md` file path directly would open target markdown file. For example: `./example.md`.
 
 You would also add `{typora-insatlled-folder}/bin/typora.exe` into system Path, then you would be able to use `typora xxx.md` to open markdown file in Typora from command line. Usually, `{typora-insatlled-folder}` is `C:\Program Files (x86)\Typora`.
+
+## Linux
+
+After [install typora on Linux](/Typora-on-Linux/), user could run `typora` directly in terminal, for example:
+
+```bash
+typora ~/Document/test.md
+```
+
