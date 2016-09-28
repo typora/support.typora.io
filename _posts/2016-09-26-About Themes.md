@@ -15,7 +15,7 @@ Typora use CSS to stylish all contents, each theme under `theme` menu is one `.c
 
 ## Get Typora Themes
 
-We have an office website [Typora Theme Gallery](http://theme.typora.com) for designers/developers to share their custom themes with others. You could download theme from there.
+We have an office website [Typora Theme Gallery](http://theme.typora.io) for designers/developers to share their custom themes with others. You could download theme from there.
 
 ## Install Custom Themes
 
