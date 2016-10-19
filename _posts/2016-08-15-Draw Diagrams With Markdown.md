@@ -9,7 +9,7 @@ typora-root-url: ../../
 
 Typora supports some Markdown extension for diagrams, you could enable this feature from preference panel. 
 
-When exporting as HTML.PDF, those rendered diagrams will also be included, not diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
+When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be included, but diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
 
 # Sequence
 

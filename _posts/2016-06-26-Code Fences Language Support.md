@@ -49,7 +49,7 @@ The latest version of Typora support syntax highlight of following languages (in
 - go
 - groovy
 - nginx
-- octave
+- octave (alias: matlab)
 - c (alias: clike)
 - c++ (alias: cpp, cc)
 - objective-c (alias: obj-c, objc)
@@ -82,5 +82,16 @@ The latest version of Typora support syntax highlight of following languages (in
 - livescript
 - assembly (alias: asm, nasm, gas)
 - toml
+- ocaml
+- F#
+- elm
+- spreadsheet
+- pgp (alias: asciiarmor, pgp-keys)
 
 Please note that the language you specific in <code>```{lang}</code> is case insensitive for typora when choose the corresponding syntax highlight.
+
+#### Change Log:
+
+- 0.9.9.8.2/0.9.21: Add syntax highlight for `ocaml`, `F#`, `elm`, `spreadsheet` and `pgp(Ascii Armor)`.
+- 0.9.9.8/0.9.20: Add syntax highlight for `Octave` and `matlab`.
+
