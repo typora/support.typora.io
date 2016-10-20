@@ -5,6 +5,8 @@ author: typora.io
 category: reference
 tags: [code fences]
 typora-root-url: ../../
+date: 2016-10-20
+
 ---
 
 The latest version of Typora support syntax highlight of following languages (in lower case):
