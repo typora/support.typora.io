@@ -4,7 +4,7 @@ title: Add Custom CSS
 author: typora.io
 category: how-to
 tags: [style, tutorial]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 *This feature requires Typora later than 0.9.12 on Windows or 0.9.9.5.1 on macOS*

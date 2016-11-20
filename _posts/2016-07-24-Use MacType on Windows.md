@@ -4,7 +4,7 @@ title: Use MacType on Windows
 author: typora.io
 category: how-to
 tags: [font, windows]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 Well, firstly, you need to install [MacType][] on Windows, after that, you may found MacType not work as expect for Typora. This is because Typora use [DirectWrite][] for font rendering.

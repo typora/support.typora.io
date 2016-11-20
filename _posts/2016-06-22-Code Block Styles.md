@@ -5,7 +5,7 @@ author: typora.io
 category: how-to
 tags: [style, code fences]
 thumbnail: code-block-style.png
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 > About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).

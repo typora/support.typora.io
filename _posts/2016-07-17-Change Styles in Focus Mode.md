@@ -4,7 +4,7 @@ title: Change Styles in Focus Mode
 author: typora.io
 category: how-to
 tags: [style]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 When focus mode is enabled, the `<body>` dom will have class `on-focus-mode`, and focused block level elements will have class `md-focus`. 

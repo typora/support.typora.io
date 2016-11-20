@@ -4,7 +4,7 @@ title: Custom Font
 author: typora.io
 category: how-to
 tags: [style, font]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 > About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).

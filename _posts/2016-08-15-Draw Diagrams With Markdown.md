@@ -4,7 +4,7 @@ title: Draw Diagrams With Markdown
 category: basic
 author: typora.io
 tags: [markdown, mermaid, flowchart, sequence]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 Typora supports some Markdown extension for diagrams, you could enable this feature from preference panel. 

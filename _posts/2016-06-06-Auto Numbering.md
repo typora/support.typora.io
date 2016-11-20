@@ -5,7 +5,7 @@ date: 2016-06-06
 category: how-to
 author: typora.io
 tags: [style]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 > About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
@@ -105,3 +105,4 @@ h6.md-focus:before {
 }
 ```
 
+If you want `TOC` entities also be auto-numbered, you could try [http://pastebin.com/NYugSbXk](http://pastebin.com/NYugSbXk) posted by a Typora user.

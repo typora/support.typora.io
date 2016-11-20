@@ -4,7 +4,7 @@ title: Custom Key Binding
 author: typora.io
 category: how-to
 tags: [key binding]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 User can set or reassign shortcut keys for commands in Typora's menubar. This article will show how to customise typora' key binding.

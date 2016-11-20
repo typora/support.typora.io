@@ -4,7 +4,7 @@ title: Resize Images
 author: typora.io
 category: how-to
 tags: [image]
-typora-root-url: ../../
+typora-root-url: ../
 
 ---
 

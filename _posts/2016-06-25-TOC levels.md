@@ -4,7 +4,7 @@ title: Control TOC Levels
 author: typora.io
 category: how-to
 tags: [style]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 >  About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).

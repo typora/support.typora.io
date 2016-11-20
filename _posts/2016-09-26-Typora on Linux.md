@@ -4,7 +4,7 @@ title: Install Typora on Linux
 author: typora.io
 category: how-to
 tags: [linux, tutorial]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 ## Debian/Ubuntu

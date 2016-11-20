@@ -4,7 +4,7 @@ title: About Themes
 author: typora.io
 category: basic
 tags: [style, tutorial]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 ## Change Themes

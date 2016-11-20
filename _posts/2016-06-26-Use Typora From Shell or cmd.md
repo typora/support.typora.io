@@ -4,7 +4,7 @@ title: Use Typora from Shell or Cmd
 author: typora.io
 category: how-to
 tags: [dev, shell]
-typora-root-url: ../../
+typora-root-url: ../
 date: 2016-09-26
 ---
 

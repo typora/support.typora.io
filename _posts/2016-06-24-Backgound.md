@@ -4,7 +4,7 @@ title: Change Background
 author: typora.io
 category: how-to
 tags: [style]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 > Some of following CSS style will work for latest version of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).

@@ -5,7 +5,7 @@ date: 2016-01-01
 category: basic
 author: typora.io
 tags: [markdown, tutorial]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 ## Overview

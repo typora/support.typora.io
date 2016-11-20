@@ -4,7 +4,7 @@ title: Install and Use Pandoc
 category: basic
 author: typora.io
 tags: [pandoc, tutorial, docx]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 TL;DR:

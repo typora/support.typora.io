@@ -4,7 +4,7 @@ title: Add Search Service
 author: typora.io
 category: how-to
 tags: [search, contextmenu]
-typora-root-url: ../../
+typora-root-url: ../
 ---
 
 User can add custom search engine to extend functions shown in context menu.
