@@ -127,7 +127,7 @@ $$
 $$
 
 
-In markdown source file, math block is *LaTeX* expression wrapped by ‘$$’ mark:
+In markdown source file, math block is *LaTeX* expression wrapped by ‘$$’ mark in its own line:
 
 ``` markdown
 $$
@@ -369,6 +369,8 @@ To trigger inline preview for inline math: input “$”, then press `ESC` key, 
 
 ![inline-math](http://typora.io/img/inline-math.gif)
 
+Typora supports _block math inline_.  Simply use `$$`  to wrap the TeX commands, for example: `$$\sum_{k = 1}^n k = \frac{n(n + 1)}{2}$$` will be rendered inline as if in math block, with limits above and below the $\sum$-symbol.
+
 ### Subscript
 
 To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `~` to wrap subscript content, for example: `H~2~O`, `X~long\ text~`/
@@ -382,3 +384,4 @@ To use this feature, first, please enable it in `Preference` Panel -> `Markdown`
 To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `==` to wrap superscript content, for example: `==highlight==`. 
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown/
+
