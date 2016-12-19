@@ -379,6 +379,6 @@ To use this feature, first, please enable it in `Preference` Panel -> `Markdown`
 
 ### Highlight
 
-To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `==` to wrap superscript content, for example: `==highlight==`. 
+To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `==` to wrap highlight content, for example: `==highlight==`. 
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown/
