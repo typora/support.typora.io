@@ -6,7 +6,6 @@ category: reference
 tags: [code fences]
 typora-root-url: ../
 date: 2016-10-20
-
 ---
 
 The latest version of Typora support syntax highlight of following languages (in lower case):
@@ -90,11 +89,27 @@ The latest version of Typora support syntax highlight of following languages (in
 - elixir
 - spreadsheet
 - pgp (alias: asciiarmor, pgp-keys)
+- cmake
+- cypher
+- dart
+- django
+- dtd (alias: xml-dtd)
+- dylan
+- handlebars
+- idl
+- web-idl
+- yacas
+- mbox
+- bhdl
+- julia
+- haxe
+- hxml
 
 Please note that the language you specific in <code>```{lang}</code> is case insensitive for typora when choose the corresponding syntax highlight.
 
 #### Change Log:
 
+- 0.9.9.8.8/0.9.23: Add syntax highlighting for `cmake`, `cypher`, `dart`, `django`, `dtd`, `dylan`, `handlebars`, `idl`, `web idl`, `yacas`, `mbox`, `vhdl`, `julia`, `haxe`, and `hxml`.
 - 0.9.9.8.4/0.9.22: Add syntax highlight for `elixir`.
 - 0.9.9.8.2/0.9.21: Add syntax highlight for `ocaml`, `F#`, `elm`, `spreadsheet` and `pgp(Ascii Armor)`.
 - 0.9.9.8/0.9.20: Add syntax highlight for `Octave` and `matlab`.
