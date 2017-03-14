@@ -3,32 +3,31 @@ layout: post
 title: Markdown Reference
 date: 2016-01-01
 category: basic
-author: typora.io
-tags: [markdown, tutorial]
-typora-root-url: ../
+author: Typora.io
+tags: [Markdown, tutorial]
+Typora-root-url: ../
 ---
 
 ## Overview
 
-**Markdown** is created by [Daring Fireball](http://daringfireball.net/), the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** is using [GitHub Flavored Markdown][GFM]. 
+**Markdown** is created by John Guber of [Daring Fireball](http://daringfireball.net/). The original guideline is [here](http://daringfireball.net/projects/Markdown/syntax). Its syntax, however, varies between different parsers or editors: **Typora** uses [GitHub Flavored Markdown][GFM]. 
 
-Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also, there may be small reformatting on the original markdown source code after saving.
+Please note that HTML fragments in your Markdown source will be recognized but not parsed or rendered. Also, there may be a minor amount of reformatting of the original Markdown source code after saving.
 
 * Outline
 {:toc}
-
 
 ## Block Elements
 
 ### Paragraph and line breaks
 
-A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press `Return` to create a new paragraph.
+A paragraph is simply one or more consecutive lines of text. In Markdown, paragraphs must be separated by more than one blank line. In Typora, you only need to press `Return` to create a new paragraph.
 
-Press `Shift` + `Return` to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two whitespace at the end of the line, or insert `<br/>`.
+`Shift` + `Return` will create a single line break, but most Markdown parsers will ignore a single line break, so you must add two spaces at the end of a line or insert a `<br/>`  to make other Markdown parsers recognize a line break.
 
 ### Headers
 
-Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Headers are marked with between one and six hash characters at the start of the line for header levels 1-6. For example:
 
 ``` markdown
 # This is an H1
@@ -38,29 +37,37 @@ Headers use 1-6 hash characters at the start of the line, corresponding to heade
 ###### This is an H6
 ```
 
-In typora, input ‘#’s followed by title content, and press `Return` key will create a header.
+Enter the appropriate number of hashes followed by a space and then the title content. Typora will create a header as soon as you press the `Return` key.
 
 ### Blockquotes
 
-Markdown uses email-style > characters for block quoting. They are presented as:
+Markdown uses email-style `>` characters for block quoting. They are entered as:
 
 ``` markdown
 > This is a blockquote with two paragraphs. This is first paragraph.
 >
-> This is second pragraph.Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> This is second pragraph.
 
-
-
-> This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.
+> This is another blockquote paragraph. An empty line separates two blockquotes.
 ```
 
-In typora, just input ‘>’ followed by quote contents a block quote is  generated. Typora will insert proper ‘>’ or line break for you. Block quote inside anther block quote is allowed by adding additional levels of ‘>’. 
+You only need to input `>` followed by the quote contents to generate a blockquote paragraph. Typora will insert the line break for you.
+
+A blockquote can be nested inside another blockquote by adding additional `>`
+
+```
+> This is the first level of quoting.
+>
+> > This is nested blockquote.
+>
+> Back to the first level.
+```
 
 ### Lists
 
-Input `* list item 1` will create an un-ordered list, the `*` symbol can be replace with `+` or `-`. 
+`* list item 1` will create an unordered list. The `*` symbol can be replaced with `+` or `-`.
 
-Input `1. list item 1` will create an ordered list, their markdown source code is like:
+`1. list item 1` will create an ordered list. The Markdown source code is:
 
 ``` markdown
 ## un-ordered list
@@ -74,9 +81,9 @@ Input `1. list item 1` will create an ordered list, their markdown source code i
 3.	Blue
 ```
 
-### Task List
+#### Task Lists
 
-Task lists are lists with items marked as either [ ] or [x] (incomplete or complete). For example:
+Task lists are lists with items marked as either incomplete [ ] or completed [x]. For example:
 
 ``` markdown
 - [ ] a task list item
@@ -86,36 +93,35 @@ Task lists are lists with items marked as either [ ] or [x] (incomplete or compl
 - [x] completed
 ```
 
-You can change the complete/incomplete state by click the checkbox before the item.
+Click the checkbox before the item to change the complete/incomplete state.
 
 ### (Fenced) Code Blocks
 
-Typora only support fences in Github Flavored Markdown. Original code blocks in markdown is not supported.
+Typora only supports fenced code blocks in Github Flavored Markdown (GFM). The original Markdown code block type is not supported. Enter three backticks  (left-most key on the number row) and press `return` to start the fenced code block. Another line containing three more backticks ends the fenced code block. 
 
-Using fences is easy: Input \`\`\` and press `return`. Add an optional language identifier after \`\`\` and we'll run it through syntax highlighting:
 
 ``` markdown
-Here's an example:
 
 ​```
 function test() {
   console.log("notice the blank line before this function?");
 }
 ​```
+```
 
-syntax highlighting:
+If you add an optional language identifier immediately after the first three backticks, the code block will be run through syntax highlighting. Language identifiers include `ruby`, `java`,`python`,  `markdown`, `kramdown`, `redcarpet`, and many others. 
+
+```
 ​```ruby
 require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+Markdown = Redcarpet.new("Hello World!")
+puts Markdown to_html
 ​```
 ```
 
 ### Math Blocks
 
-You can render *LaTeX* mathematical expressions using **MathJax**.
-
-Input `$$`, then press 'Return' key will trigger an input field which accept *Tex/LaTex* source. Following is an example:
+You can render *LaTeX* mathematical expressions using **MathJax**. by inputting `$$`, then pressing the `Return` key. This will trigger an input field which will accept *Tex/LaTex* source. Here is an example:
 
 
 $$
@@ -127,7 +133,7 @@ $$
 $$
 
 
-In markdown source file, math block is *LaTeX* expression wrapped by ‘$$’ mark:
+In Markdown source file, math block is *LaTeX* expression wrapped by ‘$$’ mark:
 
 ``` markdown
 $$
@@ -145,9 +151,9 @@ Input `| First Header  | Second Header |` and press `return` key will create a t
 
 After table is created, focus on that table will pop up a toolbar for table, where you can resize, align, or delete table. You can also use context menu to copy and add/delete column/row.
 
-Following descriptions can be skipped, as markdown source code for tables are generated by typora automatically.
+Following descriptions can be skipped, as Markdown source code for tables are generated by Typora automatically.
 
-In markdown source code, they look like:
+In Markdown source code, they look like:
 
 ``` markdown
 | First Header  | Second Header |
@@ -202,7 +208,7 @@ Input `[toc]` then press `Return` key will create a section for “Table of Cont
 
 ## Span Elements
 
-Span elements will be parsed and rendered right after your typing. Moving cursor in middle of those span elements will expand those elements into markdown source. Following will explain the syntax of those span element.
+Span elements will be parsed and rendered right after your typing. Moving cursor in middle of those span elements will expand those elements into Markdown source. Following will explain the syntax of those span element.
 
 ### Links
 
@@ -228,7 +234,7 @@ This is [an example](http://example.com/"Title") inline link. (`<p>This is <a hr
 
 **You can set the href to headers**, which will create a bookmark that allow you to jump to that section after clicking. For example:
 
-Command(on Windows: Ctrl) + Click [This link](#block-elements) will jump to header `Block Elements`. To see how to write that, please move cursor or click that link with `⌘` key pressed to expand the element into markdown source.
+Command(on Windows: Ctrl) + Click [This link](#block-elements) will jump to header `Block Elements`. To see how to write that, please move cursor or click that link with `⌘` key pressed to expand the element into Markdown source.
 
 #### Reference Links 
 
@@ -242,7 +248,7 @@ Then, anywhere in the document, you define your link label like this, on a line 
 [id]: http://example.com/  "Optional Title Here"
 ```
 
-In typora, they will be rendered like:
+In Typora, they will be rendered like:
 
 This is [an example][id] reference-style link.
 
@@ -257,13 +263,13 @@ And then define the link:
 [Google]: http://google.com/
 ```
 
-In typora click link will expand it for editing, command+click will open the hyperlink in web browser.
+In Typora click link will expand it for editing, command+click will open the hyperlink in web browser.
 
 ### URLs
 
 Typora allows you to insert urls as links, wrapped by `<`brackets`>`.
 
-`<i@typora.io>` becomes <i@typora.io>.
+`<i@Typora.io>` becomes <i@Typora.io>.
 
 Typora will aslo auto link standard URLs. e.g: www.google.com.
 
@@ -277,11 +283,11 @@ Image looks similar with links, but it requires an additional `!` char before th
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-You are able to use drag & drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
+You are able to use drag & drop to insert image from image file or we browser. And modify the Markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
 
-If you’re using markdown for building websites, you may specify a url prefix for image preview in local computer with property `typora-root-url` in YAML Front Matters. For example, input `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matters, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in typora.
+If you’re using Markdown for building websites, you may specify a url prefix for image preview in local computer with property `Typora-root-url` in YAML Front Matters. For example, input `Typora-root-url:/User/Abner/Website/Typora.io/` in YAML Front Matters, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/Typora.io/blog/img/test.png)` in Typora.
 
-![drag and drop image](http://typora.io/img/drag-img.gif)
+![drag and drop image](http://Typora.io/img/drag-img.gif)
 
 ### Emphasis
 
@@ -367,7 +373,7 @@ To use this feature, first, please enable it in `Preference` Panel -> `Markdown`
 
 To trigger inline preview for inline math: input “$”, then press `ESC` key, then input TeX command, a preview tooltip will be visible like below:
 
-![inline-math](http://typora.io/img/inline-math.gif)
+![inline-math](http://Typora.io/img/inline-math.gif)
 
 ### Subscript
 
