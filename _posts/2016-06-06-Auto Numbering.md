@@ -8,7 +8,7 @@ tags: [style]
 typora-root-url: ../
 ---
 
-> **Note:** More information on Typora's CSS files is at [Add Custom CSS](/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
 This CSS code will auto add numbering to all headings in an article, like this:
 

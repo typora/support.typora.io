@@ -1,10 +1,21 @@
+---
+layout: post
+title: Markdown Reference
+date: 2016-01-01
+category: basic
+author: Typora.io
+tags: [markdown, tutorial]
+Typora-root-url: ../
+---
+
 ## Overview
 
-**Markdown** was created by John Guber of [Daring Fireball](http://daringfireball.net/). The original guideline is [here](http://daringfireball.net/projects/Markdown/syntax). Its syntax, however, varies between different parsers or editors: **Typora** uses [GitHub Flavored Markdown][GFM]. 
+**Markdown** was created by John Guber of [Daring Fireball](http://daringfireball.net/). The original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors: **Typora** uses [GitHub Flavored Markdown][GFM]. 
 
 Please note that HTML fragments in your Markdown source will be recognized but not parsed or rendered. Also, there may be a minor amount of reformatting of the original Markdown source code after saving.
 
-[TOC]
+* Outline
+{:toc}
 
 ## Block Elements
 
@@ -109,6 +120,7 @@ puts Markdown to_html
 ### Math Blocks
 
 You can render *LaTeX* mathematical expressions using **MathJax**. by inputting `$$`, then pressing the `Return` key. This will trigger an input field which will accept *Tex/LaTex* source. Here is an example:
+
 $$
 \mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
@@ -116,6 +128,7 @@ $$
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
 $$
+
 In Markdown source file, math block is *LaTeX* expression wrapped by ‘$$’ mark:
 
 ```markdown

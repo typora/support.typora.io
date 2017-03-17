@@ -7,7 +7,7 @@ tags: [style, font]
 typora-root-url: ../
 ---
 
-> **Note:** More information on Typora's CSS files is at [Add Custom CSS](applewebdata://36AA7FB4-DD4C-4FC7-81AE-5D82BB2AA4C1/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
 Custom fonts in Typora are set by the  `.css` files in Typora's theme folder.
 

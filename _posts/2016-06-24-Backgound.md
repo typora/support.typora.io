@@ -9,7 +9,7 @@ typora-root-url: ../
 
 > Some of following CSS styling will work for Typora >= 0.9.9.6 on macOS, and >=0.9.13 on Windows.
 >
-> **Note:** More information on Typora's CSS files is at [Add Custom CSS](applewebdata://36AA7FB4-DD4C-4FC7-81AE-5D82BB2AA4C1/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
 We don't recommend setting a background image in a text editor, but here's how to do it if you really, really want. For example, you could add [this image of a notebook page](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/) as a background. The image must be copied into the Typora`Theme folder`. The CSS code would be:
 
