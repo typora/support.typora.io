@@ -8,15 +8,15 @@ tags: [style]
 typora-root-url: ../
 ---
 
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS](/Add-Custom-CSS/).
 
-This CSS snip will auto add numbering to all headings in your article, like this:
+This CSS code will auto add numbering to all headings in an article, like this:
 
 ![1](/media/auto-numbering/1.png)
 
-## How to use:
+## How to add Auto Numbering
 
-Add following to your base.user.css or [theme].user.css under theme folder.
+Add the following code to your `base.user.css` or `[theme].user.css` in the Theme folder:
 
 ```css
 
@@ -105,4 +105,4 @@ h6.md-focus:before {
 }
 ```
 
-If you want `TOC` entities also be auto-numbered, you could try [http://pastebin.com/NYugSbXk](http://pastebin.com/NYugSbXk) posted by a Typora user.
+If you want Table of Contents`[TOC]` entities also be auto-numbered, you can add [this CSS code](http://pastebin.com/NYugSbXk) posted by a Typora user.
