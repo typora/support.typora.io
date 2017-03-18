@@ -38,11 +38,11 @@ Apple's system feature to customise typora's key bindings.
 
 *(Requires Typora ≥ v0.9.16)*
 
-1. Open **Menu**  → **Preferences** in Typora, then click **Open Advanced Settings**.
+1. Open **Preferences** in Typora, then click the `Open Advanced Settings` button:
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)
 
-2.  From the opened Advanced Settings window open and edit `conf.user.json`. Create one if it doesn't exist.
+2. From the opened Advanced Settings window open and edit `conf.user.json`. Create one if it doesn't exist.
 
 3. Set or add the JSON object which represents a key binding. For example:
 
