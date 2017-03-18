@@ -7,14 +7,16 @@ tags: [style]
 typora-root-url: ../
 ---
 
-When focus mode is enabled, the `<body>` dom will have class `on-focus-mode`, and focused block level elements will have class `md-focus`. 
+When Focus Mode is enabled, the `<body>` DOM will have the CSS class `on-focus-mode`, while focused block-level elements will have the CSS class `md-focus`. 
 
 Blocks that can contain `md-focus` class are blocks that cannot contain children blocks and will contain a `md-end-block` class. For instance, `<blockquote>` can contain children blocks like `<p>`, so it does not have `md-end-block` class, while `h1` would have that class. `md-focus-container` class will apply to `li` which contains a `.md-focus` block.
 
-So we can change styles under focus mode like:
+Blocks with the `md-focus` class cannot contain child blocks and will contain an `md-end-block` class. For instance, `<blockquote>` can contain child blocks such as `<p>`, so it does not have an `md-end-block` class, while an `h1` block has that class. `md-focus-container` class will apply to list elements `li` which contain an `.md-focus` block.
+
+Style changes under Focus Mode could for example be written way:
 
 ```scss
-/*Following are LESS code for better css structure*/
+/*Following uses LESS syntax for better CSS structure*/
 
 .on-focus-mode {
   /* under focus mode*/
