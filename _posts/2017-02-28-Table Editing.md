@@ -12,9 +12,7 @@ typora-copy-images-to: ../media/table-editing
 {:toc}
 ## Tables in Markdown
 
-Typora supports table syntax of [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/):
-
-It will parse following text in a markdown file into a table.
+Typora supports the [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/) table syntax. It will parse such Markdown into a table:
 
 > ```gfm
 > |First Header | Second Header|
@@ -23,45 +21,43 @@ It will parse following text in a markdown file into a table.
 > |Content in the first column | Content in the second column|
 > ```
 
-## Create Table in Typora
+### Creating A Table in Typora
 
-To create a table in Typora, you could simplify write down a table header in markdown.
+To create a table in Typora, you first write the table header in Markdown.
 
 ```markdown
 |First Header | Second Header|
 ```
 
-And then press `Return` key.
-
-Also, you could also insert table from menubar.
+And then press the `Return` key. You can also insert a table from the menu bar. 
 
 A table must have table headers and at least one row and one column.
 
-## Add Row in Table
+### Adding A Row
 
-Press `Command/Ctrl+Enter` to quickly insert an empty row under current table row. Context menu is also available for add row action.
+Press `[Command/Ctrl]+Enter` to quickly insert an empty row under current table row. You can also add a row viathe Context menu.
 
-## Delete Row in Table
+### Delete A Row
 
-The delete line command (`Shift+Command/Ctrl+L`) will delete current table row in a table. Context menu is also available for delete row action.
+The **delete line command** (`Shift+[Command/Ctrl]+L`) will delete the current table row. The Context menu also can be used to delete a row.
 
-## Add/Delete Column in Table
+### Add Or Delete A Column
 
-Right click on a table cell, and in submenu of `table` in context menu, there's menu items for add/remove table columns.
+Right click on a table cell. There are menu items to add or remove table columns in the  `table` submenu of the Context menu.
 
-If you have a Mackbook with **touchbar**, you could also use buttons from touchbar for add/move/delete table row/column.
+If you have a recent MacBook Pro with a **touchbar**, you can also use the buttons on the touchbar to add, move, or delete a table row or column.
 
-## Resize Table
+### Resize A Table
 
-Put the cursor inside a table and a table tooltip will show above the table header. Click the most left icon, and you will be able to resize the table like most rich editors.
+Move the cursor into a table and a table `tooltip` will show above the table header. Click the left-most icon, and you will be able to resize the table.
 
-If you want to make the table larger than 6 columns or 10 rows, you could click the row/column number input and input a proper number.
+If you want to make the table larger than the existing columns or rows, you can change the row and column numbers at the bottom of the tooltip window.
 
 ![Snip20170227_2](/media/table-editing/Snip20170227_2.png)
 
-## Text Alignment in Column
+### Column Text Alignment
 
-In [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/), column alignment is configurable like following:
+In [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/), column alignment is configurable by adding colons in the second row:
 
 ```markdown
 | Default | Left  | Right | Center |
@@ -69,19 +65,17 @@ In [Github Favored Markdown](https://guides.github.com/features/mastering-markdo
 | cell1   | cell2 | cell3 | cell4  |
 ```
 
-In typora, you could simply change text alignment under a column by selecting related alignment icon from table tooltip.
+Typora also allows you to change the text alignment of a column by selecting an alignment icon from the table tooltip. Typora will add the attribute `style="text-align: left/center/right"` to affected `<td>`s, but the final alignment can still be changed by editing the CSS rules in the current theme or in Custom CSS.
 
-With alignment set, Typora will add attribute like `style="text-align: left"` to affected column (`<td>`), but the final alignment can still be changed by CSS rules in current theme or custom CSS.
+### Move A Row Or Column
 
-## Move Row/Column
-
-Reorder row/column is also very easy thanks to Typora's WYSIWYG feature. Just move you mouse on the left/top border of a row/column, and use drag & drop to render it:
+Reordering rows and columns is easy thanks to Typora's WYSIWYG feature. Just move the cursor to the top left border of a row or column, and drag and drop to reorder it:
 
 <p style="text-align:center"><video src="/media/table-editing/move-row-col.mov" style="width:540px;" autoplay="autoplay" mute="mute" loop="loop"></video></p>
 
 ## Touchbar Support.
 
-Tables can also be tweaked via MacBook touchbar. 
+Tables can also be tweaked via the MacBook Pro touchbar. 
 
 ![Touch Bar Shot 2017-02-28 at 00.40.32](/media/table-editing/Touch Bar Shot 2017-02-28 at 00.40.32-8213659.png)
 

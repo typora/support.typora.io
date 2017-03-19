@@ -8,27 +8,29 @@ typora-root-url: ../
 date: 2016-09-26
 ---
 
-## macOS
+## OS X macOS
 
-You could use `open -a typora xxx.md` to open target markdown in Typora. If Typora is your default editor for `.md` file, when `open xxx.md` would be enough.
+### Open A File From The Terminal
 
-You could also add 
+Enter `open -a typora xxx.md` in a Terminal window to open a Markdown file in Typora. If Typora is set as your default editor for `.md` files, `open xxx.md` would be enough. Add the absolute or relative file path to open a Markdown file in another directory from your current Terminal window location.
+
+You could also add:
 
 ```shell
 alias typora="open -a typora"
 ```
 
-in your `.bash_profile` or other configuration file, then you would be able to do `typora xxx.md`  to open the markdown file from shell/terminal directly.
+to your `.bash_profile` or other configuration file to be able to open a Markdown file from a Terminal window  by entering just `typora xxx.md`, including the relative or absolute file path as required.
 
 ## Windows
 
-If Typora is set as the default markdown editor, then in cmd.exe, input `.md` file path directly would open target markdown file. For example: `./example.md`.
+If Typora is set as the default Markdown editor, then in `cmd.exe` inputting the  `.md` file path directly would open the target Markdown file. For example: `./example.md`.
 
-You would also add `{typora-installed-folder}/bin/typora.exe` into system Path, then you would be able to use `typora xxx.md` to open markdown file in Typora from command line. Usually, `{typora-insatlled-folder}` is `C:\Program Files (x86)\Typora`.
+You could also add `{typora-installed-folder}/bin/typora.exe` as a System Path, then you would be able to use `typora xxx.md` to open a Markdown file in Typora from the command line. Usually, `{typora-installed-folder}` is `C:\Program Files (x86)\Typora`.
 
 ## Linux
 
-After [install typora on Linux](/Typora-on-Linux/), user could run `typora` directly in terminal, for example:
+After [installing Typora on Linux](/Typora-on-Linux/), you can run `typora` from the command line, for example:
 
 ```bash
 typora ~/Document/test.md

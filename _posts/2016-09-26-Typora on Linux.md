@@ -23,29 +23,30 @@ sudo apt-get install typora
 
 ### Upgrade Typora
 
-After install Typora, typora package will be managed by apt-get, so when your system update installed packages, or execute apt-get upgrade command, typora will also be updated to latest version.
+After installing Typora, the `typora` package will be managed by `apt-get`, so when your system updates installed packages, or you execute `apt-get upgrade`, Typora will be updated to latest version.
 
 ```bash
 # upgrade all packages include Typora
+sudo apt-get update
 sudo apt-get upgrade
 ```
 
 ## RedHat/Fedora/SUSE
 
-There's no rpm package for Typora yet, so there's two way.
+There's no `rpm` package for Typora yet, so there are two ways of installing and upgrading:
 
-One way is to `yum install apt`, then use `apt-get` like Debian/Ubuntu to install.
+One way is to `yum install apt`, then use `apt-get` as with Debian/Ubuntu to install and upgrade.
 
-Another way is to `alien` to install Typora's deb, but you need to manually upgrade Typora when new version is avaible, therefore, this way is not recommended. To get the `deb` package of Typora:
+Another way is to use `alien` to install the Typora `.deb`, but you need to manually upgrade Typora when a new version is available. This way is not recommended. To get the `.deb` package of Typora:
 
 1. Open <https://www.typora.io/linux/Packages>.
-2. Find the value for key `Filename` in the section of correspond  `Archiecture`, it should look like `./linux/typora_0.9.19_amd64.deb`.
-3. Prepend the filename with `https://typora.io/` to get the url of latest `deb` package, for example `https://typora.io/./linux/typora_0.9.19_amd64.deb`
-4. Download it, then install the `deb` with `alien`.
+2. Find the value for key `Filename` in the section of correspond  `Architecture`. It should be something like `./linux/typora_0.9.19_amd64.deb` or later.
+3. Prepend the filename with `https://typora.io/` to get the URL of the latest `.deb` package, for example `https://typora.io/./linux/typora_0.9.19_amd64.deb`
+4. Download it, then install the `.deb` with `alien`.
 
 ## Distribution Support
 
-Typora for Linux is tested only on Ubuntu distribution. So, if you meet a problem on other distributions, please email us <hi@typora>.
+Typora for Linux is tested only on a Ubuntu distribution. If you have a problem with other distributions, please email us at [hi@typora](http://mailto:hi@typora.io).
 
 ## Screenshots
 

@@ -8,16 +8,15 @@ thumbnail: code-block-style.png
 typora-root-url: ../
 ---
 
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
-Typora use [CodeMirror](http://codemirror.net) for syntax highlight in code fences. Code fences in typora use `cm-s-inner` as their theme class.
+Typora uses [_CodeMirror_](http://codemirror.net) for syntax highlighting of fenced code, with the difference that Typora uses `cm-s-inner` as the fended code theme class.
 
-To port a CodeMirror theme into typora, for example [material.css](https://codemirror.net/theme/material.css), you could:
+**To port a CodeMirror theme into Typora**, for example [`material.css`](https://codemirror.net/theme/material.css), you could copy and paste the *CodeMirror* `material.css` into `base.user.css` or `[theme].user.css` in the Theme folder, replacing the *CodeMirror* theme class name `cm-s-material` with `cm-s-inner`.
 
-1. copy and paste into `base.user.css` or `[theme].user.css` under theme folder, and replace their CodeMirror theme class name with `cm-s-inner`, for instance, change teh original `.cm-s-material` into `.cm-s-inner`.
-2. Before rendered by CodeMirror, the code fences has struct like `<pre class="md-fences"></pre>`. So, please also apply basic styles like font-family, color, and background into the `.md-fences` selector. 
+**Before being rendered by *CodeMirror*** the code fences are tagged  `<pre class="md-fences"> [...]</pre>`, so CSS styling of fenced code can be controlled through the `.md-fences` selector. 
 
-So the final CSS would be
+For example, the amended CSS could be:
 
 ```css
 /** ported from https://codemirror.net/theme/material.css **/
@@ -87,8 +86,8 @@ So the final CSS would be
 }
 ```
 
-And result is like: ![Snip20160623_11](/media/code-block-style/Snip20160623_11.png)
+The result would be: ![Snip20160623_11](/media/code-block-style/Snip20160623_11.png)
 
-You could also write your own css styles for syntax highlight following the example above.
+You can write your own CSS styles for fenced code syntax highlighting based on the above example.
 
-Please note that `cm-s-inner` would only apply to code fences, won't affect the markdown syntax light in source code mode. And not all CSS properties would be applied to code fences in source code mode.
+Please note that `cm-s-inner` only applies to code fences. It does not affect Markdown syntax styling in source code mode. Not all CSS properties are applied to code fences in Typora's source code mode.

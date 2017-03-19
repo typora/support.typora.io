@@ -8,7 +8,17 @@ typora-root-url: ../
 date: 2016-10-20
 ---
 
-The latest version of Typora support syntax highlight of following languages (in lower case):
+You can specify the language syntax highlighting to be used in each code block by adding the language name immediately following the three-backtick block opening marker, for example:
+
+```
+​```markdown
+[code...]
+​```
+```
+
+A small pop-up window will open below and to the right of the code block into which you can type a language assignment using any of the following designators (in lower case):
+
+The latest version of Typora supports syntax highlighting for following languages:
 
 - asp (alias: aspx, asp.net)
 - javascript (alias: js, text/javascript)
@@ -105,7 +115,7 @@ The latest version of Typora support syntax highlight of following languages (in
 - haxe
 - hxml
 
-Please note that the language you specific in <code>```{lang}</code> is case insensitive for typora when choose the corresponding syntax highlight.
+**Note:** the language you specify is case-insensitive when you choose the corresponding syntax highlight.
 
 #### Change Log:
 
@@ -117,7 +127,8 @@ Please note that the language you specific in <code>```{lang}</code> is case ins
 
 ### My language is not listed above...
 
-Typora use CodeMirror for code fences with syntax highlight, so, if the language you want is not supported in Typora, you could:
+Typora uses CodeMirror for syntax highlighting in fenced code. If the language you want is not supported in Typora, you could:
 
-1. Check whether the language is support on <http://codemirror.net/mode/> or not, if so, send us an email, and we will add related support.
+1. Check whether the language is support on <http://codemirror.net/mode/> or not, if so, [send us an email](mailto:support@typora.io), and we will add the necessary language support.
 2. If the language is not supported on <http://codemirror.net/mode/>, please check <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> for adding syntax highlight on CodeMirror. After it is supported by CodeMirror, Typora will follow.
+

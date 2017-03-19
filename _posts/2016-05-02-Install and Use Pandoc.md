@@ -4,100 +4,96 @@ title: Install and Use Pandoc
 category: basic
 author: typora.io
 tags: [pandoc, tutorial, docx]
-typora-root-url: ../
+Typora-root-url: ../
 ---
-
-TL;DR:
-
-Typora requires Pandoc (≥ v1.16). If you do not have Pandoc or only old version of Pandoc installed on your machine, you could:
-
-Download installer from **[Download Page](https://github.com/jgm/pandoc/releases/latest)** and install or update [Pandoc](http://pandoc.org/).
-
-For windows users, if typora still saying it cannot found Pandoc, you may need try to restart your PC.
 
 # Pandoc Integration
 
-In Typora, import function and export function for some file formats (including docx, odt, rtf, epub, LaTeX and wiki) are powered by a 3rd party software named Pandoc. Those features requires Pandoc (≥ v1.16) to be installed.
+Import and export of many file formats, including `.docx`, `.odt`, `.rtf`, `.epub`, `LaTeX` and `Wiki` files, is performed in Typora by [Pandoc](http://Pandoc.org), a universal document converter.
 
-Please note that install Pandoc is optional for Typora, if you do not need those advanced import/export support in typora, then you do not have to install Pandoc on your computer.
+Typora requires `Pandoc-1.16` or a more recent version. If there is not a suitable version on your machine, you can download the installer from [Pandoc's download page](https://github.com/jgm/Pandoc/releases/latest). Windows users may need to restart the PC if after installation Typora reports that it still cannot find Pandoc.
 
-This document would show how to install Pandoc and use Typora with Pandoc for full import/export functions.
+Pandoc is available for Windows, OS X, and Linux systems, as well as as source code. If you do not need advanced import/export support in Typora, then you do not have to install Pandoc.
 
+This document shows how to install Pandoc and use Typora with Pandoc for full import/export functions.
 
+## Installing Pandoc
 
-## What is Pandoc
+### Mac OS X
 
-[Pandoc](http://pandoc.org/) is a universal document text converter. Typora use it to support file import/export features for several file types. 
+There are two recommended ways of installing Pandoc in OS X:
 
-## Install Pandoc
+* [Using the package installer](#using-the-package-installer)
+* [Using Homebrew](#using-homebrew)
 
-### For Mac User
+##### Using the package installer
 
-Briefly speaking, there are two recommended ways.
+Download the package installer from Pandoc's [download page](https://github.com/jgm/Pandoc/releases/latest), open it, and follow the instructions for installation in the normal way:
 
-##### Install from downloaded package installer
+![Snip20160502_1](/media/Pandoc/Snip20160502_1.png)
 
-Download a package installer from pandoc's [download page](https://github.com/jgm/pandoc/releases/latest), open it and follow the instructions for installation.
+#####  Using Homebrew
 
-![Snip20160502_1](/media/pandoc/Snip20160502_1.png)
-
-#####  Install from homebrew
-
-For developers using [homebrew](http://brew.sh/), installing pandoc can be one line from terminal:
+If [homebrew](http://brew.sh/) is already installed in OS X, Pandoc can be added directly by entering in a Terminal window:
 
 ```sh
-sudo brew install pandoc
+sudo brew install Pandoc
 ```
 
-### For Windows User
+### For Windows Users
 
-Download the `pandoc-*-window.msi` from pandoc's [download page](https://github.com/jgm/pandoc/releases/latest), open it and follow the instructions for installation.
+Download the `Pandoc-*-window.msi` from Pandoc's [download page](https://github.com/jgm/Pandoc/releases/latest), open it, and follow the instructions for installation:
 
-![pandoc-win](/media/pandoc/pandoc-win.PNG)
+![Pandoc-win](/media/Pandoc/Pandoc-win.PNG)
 
-## Use Pandoc
+## Using Pandoc
 
-After Pandoc is installed, then you could import supported file types by clicking File -> Import from menubar, or simple drag and drop a file into typora. Export function is also fully functional from menubar. Pandoc will run in backgrounds for those tasks and then exit automatically, so you may not feel it.
+After Pandoc is installed, you can import supported file types by clicking **File -> Import** from the menubar, or simply drag and drop a file into Typora. You also can export files from the menubar. Pandoc will run in the background for those tasks and exit automatically, so you may not notice it.
 
 ## FAQ
 
-#### Which version of pandoc is supported ?
+#### Which version of Pandoc is supported ?
 
-Versions ≥ 1.16 is required. The latest version, the better. So updating pandoc is encouraged if your pandoc version is too old.
+Versions ≥ 1.16 are required; you must update Pandoc if your version is too old. Updating is encouraged.
 
- #### Can typora work without pandoc ?
+ #### Can Typora work without Pandoc ?
 
-Yes, only import and export (other than html/PDF file types) needs it.
+Yes, but you will not be able to import and export other than HTML and PDF files.
 
-#### Which file types can be imported or exported by typora ?
+#### Which file types can be imported or exported by Typora ?
 
-Import supports file with extesion: .docx, .latex, .tex, .ltx, .rst, .rest, .org, .wiki, .dokuwiki, .textile, .opml, .epub.
+Import supports file with extensions:  
+ `.docx`, `.latex`, `.tex`, `.ltx`, `.rst, .rest`, `.org`, `.wiki`, `.dokuwiki`, `.textile`, `.opml`, `.epub`.
 
-Export supports file formats of: HTML, PDF (these two does not need typora), Docx, odt, rtf, Epub, LaTeX, Media Wiki.
+Export supports file formats:  
+HTML, PDF (these two do not need Typora), `.docx`,`.odt`, `.rtf`, `.epub`, `.ltx`, `Media Wiki`.
 
-Pandoc should support more file types which typora did not integrate, detailed info is [here](http://pandoc.org/).
+Pandoc should support more file types not integrated into Typora, as detailed [here](http://Pandoc.org/).
 
-#### What's the difference between exporting by typora and exporting by using pandoc from command line ?
+#### What is the difference between exporting from Typora and exporting using Pandoc on the command line ?
 
-Exporting by typora is also powered by Pandoc, yet typora will not convert directly from markdown to target file type, instead, it converts to an inner format pandoc can read and then write as target file type, so, in detail:
+Altough Typora exports also use Pandoc, Typora will not convert directly from Markdown to a target file type. Instead, it converts to an inner format that Pandoc can read and then write to a target file type:
 
-- If you run pandoc from command line, then you need to specify its markdown parser from (pandoc Markdown, [CommonMark](http://commonmark.org/), [PHP Markdown Extra](https://michelf.ca/projects/php-markdown/extra/), [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)), while exporting using typora, typora will pass its inner AST to pandoc for file conversion. In other words, the format of blocks or inline elements in exported output will always be consistent as what you see in typora and exported HTML/PDF. Yet, the styling maybe different.
-- Some markdown syntax invented by pandoc Markdown, like citations, are not supported when you exporting from typora, since only markdown syntax typora support will be correctly exported. But we may support more extended markdown syntax in future.
-- If you use typora for exporting, then`[TOC]` will be correctly exported for all file types. Highlight and underline will be supported for LaTeX, rtf, Epub, wiki formats and sometimes Docx. Yet, they are only supported for HTML based file formats in raw Pandoc. Other block and inline elements is basically both supported by raw pandoc and typora+pandoc.
+- **If you run Pandoc from the command line** you must specify its Markdown parser from:  
+  * [Pandoc Markdown](http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html)
+  * [CommonMark](http://commonmark.org/)
+  * [PHP Markdown Extra](https://michelf.ca/projects/php-Markdown/extra/)
+  * [GitHub-Flavored Markdown](https://help.github.com/articles/github-flavored-Markdown/)
+- **If you export directly from Typora**, it will pass its inner Abstract Syntax Tree (**AST**) to Pandoc for file conversion. The format of  inline elements and blocks in the exported output will always be consistent with what you see in Typora or in exported HTML or PDF, but the styling may be different.
+- **Some Markdown syntax specific to Pandoc Markdown**, including citations, will not be supported when you export directly from Typora, since only Markdown syntax will be correctly exported. We may support other Markdown syntax in future.
+- **If you use Typora for exporting**, Tables of Contents `[toc]`will be correctly exported for all file types. Highlight and underline will be supported for LaTeX, RTF, EPUB, and Wiki formats, and sometimes for Microsoft Word `.docx` files, but HTML tags are only supported by raw Pandoc. Other block and inline elements are supported by both raw Pandoc and Typora + Pandoc.
 
 #### Can all block/inline element types be exported correctly ?
 
-Task list is not supported yet. Underline and highlight for `.docx` is supported only if they are not used inside or outside other inline styles. Underline and highlight is not support for OpenOffice(`.odt`). Embedded .gif file is not support for LaTeX. Other block or inline elements can basically be exported. But the styles cannot be 100% match when import/export.
+Task list `[ ]`is not supported yet. Underline and highlight for `.docx` are supported only if they are not used within or along with other inline styles. Underline and highlight are not support for OpenOffice (`.odt`) files. Embedded `.gif` files are not support for LaTeX. Other block or inline elements can be exported, but the display styles may not completely match when imported and then exported.
 
-#### How to uninstall pandoc for mac ?
+#### How to uninstall Pandoc for OS X ?
 
-This is the instruction from [pandoc's official site](http://pandoc.org/installing.html):
+Instructions can be found on [this page](http://Pandoc.org/installing.html) of Pandoc's official site:
 
-> If you later want to uninstall the package, you can do so by downloading [this script](https://raw.githubusercontent.com/jgm/pandoc/master/osx/uninstall-pandoc.pl) and running it with `perl uninstall-pandoc.pl`".
+> If you later want to uninstall the package, you can do so by downloading [this script](https://raw.githubusercontent.com/jgm/Pandoc/master/osx/uninstall-Pandoc.pl) and running it with `perl uninstall-Pandoc.pl`".
 
-#### Found bug and unsupported syntax for exporting ?
+#### Reporting bugs and unsupported syntax for exporting ?
 
-Contact us <hi@typora.io>, better to provide a sample `.md` file, so we could reproduce the bug. 
-
-If you found it is a bug/feature request for pandoc, you could contact the community via [pandoc-discuss](https://groups.google.com/forum/#!forum/pandoc-discuss).
+Contact us at <hi@typora.io>. It's best to provide a sample `.md` file, so we can reproduce the bug. If you found a bug or have a feature request for Pandoc, contact the Pandoc community via [Pandoc-discuss](https://groups.google.com/forum/#!forum/Pandoc-discuss).
 

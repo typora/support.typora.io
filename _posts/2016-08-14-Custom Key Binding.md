@@ -7,35 +7,44 @@ tags: [key binding]
 typora-root-url: ../
 ---
 
-User can set or reassign shortcut keys for commands in Typora's menubar. This article will show how to customise typora' key binding.
+You can set or reassign shortcut keys for any command in Typora's menubar. Here's how to customise Typora's key bindings:
 
-# macOS
+# OS X / macOS
 
-We use macOS's system feature to customise typora's key binding on macOS.
+Apple's system feature to customise typora's key bindings.
 
-1. Open `System Preference` → `Keyboard`, select tab `Shortcuts`. Select `App Shortcuts` in its left panel.
+1. Open **System Preference → Keyboard** 
+
+2. Select **Shortcuts** in the top menu
+
+3. Select **App Shortcuts** in the left panel
+
+4. Click the `+` button below the right pane 
 
    ![Snip20160814_1](/media/custom-key-binding/Snip20160814_1.png)
 
-2. Click the "+" button, a dialog sheet would popup. Select "Typora.app" from field `Application`, then input the exact name of the menu command you want to add, and then input the shortcut key you want to assign.
+5. A dialog sheet will pop up. Select "Typora.app" from the  **Application** drop-down
 
-   For example, assume you want to add/change the shortcut key to pin typora's window, you could fill the dialog like following:
+6. In the **Menu Title:** field enter the exact name of the menu command you want to add
+
+7. In the **Keyboard Shortcut:** field, enter the shortcut key combination you want to assign.
+
+   For example, if you want to add or change the shortcut key to keep the Typora window on top of all others, you could fill in the dialog sheet like this to have  `Command+Shift+P` to be the shortcut key:
 
    ![Snip20160814_5](/media/custom-key-binding/Snip20160814_5.png)
 
-   Then `Command+Shift+P` will be the shortcut key for menu command "always On Top"
 
 # Windows
 
 *(Requires Typora ≥ v0.9.16)*
 
-1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
+1. Open **Preferences** in Typora, then click the `Open Advanced Settings` button:
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)
 
-2. Open and edit `conf.user.json` from opened "File Explore". If there's no such file, create one.
+2. From the opened Advanced Settings window open and edit `conf.user.json`. Create one if it doesn't exist.
 
-3. Set or add JSON object which represents a key binding, for example:
+3. Set or add the JSON object which represents a key binding. For example:
 
    ![Snip20160814_7](/media/custom-key-binding/Snip20160814_7.png)
 
@@ -43,4 +52,4 @@ We use macOS's system feature to customise typora's key binding on macOS.
 
    ![sshot-2](/media/custom-key-binding/sshot-2.png)
 
-You could set or change shortcut keys for menu items in menu bar in native window style.
+You also can set or change shortcut keys for menu items using standard Windows procedures.

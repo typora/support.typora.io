@@ -7,11 +7,11 @@ tags: [style, font]
 typora-root-url: ../
 ---
 
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
-Custom font in Typora are set by CSS.
+Custom fonts in Typora are set by the  `.css` files in Typora's theme folder.
 
-For example, append following in `base.user.css` under theme folder
+For example, adding the following to the `base.user.css` file in the Theme folder ---
 
 ```css
 body {
@@ -19,13 +19,13 @@ body {
 }
 ```
 
-Would override the font setting in current theme, and apply the system font `Courier`, and make the editing area looks like this: 
+--- would override the font settings of the current theme and make *Courier* the system font. The editing area would then look something like this: 
 
 ![1](/media/custom-font/1.png)
 
 ---
 
-You could also use web font, for example:
+You can also import a Web font, for example:
 
 ```css
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
@@ -35,9 +35,9 @@ body {
 }
 ```
 
-But to make the font faster when loading or use it when internet access is not available, we recommend you to download it and put under typora's theme folder.
+But to make Web fonts load faster or for use when Internet access is not available, we recommend that you download any Web fonts you need and store them in the `[typora-theme-folder]/fonts` fonts directory.
 
-For example, if you download the `woff2` file from google fonts and put them under `[typora-theme-folder]/fonts` directory, then you could use CSS like:
+For example, if you download and store [_Oxygen_](https://fonts.google.com/specimen/Oxygen) from [Google Fonts](https://fonts.google.com ), you could write something like the following CSS to use it without a live Internet connection:
 
 ```css
 /* latin */
@@ -61,4 +61,3 @@ body {
 }
 ```
 
-to apply the font.

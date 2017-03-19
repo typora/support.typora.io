@@ -9,32 +9,38 @@ typora-root-url: ../
 
 *This feature requires Typora later than 0.9.12 on Windows or 0.9.9.5.1 on macOS*
 
-## Open Theme Folder
+## The Theme Folder
 
-Open preference panel, and click a button named "Open Theme Folder" under section "Appearance", would open typora' theme folder in Finder/Explorer.
+* Open Typora's Preferences panel using the menu item ***Typora -> Preferences...*** (`Command + comma`  in OS X/macOS)
+* Click the `Open Theme Folder` button in the `Appearance` section to open the Theme folder.
 
-You would add you custom theme here (there will be other documents introducing how to find/install/write themes). 
+You can add custom theme files here, but sometimes you may want to modify only specific style rules without writing a whole new theme file. Here's how to do this for all themes or just the current theme:
 
-But sometimes, you may only want to modify CSS like changing font or increase writing area, and apply it to all themes or current theme without writing a whole new theme file, this document will show you how-to.
+### The Theme File Cascade
 
-## Append Custom CSS to all themes or other themes
+Typora loads CSS files in the following cascading order:
 
-Typora will load CSS files in following order:
+1. Typora's inbuilt styles
+2. The CSS file for the current theme
+3. `base.user.css` in the Theme folder.
+4. `{current-theme}.user.css` in the Theme folder
+5. If you have chosen _Github_ as your theme, then `github.user.css` will also be loaded.
 
-1. Typora's basic styles.
-2. CSS for current theme.
-3. `base.user.css` under theme folder.
-4. `{current-theme}.user.css` under theme folder. If you choose `Github` as your theme, then `github.user.css` will also be loaded.
+### Adding Custom CSS to base and current themes
 
-You could create `base.user.css` and `{current-theme}.user.css` under the theme folder if they do not exist.
+1. Create `base.user.css` and `{current-theme}.user.css` in the Theme folder if they don't exist. Any CSS style rules in them will replace `base` or `{current-theme}` CSS styles.
+2. If you want to change CSS styles for all themes, modify `base.user.css` with your own CSS. The new underlying base CSS styles will be loaded and applied whatever the selected theme.
+3. If you want to change CSS styles for the current theme, modify `{current-theme}.user.css` with your own CSS. The new CSS theme styles will be loaded and applied onto the selected theme.
 
-If you want to change CSS styles, and apply it to all themes, you should modify `base.user.css` and append your own CSS, so whatever a theme is selected, your css style will still be loaded and be applied.
+**Note:** `{current-theme}` in `{current-theme}.user.css` is **case-sensitive** with the filename part of the current theme (the part before the file .extension, which may be hidden in OS X/macOS). For example, the CSS file for the _Github_ theme is `github.css`, so the filename part is `github`, not `Github`.
 
-If you want to modify some CSS for a specific theme, for instance "Newsprint", you could create `newsprint.user.css` and append the CSS you want. The reason we do not recommend you to modify the theme file directly is following:
+### Modifying Inbuilt or Imported themes
 
-1. Default themes that available after Typora is installed may be updated the same time when you update Typora. Update logic for default themes is just: theme file from new version replace the exisiting one under theme folder, so your modifications may be gone after Typora is updated if you put them in default css files.
-2. Themes developed by other people may also be changed in future. If they changed their css file, you could just replace their new file with your old one without worrying your modification will be gone if you put them in other file (`{current-theme}.user.css`).
+If you want to modify the CSS for a specific inbuilt Typora theme, for instance the _Newsprint_ theme, create a file called `newsprint.user.css` in the Theme folder with only the CSS styles you want to change.
 
-But if you use your own CSS theme, then modifying it directly is also OK.
+We do not recommend modifying Typora's inbuilt base or imported theme CSS files directly, because:
 
-Note: `{current-theme}` in `{current-theme}.user.css` should be (case-sensitive) same with the filename part of current theme. For example, css file for "Github" theme is `github.css`, so the filename part is "github" not "Github".
+1. **Typora's default themes will be overwritten each time you update Typora**. The new inbuilt theme files will replace those in the Theme folder, so any modifications you made will be overwritten.
+2. **Themes developed by other people may also be changed in future**. If they change their theme, you can simply overwrite the old file or directory with the new one. Your modifications will be preserved if you put them in a (`{current-theme}.user.css`) file.
+3. **If you create your own CSS themes you can modify them directly**.
+

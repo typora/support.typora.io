@@ -7,13 +7,11 @@ tags: [markdown, mermaid, flowchart, sequence]
 typora-root-url: ../
 ---
 
-Typora supports some Markdown extension for diagrams, you could enable this feature from preference panel. 
-
-When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be included, but diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
+Typora supports some Markdown extensions for diagrams; you can enable this feature in the **Preference panel**. Rendered diagrams will be included when exporting `HTML`, `.pdf`, `.epub`, or `docx`, but the diagrams feature is not supported in current versions of Typora when exporting Markdown into other file formats. Diagrams are not supported at all by standard Markdown, [CommonMark](http://commonmark.org/) or GitHub-Flavoured Markdown (GFM). We recommend that you use images of diagrams instead of writing them in Markdown.
 
 # Sequence
 
-It is powered by [js-sequence](https://bramp.github.io/js-sequence-diagrams/), which would turn following code block into rendered diagrams:
+Image rendering in Typora is powered by [js-sequence](https://bramp.github.io/js-sequence-diagrams/), which would turn the following code block into a rendered diagram:
 
 ~~~gfm
 ​```sequence
@@ -29,7 +27,7 @@ Please refer [here](https://bramp.github.io/js-sequence-diagrams/#syntax) for sy
 
 # Flowchart
 
-It is powered by [flowchart.js](http://flowchart.js.org/), which would turn following code block into rendered diagrams:
+Flowchart rendering in Typora is powered by [flowchart.js](http://flowchart.js.org/), which would turns the following code block into a rendered diagram:
 
 ~~~gfm
 ​```flow
@@ -48,11 +46,11 @@ cond(no)->op
 
 # Mermaid
 
-Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#mermaid), which supports sequence, flowchart and gantt.
+Typora also integrates with [mermaid](https://knsv.github.io/mermaid/#mermaid), which supports sequence, flowchart and GANTT charts.
 
 ## Sequence
 
-see [this doc](https://knsv.github.io/mermaid/#sequence-diagrams)
+See [this doc](https://knsv.github.io/mermaid/#sequence-diagrams):
 
 ~~~gfm
 ​```mermaid
@@ -74,7 +72,7 @@ see [this doc](https://knsv.github.io/mermaid/#sequence-diagrams)
 
 ## Flowchart
 
-see [this doc](https://knsv.github.io/mermaid/#flowcharts-basic-syntax)
+See [this doc](https://knsv.github.io/mermaid/#flowcharts-basic-syntax):
 
 ~~~gfm
 ​```mermaid

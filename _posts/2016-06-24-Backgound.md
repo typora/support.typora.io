@@ -7,15 +7,11 @@ tags: [style]
 typora-root-url: ../
 ---
 
-> Some of following CSS style will work for latest version of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).
+> Some of following CSS styling will work for Typora >= 0.9.9.6 on macOS, and >=0.9.13 on Windows.
 >
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> **Note:** More information on Typora's CSS files is at [Add Custom CSS]().
 
-Personally, I don't recommend users to set a background for a text editor, but if you still want this, you could follow this article.
-
-For example, add a notebook background for typora. The image is taken from [here](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/), and be copied under the theme folder of typora.
-
-CSS code is like:
+We don't recommend setting a background image in a text editor, but here's how to do it if you really, really want. For example, you could add [this image of a notebook page](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/) as a background. The image must be copied into the Typora`Theme folder`. The CSS code would be:
 
 ```css
 content {
@@ -37,7 +33,7 @@ body {
 /**Other css may needed to adjust UI components**/
 ```
 
-The result is look like:
+The result would be:
 
  ![Snip20160625_1](/media/background/Snip20160625_1.png)
 

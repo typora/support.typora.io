@@ -7,13 +7,13 @@ tags: [search, contextmenu]
 typora-root-url: ../
 ---
 
-User can add custom search engine to extend functions shown in context menu.
+You can add custom search engines to extend functions shown in the context menu.
 
 ![Slice 2](/media/add-search-service/Slice 2.png)
 
 # macOS
 
-There is a system wide preference to change available search engines in context menu for most applications. You would find the settings here:
+There is a system-wide preference to change available search engines that are shown in the context menu in most applications. The settings are in **System Preferences** **→** **Shortcuts** **→** **Services** **→** **Searching**:
 
 ![Snip20160815_11](/media/add-search-service/Snip20160815_11.png)
 
@@ -21,13 +21,13 @@ There is a system wide preference to change available search engines in context 
 
 *(Requires Typora ≥ v0.9.16)*
 
-1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
+1. Open **Preferences** in Typora, then click the `Open Advanced Settings` button:
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)
 
-2. Open and edit `conf.user.json` from opened "File Explore". If there's no such file, create one.
+2. From the Advanced Settings window, open and edit the  `conf.user.json` file. Create one if it doesn't exist.
 
-3. Modify or set following config into the `conf.user.json` file, `%s` will represent the selected text. for example:
+3. Modify or set the following `searchService` configuration into the `conf.user.json` file (`%s` represents the selected text). For example:
 
    ```json
    "searchService": [
@@ -37,7 +37,7 @@ There is a system wide preference to change available search engines in context 
      ]
    ```
 
-   Note: Default config is:
+   Note: the default `searchService` configuration is usually Google:
 
    ```json
    "searchService": [
@@ -45,4 +45,4 @@ There is a system wide preference to change available search engines in context 
      ]
    ```
 
-4. Restart Typora, options from `searchService` will be available in context menu.
+4. Restart Typora; options from `searchService` will  now be available in the Context menu.
