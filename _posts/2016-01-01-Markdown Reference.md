@@ -277,7 +277,7 @@ Image looks similar with links, but it requires an additional `!` char before th
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-You are able to use drag & drop to insert image from image file or we browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
+You are able to use drag & drop to insert image from image file or web browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
 
 If you’re using markdown for building websites, you may specify a url prefix for image preview in local computer with property `typora-root-url` in YAML Front Matters. For example, input `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matters, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in typora.
 
