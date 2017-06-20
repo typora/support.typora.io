@@ -349,7 +349,7 @@ GFM adds syntax to create strikethrough text, which is missing from standard Mar
 
 `~~Mistaken text.~~` becomes ~~Mistaken text.~~
 
-### Underline
+### Underlines
 
 Underline is powered by raw HTML.
 
