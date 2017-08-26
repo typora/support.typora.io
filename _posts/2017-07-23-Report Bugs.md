@@ -36,4 +36,4 @@ For critical bugs, like crash, or content loss, the log file may be helpful. You
 
   Click "Open Theme Folder" in preference panel, and find `typora.log` on its parent folder.
 
-If you want to send us log (which is very appreciated), do not attach it in Github or privacy concerns, please email to us directly. The log file should not contain any sensitive data, and we will only use it for debug purpose and will delete it asap.
+If you want to send us log (which is very appreciated), do not attach it in Github for privacy concerns, please email to us directly. The log file should not contain any sensitive data, and we will only use it for debug purpose and will delete it asap.
