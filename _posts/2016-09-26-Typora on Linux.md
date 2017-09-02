@@ -32,7 +32,7 @@ sudo apt-get upgrade
 
 ## Other Distribution
 
-- Method one: Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/Typora-linux-ia32.tar.gz).
+- Method one: Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
 - Method two: Try to install `apt-get` on your distirbution, and then install typora.
 
 ## Distribution Support
