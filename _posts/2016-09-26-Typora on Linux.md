@@ -30,14 +30,23 @@ After installing Typora, the `typora` package will be managed by `apt-get`, so w
 sudo apt-get upgrade
 ```
 
-## Other Distribution
+## Arch Linux
 
-- Method one: Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
-- Method two: Try to install `apt-get` on your distirbution, and then install typora.
+Install the [AUR Package](https://aur.archlinux.org/packages/typora/)
+
+```bash
+# Assuming that the pacaur AUR helper is being used. Other examples of AUR helpers include yaourt
+pacaur -S typora
+```
+
+## Other Distributions
+
+1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
+2. Try to install `apt-get` on your distirbution, and then install typora.
 
 ## Distribution Support
 
-Typora for Linux is tested only on a Ubuntu distribution. So, if you have a problem with other distributions, please email us at [hi@typora](http://mailto:hi@typora.io).
+Typora for Linux is tested only on Ubuntu. So, if you have a problem with other distributions, please email us at [hi@typora](http://mailto:hi@typora.io).
 
 ## Screenshots
 
@@ -45,7 +54,7 @@ Typora for Linux is tested only on a Ubuntu distribution. So, if you have a prob
 
 ## Trouble Shooting
 
-#### Start Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6`
+#### Started Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6`
 
 When  you start typora on Ubuntu 14.x, if following error happens: 
 
