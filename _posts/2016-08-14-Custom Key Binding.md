@@ -25,7 +25,7 @@ We use macOS's system feature to customise typora's key binding on macOS.
 
    Then `Command+Shift+P` will be the shortcut key for menu command "always On Top"
 
-# Windows
+# Windows / Linux
 
 *(Requires Typora ≥ v0.9.16)*
 
@@ -44,3 +44,7 @@ We use macOS's system feature to customise typora's key binding on macOS.
    ![sshot-2](/media/custom-key-binding/sshot-2.png)
 
 You could set or change shortcut keys for menu items in menu bar in native window style.
+
+### Q: Shortcut keys does not work on Ubuntu
+
+Solution: Please check https://help.ubuntu.com/community/KeyboardShortcuts and https://askubuntu.com/questions/692975/how-to-perform-a-select-all-via-keyboard-in-recent-versions-of-gnome-terminal
