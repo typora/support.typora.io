@@ -47,4 +47,4 @@ You could set or change shortcut keys for menu items in menu bar in native windo
 
 ### Q: Shortcut keys does not work on Ubuntu
 
-Solution: Please check <https://help.ubuntu.com/community/KeyboardShortcuts> and <https://askubuntu.com/questions/692975/how-to-perform-a-select-all-via-keyboard-in-recent-versions-of-gnome-terminal>.
+Solution: Please check <https://help.ubuntu.com/community/KeyboardShortcuts> and <https://askubuntu.com/questions/208310/ctrl-a-doesnt-work-in-browsers>.
