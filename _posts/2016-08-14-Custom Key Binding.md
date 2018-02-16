@@ -7,19 +7,19 @@ tags: [key binding]
 typora-root-url: ../
 ---
 
-User can set or reassign shortcut keys for commands in Typora's menubar. This article will show how to customise typora' key binding.
+User can set or reassign shortcut keys for commands in Typora's menu bar. This article will show how to customize Typora's key binding.
 
 # macOS
 
-We use macOS's system feature to customise typora's key binding on macOS.
+We use macOS's system feature to customize Typora's key binding on macOS.
 
 1. Open `System Preference` → `Keyboard`, select tab `Shortcuts`. Select `App Shortcuts` in its left panel.
 
    ![Snip20160814_1](/media/custom-key-binding/Snip20160814_1.png)
 
-2. Click the "+" button, a dialog sheet would popup. Select "Typora.app" from field `Application`, then input the exact name of the menu command you want to add, and then input the shortcut key you want to assign.
+2. Click the "+" button, a dialog sheet would pop up. Select "Typora.app" from field `Application`, then input the exact name of the menu command you want to add, and then input the shortcut key you want to assign.
 
-   For example, assume you want to add/change the shortcut key to pin typora's window, you could fill the dialog like following:
+   For example, assume you want to add/change the shortcut key to pin Typora's window, you could fill the dialog like following:
 
    ![Snip20160814_5](/media/custom-key-binding/Snip20160814_5.png)
 
