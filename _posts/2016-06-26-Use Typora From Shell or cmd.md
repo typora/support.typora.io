@@ -28,7 +28,7 @@ You would also add `{typora-installed-folder}/bin/typora.exe` into system Path, 
 
 ## Linux
 
-After [install typora on Linux](/Typora-on-Linux/), user could run `typora` directly in terminal, for example:
+After [install Typora on Linux](/Typora-on-Linux/), user could run `typora` directly in terminal, for example:
 
 ```bash
 typora ~/Document/test.md

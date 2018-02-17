@@ -13,7 +13,7 @@ typora-root-url: ../
 
 Personally, I don't recommend users to set a background for a text editor, but if you still want this, you could follow this article.
 
-For example, add a notebook background for typora. The image is taken from [here](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/), and be copied under the theme folder of typora.
+For example, add a notebook background for Typora. The image is taken from [here](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/), and be copied under the theme folder of Typora.
 
 CSS code is like:
 

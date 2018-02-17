@@ -35,7 +35,7 @@ body {
 }
 ```
 
-But to make the font faster when loading or use it when internet access is not available, we recommend you to download it and put under typora's theme folder.
+But to make the font faster when loading or use it when internet access is not available, we recommend you to download it and put under Typora's theme folder.
 
 For example, if you download the `woff2` file from google fonts and put them under `[typora-theme-folder]/fonts` directory, then you could use CSS like:
 

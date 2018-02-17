@@ -33,7 +33,7 @@ To create a table in Typora, you could simplify write down a table header in mar
 
 And then press `Return` key.
 
-Also, you could also insert table from menubar.
+Also, you could also insert table from the menu bar.
 
 A table must have table headers and at least one row and one column.
 
@@ -47,9 +47,9 @@ The delete line command (`Shift+Command/Ctrl+L`) will delete current table row i
 
 ## Add/Delete Column in Table
 
-Right click on a table cell, and in submenu of `table` in context menu, there's menu items for add/remove table columns.
+Right click on a table cell, and in the submenu of `table` in context menu, there's menu items for add/remove table columns.
 
-If you have a Mackbook with **touchbar**, you could also use buttons from touchbar for add/move/delete table row/column.
+If you have a Macbook with **Touch Bar**, you could also use buttons from Touch Bar for add/move/delete table row/column.
 
 ## Resize Table
 
@@ -79,9 +79,9 @@ Reorder row/column is also very easy thanks to Typora's WYSIWYG feature. Just mo
 
 <p style="text-align:center"><video src="/media/table-editing/move-row-col.mov" style="width:540px;" autoplay="autoplay" mute="mute" loop="loop"></video></p>
 
-## Touchbar Support.
+## Touch Bar Support.
 
-Tables can also be tweaked via MacBook touchbar. 
+Tables can also be tweaked via MacBook Touch Bar. 
 
 ![Touch Bar Shot 2017-02-28 at 00.40.32](/media/table-editing/Touch Bar Shot 2017-02-28 at 00.40.32-8213659.png)
 
