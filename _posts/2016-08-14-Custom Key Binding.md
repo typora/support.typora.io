@@ -3,7 +3,7 @@ layout: post
 title: Custom Key Binding
 author: typora.io
 category: how-to
-tags: [key binding]
+tags: [shortcut keys]
 typora-root-url: ../
 ---
 
