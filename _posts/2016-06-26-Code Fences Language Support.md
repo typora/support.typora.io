@@ -104,6 +104,13 @@ The latest version of Typora support syntax highlight of following languages (in
 - julia
 - haxe
 - hxml
+- fortran
+- protobuf
+- makefile
+- tcl
+- scheme
+- twig
+- SAS
 
 Please note that the language you specific in <code>```{lang}</code> is case insensitive for typora when choose the corresponding syntax highlight.
 
