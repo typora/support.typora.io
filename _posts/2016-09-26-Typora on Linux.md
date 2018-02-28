@@ -63,3 +63,7 @@ When  you start typora on Ubuntu 14.x, if following error happens:
 ```
 
 You could download the Debian of package libstdc++6 for Xenial at link http://packages.ubuntu.com/xenial/libstdc++6 and installed it using `dpkg -i` (reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
+
+### Error while loading shared libraries: libgconf-2.so.4
+
+Try install `libgconf-2-4` first.
