@@ -11,7 +11,7 @@ typora-root-url: ../
 
 Typora has 5~6 built-in themes. Changing writing theme can be done by selecting theme under the `theme` menu bar. You could also download, install, modify or write your own custom theme to stylize Typora.
 
-Typora use CSS to stylish all contents, each theme under `theme` menu is one `.css` files under "Typora's theme folder". So, briefly speaking, you could add/modify themes by adding/modifying correspond css files under "Typora's theme folder".
+Typora use CSS to style all contents, each theme under `theme` menu is one `.css` files under "Typora's theme folder". So, briefly speaking, you could add/modify themes by adding/modifying correspond css files under "Typora's theme folder".
 
 ## Get Typora Themes
 
