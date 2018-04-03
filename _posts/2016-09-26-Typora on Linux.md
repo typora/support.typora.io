@@ -67,3 +67,17 @@ You could download the Debian of package libstdc++6 for Xenial at link http://pa
 ### Error while loading shared libraries: libgconf-2.so.4
 
 Try install `libgconf-2-4` first.
+
+### NSS out-of-date
+
+If you recieve following error when launch Typora:
+
+```
+[7465:7499:0911/174740.042852:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required. Please upgrade to the latest NSS, and if you still get this error, contact your distribution maintainer.
+Aborted
+```
+
+You could:
+1. Ensure `xenial-security`updates are included in *Software & Updates*.
+2. run `sudo apt-get update && sudo apt-get install libnss3`
+
