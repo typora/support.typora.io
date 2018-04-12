@@ -65,7 +65,7 @@ After Pandoc is installed, then you could import supported file types by clickin
 
 Versions ≥ 1.16 is required. The latest version, the better. So updating Pandoc is encouraged if your Pandoc version is too old.
 
- #### Can Typora work without Pandoc ?
+#### Can Typora work without Pandoc ?
 
 Yes, only import and export (other than HTML/PDF file types) needs it.
 
