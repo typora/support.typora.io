@@ -25,3 +25,5 @@ Open the themes folder, and edit the css for whatever them you want to include
 ```
 
 Now when exporting, a new page will be created before each h1 element, except the first one.
+
+To insert a force page break on a document, you could try input HTML `<div style="page-break-after: always;"></div>` when wriring.
