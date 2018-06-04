@@ -8,7 +8,7 @@ typora-root-url: ../
 date: 2016-10-20
 ---
 
-The latest version of Typora support syntax highlight of following languages (in lower case):
+The latest version of Typora supports syntax highlight of following languages (in lower case):
 
 - asp (alias: aspx, asp.net)
 - javascript (alias: js, text/javascript)
@@ -124,7 +124,7 @@ Please note that the language you specific in <code>```{lang}</code> is case ins
 
 ### My language is not listed above...
 
-Typora use CodeMirror for code fences with syntax highlight, so, if the language you want is not supported in Typora, you could:
+Typora uses CodeMirror for code fences with syntax highlight, so, if the language you want is not supported in Typora, you could:
 
 1. Check whether the language is support on <http://codemirror.net/mode/> or not, if so, send us an email, and we will add related support.
 2. If the language is not supported on <http://codemirror.net/mode/>, please check <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> for adding syntax highlight on CodeMirror. After it is supported by CodeMirror, Typora will follow.
