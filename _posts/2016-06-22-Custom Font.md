@@ -7,11 +7,9 @@ tags: [style, font]
 typora-root-url: ../
 ---
 
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> For information about where to put the CSS files that are discussed below, please refer to [Add Custom CSS](/Add-Custom-CSS/).
 
-Custom font in Typora are set by CSS.
-
-For example, append following in `base.user.css` under theme folder
+Custom fonts in Typora are set by CSS. For example, appending the following in `base.user.css` under theme folder
 
 ```css
 body {
@@ -19,13 +17,13 @@ body {
 }
 ```
 
-Would override the font setting in current theme, and apply the system font `Courier`, and make the editing area looks like this: 
+Would override the font setting in current theme, and apply the system font `Courier`, and make the editing area look like this: 
 
 ![1](/media/custom-font/1.png)
 
 ---
 
-You could also use web font, for example:
+You could also use a web font, for example:
 
 ```css
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
@@ -37,7 +35,7 @@ body {
 
 But to make the font faster when loading or use it when internet access is not available, we recommend you to download it and put under Typora's theme folder.
 
-For example, if you download the `woff2` file from google fonts and put them under `[typora-theme-folder]/fonts` directory, then you could use CSS like:
+For example, if you download the `woff2` file from google fonts and put them under the `[typora-theme-folder]/fonts` directory, then you could use CSS like:
 
 ```css
 /* latin */
