@@ -299,7 +299,7 @@ output:
 
 _single underscores_
 
-GFM will ignores underscores in words, which is commonly used in code and names, like this:
+GFM will ignore underscores in words, which is commonly used in code and names, like this:
 
 > wow_great_stuff
 >
