@@ -13,7 +13,7 @@ Typora requires Pandoc (≥ v1.16). If you do not have Pandoc or only old versio
 
 Download installer from **[Download Page](https://github.com/jgm/pandoc/releases/latest)** and install or update [Pandoc](http://pandoc.org/).
 
-You may need to restart Typora after install Pandoc for Typora to find Pandoc in PATH.
+You may need to restart Typora after install Pandoc if you met an error that Typora cannot find Pandoc.
 
 For windows users, if Typora still saying it cannot found Pandoc, you may need try to restart your PC.
 
