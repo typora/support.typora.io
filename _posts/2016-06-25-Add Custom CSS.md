@@ -38,3 +38,10 @@ If you want to modify some CSS for a specific theme, for instance "Newsprint", y
 But if you use your own CSS theme, then modifying it directly is also OK.
 
 Note: `{current-theme}` in `{current-theme}.user.css` should be (case-sensitive) same with the filename part of current theme. For example, CSS file for "GitHub" theme is `github.css`, so the filename part is "github" not "Github".
+
+## Debug CSS
+
+You could open Chrome/Safari DevTools to debug element styles.
+
+- On macOS, you could open `Safari`, and open DevTools from `Develop` -> `your devide name` -> `Typora` -> `Typora` menu item.
+- On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
