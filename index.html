@@ -4,6 +4,24 @@ title: Typora Support
 ---
 
 <div id="content" class="content">
+    <h3>What's New</h3>
+    <ul class="category basic-posts"> 
+        {% for post in site.categories.new reversed %}
+        {% unless post.draft %}
+        {% assign title = post.title %}
+        <li>
+            <div class="article">
+                <article class="article" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header class="post-header">
+                        <span class="title"><a itemprop="name" href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}" title="{{ title }}">{{ title }}</a></span>
+                        <time class="date">{% for tag in post.tags %}{{ tag }}{% unless tag == post.tags.last %}, {% endunless %}{% endfor %}</time>
+                    </header>
+                </article>
+            </div>
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
     <h3>Quick Start</h3>
     <ul class="category basic-posts"> 
         {% for post in site.categories.basic reversed %}
