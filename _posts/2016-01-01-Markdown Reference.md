@@ -12,8 +12,6 @@ typora-root-url: ../
 
 **Markdown** is created by [Daring Fireball](http://daringfireball.net/), the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** is using [GitHub Flavored Markdown][GFM]. 
 
-Please note that HTML fragments in markdown source will be recognized but not parsed or rendered. Also,  some minor reformatting of the original markdown source code may occur when  saving.
-
 * Outline
 {:toc}
 
@@ -138,6 +136,8 @@ $$
 \end{vmatrix}
 $$
 ```
+
+You could find more details [here](http://support.typora.io/Math/).
 
 ### Tables
 
@@ -365,9 +365,9 @@ User can trigger auto-complete suggestions for emoji by pressing `ESC` key, or t
 
 To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `$` to wrap TeX command, for example: `$\lim_{x \to \infty} \exp(-x) = 0$` will be rendered as LaTeX command. 
 
-To trigger inline preview for inline math: input “$”, then press `ESC` key, then input TeX command, a preview tooltip will be visible like below:
+To trigger inline preview for inline math: input “$”, then press `ESC` key, then input TeX command.
 
-![inline-math](http://typora.io/img/inline-math.gif)
+You could find more details [here](http://support.typora.io/Math/).
 
 ### Subscript
 
@@ -380,5 +380,29 @@ To use this feature, first, please enable it in `Preference` Panel -> `Markdown`
 ### Highlight
 
 To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `==` to wrap highlight content, for example: `==highlight==`. 
+
+## HTML
+
+You could use HTML to style content what pure Markdown does not support, for example, use `<span style="color:red">this text is red</span>` to add text with red color.
+
+### Embed Contents
+
+Some websites provide iframe-based embed code which you could also paste into Typora, for example:
+
+```Markdown
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+```
+
+### Video
+
+You could use the `<video>` HTML tag to embed videos, for example:
+
+```Markdown
+<video src="xxx.mp4" />
+```
+
+### Other HTML Support
+
+You could find details [here](http://support.typora.io/HTML/).
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown/

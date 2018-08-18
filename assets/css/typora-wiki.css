@@ -218,3 +218,8 @@ table > thead:first-child > tr:first-child > td {
 table > tbody + tbody {
   border-top: 2px solid #333;
 }
+
+video {
+  display: block;
+  margin: auto;
+}
