@@ -12,7 +12,7 @@ typora-copy-images-to: ../media/table-editing
 {:toc}
 ## Tables in Markdown
 
-Typora supports table syntax of [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/):
+Typora supports table syntax of [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/):
 
 It will parse following text in a markdown file into a table.
 
@@ -61,7 +61,7 @@ If you want to make the table larger than 6 columns or 10 rows, you could click 
 
 ## Text Alignment in Column
 
-In [Github Favored Markdown](https://guides.github.com/features/mastering-markdown/), column alignment is configurable like following:
+In [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/), column alignment is configurable like following:
 
 ```markdown
 | Default | Left  | Right | Center |
