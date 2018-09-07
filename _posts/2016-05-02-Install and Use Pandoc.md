@@ -48,7 +48,7 @@ Download a package installer from Pandoc's [download page](https://github.com/j
 For developers using [Homebrew](http://brew.sh/), installing Pandoc can be one line from terminal:
 
 ```sh
-sudo brew install pandoc
+brew install pandoc
 ```
 
 ### For Windows User
