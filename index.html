@@ -6,7 +6,7 @@ title: Typora Support
 <div id="content" class="content">
     <h3>What's New</h3>
     <ul class="category basic-posts"> 
-        {% for post in site.categories.new reversed %}
+        {% for post in site.categories.new %}
         {% unless post.draft %}
         {% assign title = post.title %}
         <li>
