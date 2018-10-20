@@ -40,6 +40,13 @@ Install the [AUR Package](https://aur.archlinux.org/packages/typora/)
 pacaur -S typora
 ```
 
+## NixOS
+
+```bash
+# install typora to the curent user's profile
+nix-env -i typora
+```
+
 ## Other Distributions
 
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
