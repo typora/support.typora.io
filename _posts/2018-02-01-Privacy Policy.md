@@ -20,25 +20,20 @@ This Privacy Policy only applies for the usage of our software. Visiting our off
 
 ### Information Collection and Use
 
-**Anonymous usage data will only be send when the option "Send Anonymous Usage Info" is enabled in preferences panel.** If you disable the option, no data will be collected to us. (The option can be opt-out, but may need a restart of Typora for the option to apply). 
+**Anonymous usage data will only be send when the option "Send Anonymous Usage Info" is enabled in preferences panel.** 
 
-When you allow send anonymous usage data, we WILL and WILL NOT:
+If you disable the option, no data will be collected to us. (The option can be opt-out, but may need a restart of Typora for the option to apply). 
 
-+ NO operation steps will be collected. 
-+ NO personal identifiable information will be collected.
-+ NO data from your machine or file system will be collected.
-+ NO data you input or opened with typora will be collected. 
-+ We will only collect: when you use Typora, how long you stay on it, your operation system, system language, and other very basic information anonymously via google analytics.
+When you allow send anonymous usage data, we WILL collect following data anonymous for getting overall statistics of how Typora is used:
+
++ Typora version, operation system, screen resolution, locale and countries (based on IP address).
++ Name of operations when using Typora, such as “launch”, “new window”, “print”, etc, for gathering overall statistics. (We won’t be able to list all detailed operations for a given user. We won’t collect any detail or sensitive data for user’s operation)
++ How long a user is using Typora.
++ Insensitive preference settings in Typora such as theme name, window style, etc.
+
+When error/exception happens, and if you allow send anonymous usage data, we will collect stack trace,  related settings, and running status before exception throws to help us find errors. It should not contain any sensitive or personal data.
 
 #### 3rd Party Apps & Services
-
-When "Send Anonymous Usage Info" is enabled, the app does use third party services, which may be used to identify you, to collect information mentioned above .
-
-Link to privacy policy of third party service providers used by the app
-
-+ [google analytics](https://www.google.com/intl/en/policies/privacy/)
-
-Please note that the cookies/local caches in Typora is separated with your system or any web browser. 
 
 Typora can call and execute other apps for higher usability,  which may collect information used to identify you,  no matter you enable "Send Anonymous Usage Info" or not.
 
@@ -61,7 +56,7 @@ We have no control over and assume no responsibility for the content, privacy po
 
 ### Log Data
 
-Typora will record necessary log on your local computer. All log data will be stored locally and WILL NOT be collected by us.
+Typora will record necessary log on your local computer. 
 
 ### Backups
 
@@ -77,14 +72,7 @@ Since user can give us feedbacks via mail, GitHub, twitter, doorbell.io, and so 
 
 ### Service Providers
 
-We may employ third-party companies and individuals due to the following reasons:
-
-+ To facilitate our Service;
-+ To provide the Service on our behalf;
-+ To perform Service-related services; or
-+ To assist us in analyzing how our Service is used.
-
-We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+We will NOT share data with third-party companies and individuals.
 
 ### Security
 
