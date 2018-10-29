@@ -31,15 +31,6 @@ After installing Typora, the `typora` package will be managed by `apt-get`, so w
 sudo apt-get upgrade
 ```
 
-## Arch Linux
-
-Install the [AUR Package](https://aur.archlinux.org/packages/typora/)
-
-```bash
-# Assuming that the pacaur AUR helper is being used. Other examples of AUR helpers include yaourt
-pacaur -S typora
-```
-
 ## NixOS
 
 ```bash
