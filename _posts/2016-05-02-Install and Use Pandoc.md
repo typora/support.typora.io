@@ -9,27 +9,27 @@ typora-root-url: ../
 
 TL;DR:
 
-Typora requires Pandoc (≥ v1.16). If you do not have Pandoc or only old version of Pandoc installed on your machine, you could:
+Typora requires Pandoc (≥ v1.16). If you don't have Pandoc or only old version of Pandoc is installed on your machine, you could:
 
 Download installer from **[Download Page](https://github.com/jgm/pandoc/releases/latest)** and install or update [Pandoc](http://pandoc.org/).
 
-You may need to restart Typora after install Pandoc if you met an error that Typora cannot find Pandoc.
+You may need to restart Typora after install Pandoc if you receive an error that Typora cannot find Pandoc.
 
-For windows users, if Typora still saying it cannot found Pandoc, you may need try to restart your PC.
+For windows users, if Typora is still saying it cannot find Pandoc, you may need to restart your PC.
 
 # Pandoc Integration
 
-In Typora, import function and export function for some file formats (including docx, odt, rtf, epub, LaTeX and wiki) are powered by a 3rd party software named Pandoc. Those features requires Pandoc (≥ v1.16) to be installed.
+In Typora, import function and export function for some file formats (including docx, odt, rtf, epub, LaTeX and wiki) are powered by a 3rd party software named Pandoc. Those features require Pandoc (≥ v1.16) to be installed.
 
-Please note that install Pandoc is optional for Typora, if you do not need those advanced import/export support in Typora, then you do not have to install Pandoc on your computer.
+Please note that installation of Pandoc is optional for Typora, if you do not need advanced import/export support in Typora, then you do not have to install Pandoc on your computer.
 
-This document would show how to install Pandoc and use Typora with Pandoc for full import/export functions.
+This document will show how to install Pandoc and use Typora with Pandoc for full import/export functions.
 
 
 
 ## What is Pandoc
 
-[Pandoc](http://pandoc.org/) is a universal document text converter. Typora use it to support file import/export features for several file types. 
+[Pandoc](http://pandoc.org/) is a universal document text converter. Typora uses it to support file import/export features for several file types. 
 
 ## Install Pandoc
 
@@ -59,7 +59,7 @@ Download the `pandoc-*-window.msi` from Pandoc's [download page](https://github
 
 ## Use Pandoc
 
-After Pandoc is installed, then you could import supported file types by clicking File -> Import from the menu bar, or simple drag and drop a file into Typora. Export function is also fully functional from the menu bar. Pandoc will run in backgrounds for those tasks and then exit automatically, so you may not feel it.
+After Pandoc is installed, then you could import supported file types by clicking File -> Import from the menu bar, or simple drag and drop a file into Typora. Export function is also fully functional from the menu bar. Pandoc will run in background for those tasks and then exit automatically, so you may not feel it.
 
 ## FAQ
 
