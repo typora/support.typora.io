@@ -104,5 +104,10 @@ h6.md-focus:before {
     line-height: inherit;
 }
 ```
+### Auto Numbering TOC
 
 If you want `TOC` entities also be auto-numbered, you could try [http://pastebin.com/NYugSbXk](http://pastebin.com/NYugSbXk) posted by a Typora user.
+
+### Auto Numbering Outline panel.
+
+Diable collapsable outline panel from preferences panel and try <https://pastebin.com/XmYgBbaz>.
