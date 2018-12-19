@@ -34,11 +34,11 @@ To set Typora as the default markdown editor you have to do following:
 
 
 **Figure 1 - File properties window**  
-![Figure 1 - Open Properties of Markdown file](media/use-from-shell/Snip20180704_1.png)  
+![Figure 1 - Open Properties of Markdown file](/media/use-from-shell/Snip20180704_1.png)  
 
 
 **Figure 2 - Application chooser window**  
-![Figure 2 - Applicaiton chooser](media/use-from-shell/Snip20180704_2.png)  
+![Figure 2 - Applicaiton chooser](/media/use-from-shell/Snip20180704_2.png)  
 
 ## Linux
 
