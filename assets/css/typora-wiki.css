@@ -79,6 +79,7 @@
   word-wrap: break-word;
   margin-bottom: 50px;
   padding: 0;
+  position: relative;
 }
 
 .category li {
@@ -222,4 +223,50 @@ table > tbody + tbody {
 video {
   display: block;
   margin: auto;
+}
+
+#search-results p {
+  font-family: sans-serif;
+  line-height: 22px;
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 24px;
+  height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  color: #555;
+}
+
+#search-results header {
+  font-weight: bold;
+  margin-top: 32px;
+}
+
+#search-box {
+  border: none;
+  border-bottom: 1px solid #9E9E9E;
+  margin-bottom: 10px;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+}
+
+#search-box:focus {
+  outline: none;
+  border-color: #3F51B5;
+}
+
+.search-button {
+  border: 0;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  padding: 0;
+  opacity: 0.3;
+  background: transparent;
+}
+
+.search-button:hover {
+  opacity: 1;
 }
