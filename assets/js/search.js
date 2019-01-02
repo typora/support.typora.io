@@ -179,7 +179,7 @@ function displaySearchResults(results, store) {
 
 function fetchStore(){
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', encodeURI('store'));
+  xhr.open('GET', location.protocol + "//" + location.host + "/store/");
   xhr.onload = function() {
     if (xhr.status === 200) {
       console.log('Request success.  Returned status of ' + xhr.status);
