@@ -19,7 +19,12 @@ date: 2018-02-10
 + French by [MOrdinateur](https://github.comMOrdinateur)
 + Russian by [dragomano](https://github.com/dragomano)
 + Japanese by [tomochan001](https://github.com/tomochan001) 
-+ Portuguese by [akz92](https://github.com/akz92) 
++ Portuguese (Brazil) by [akz92](https://github.com/akz92) 
++ Croatian by [diomed](https://github.com/diomed)
++ Swedish by [FelixZY](https://github.com/FelixZY)
++ Hungarian by [mocsa](https://github.com/mocsa)
++ Portuguese (Portugal) by [camilo93](https://github.com/jcamilo93)
++ Galician by [nunhes](https://github.com/nunhes)
 
 The list above may be obsolete, you could check all available languages or change the locale of Typora in preference panel.
 

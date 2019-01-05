@@ -111,6 +111,10 @@ The latest version of Typora supports syntax highlight of following languages (i
 - scheme
 - twig
 - SAS
+- pseudocode
+- julia
+- stylus
+- COBOL
 
 Please note that the language you specify in <code>```{lang}</code> is case insensitive for Typora when choosing the corresponding syntax highlight.
 

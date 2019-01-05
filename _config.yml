@@ -25,3 +25,6 @@ kramdown:
 
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
+
+plugins:
+  - jekyll-feed
