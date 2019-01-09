@@ -20,6 +20,9 @@ date: 2018-02-10
 + Russian by [dragomano](https://github.com/dragomano)
 + Japanese by [tomochan001](https://github.com/tomochan001) 
 + Portuguese (Brazil) by [akz92](https://github.com/akz92) 
++ German by [rcvd](https://github.com/rcvd), Gert
++ Czech by [byDave251](https://github.com/byDave251), [psimacek](https://github.com/byDave251)
++ Greek by [kiriakosv](https://github.com/kiriakosv)
 + Croatian by [diomed](https://github.com/diomed)
 + Swedish by [FelixZY](https://github.com/FelixZY)
 + Hungarian by [mocsa](https://github.com/mocsa)
