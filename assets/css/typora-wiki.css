@@ -63,12 +63,17 @@
     padding-top: 15px;
 }
 
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px 0 30px;
+}
+
 .product-name,
 .product-name a {
-    float: left;
     font-family: 'Century Gothic', sans-serif;
     font-size: 2em;
-    padding-left: 1em;
 }
 
 .category {
@@ -136,15 +141,12 @@
 }
 
 .nav .pure-menu-list {
-    float: right;
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
-    margin-right: 1em;
     display: inline-block;
     max-width: 100%;
     overflow-x: hidden;
-    margin-right:2em;
 }
 
 #content {
