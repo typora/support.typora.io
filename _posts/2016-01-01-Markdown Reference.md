@@ -10,7 +10,7 @@ typora-root-url: ../
 
 ## Overview
 
-**Markdown** is created by [Daring Fireball](http://daringfireball.net/), the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** is using [GitHub Flavored Markdown][GFM]. 
+**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** is using [GitHub Flavored Markdown][GFM].
 
 * Outline
 {:toc}
@@ -20,13 +20,13 @@ typora-root-url: ../
 
 ### Paragraph and line breaks
 
-A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by more than one blank lines. In Typora, you only need to press `Return` to create a new paragraph.
+A paragraph is simply one or more consecutive lines of text. In markdown source code, paragraphs are separated by two or more blank lines. In Typora, you only need one blank line (press `Return` once) to create a new paragraph.
 
-Press `Shift` + `Return` to create a single line break. However, most markdown parser will ignore single line break, to make other markdown parsers recognize your line break, you can leave two spaces at the end of the line, or insert `<br/>`.
+Press `Shift` + `Return` to create a single line break. Most other markdown parsers will ignore single line breaks, so in order to make other markdown parsers recognize your line break, you can leave two spaces at the end of the line, or insert `<br/>`.
 
 ### Headers
 
-Headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+Headers use 1-6 hash (`#`) characters at the start of the line, corresponding to header levels 1-6. For example:
 
 ``` markdown
 # This is an H1
@@ -45,20 +45,20 @@ Markdown uses email-style > characters for block quoting. They are presented as:
 ``` markdown
 > This is a blockquote with two paragraphs. This is first paragraph.
 >
-> This is second pragraph.Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> This is second pragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 
 
 > This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.
 ```
 
-In Typora, just input ‘>’ followed by quote contents a block quote is  generated. Typora will insert a proper ‘>’ or line break for you. A block quote is allowed inside another block quote  by adding additional levels of ‘>’. 
+In Typora, inputting ‘>’ followed by your quote contents will generate a quote block. Typora will insert a proper ‘>’ or line break for you. Nested block quotes (a block quote inside another block quote) by adding additional levels of ‘>’.
 
 ### Lists
 
-Input `* list item 1` will create an unordered list, the `*` symbol can be replace with `+` or `-`. 
+Input `* list item 1` will create an unordered list - the `*` symbol can be replace with `+` or `-`.
 
-Input `1. list item 1` will create an ordered list, their markdown source code is like:
+Input `1. list item 1` will create an ordered list - their markdown source code is as follows:
 
 ``` markdown
 ## un-ordered list
@@ -84,7 +84,7 @@ Task lists are lists with items marked as either [ ] or [x] (incomplete or compl
 - [x] completed
 ```
 
-You can change the complete/incomplete state by clicking the checkbox before the item.
+You can change the complete/incomplete state by clicking on the checkbox before the item.
 
 ### (Fenced) Code Blocks
 
@@ -113,11 +113,11 @@ puts markdown.to_html
 
 You can render *LaTeX* mathematical expressions using **MathJax**.
 
-To add an mathematical expression, input `$$`, then press the 'Return' key. This will trigger an input field which accepts *Tex/LaTex* source. Following is an example:
+To add a mathematical expression, input `$$` and press the 'Return' key. This will trigger an input field which accepts *Tex/LaTex* source. For example:
 
 
 $$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
@@ -125,11 +125,11 @@ $$
 $$
 
 
-In the markdown source file, the math block is *LaTeX* expression wrapped by a pair of ‘$$’ marks:
+In the markdown source file, the math block is a *LaTeX* expression wrapped by a pair of ‘$$’ marks:
 
 ``` markdown
 $$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 \frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
@@ -137,15 +137,15 @@ $$
 $$
 ```
 
-You could find more details [here](http://support.typora.io/Math/).
+You can find more details [here](http://support.typora.io/Math/).
 
 ### Tables
 
 Input `| First Header  | Second Header |` and press the `return` key. This will create a table with two columns.
 
-After a table is created, the focus on that table will pop up a toolbar for the table, where you can resize, align, or delete table. You can also use the context menu to copy and add/delete individual columns/rows.
+After a table is created, putting focus on that table will open up a toolbar for the table where you can resize, align, or delete the table. You can also use the context menu to copy and add/delete individual columns/rows.
 
-The full syntax for tables is described below, but it is not necessary to know the full syntax in detail, because the markdown source code for tables is generated automatically by Typora.
+The full syntax for tables is described below, but it is not necessary to know the full syntax in detail as the markdown source code for tables is generated automatically by Typora.
 
 In markdown source code, they look like:
 
@@ -156,9 +156,9 @@ In markdown source code, they look like:
 | Content Cell  | Content Cell  |
 ```
 
-You can also include inline Markdown such as links, bold, italics, or strikethrough.
+You can also include inline Markdown such as links, bold, italics, or strikethrough in the table.
 
-Finally, by including colons : within the header row, you can define text to be left-aligned, right-aligned, or center-aligned:
+Finally, by including colons (`:`) within the header row, you can define text in that column to be left-aligned, right-aligned, or center-aligned:
 
 ``` markdown
 | Left-Aligned  | Center Aligned  | Right Aligned |
@@ -184,25 +184,25 @@ You can create footnotes like this[^footnote].
 
 [^footnote]: Here is the *text* of the **footnote**.
 
-Mouse on the ‘footnote’ superscript to see content of the footnote.
+Hover over the ‘footnote’ superscript to see content of the footnote.
 
 ### Horizontal Rules
 
-Input `***` or `---` on a blank line and press `return` will draw a horizontal line.
+Inputting `***` or `---` on a blank line and pressing `return` will draw a horizontal line.
 
 ------
 
 ### YAML Front Matter
 
-Typora now supports [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/). Input `---` at the top of the article and then press `Enter` to introduce a metadata block. Alternatively, insert a metadata block from the menu.
+Typora now supports [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/). Input `---` at the top of the article and then press `Return` to introduce a metadata block. Alternatively, you can insert a metadata block from the top menu of Typora.
 
 ### Table of Contents (TOC)
 
-Input `[toc]` then press `Return` key. This will create a  “Table of Contents” section. The TOC extracts all headers from the document, and its contents will be updated automatically. 
+Input `[toc]` and press the `Return` key. This will create a  “Table of Contents” section. The TOC extracts all headers from the document, and its contents are updated automatically as you add to the document.
 
 ## Span Elements
 
-Span elements will be parsed and rendered right after typing. Moving the cursor in middle of those span elements will expand those elements into markdown source. Below is an explanation of the syntax for each  span element.
+Span elements will be parsed and rendered right after typing. Moving the cursor in middle of those span elements will expand those elements into markdown source. Below is an explanation of the syntax for each span element.
 
 ### Links
 
@@ -230,19 +230,19 @@ This is [an example](http://example.com/"Title") inline link. (`<p>This is <a hr
 
 Command(on Windows: Ctrl) + Click [This link](#block-elements) will jump to header `Block Elements`. To see how to write that, please move cursor or click that link with `⌘` key pressed to expand the element into markdown source.
 
-#### Reference Links 
+#### Reference Links
 
 Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
 
 ``` markdown
 This is [an example][id] reference-style link.
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+Then, anywhere in the document, you define your link label on a line by itself like this:
 
 [id]: http://example.com/  "Optional Title Here"
 ```
 
-In Typora, they will be rendered like:
+In Typora, they will be rendered like so:
 
 This is [an example][id] reference-style link.
 
@@ -257,7 +257,7 @@ And then define the link:
 [Google]: http://google.com/
 ```
 
-In Typora click link will expand it for editing, command+click will open the hyperlink in web browser.
+In Typora, clicking the link will expand it for editing, and command+click will open the hyperlink in your web browser.
 
 ### URLs
 
@@ -265,11 +265,11 @@ Typora allows you to insert URLs as links, wrapped by `<`brackets`>`.
 
 `<i@typora.io>` becomes <i@typora.io>.
 
-Typora will also auto link standard URLs. e.g: www.google.com.
+Typora will also automatically link standard URLs. e.g: www.google.com.
 
 ### Images
 
-Image looks similar with links, but it requires an additional `!` char before the start of link. Image syntax looks like this:
+Images have similar syntax as links, but they require an additional `!` char before the start of the link. The syntax for inserting an image looks like this:
 
 ``` markdown
 ![Alt text](/path/to/img.jpg)
@@ -277,9 +277,9 @@ Image looks similar with links, but it requires an additional `!` char before th
 ![Alt text](/path/to/img.jpg "Optional title")
 ```
 
-You are able to use drag & drop to insert image from image file or web browser. And modify the markdown source code by clicking on the image. Relative path will be used if image is in same directory or sub-directory with current editing document when drag & drop.
+You are able to use drag & drop to insert an image from an image file or your web browser. You can modify the markdown source code by clicking on the image. A relative path will be used if the image that is added using drag & drop is in same directory or sub-directory as the document you're currently editing.
 
-If you’re using markdown for building websites, you may specify a URL prefix for image preview in local computer with property `typora-root-url` in YAML Front Matters. For example, input `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matters, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in Typora.
+If you’re using markdown for building websites, you may specify a URL prefix for the image preview on your local computer with property `typora-root-url` in YAML Front Matters. For example, input `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matters, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in Typora.
 
 ![drag and drop image](http://typora.io/img/drag-img.gif)
 
@@ -293,7 +293,7 @@ Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis.
 _single underscores_
 ```
 
-output: 
+output:
 
 *single asterisks*
 
@@ -311,11 +311,11 @@ To produce a literal asterisk or underscore at a position where it would otherwi
 \*this text is surrounded by literal asterisks\*
 ```
 
-Typora recommends to use `*` symbol.
+Typora recommends using the `*` symbol.
 
 ### Strong
 
-double `*` or `_` will be wrapped with an HTML `<strong>` tag, e.g:
+A double `*` or `_` will cause its enclosed contents to be wrapped with an HTML `<strong>` tag, e.g:
 
 ``` markdown
 **double asterisks**
@@ -329,11 +329,11 @@ output:
 
 __double underscores__
 
-Typora recommends to use `**` symbol.
+Typora recommends using the `**` symbol.
 
 ### Code
 
-To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
+To indicate an inline span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. For example:
 
 ``` markdown
 Use the `printf()` function.
@@ -357,37 +357,37 @@ Underline is powered by raw HTML.
 
 ### Emoji :happy:
 
-Input emoji with syntax `:smile:`. 
+Input emoji with syntax `:smile:`.
 
-User can trigger auto-complete suggestions for emoji by pressing `ESC` key, or trigger it automatically after enable it on preference panel. Also, input UTF8 emoji char directly from `Edit` -> `Emoji & Symbols` from menu bar is also supported. 
+User can trigger auto-complete suggestions for emoji by pressing `ESC` key, or trigger it automatically after enabling it on preference panel. Also, inputting UTF-8 emoji characters directly is also supported by going to `Edit` -> `Emoji & Symbols` in the menu bar.
 
 ### Inline Math
 
-To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `$` to wrap TeX command, for example: `$\lim_{x \to \infty} \exp(-x) = 0$` will be rendered as LaTeX command. 
+To use this feature, please enable it first in the `Preference` Panel -> `Markdown` Tab. Then, use `$` to wrap a TeX command. For example: `$\lim_{x \to \infty} \exp(-x) = 0$` will be rendered as LaTeX command.
 
-To trigger inline preview for inline math: input “$”, then press `ESC` key, then input TeX command.
+To trigger inline preview for inline math: input “$”, then press the `ESC` key, then input a TeX command.
 
-You could find more details [here](http://support.typora.io/Math/).
+You can find more details [here](http://support.typora.io/Math/).
 
 ### Subscript
 
-To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `~` to wrap subscript content, for example: `H~2~O`, `X~long\ text~`/
+To use this feature, please enable it first in the `Preference` Panel -> `Markdown` Tab. Then, use `~` to wrap subscript content. For example: `H~2~O`, `X~long\ text~`/
 
 ### Superscript
 
-To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `^` to wrap superscript content, for example: `X^2^`.
+To use this feature, please enable it first in the `Preference` Panel -> `Markdown` Tab. Then, use `^` to wrap superscript content. For example: `X^2^`.
 
 ### Highlight
 
-To use this feature, first, please enable it in `Preference` Panel -> `Markdown` Tab. Then use `==` to wrap highlight content, for example: `==highlight==`. 
+To use this feature, please enable it first in the `Preference` Panel -> `Markdown` Tab. Then, use `==` to wrap highlight content. For example: `==highlight==`.
 
 ## HTML
 
-You could use HTML to style content what pure Markdown does not support, for example, use `<span style="color:red">this text is red</span>` to add text with red color.
+You can use HTML to style content what pure Markdown does not support. For example, use `<span style="color:red">this text is red</span>` to add text with red color.
 
 ### Embed Contents
 
-Some websites provide iframe-based embed code which you could also paste into Typora, for example:
+Some websites provide iframe-based embed code which you can also paste into Typora. For example:
 
 ```Markdown
 <iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
@@ -395,7 +395,7 @@ Some websites provide iframe-based embed code which you could also paste into Ty
 
 ### Video
 
-You could use the `<video>` HTML tag to embed videos, for example:
+You can use the `<video>` HTML tag to embed videos. For example:
 
 ```Markdown
 <video src="xxx.mp4" />
@@ -403,6 +403,6 @@ You could use the `<video>` HTML tag to embed videos, for example:
 
 ### Other HTML Support
 
-You could find details [here](http://support.typora.io/HTML/).
+You can find more details [here](http://support.typora.io/HTML/).
 
 [GFM]: https://help.github.com/articles/github-flavored-markdown/
