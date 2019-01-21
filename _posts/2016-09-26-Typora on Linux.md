@@ -38,6 +38,17 @@ sudo apt-get upgrade
 nix-env -i typora
 ```
 
+## Mint
+
+```sh
+# add Typora's repository
+echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
+sudo apt-get update
+
+# install typora
+sudo apt-get install typora
+```
+
 ## Other Distributions
 
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
@@ -79,4 +90,14 @@ Aborted
 You could:
 1. Ensure `xenial-security`updates are included in *Software & Updates*.
 2. run `sudo apt-get update && sudo apt-get install libnss3`
+
+### Malformed input, repository not added.
+
+You could add repository by:
+
+```sh
+echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
+```
+
+see discussion related in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
 
