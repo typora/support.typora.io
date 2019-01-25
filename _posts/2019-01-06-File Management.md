@@ -114,7 +114,7 @@ The quick open panel can be popped up by pressing <kbd>Command+Shift+O</kbd> (*o
 
 You could use fuzzy search to find & open files in current folder quickly.
 
-<img src="/media/files/quick-open.png" style="zoom:50%" />
+<img src="/media/files/Screen Shot 2019-01-24 at 23.39.15.png" style="zoom:50%" />
 
 ## Global Search
 
@@ -131,5 +131,13 @@ Typora does not support `#tags` natively, but if you use `#tags` in your article
 As a file based Markdown editor, Typora does not have concepts like "default working folder", but if you want Typora to load certain folder on launch, you could set a folder in Typora's "launch options".
 
 <img src="/media/files/Screen Shot 2019-01-06 at 22.39.31.png" style="zoom:50%;" />
+
+## JumpList (Windows)
+
+Typora will put recent used folders/files on the jump list of Typora, you could **pin** frequently used file/folder and access them quickly from task bar.
+
+<img src="/media/files/jump list.PNG" style="zoom:75%;" />
+
+Recent file and recent folder can be cleared by click "Open Recent" → "Clear Items" from File menu.
 
 ---

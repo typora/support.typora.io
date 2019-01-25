@@ -2,7 +2,7 @@
 layout: post
 title: Install Typora on Linux
 author: typora.io
-category: how-to
+category: basic
 tags: [linux, tutorial]
 typora-root-url: ../
 ---

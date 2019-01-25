@@ -14,7 +14,7 @@ typora-root-url: ../
 - Simplified Chinese by [abnerlee](https://github.com/abnerlee), [NoDotCat](https://github.com/NoDotCat), [HowardTangHw](https://github.com/HowardTangHw),  [Emphasia](https://github.com/Emphasia)
 - Traditional Chinese by [cyberrob](https://github.com/cyberrob)
 - Polish by  [iriusturar](https://github.com/iriusturar)
-- Korean by  [ryush00](https://github.com/Aryush00),  [marigold9124](https://github.com/marigold9124), [vreality64](https://github.com/vreality64), [yuririri](https://github.com/yuririri), [Third9](https://github.com/Third9)
+- Korean by  [ryush00](https://github.com/ryush00),  [marigold9124](https://github.com/marigold9124), [vreality64](https://github.com/vreality64), [yuririri](https://github.com/yuririri), [Third9](https://github.com/Third9)
 - Italian by  [starise](https://github.com/starise), [jethro17](https://github.com/jethro17) 
 - Spanish by  [thepiratejester](https://github.com/thepiratejester), [rgomez90](https://github.com/rgomez90)
 - French by [MOrdinateur](https://github.comMOrdinateur)
