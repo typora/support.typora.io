@@ -71,7 +71,7 @@ on macOS, you could press `Esc` key to open inline preview for inline math, auto
 | Paragraph              | Ctrl + 0               | Command + 0               |
 | Increase Heading Level | Ctrl + =               | Command + =               |
 | Decrease Heading Level | Ctrl + -               | Command + -               |
-| Table                  | Ctrl + T               | Command + Shift + T       |
+| Table                  | Ctrl + T               | Command + Option + T      |
 | Code Fences            | Ctrl + Shift + K       | Command + Option + C      |
 | Math Block             | Ctrl + Shift + M       | Command + Option + B      |
 | Quote                  | Ctrl + Shift + Q       | Command + Option + Q      |
