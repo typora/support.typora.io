@@ -5,6 +5,7 @@ author: typora.io
 category: how-to
 tags: [style, font]
 typora-root-url: ../
+typora-copy-images-to: ../media/custom-font
 ---
 
 > For information about where to put the CSS files that are discussed below, please refer to [Add Custom CSS](/Add-Custom-CSS/).
@@ -60,3 +61,11 @@ body {
 ```
 
 to apply the font.
+
+## Change Font Size
+
+A quicker way to change font size is to do that in preferences panel. On macOS, "font size" is in "General" section of preferences panel. On Window/Linux, it is under "Appearance" section, you also use press <kbd>Ctrl+F</kbd> to search it in preferences panel.
+
+This option requires support from themes you use. If you are making a theme css, use `rem` as font unit will make sure this option works.
+
+<img src="/media/custom-font/Screen Shot 2019-01-25 at 22.18.21.png" style="zoom:50%" />
