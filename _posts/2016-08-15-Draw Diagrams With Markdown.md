@@ -94,7 +94,7 @@ see [this doc](https://knsv.github.io/mermaid/#gant-diagrams)
 
 ~~~gfm
 ​```mermaid
-%% Example with slection of syntaxes
+%% Example with selection of syntaxes
         gantt
         dateFormat  YYYY-MM-DD
         title Adding GANTT diagram functionality to mermaid
