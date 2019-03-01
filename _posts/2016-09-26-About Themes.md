@@ -13,6 +13,10 @@ Typora has 5~6 built-in themes. Changing writing theme can be done by selecting 
 
 Typora uses CSS to style all contents, each theme under `theme` menu is one `.css` file under "Typora's theme folder". So, briefly speaking, you could add/modify themes by adding/modifying corresponding css files under "Typora's theme folder".
 
+## Naming Rule
+
+File naming rule for theme css: Do not use capitalized letters, and nonalphabet characters except `-`. Then please replace whitespace with `-`, and Typora will convert them to readable label in menu item. For example, for `my-first-typora-theme.css`, Typora will put an menu item “My First Typora Theme” under “Themes” menu.
+
 ## Get Typora Themes
 
 We have an official website [Typora Theme Gallery](http://theme.typora.io) for designers/developers to share their custom themes with others. You can download themes from there.
