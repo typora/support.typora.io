@@ -76,7 +76,7 @@ paragraph 2
 
 You could explicitly insert a single line break in editing view by pressing `Shift`+`Enter` key.
 
- ## Markdown Line Break
+## Markdown Line Break
 
 Markdown provides ways to insert single hard line break:
 
