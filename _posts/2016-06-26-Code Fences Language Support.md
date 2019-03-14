@@ -50,6 +50,7 @@ The latest version of Typora supports syntax highlight of following languages (i
 - go
 - groovy
 - nginx
+- oz
 - octave (alias: matlab)
 - c (alias: clike)
 - c++ (alias: cpp, cc)
@@ -117,13 +118,6 @@ The latest version of Typora supports syntax highlight of following languages (i
 - COBOL
 
 Please note that the language you specify in <code>```{lang}</code> is case insensitive for Typora when choosing the corresponding syntax highlight.
-
-#### Change Log:
-
-- 0.9.9.8.8/0.9.23: Add syntax highlighting for `cmake`, `cypher`, `dart`, `django`, `dtd`, `dylan`, `handlebars`, `idl`, `web idl`, `yacas`, `mbox`, `vhdl`, `julia`, `haxe`, and `hxml`.
-- 0.9.9.8.4/0.9.22: Add syntax highlight for `elixir`.
-- 0.9.9.8.2/0.9.21: Add syntax highlight for `ocaml`, `F#`, `elm`, `spreadsheet` and `pgp(Ascii Armor)`.
-- 0.9.9.8/0.9.20: Add syntax highlight for `Octave` and `matlab`.
 
 
 ### My language is not listed above...

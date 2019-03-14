@@ -28,6 +28,8 @@ date: 2018-02-10
 + Hungarian by [mocsa](https://github.com/mocsa)
 + Portuguese (Portugal) by [camilo93](https://github.com/jcamilo93)
 + Galician by [nunhes](https://github.com/nunhes)
++ Indonesia by [snatalius](https://github.com/snatalius)
++ Vietnamese by [1234hdpa](https://github.com/1234hdpa)
 
 The list above may be obsolete, you could check all available languages or change the locale of Typora in preference panel.
 

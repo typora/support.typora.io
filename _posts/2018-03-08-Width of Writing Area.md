@@ -18,4 +18,13 @@ Example CSS:
   max-width: 1800px; /*adjust writing area position*/
 }
 ```
-You could also use other css styles like `padding-left` or `padding-right` to adjust the writing area
+You could also use other css styles like `padding-left` or `padding-right` to adjust the writing area.
+
+To change the width of source code mode:
+
+```css
+#typora-source .CodeMirror-lines {
+  max-width: auto; /*or 1000px*/
+}
+```
+
