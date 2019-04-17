@@ -102,7 +102,7 @@ on macOS, you could press `Esc` key to open inline preview for inline math, auto
 | Articles                        | Ctrl + Shift + 2       | Command + Control + 2 |
 | File Tree                       | Ctrl + Shift + 3       | Command + Control + 3 |
 | Source Code Mode                | Ctrl + /               | Command + /           |
-| Fouus Mode                      | F8                     | F8                    |
+| Focus Mode                      | F8                     | F8                    |
 | Typewriter Mode                 | F9                     | F9                    |
 | Toggler Fullscreen              | F11                    | Command + Option + F  |
 | Actual Size                     | Ctrl + Shift + 0       | *(Not Supported)*     |
