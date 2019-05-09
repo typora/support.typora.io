@@ -43,7 +43,7 @@ Press `Command/Ctrl+Enter` to quickly insert an empty row under current table ro
 
 ## Delete Row in Table
 
-The delete line command (`Shift+Command/Ctrl+L`) will delete current table row in a table. Context menu is also available for delete row action.
+The delete line command or delete table row (Shift+Ctrl+L or Shift+Command+L on macOS) will delete current table row in a table. Context menu is also available for delete row action.
 
 ## Add/Delete Column in Table
 
