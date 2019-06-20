@@ -11,8 +11,8 @@ Typora works on
 
 ## Operation System
 
-- **macOS**: ≥ v10.10
-- **Linux**: tested on Ubuntu 14.04, 16.04 and 18.04, support x86 and amd64 (x64) architecture. 
+- **macOS**: ≥ v10.10 (We may end support for macOS)
+- **Linux**: tested on Ubuntu 16.04 and 18.04, support (x64) architecture (32 bit is no longer support on Linux). 
 - **Windows**: require Windows 7, Windows 8 or Windows 10, support x86 and amd64 (x64) architecture. 
 
 ## Hardware
