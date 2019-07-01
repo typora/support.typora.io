@@ -80,13 +80,13 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 ## 8. Liability limitation
 
 1. We and any third party that has been involved in the creation, production, or delivery of the Software are under no circumstances liable for consequential or indirect damages (including damage for loss of profit, business interruption, loss of data, and the like arising out of the use or inability to use the Software).
-2. The limitations of liability referred to in clause 8.1 shall not apply in the event that: (i) any negligence on the part of Bohemian leads to death or physical injury or (ii) damages arise from the intent, willful misconduct or gross negligence of us or the management of us.
+2. The limitations of liability referred to in clause 8.1 shall not apply in the event that: (i) any negligence on the part of Typora leads to death or physical injury or (ii) damages arise from the intent, willful misconduct or gross negligence of us or the management of us.
 
 ## 9. Termination
 
 1. This EULA will continue to be in force until the expiry or termination of the Full version or Trial version.
 2. The Full version or Trial version will terminate automatically at the end of the applicable license term, unless renewed or Activated prior to the end of the applicable license term.
-3. We are entitled to terminate the Full version or Trial version by blocking the License Key during the license term with immediate effect and without prior notice in the event You fail to comply with the terms in this EULA, in the event You fail to pay Your (subscription) fee for the License Key within the applicable payment term, or in the event Bohemian is required to do so by law or an order of an applicable court.
+3. We are entitled to terminate the Full version or Trial version by blocking the License Key during the license term with immediate effect and without prior notice in the event You fail to comply with the terms in this EULA, in the event You fail to pay Your (subscription) fee for the License Key within the applicable payment term, or in the event Typora is required to do so by law or an order of an applicable court.
 4. Upon termination of the Full version or Trial version, You shall cease all use of the Software and shall destroy all copies thereof.
 5. You acknowledge that the provisions of this EULA, which by their nature are intended to survive termination, will remain in effect after termination of this EULA.
 
