@@ -9,7 +9,7 @@ typora-root-url: ../
 
 ## Recommended Practices in Typora
 
-Line breaks is every confusing in Markdown, our recommendations is that: 
+Line breaks are very confusing in Markdown, our recommendations is that: 
 
 - Use Typora's default setting.
 - Write in Typora's hybrid view.
@@ -38,7 +38,7 @@ But other markdown engines may choose to keep it (like input box for issues in G
 Sequential whitespace are similar to Single Line Breaks, most Markdown engines will ignore them, for example, in `CommonMark`,
 
 ```markdown
-Four    whietspace in between
+Four    whitespace in between
 ```
 
 will be converted to
