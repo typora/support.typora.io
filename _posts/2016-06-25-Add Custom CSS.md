@@ -13,7 +13,7 @@ typora-root-url: ../
 
 Open preference panel, and click a button named "Open Theme Folder" under section "Appearance", would open Typora's theme folder in Finder/Explorer.
 
-You would add you custom theme here (there will be other documents introducing how to find/install/write themes). 
+You would add your custom theme here (there will be other documents introducing how to find/install/write themes). 
 
 But sometimes, you may only want to modify CSS like changing font or increase writing area, and apply it to all themes or current theme without writing a whole new theme file, this document will show you how-to.
 
