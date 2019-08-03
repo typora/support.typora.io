@@ -10,7 +10,7 @@ typora-copy-images-to: ../media/table-editing
 
 * Outline
 {:toc}
-## Tables in Markdown
+# Tables in Markdown
 
 Typora supports table syntax of [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/):
 
@@ -22,6 +22,18 @@ It will parse following text in a markdown file into a table.
 > |Content from cell 1 | Content from cell 2|
 > |Content in the first column | Content in the second column|
 > ```
+
+Table Editing in Typora
+===
+
+In Typora, you could write or edit the markdown text to add or modify tables.
+
+We also provides menu entry, context menu, shortcut keys, drag & move, tooltips to make table editing easier to use under related GUI.
+
+<figure style="text-align:center;">
+    <img src="/media/new-73/Screen Shot 2019-07-26 at 01.03.21.png" style="zoom:50%;display:inline-block;vertical-align:middle;"/>
+     <figcaption>Table Menu in Typora</figcaption>
+</figure>
 
 ## Create Table in Typora
 
@@ -77,7 +89,7 @@ With alignment set, Typora will add attribute like `style="text-align: left"` to
 
 Reorder row/column is also very easy thanks to Typora's WYSIWYG feature. Just move you mouse on the left/top border of a row/column, and use drag & drop to render it:
 
-<p style="text-align:center"><video src="/media/table-editing/move-row-col.mov" style="width:540px;" autoplay="autoplay" mute="mute" loop="loop"></video></p>
+<p style="text-align:center"><video src="/media/table-editing/move-row-col.mp4" style="width:540px;" autoplay="autoplay" mute="mute" loop="loop"></video></p>
 
 ## Touch Bar Support.
 

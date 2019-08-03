@@ -68,6 +68,24 @@ Typora for Linux is tested only on Ubuntu. So, if you have a problem with other 
 
 ## Trouble Shooting
 
+### Error on Debian Stretch
+
+For following error:
+
+```
+[8898:0620/213856.172363:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /usr/share/typora/chrome-sandbox is owned by root and has mode 4755.
+```
+
+You could try `chmod 4755 /usr/share/typora/chrome-sandbox`
+
+See discussion in https://github.com/electron/electron/issues/17972
+
+### Cannot open Typora binary "there is no application installed for shared library"
+
+When double click on Typora's binary file, Nautilus (file manager) cannot detect it as executable file. 
+
+This is caused by a Nautilus's bug, see discussions in https://github.com/electron/electron/issues/15406. You could either: install Typora via `deb` or `apt-get`, or run Typora from terminal (`./Typora`).
+
 #### Started Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6`
 
 When  you start typora on Ubuntu 14.x, if following error happens: 
@@ -78,11 +96,15 @@ When  you start typora on Ubuntu 14.x, if following error happens:
 
 You could download the Debian of package libstdc++6 for Xenial at link http://packages.ubuntu.com/xenial/libstdc++6 and installed it using `dpkg -i` (reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
 
-### Error while loading shared libraries: libgconf-2.so.4
+#### [Ubuntu 14.04 ] typora: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by typora)
+
+See [electron/electron#16364 (comment)](https://github.com/electron/electron/issues/16364#issuecomment-492199424)
+
+#### Error while loading shared libraries: libgconf-2.so.4
 
 Try install `libgconf-2-4` first.
 
-### NSS out-of-date
+#### NSS out-of-date
 
 If you recieve following error when launch Typora:
 
@@ -95,7 +117,7 @@ You could:
 1. Ensure `xenial-security`updates are included in *Software & Updates*.
 2. run `sudo apt-get update && sudo apt-get install libnss3`
 
-### Malformed input, repository not added.
+#### Malformed input, repository not added.
 
 You could add repository by:
 
