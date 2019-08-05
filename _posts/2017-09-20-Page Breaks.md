@@ -14,7 +14,7 @@ typora-copy-images-to: ../media/page-breaks
 
 Sometimes you may want to export to a PDF, and have page breaks on top-level headers.
 
-Open the themes folder, and edit the css for whatever them you want to include
+Open the themes folder, and edit the css for whatever theme you want to include
 
 ```css
 @media print {
@@ -31,4 +31,4 @@ Now when exporting, a new page will be created before each h1 element, except th
 
 ## Force Page Break
 
-To insert a force page break on a document, you could try input HTML `<div style="page-break-after: always;"></div>` when wriring.
+To insert a force page break on a document, you could try input HTML `<div style="page-break-after: always;"></div>` when writing.
