@@ -48,11 +48,11 @@ cond(no)->op
 
 # Mermaid
 
-Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#mermaid), which supports sequence, flowchart and Gantt.
+Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#/), which supports sequence, flowchart and Gantt.
 
 ## Sequence
 
-see [this doc](https://knsv.github.io/mermaid/#sequence-diagrams)
+see [this doc](https://knsv.github.io/mermaid/#sequenceDiagram)
 
 ~~~gfm
 ​```mermaid
@@ -74,7 +74,7 @@ see [this doc](https://knsv.github.io/mermaid/#sequence-diagrams)
 
 ## Flowchart
 
-see [this doc](https://knsv.github.io/mermaid/#flowcharts-basic-syntax)
+see [this doc](https://knsv.github.io/mermaid/#/flowchart)
 
 ~~~gfm
 ​```mermaid
@@ -90,7 +90,7 @@ A[Hard edge] -->B(Round edge)
 
 ## Gantt
 
-see [this doc](https://knsv.github.io/mermaid/#gant-diagrams)
+see [this doc](https://knsv.github.io/mermaid/#gantt)
 
 ~~~gfm
 ​```mermaid
