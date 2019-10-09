@@ -16,6 +16,8 @@ You could simply choose `File` > `Revert To` > `Browse All Versions` from main m
 
 ![Snip20170228_6](/media/version-control/Snip20170228_6.png)
 
+For **untitled** drafts, they are located in `~/Library/Autosave Information`. But please save them just in case.
+
 ## Windows/Linux 
 
 Windows 10 also have version control support on system level ([reference](http://www.pcworld.com/article/2974385/windows/how-to-use-windows-10s-file-history-backup-feature.html)).
