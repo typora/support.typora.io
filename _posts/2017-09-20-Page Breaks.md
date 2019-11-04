@@ -31,4 +31,4 @@ Now when exporting, a new page will be created before each h1 element, except th
 
 ## Force Page Break
 
-To insert a force page break on a document, you could try input HTML `<div style="page-break-after: always;"></div>` when wriring.
+To insert a force page break on a document, you could try input HTML `<div style="page-break-after: always;"></div>` when writing.
