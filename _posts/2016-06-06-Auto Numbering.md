@@ -110,4 +110,4 @@ If you want `TOC` entities also be auto-numbered, you could try [http://pastebin
 
 ### Auto Numbering Outline panel.
 
-Diable collapsable outline panel from preferences panel and try <https://pastebin.com/XmYgBbaz>.
+Disable collapsable outline panel from preferences panel and try <https://pastebin.com/XmYgBbaz>.
