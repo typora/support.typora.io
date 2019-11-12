@@ -68,7 +68,11 @@ Typora for Linux is tested only on Ubuntu. So, if you have a problem with other 
 
 ## Trouble Shooting
 
-### Error on Debian Stretch
+### Common Solutions for Typora not Open
+
+**Make sure all the necessary dependencies are installed**. You can run `ldd typora | grep not` on a Linux machine to check which dependencies are missing. 
+
+#### Error on Debian Stretch
 
 For following error:
 
@@ -80,7 +84,7 @@ You could try `chmod 4755 /usr/share/typora/chrome-sandbox`
 
 See discussion in https://github.com/electron/electron/issues/17972
 
-### Cannot open Typora binary "there is no application installed for shared library"
+#### Cannot open Typora binary "there is no application installed for shared library"
 
 When double click on Typora's binary file, Nautilus (file manager) cannot detect it as executable file. 
 
