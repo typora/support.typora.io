@@ -16,7 +16,7 @@ When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be in
 It is powered by [js-sequence](https://bramp.github.io/js-sequence-diagrams/), which would turn following code block into rendered diagrams:
 
 ~~~gfm
-​```sequence
+```sequence
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
@@ -32,7 +32,7 @@ Please refer [here](https://bramp.github.io/js-sequence-diagrams/#syntax) for sy
 It is powered by [flowchart.js](http://flowchart.js.org/), which would turn following code block into rendered diagrams:
 
 ~~~gfm
-​```flow
+```flow
 st=>start: Start
 op=>operation: Your Operation
 cond=>condition: Yes or No?
@@ -52,10 +52,10 @@ Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#/), w
 
 ## Sequence
 
-see [this doc](https://knsv.github.io/mermaid/#sequenceDiagram)
+see [this doc](https://mermaid-js.github.io/mermaid/#/sequenceDiagram)
 
 ~~~gfm
-​```mermaid
+```mermaid
 %% Example of sequence diagram
   sequenceDiagram
     Alice->>Bob: Hello Bob, how are you?
@@ -74,10 +74,10 @@ see [this doc](https://knsv.github.io/mermaid/#sequenceDiagram)
 
 ## Flowchart
 
-see [this doc](https://knsv.github.io/mermaid/#/flowchart)
+see [this doc](https://mermaid-js.github.io/mermaid/#/flowchart)
 
 ~~~gfm
-​```mermaid
+```mermaid
 graph LR
 A[Hard edge] -->B(Round edge)
     B --> C{Decision}
@@ -90,10 +90,10 @@ A[Hard edge] -->B(Round edge)
 
 ## Gantt
 
-see [this doc](https://knsv.github.io/mermaid/#gantt)
+see [this doc](https://mermaid-js.github.io/mermaid/#gantt)
 
 ~~~gfm
-​```mermaid
+```mermaid
 %% Example with selection of syntaxes
         gantt
         dateFormat  YYYY-MM-DD
@@ -126,4 +126,69 @@ see [this doc](https://knsv.github.io/mermaid/#gantt)
 ~~~
 
 ![Snip20160816_5](/media/diagrams/Snip20160816_5.png)
+
+## Class Diagram
+
+see [this doc](https://mermaid-js.github.io/mermaid/#/classDiagram)
+
+~~~gfm
+```mermaid
+classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
+~~~
+
+<img src="/media/new-80/Screen Shot 2019-11-27 at 23.17.54.png" alt="Screen Shot 2019-11-27 at 23.17.54" style="zoom:50%;" />
+
+## State Diagram
+
+see [this doc](https://mermaidjs.github.io/#/stateDiagram)
+
+~~~gfm
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+~~~
+
+<img src="/media/new-80/Screen Shot 2019-11-27 at 23.18.55.png" alt="Screen Shot 2019-11-27 at 23.18.55" style="zoom:50%;" />
+
+## Pie Chart
+
+~~~gfm
+```mermaid
+pie
+    title Pie Chart
+    "Dogs" : 386
+    "Cats" : 85
+    "Rats" : 150 
+```
+~~~
+
+<img src="/media/new-80/Screen Shot 2019-11-27 at 23.19.11.png" alt="Screen Shot 2019-11-27 at 23.19.11" style="zoom:50%;" />
 
