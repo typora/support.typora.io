@@ -9,13 +9,13 @@ typora-root-url: ../
 
 ## Change Themes
 
-Typora has 5~6 built-in themes. Changing writing theme can be done by selecting theme under the `theme` menu bar. You could also download, install, modify or write your own custom theme to stylize Typora.
+Typora has 6 built-in themes, which can be selected using under the **Themes menu** in the menu bar. You can also download, install, modify or write your own custom theme to stylize Typora.
 
-Typora uses CSS to style all contents, each theme under `theme` menu is one `.css` file under "Typora's theme folder". So, briefly speaking, you could add/modify themes by adding/modifying corresponding css files under "Typora's theme folder".
+Typora uses CSS to style everything. Each theme shown in the Themes menu is one `.css` file under "Typora's theme folder". So you can add/modify themes by adding/modifying corresponding css files under "Typora's theme folder".
 
 ## Naming Rule
 
-File naming rule for theme css: Do not use capitalized letters, and nonalphabet characters except `-`. Then please replace whitespace with `-`, and Typora will convert them to readable label in menu item. For example, for `my-first-typora-theme.css`, Typora will put an menu item “My First Typora Theme” under “Themes” menu.
+When writing your own theme, you need to use this file naming rule for theme css: do not use capitalized letters, and nonalphabet characters except `-`. Replace any whitespace with `-`, and Typora will convert them to a readable label in menu item. For example, for `my-first-typora-theme.css`, Typora will show “My First Typora Theme” under the “Themes” menu.
 
 ## Get Typora Themes
 
@@ -31,7 +31,7 @@ We have an official website [Typora Theme Gallery](http://theme.typora.io) for d
 
 ### macOS
 
-Open preference panel by <code>cmd+`</code>, then click "Open Theme Folder"
+Open the preference panel and click "Open Theme Folder" button.
 
 ![typora-preference-mac](/media/about-themes/Snip20160921_1.png)
 
@@ -43,13 +43,8 @@ Open preference panel from `File` → `Preference` from menubar, then click "Ope
 
 ## Modify Current Styles
 
-Sometimes, you may just want to change font family for all themes, or change font-color for headings for a specific themes. In this case, you do not need to copy/modify a whole exiting css file, just [Add Custom CSS](/Add-Custom-CSS/) is enough. In brief:
-
-- Create & write a `base.user.css` under theme folder, the css rules inside it will be applied to all themes.
-- Create & write a `{theme-css-name}.user.css` under theme folder, the css rules inside it will only be applied to theme file `{theme-css-name}.css`.
-
-Please note that the built-in CSS theme files will get overwritten completely on Typora update, so, write your custom css into `*.user.css`, instead of the existing files, this will prevent your modifications from being lost after update.
+Sometimes you may just want to change font family for all themes, or change font color for headings for specific themes. In this case, you do not need to copy/modify a whole exiting css file, instead [Add Custom CSS](/Add-Custom-CSS/) is enough.
 
 ## Writing My Own Theme
 
-Please refer to [Write Custom Theme for Typora](http://theme.typora.io/doc/Write-Custom-Theme/).
+Please see [Write Custom Theme for Typora](http://theme.typora.io/doc/Write-Custom-Theme/).

@@ -7,15 +7,15 @@ tags: [style]
 typora-root-url: ../
 ---
 
-> Some of following CSS style will work for latest version of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).
->
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> NOTE: Some of following CSS style will only work for recent versions of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).
 
-Personally, I don't recommend users to set a background for a text editor, but if you still want this, you could follow this article.
+> TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
-For example, add a notebook background for Typora. The image is taken from [here](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/), and be copied under the theme folder of Typora.
+Personally, I don't recommend users set a background for a text editor, but if you still want this, here's what to do.
 
-CSS code is like:
+For example, add a notebook background for Typora. (This free image is taken from [Fuzzimo](http://www.fuzzimo.com/free-seamless-textures-notebook-papers/), and is copied under the theme folder of Typora.)
+
+Use CSS code like:
 
 ```css
 content {
@@ -37,13 +37,11 @@ body {
 /**Other css may needed to adjust UI components**/
 ```
 
-The result is look like:
+The result is:
 
  ![Snip20160625_1](/media/background/Snip20160625_1.png)
 
 Another example:
-
-![Snip20160625_2](/media/background/Snip20160625_2.png)
 
 ```css
 content {
@@ -66,3 +64,6 @@ body {
 /**Other CSS to adjuest UI components*/
 ```
 
+Produces:
+
+![Snip20160625_2](/media/background/Snip20160625_2.png)

@@ -7,13 +7,13 @@ tags: [markdown, mermaid, flowchart, sequence]
 typora-root-url: ../
 ---
 
-Typora supports some Markdown extension for diagrams, you could enable this feature from preference panel. 
+Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel. 
 
 When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be included, but diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
 
-# Sequence
+# Sequence Diagrams
 
-It is powered by [js-sequence](https://bramp.github.io/js-sequence-diagrams/), which would turn following code block into rendered diagrams:
+This feature uses [js-sequence](https://bramp.github.io/js-sequence-diagrams/), which turns the following code block into a rendered diagram:
 
 ~~~gfm
 ```sequence
@@ -23,13 +23,13 @@ Bob-->Alice: I am good thanks!
 ​```
 ~~~
 
-![Snip20160816_1](/media/diagrams/Snip20160816_1.png)
+![js-sequence](/media/diagrams/js-sequence.png)
 
-Please refer [here](https://bramp.github.io/js-sequence-diagrams/#syntax) for syntax explanation.
+For more details, please see [this syntax explanation](https://bramp.github.io/js-sequence-diagrams/#syntax).
 
-# Flowchart
+# Flowcharts
 
-It is powered by [flowchart.js](http://flowchart.js.org/), which would turn following code block into rendered diagrams:
+This feature uses [flowchart.js](http://flowchart.js.org/), which turns the following code block into a rendered diagram:
 
 ~~~gfm
 ```flow
@@ -44,15 +44,15 @@ cond(no)->op
 ​```
 ~~~
 
-![Snip20160816_2](/media/diagrams/Snip20160816_2.png)
+![flowchart](/media/diagrams/flowchart.png)
 
 # Mermaid
 
-Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#/), which supports sequence, flowchart and Gantt.
+Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#/), which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts. 
 
-## Sequence
+## Sequence Diagrams
 
-see [this doc](https://mermaid-js.github.io/mermaid/#/sequenceDiagram)
+For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/sequenceDiagram).
 
 ~~~gfm
 ```mermaid
@@ -70,11 +70,11 @@ see [this doc](https://mermaid-js.github.io/mermaid/#/sequenceDiagram)
 ​```
 ~~~
 
-![Snip20160816_3](/media/diagrams/Snip20160816_3.png)
+![mermaid-sequence](/media/diagrams/mermaid-sequence.png)
 
-## Flowchart
+## Flowcharts
 
-see [this doc](https://mermaid-js.github.io/mermaid/#/flowchart)
+For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/flowchart).
 
 ~~~gfm
 ```mermaid
@@ -86,11 +86,11 @@ A[Hard edge] -->B(Round edge)
 ​```
 ~~~
 
-![Snip20160816_4](/media/diagrams/Snip20160816_4.png)
+![mermaid-flowchart](/media/diagrams/mermaid-flowchart.png)
 
-## Gantt
+## Gantt Charts
 
-see [this doc](https://mermaid-js.github.io/mermaid/#gantt)
+For more details see [these instructions](https://mermaid-js.github.io/mermaid/#gantt).
 
 ~~~gfm
 ```mermaid
@@ -125,11 +125,11 @@ see [this doc](https://mermaid-js.github.io/mermaid/#gantt)
 ​```
 ~~~
 
-![Snip20160816_5](/media/diagrams/Snip20160816_5.png)
+![mermaid-Gantt](/media/diagrams/mermaid-Gantt-chart.png)
 
-## Class Diagram
+## Class Diagrams
 
-see [this doc](https://mermaid-js.github.io/mermaid/#/classDiagram)
+For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/classDiagram).
 
 ~~~gfm
 ```mermaid
@@ -157,11 +157,11 @@ classDiagram
 ```
 ~~~
 
-<img src="/media/new-80/Screen Shot 2019-11-27 at 23.17.54.png" alt="Screen Shot 2019-11-27 at 23.17.54" style="zoom:50%;" />
+![class-diagram](/media/new-80/class-diagram.png)
 
-## State Diagram
+## State Diagrams
 
-see [this doc](https://mermaidjs.github.io/#/stateDiagram)
+For more details see [these instructions](https://mermaidjs.github.io/#/stateDiagram).
 
 ~~~gfm
 ```mermaid
@@ -176,9 +176,9 @@ stateDiagram
 ```
 ~~~
 
-<img src="/media/new-80/Screen Shot 2019-11-27 at 23.18.55.png" alt="Screen Shot 2019-11-27 at 23.18.55" style="zoom:50%;" />
+![state-diagram](/media/new-80/state-diagram.png)
 
-## Pie Chart
+## Pie Charts
 
 ~~~gfm
 ```mermaid
@@ -190,5 +190,4 @@ pie
 ```
 ~~~
 
-<img src="/media/new-80/Screen Shot 2019-11-27 at 23.19.11.png" alt="Screen Shot 2019-11-27 at 23.19.11" style="zoom:50%;" />
-
+![pie-chart](/media/new-80/pie-chart.png)

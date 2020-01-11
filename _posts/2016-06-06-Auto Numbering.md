@@ -8,18 +8,16 @@ tags: [style]
 typora-root-url: ../
 ---
 
-> About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
-This CSS snip will auto add numbering to all headings in your article, like this:
+### Auto-numbering in Article
+This method automatically adds numbering to all headings in your article, like this:
 
 ![1](/media/auto-numbering/1.png)
 
-## How to use:
-
-Add following to your base.user.css or [theme].user.css under theme folder.
+To achieve this, add the following to your base.user.css or [theme].user.css in the theme folder.
 
 ```css
-
 /** initialize css counter */
 #write {
     counter-reset: h1
@@ -104,10 +102,11 @@ h6.md-focus:before {
     line-height: inherit;
 }
 ```
-### Auto Numbering TOC
 
-If you want `TOC` entities also be auto-numbered, you could try [http://pastebin.com/NYugSbXk](http://pastebin.com/NYugSbXk) posted by a Typora user.
+### Auto-Numbering in TOC
 
-### Auto Numbering Outline panel.
+If you want `TOC` entities to be displayed auto-numbered, you could try [http://pastebin.com/NYugSbXk](http://pastebin.com/NYugSbXk) posted by a Typora user.
 
-Disable collapsable outline panel from preferences panel and try <https://pastebin.com/XmYgBbaz>.
+### Auto-Numbering Outline panel
+
+To show auto-numbering in Typora's Outline panel, disable the collapsable outline panel in the  preferences panel and then try <https://pastebin.com/XmYgBbaz>. <!-- It seems to work whether or not the preference for collapsible outline panel is set or not. -->

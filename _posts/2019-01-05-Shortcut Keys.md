@@ -11,15 +11,15 @@ typora-root-url: ../
 {:toc}
 ## Summary
 
-You could use shortcut keys to quickly insert or modify styles or do other operations supported by Typora.
+You can use shortcut keys to quickly insert or modify styles or do other operations supported by Typora.
 
-You could find shortcut keys in the right side of each menu items from menu bar.
+You can find shortcut keys in the right side of each menu items from menu bar.
 
 ## Frequently Used Shortcut Keys
 
 ### Autocomplete
 
-on macOS, you could press `Esc` key to open inline preview for inline math, auto-complete for emoji, etc.
+On macOS, you can press `Esc` key to open inline preview for inline math, auto-complete for emoji, etc.
 
 ### File
 
@@ -113,7 +113,7 @@ on macOS, you could press `Esc` key to open inline preview for inline math, auto
 
 ## Change Shortcut Keys
 
-User can set or reassign shortcut keys for commands in Typora's menu bar. This article will show how to customize Typora's key binding.
+Users can set or reassign shortcut keys for commands in Typora's menu bar. This article will shows how to do this.
 
 ### macOS
 
@@ -123,9 +123,9 @@ We use macOS's system feature to customize Typora's key binding on macOS.
 
    ![Snip20160814_1](/media/custom-key-binding/Snip20160814_1.png)
 
-2. Click the "+" button, a dialog sheet would pop up. Select "Typora.app" from field `Application`, then input the exact name of the menu command you want to add, and then input the shortcut key you want to assign.
+2. Click the "+" button, a dialog sheet would pop up. Select "Typora.app" from field `Application`, then enter the exact name of the menu command you want to add, and then type the shortcut key combination you want to assign.
 
-   For example, assume you want to add/change the shortcut key to pin Typora's window, you could fill the dialog like following:
+   For example, assume you want to add/change the shortcut key to pin Typora's window, you can fill the dialog box as follows:
 
    ![Snip20160814_5](/media/custom-key-binding/Snip20160814_5.png)
 
@@ -133,7 +133,7 @@ We use macOS's system feature to customize Typora's key binding on macOS.
 
 ### Windows / Linux
 
-*(Requires Typora ≥ v0.9.16)*
+> Tip: This requires a version of Typora ≥ v0.9.16.
 
 1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
 
@@ -149,9 +149,10 @@ We use macOS's system feature to customize Typora's key binding on macOS.
 
    ![sshot-2](/media/custom-key-binding/sshot-2.png)
 
-You could set or change shortcut keys for menu items in menu bar in native window style.
+You can set or change shortcut keys for menu items in the menu bar in native window style.
 
 #### Q: Shortcut keys does not work on Ubuntu
 
-Solution: Please check <https://help.ubuntu.com/community/KeyboardShortcuts> and <https://askubuntu.com/questions/208310/ctrl-a-doesnt-work-in-browsers>.
-
+For solutions to this problem please see:
+- <https://help.ubuntu.com/community/KeyboardShortcuts> and 
+- <https://askubuntu.com/questions/208310/ctrl-a-doesnt-work-in-browsers>.

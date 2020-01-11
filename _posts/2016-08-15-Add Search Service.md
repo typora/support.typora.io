@@ -7,25 +7,25 @@ tags: [search, contextmenu]
 typora-root-url: ../
 ---
 
-User can add custom search engine to extend functions shown in context menu.
+Users can add custom search engines to extend functions shown in context menu.
 
 ![Slice 2](/media/add-search-service/Slice 2.png)
 
 # macOS
 
-There is a system wide preference to change available search engines in context menu for most applications. You would find the settings here:
+There is a system-wide preference to change available search engines in the context menu for most applications:
 
 ![Snip20160815_11](/media/add-search-service/Snip20160815_11.png)
 
 # Windows
 
-*(Requires Typora ≥ v0.9.16)*
+*(This requires Typora ≥ v0.9.16)*
 
 1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)
 
-2. Open and edit `conf.user.json` from opened "File Explore". If there's no such file, create one.
+2. Open and edit `conf.user.json` from the "File Explorer". If there's no such file, create one.
 
 3. Modify or set following config into the `conf.user.json` file, `%s` will represent the selected text. for example:
 
@@ -45,4 +45,4 @@ There is a system wide preference to change available search engines in context 
      ]
    ```
 
-4. Restart Typora, options from `searchService` will be available in context menu.
+4. Restart Typora, and then the options from `searchService` will be available from the context menu.
