@@ -43,5 +43,5 @@ Note: `{current-theme}` in `{current-theme}.user.css` should be (case-sensitive)
 
 You could open Chrome/Safari DevTools to debug element styles.
 
-- On macOS, you could open `Safari`, and open DevTools from `Develop` -> `your device name` -> `Typora` -> `Typora` menu item.
+- On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybird edit view, then click "Inspect Elements" from context menu.
 - On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
