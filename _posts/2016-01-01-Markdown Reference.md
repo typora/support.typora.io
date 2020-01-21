@@ -92,7 +92,7 @@ You can change the complete/incomplete state by clicking on the checkbox before 
 
 Typora only supports fences in GitHub Flavored Markdown, not the original code block style.
 
-Using fences is easy: type  \`\`\` and press `return`. Add an optional language identifier after \`\`\` and |Typora runs it through syntax highlighting:
+Using fences is easy: type  \`\`\` and press `return`. Add an optional language identifier after \`\`\` and Typora runs it through syntax highlighting:
 
 ``` markdown
 Here's an example:
@@ -143,9 +143,11 @@ You can find more details [here](http://support.typora.io/Math/).
 
 ### Tables
 
+Standard Markdown has been extended in several ways to add table support., including by GFM. Typora supports this with a graphical interface, or writing the source code directly.
+
 Enter `| First Header  | Second Header |` and press the `return` key. This will create a table with two columns.
 
-After a table is created, putting focus on that table will open up a toolbar for the table where you can resize, align, or delete the table. You can also use the context menu to copy and add/delete individual columns/rows.
+After a table is created, placing the focus on that table will open up a toolbar for the table where you can resize, align, or delete the table. You can also use the context menu to copy and add/delete individual columns/rows.
 
 The full syntax for tables is described below, but it is not necessary to know the full syntax in detail as the markdown source code for tables is generated automatically by Typora.
 
@@ -174,7 +176,9 @@ A colon on the left-most side indicates a left-aligned column; a colon on the ri
 
 ### Footnotes
 
-You can create footnotes like this[^fn1] and this[^fn2].
+MultiMarkdown extends standard Markdown to provide two ways to add footnotes.
+
+You can create **reference footnotes** like this[^fn1] and this[^fn2].
 
 [^fn1]: Here is the *text* of the first **footnote**.
 [^fn2]: Here is the *text* of the second **footnote**.
@@ -188,7 +192,11 @@ You can create footnotes like this[^fn1] and this[^fn2].
 [^fn2]: Here is the *text* of the second **footnote**.
 ```
 
-Hover over the ‘fn’ superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
+Hover over the ‘fn1’ or 'fn2' superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
+
+Or you can create **inline footnotes**, like this^[Here is the *text* of the first **footnote**.] and this[Here is the *text* of the second **footnote**.].
+
+Hover over the footnote superscripts to see content of the footnote.
 
 ### Horizontal Rules
 
@@ -251,11 +259,11 @@ Then, anywhere in the document, you define your link label on a line by itself l
 [id]: http://example.com/  "Optional Title Here"
 ```
 
-<!-- In Typora, they will be rendered like so:
+In Typora, they will be rendered like so:
 
 This is [an example][id] reference-style link.
 
-[id]: http://example.com/	"Optional Title Here" -->
+[id]: http://example.com/	"Optional Title Here"
 
 The implicit link name shortcut allows you to omit the name of the link, in which case the link text itself is used as the name. Just use an empty set of square brackets — for example, to link the word “Google” to the google.com web site, you could simply write:
 
@@ -352,15 +360,15 @@ Use the `printf()` function.
 
 ### Strikethrough
 
-GFM adds syntax to create strikethrough text, which is missing from standard Markdown. <!-- Comment: The same goes for tables, footnotes etc. but you've not mentioned that then. -->
+GFM adds syntax to create strikethrough text, which is missing from standard Markdown.
 
 `~~Mistaken text.~~` becomes ~~Mistaken text.~~
 
 ### Emoji :happy:
 
-Enter emoji with syntax `:smile:`.
+Enter emoji with syntax `:smile:`. To make it easier, an auto-complete helper will pop up after typing `:` and the start of an emoji name.
 
-User can trigger auto-complete suggestions for emoji by pressing `ESC` key<!-- it doesn't for me -->, or trigger it automatically after enabling it on preference panel <!--where's that? -->. Also, entering UTF-8 emoji characters directly is also supported by going to `Edit` -> `Emoji & Symbols` in the menu bar.
+Entering UTF-8 emoji characters directly is also supported by going to `Edit` -> `Emoji & Symbols` in the menu bar.
 
 ### Inline Math
 

@@ -66,4 +66,4 @@ A quicker way to change font size is in the preferences panel. On macOS, "font s
 
 This option requires support from the theme(s) you use. If you are making a theme css, use `rem` as the font unit to make sure this option works.
 
-![2](/media/custom-font/2.png)
+<img alt="2" src="/media/custom-font/2.png" style="zoom:50%" />
