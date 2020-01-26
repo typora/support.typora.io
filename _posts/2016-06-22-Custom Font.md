@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Custom Font
+title: Custom Fonts
 author: typora.io
 category: how-to
 tags: [style, font]
@@ -8,7 +8,7 @@ typora-root-url: ../
 typora-copy-images-to: ../media/custom-font
 ---
 
-> For information about where to put the CSS files that are discussed below, please refer to [Add Custom CSS](/Add-Custom-CSS/).
+> TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
 Custom fonts in Typora are set by CSS. For example, appending the following in `base.user.css` under theme folder
 
@@ -18,11 +18,9 @@ body {
 }
 ```
 
-Would override the font setting in current theme, and apply the system font `Courier`, and make the editing area look like this: 
+would override the font setting in current theme, and apply the system font `Courier`, and make the editing area look like this: 
 
 ![1](/media/custom-font/1.png)
-
----
 
 You could also use a web font, for example:
 
@@ -34,9 +32,9 @@ body {
 }
 ```
 
-But to make the font faster when loading or use it when internet access is not available, we recommend you to download it and put under Typora's theme folder.
+> TIP: to make the font faster when loading or use it when internet access is not available, we recommend you download it and put under Typora's theme folder.
 
-For example, if you download the `woff2` file from google fonts and put them under the `[typora-theme-folder]/fonts` directory, then you could use CSS like:
+For example, if you download the `woff2` file from google fonts and put them under the `[typora-theme-folder]/fonts` directory, then use CSS like:
 
 ```css
 /* latin */
@@ -64,8 +62,8 @@ to apply the font.
 
 ## Change Font Size
 
-A quicker way to change font size is to do that in preferences panel. On macOS, "font size" is in "General" section of preferences panel. On Window/Linux, it is under "Appearance" section, you also use press <kbd>Ctrl+F</kbd> to search it in preferences panel.
+A quicker way to change font size is in the preferences panel. On macOS, "font size" is in "General" section of preferences panel. On Window/Linux, it is under "Appearance" section, you also use press <kbd>Ctrl+F</kbd> to search for it in preferences panel.
 
-This option requires support from themes you use. If you are making a theme css, use `rem` as font unit will make sure this option works.
+This option requires support from the theme(s) you use. If you are making a theme css, use `rem` as the font unit to make sure this option works.
 
-<img src="/media/custom-font/Screen Shot 2019-01-25 at 22.18.21.png" style="zoom:50%" />
+<img alt="2" src="/media/custom-font/2.png" style="zoom:50%" />

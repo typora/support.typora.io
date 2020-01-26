@@ -7,15 +7,12 @@ tags: [style]
 typora-root-url: ../
 ---
 
->  About where to put those CSS, please follow [Add Custom CSS](/Add-Custom-CSS/).
+> TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
-In Typora `[TOC]` will generate "Table of Contents", by default it will show headings from h1~h6. 
-
-To hide low level headings, for instance, `h6`, you would append CSS:
+In Typora `[TOC]` will generate "Table of Contents".  By default it will show headings from `h1` to `h6`. To hide lower level headings, for instance, `h6`, you would append this CSS:
 
 ```css
 .md-toc-h6 {
   display: none;
 }
 ```
-

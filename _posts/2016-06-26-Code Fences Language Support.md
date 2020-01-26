@@ -117,12 +117,11 @@ The latest version of Typora supports syntax highlight of following languages (i
 - stylus
 - COBOL
 
-Please note that the language you specify in <code>```{lang}</code> is case insensitive for Typora when choosing the corresponding syntax highlight.
-
+Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
 
 ### My language is not listed above...
 
-Typora uses CodeMirror for code fences with syntax highlight, so, if the language you want is not supported in Typora, you could:
+Typora uses [CodeMirror](http://codemirror.net/) for syntax highlighting in code fences, so if the language you want is not supported in Typora, please:
 
-1. Check whether the language is supported on <http://codemirror.net/mode/> or not, if so, send us an email, and we will add related support.
+1. Check whether the language is supported on <http://codemirror.net/mode/> or not. If it is, send us an email, and we will add  it.
 2. If the language is not supported on <http://codemirror.net/mode/>, please check <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> for adding syntax highlight on CodeMirror. After it is supported by CodeMirror, Typora will follow.

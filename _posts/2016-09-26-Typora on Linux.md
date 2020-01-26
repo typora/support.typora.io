@@ -7,6 +7,8 @@ tags: [linux, tutorial]
 typora-root-url: ../
 ---
 
+Installation instructions for different flavours of Linux.
+
 ## Debian/Ubuntu
 
 ```bash
@@ -66,9 +68,9 @@ Typora for Linux is tested only on Ubuntu. So, if you have a problem with other 
 
 ![screenshot](/media/typora-linux/screenshot.png)
 
-## Trouble Shooting
+## Troubleshooting
 
-### Common Solutions for Typora not Open
+### Common Solutions for Typora not opening
 
 **Make sure all the necessary dependencies are installed**. You can run `ldd typora | grep not` on a Linux machine to check which dependencies are missing. 
 
@@ -80,25 +82,25 @@ For following error:
 [8898:0620/213856.172363:FATAL:setuid_sandbox_host.cc(157)] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /usr/share/typora/chrome-sandbox is owned by root and has mode 4755.
 ```
 
-You could try `chmod 4755 /usr/share/typora/chrome-sandbox`
+Try `chmod 4755 /usr/share/typora/chrome-sandbox`
 
 See discussion in https://github.com/electron/electron/issues/17972
 
 #### Cannot open Typora binary "there is no application installed for shared library"
 
-When double click on Typora's binary file, Nautilus (file manager) cannot detect it as executable file. 
+When double clicking on Typora's binary file, Nautilus (file manager) doesn't run it, as I can't detect it as an executable file.
 
-This is caused by a Nautilus's bug, see discussions in https://github.com/electron/electron/issues/15406. You could either: install Typora via `deb` or `apt-get`, or run Typora from terminal (`./Typora`).
+This is caused by a Nautilus's bug, see discussions in https://github.com/electron/electron/issues/15406. You can either: install Typora via `deb` or `apt-get`, or run Typora from terminal (`./Typora`).
 
-#### Started Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6`
+#### Started Typora and got `version GLIBCXX_3.4.21 not defined in file libstdc++.so.6` error
 
-When  you start typora on Ubuntu 14.x, if following error happens: 
+When  you start Typora on Ubuntu 14.x, if following error happens: 
 
 ```
 /usr/share/typora/Typora: relocation error: /usr/share/typora/resources/app/node_modules/spellchecker/build/Release/spellchecker.node: symbol _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
 ```
 
-You could download the Debian of package libstdc++6 for Xenial at link http://packages.ubuntu.com/xenial/libstdc++6 and installed it using `dpkg -i` (reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
+then download the Debian of package libstdc++6 for Xenial at link http://packages.ubuntu.com/xenial/libstdc++6 and installed it using `dpkg -i` (reference: https://askubuntu.com/questions/777803/apt-relocation-error-version-glibcxx-3-4-21-not-defined-in-file-libstdc-so-6).
 
 #### [Ubuntu 14.04 ] typora: /lib/x86_64-linux-gnu/libdbus-1.so.3: no version information available (required by typora)
 
@@ -110,24 +112,23 @@ Try install `libgconf-2-4` first.
 
 #### NSS out-of-date
 
-If you recieve following error when launch Typora:
+If you recieve following error when launching Typora:
 
 ```
 [7465:7499:0911/174740.042852:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required. Please upgrade to the latest NSS, and if you still get this error, contact your distribution maintainer.
 Aborted
 ```
 
-You could:
-1. Ensure `xenial-security`updates are included in *Software & Updates*.
+then:
+1. Ensure `xenial-security` updates are included in *Software & Updates*.
 2. run `sudo apt-get update && sudo apt-get install libnss3`
 
-#### Malformed input, repository not added.
+#### Malformed input, repository not added
 
-You could add repository by:
+You can add a repository by:
 
 ```sh
 echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
 ```
 
-see discussion related in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
-
+see related discussion in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 

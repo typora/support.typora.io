@@ -11,7 +11,7 @@ When focus mode is enabled, the `<body>` dom will have class `on-focus-mode`, an
 
 Blocks that can contain `md-focus` class are blocks that cannot contain children blocks and will contain a `md-end-block` class. For instance, `<blockquote>` can contain children blocks like `<p>`, so it does not have `md-end-block` class, while `h1` would have that class. `md-focus-container` class will apply to `li` which contains a `.md-focus` block.
 
-So we can change styles under focus mode like:
+So we can change styles under focus mode in this way:
 
 ```scss
 /*Following are LESS code for better css structure*/
