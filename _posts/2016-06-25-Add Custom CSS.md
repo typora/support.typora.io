@@ -43,5 +43,5 @@ If you want to modify some CSS for **a specific theme**, for instance "Newsprint
 
 You can open Chrome/Safari DevTools to debug element styles.
 
-- On macOS, you can open `Safari`, and open DevTools from `Develop` -> `your device name` -> `Typora` -> `Typora` menu item.
-- On Windows/Linux, you can open DevTools from `View` -> `Toggle DevTools` menu item.
+- On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybird edit view, then click "Inspect Elements" from context menu.
+- On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
