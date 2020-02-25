@@ -12,6 +12,6 @@ The latest version of Typora supports macOS ≥ 10.13, for older macOS, 10.11 an
 You could find and download available working versions here:
 
 -   **macOS ≥ 10.13** [latest version](https://typora.io/download/Typora.dmg)
--   **macOS 10.11 and 10.12** [0.9.9.26.7 beta](https://typora.io/download/Typora-0.9.9.26.7.dmg)
--   **macOS 10.10** [0.9.9.25.3 beta](https://typora.io/download/Typora-0.9.9.25.3.dmg)
+-   **macOS 10.11 and 10.12** [0.9.9.26.7 beta](https://typora.io/download/Typora-0.9.9.26.7.dmg) (discontinued)
+-   **macOS 10.10** [0.9.9.25.3 beta](https://typora.io/download/Typora-0.9.9.25.3.dmg) (discontinued)
 

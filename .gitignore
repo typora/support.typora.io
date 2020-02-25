@@ -25,3 +25,4 @@ Thumbs.db
 
 # IntelliJ IDEA
 .idea/*
+.jekyll-cache
