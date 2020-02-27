@@ -15,6 +15,7 @@ jekyll-redirect-from: true
 markdown: kramdown
 kramdown:
   input: GFM
+  #
   # https://github.com/jekyll/jekyll/pull/4090
   # syntax_highlighter: rouge
 
