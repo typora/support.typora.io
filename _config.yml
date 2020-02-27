@@ -8,6 +8,9 @@ highlighter: null
 
 plugins:
   - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
+jekyll-redirect-from: true
 markdown: kramdown
 kramdown:
   input: GFM
