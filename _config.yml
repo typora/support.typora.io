@@ -6,6 +6,8 @@ permalink: /:title/
 
 highlighter: null
 
+plugins:
+  - jekyll-redirect-from
 markdown: kramdown
 kramdown:
   input: GFM
