@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Upload Images
-redirect_from: /upload-image/
+redirect_from: "/upload-image/"
 author: typora.io
 category: how-to
 tags: [image, upload, cloud]
