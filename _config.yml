@@ -1,5 +1,5 @@
 name: Typora Support
-url: https://themes.typora.io
+url: https://support.typora.io
 description: Docs, How-Tos, and FAQs for typora
 
 permalink: /:title/
@@ -11,6 +11,7 @@ plugins:
 whitelist:
   - jekyll-redirect-from
 jekyll-redirect-from: true
+
 markdown: kramdown
 kramdown:
   input: GFM
