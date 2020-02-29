@@ -221,29 +221,29 @@ If your Markdown files contains lots of local images, and you want to upload all
 
 # Troubleshooting
 
-**"Please set an image uploader in Preferences Panel before using this function."**
+- **"Please set an image uploader in Preferences Panel before using this function."**
 
-In order to make "image upload" functional, you must set an image uploader in Preferences Panel following the [configuration](#configuration) section,
+  In order to make "image upload" functional, you must set an image uploader in Preferences Panel following the [configuration](#configuration) section,  
 
-**Image Upload Failed**
+- **Image Upload Failed**
 
-When upload image failed, Typora will print the error message when calling the 3rd app you configured as image upload provider. You could find the cause from the error message.
+  When upload image failed, Typora will print the error message when calling the 3rd app you configured as image upload provider. You could find the cause from the error message.
 
-If you cannot know the cause, you could try validate the image upload option by clicking the "Test Uploader" button in preferences panel, and if it success or not. Also, you may try if you upload images using those app without Typora, and check if it can succeed or not.
+  If you cannot know the cause, you could try validate the image upload option by clicking the "Test Uploader" button in preferences panel, and if it success or not. Also, you may try if you upload images using those app without Typora, and check if it can succeed or not.
 
-If you find those app cannot upload images successfully, you could contact to their maintainer for further support. 
+  If you find those app cannot upload images successfully, you could contact to their maintainer for further support. 
 
-**Garbled console output on Windows**
+- **Garbled console output on Windows**
 
-If you use, custom command, and after clicking "Test Uploader" button in preferences panel, and its console output is Garbled characters, you may try to force the process to use UTF8 encoding, by prepending `@chcp 65001 >nul & cmd /d/s/c ` before your custom command.
+  If you use, custom command, and after clicking "Test Uploader" button in preferences panel, and its console output is Garbled characters, you may try to force the process to use UTF8 encoding, by prepending `@chcp 65001 >nul & cmd /d/s/c ` before your custom command.
 
-**[PicGo ERROR]: Error: API v1 is deprecated, please refer to https://doc.sm.ms/ for v2 API documentation.**
+- **[PicGo ERROR]: Error: API v1 is deprecated, please refer to https://doc.sm.ms/ for v2 API documentation.**
 
-It is caused by PicGo's support issue of its default image hosting service: sm.ms, please refer [PicGo/PicGo-Core#30](https://github.com/PicGo/PicGo-Core/issues/30), or use other image service other than the default one
+  It is caused by PicGo's support issue of its default image hosting service: sm.ms, please refer [PicGo/PicGo-Core#30](https://github.com/PicGo/PicGo-Core/issues/30), or use other image service other than the default one
 
-**Fail to parse result image path from**
+- **Fail to parse result image path from**
 
-Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
+  Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
 
 # Migration from older Typora version
 
