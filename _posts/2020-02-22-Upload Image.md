@@ -237,6 +237,14 @@ If you find those app cannot upload images successfully, you could contact to th
 
 If you use, custom command, and after clicking "Test Uploader" button in preferences panel, and its console output is Garbled characters, you may try to force the process to use UTF8 encoding, by prepending `@chcp 65001 >nul & cmd /d/s/c ` before your custom command.
 
+**[PicGo ERROR]: Error: API v1 is deprecated, please refer to https://doc.sm.ms/ for v2 API documentation.**
+
+It is caused by PicGo's support issue of its default image hosting service: sm.ms, please refer [PicGo/PicGo-Core#30](https://github.com/PicGo/PicGo-Core/issues/30), or use other image service other than the default one
+
+**Fail to parse result image path from**
+
+Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
+
 # Migration from older Typora version
 
 In older version of Typora on macOS, we only provide the integration with "ipic". So if your older Markdown document contains
