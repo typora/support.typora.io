@@ -26,7 +26,9 @@ For critical bugs, like crash, or content loss, the log file may be helpful. You
 
 - **macOS**
 
-  Open `Console.app` and type "typora" in the search input
+  Open `Console.app` and type "typora" in the search input.
+
+  Or see [details here](/Get-Logs/).
 
 - **Windows**
 
