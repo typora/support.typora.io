@@ -23,6 +23,10 @@ You could open spellcheck panel by click `Edit` → `Spell Check…` from menu, 
 
 You could change the default spell check language or disable spell check by clicking “Global Setting…“ from the spell check panel or find it directly in preferences panel.
 
+## Windows 10
+
+On Windows 10, Typora may use the system built-in spellchecker, you could enable "Highlight misspelled words" in Windows Settings → Devices → Typing.
+
 ## Install Missing Dictionaries
 
 When you saw the warning icon on your status bar like following, it properly means that extra components are required to download in order to support spell check for target language.
