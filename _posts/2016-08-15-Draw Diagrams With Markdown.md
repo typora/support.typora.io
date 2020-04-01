@@ -48,7 +48,7 @@ cond(no)->op
 
 # Mermaid
 
-Typora also has integration with [mermaid](https://knsv.github.io/mermaid/#/), which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts. 
+Typora also has integration with [mermaid](https://mermaid-js.github.io/mermaid/#/), which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts. 
 
 ## Sequence Diagrams
 
