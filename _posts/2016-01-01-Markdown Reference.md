@@ -10,7 +10,7 @@ typora-root-url: ../
 
 ## Overview
 
-**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** uses [GitHub Flavored Markdown][GFM].
+**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** try to follow [GitHub Flavored Markdown][GFM], but may still have small incompatibilities.
 
 * Outline
 {:toc}
