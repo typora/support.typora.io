@@ -64,7 +64,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 1. We will notify You of any available Updates and upgrades.
 2. You will be entitled to receive Updates free of charge for unless it is a Major Update. 
 3. For a major update, You may need to pay an additional fee in order to be able to download an upgrade. The payment policy for major update will be announced by us when the upgrades are ready.
-4. After you upgrade from Beta version to Stable version, if no License key are provided, you would start using Trail Version automatically.
+4. After you upgrade from Beta version to Stable version, if no License key are provided, you would start using Trial Version automatically.
 5. You could upgrade or downgrade Typora as you like, but we will delete older versions from our website after a long time period or we find it contains serious bugs.
 6. Any maintenance and support provided by us, including the provision of Updates and upgrades, will be provided in an adequate way on an “as is” basis without any warranty, as soon as reasonably practicable, subject to availability of personnel.
 

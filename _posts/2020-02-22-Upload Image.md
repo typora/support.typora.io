@@ -183,6 +183,10 @@ Then Typora will get the two remote image url from the output, and replace the o
 
 You could click the "Test Uploader" button to verify your custom commands.
 
+#### Use current filename / filepath in custom commands
+
+You can use `${filename}` and `${filepath}` in your custom commands, they will be replace as the current markdown file name and current file path. For "untitled" files that have not been saved on your disk, they will be empty strings.
+
 ## Upload Automatically When Insert Images
 
 #### Global Setting
@@ -244,6 +248,10 @@ If your Markdown files contains lots of local images, and you want to upload all
 - **Fail to parse result image path from**
 
   Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
+
+- **EPERM: operation not permitted mkdir "\*\*/upload"**
+
+  This should be fixed in 0.9.87, please upgrade Typora.
 
 # Migration from older Typora version
 

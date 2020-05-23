@@ -25,7 +25,7 @@ You could change the default spell check language or disable spell check by clic
 
 ## Windows 10
 
-On Windows 10, Typora may use the system built-in spellchecker, you could enable "Highlight misspelled words" in Windows Settings → Devices → Typing.
+On Windows 10, Typora may use the system built-in spellchecker, you could enable "Highlight misspelled **words**" in Windows Settings → Devices → Typing.
 
 ## Install Missing Dictionaries
 
