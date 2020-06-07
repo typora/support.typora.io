@@ -108,7 +108,7 @@ On macOS, you can press `Esc` key to open inline preview for inline math, auto-c
 | Actual Size                     | Ctrl + Shift + 0       | *(Not Supported)*     |
 | Zoom In                         | Ctrl + Shift + =       | *(Not Supported)*     |
 | Zoom Out                        | Ctrl + Shift + -       | *(Not Supported)*     |
-| Switch Between Opened Documnets | Ctrl + Tab             | Command + `           |
+| Switch Between Opened Documents | Ctrl + Tab             | Command + `           |
 | Toggle DevTools                 | Ctrl + Shift + I       | -                     |
 
 ## Change Shortcut Keys
