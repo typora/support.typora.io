@@ -194,8 +194,6 @@ You can create footnotes like this[^fn1] and this[^fn2].
 
 Hover over the ‘fn1’ or 'fn2' superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
 
-Or you can create **inline footnotes**, like this^[Here is the *text* of the first **footnote**.] and this[Here is the *text* of the second **footnote**.].
-
 Hover over the footnote superscripts to see content of the footnote.
 
 ### Horizontal Rules
