@@ -7,11 +7,19 @@ tags: [style]
 typora-root-url: ../
 ---
 
-When focus mode is enabled, the `<body>` dom will have class `on-focus-mode`, and focused block level elements will have class `md-focus`. 
+**TL;DR**
 
-Blocks that can contain `md-focus` class are blocks that cannot contain children blocks and will contain a `md-end-block` class. For instance, `<blockquote>` can contain children blocks like `<p>`, so it does not have `md-end-block` class, while `h1` would have that class. `md-focus-container` class will apply to `li` which contains a `.md-focus` block.
+You can simplify change the text color in unfocused paragraph by adding following css:
 
-So we can change styles under focus mode in this way:
+```css
+:root {
+  --blur-text-color: #FFF;
+}
+```
+
+--------------------
+
+If you want more advanced styling config, you can follow following:
 
 ```scss
 /*Following are LESS code for better css structure*/
@@ -60,3 +68,7 @@ So we can change styles under focus mode in this way:
  
 }
 ```
+
+Please note that when focus mode is enabled, the `<body>` dom will have class `on-focus-mode`, and focused block level elements will have class `md-focus`. 
+
+Blocks that can contain `md-focus` class are blocks that cannot contain children blocks and will contain a `md-end-block` class. For instance, `<blockquote>` can contain children blocks like `<p>`, so it does not have `md-end-block` class, while `h1` would have that class. `md-focus-container` class will apply to `li` which contains a `.md-focus` block.
