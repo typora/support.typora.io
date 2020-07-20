@@ -11,23 +11,37 @@ typora-root-url: ../
 
 ## Localization Contributors
 
-- Simplified Chinese by [abnerlee](https://github.com/abnerlee), [NoDotCat](https://github.com/NoDotCat), [HowardTangHw](https://github.com/HowardTangHw),  [Emphasia](https://github.com/Emphasia)
-- Traditional Chinese by [cyberrob](https://github.com/cyberrob)
-- Polish by  [iriusturar](https://github.com/iriusturar)
-- Korean by  [ryush00](https://github.com/ryush00),  [marigold9124](https://github.com/marigold9124), [vreality64](https://github.com/vreality64), [yuririri](https://github.com/yuririri), [Third9](https://github.com/Third9)
+- Simplified Chinese by [abnerlee](https://github.com/abnerlee), [NoDotCat](https://github.com/NoDotCat), [HowardTangHw](https://github.com/HowardTangHw),  [Emphasia](https://github.com/Emphasia), [DHclly](https://github.com/DHclly), [Mornwind](https://github.com/Mornwind), [iamtwz](https://github.com/iamtwz)
+- Traditional Chinese by [cyberrob](https://github.com/cyberrob), [pan93412](https://github.com/pan93412), [Meowcolm024](https://github.com/Meowcolm024), [ralphchung](https://github.com/ralphchung), [pjchender](https://github.com/pjchender), [anemology](https://github.com/anemology)
+- Polish by  [iriusturar](https://github.com/iriusturar), [Vegebutcher](https://github.com/Vegebutcher)
+- Korean by  [ryush00](https://github.com/ryush00),  [marigold9124](https://github.com/marigold9124), [vreality64](https://github.com/vreality64), [yuririri](https://github.com/yuririri), [Third9](https://github.com/Third9), [ksundong](https://github.com/ksundong), [zfanta](https://github.com/zfanta), [cozyplanes](https://github.com/cozyplanes)
 - Italian by  [starise](https://github.com/starise), [jethro17](https://github.com/jethro17) 
-- Spanish by  [thepiratejester](https://github.com/thepiratejester), [rgomez90](https://github.com/rgomez90)
-- French by [MOrdinateur](https://github.comMOrdinateur)
+- Spanish by  [thepiratejester](https://github.com/thepiratejester), [rgomez90](https://github.com/rgomez90), [iiiGerardoiii](https://github.com/iiiGerardoiii)
+- French by [MOrdinateur](https://github.com/MOrdinateur), [cnovel](https://github.com/cnovel), [m0wh](https://github.com/m0wh)
 - Russian by [dragomano](https://github.com/dragomano)
-- Japanese by [tomochan001](https://github.com/tomochan001), [gageas](https://github.com/gageas)
-- Portuguese (Brazil) by [akz92](https://github.com/akz92) 
-- German by [rcvd](https://github.com/rcvd), Gert
-- Czech by [byDave251](https://github.com/byDave251), [psimacek](https://github.com/byDave251)
+- Japanese by [tomochan001](https://github.com/tomochan001), [gageas](https://github.com/gageas), [7ma7X](https://github.com/7ma7X), [shuuji3](https://github.com/shuuji3), [ScratchBuild](https://github.com/ScratchBuild)
+- Portuguese (Brazil) by [akz92](https://github.com/akz92), [dgsnunes](https://github.com/dgsnunes) 
+- German by [rcvd](https://github.com/rcvd), Gert Massheimer, [Indeximal](https://github.com/Indeximal), [tobiasvonarx](https://github.com/tobiasvonarx) 
+- German (Switzerland) by [Indeximal](https://github.com/Indeximal)
+- Czech by [byDave251](https://github.com/byDave251), [psimacek](https://github.com/psimacek), [AlexKratky](https://github.com/AlexKratky), [bydavenet](https://github.com/bydavenet), [petrsvag](https://github.com/petrsvag)
 - Greek by [kiriakosv](https://github.com/kiriakosv)
-- Croatian by [diomed](https://github.com/diomed)
+- Croatian by [diomed](https://github.com/diomed), [hrvoj3e](https://github.com/hrvoj3e)
 - Hungarian by [mocsa](https://github.com/mocsa)
-- Portuguese (Portugal) by [camilo93](https://github.com/jcamilo93)
+- Portuguese (Portugal) by [jcamilo93](https://github.com/jcamilo93)
 - Galician by [nunhes](https://github.com/nunhes)
+- Indonesia by [snatalius](https://github.com/snatalius)
+- Vietnamese by [1234hdpa](https://github.com/1234hdpa)
+- Swedish by [Sandskär](https://github.com/passar), [FelixZY](https://github.com/FelixZY)
+- Swiss German by [Indeximal](https://github.com/Indeximal)
+- Catalan by [jmigual](https://github.com/jmigual)
+- Danish by [archfrog](https://github.com/archfrog)
+- Persian by [sadra](https://github.com/sadra)
+- Indonesian by [snatalius](https://github.com/snatalius)
+- Dutch by Melle Dijkstra, [vidavidorra](https://github.com/vidavidorra)
+- Slovak by Petr Mátl
+- Ukrainian by [oleksavyshnivsky](https://github.com/oleksavyshnivsky)
+- Persian by [sadra](https://github.com/sadra)
+- Turkish by Xanrer Kazuki
 
 ## 3rd Party Libraries / Icons
 
@@ -318,7 +332,3 @@ Icon made by [vaadin](https://vaadin.com/icons), [CC3.0](https://creativecommons
 ### [Sentry](https://github.com/getsentry)
 
 [BSD 3-Clause License](https://github.com/getsentry/sentry-javascript/blob/master/LICENSE)
-
-### [Countly](https://github.com/Countly)
-
-[MIT License](https://github.com/Countly/countly-sdk-ios/blob/master/LICENSE.md)
