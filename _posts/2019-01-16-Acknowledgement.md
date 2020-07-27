@@ -41,7 +41,7 @@ typora-root-url: ../
 - Slovak by Petr Mátl
 - Ukrainian by [oleksavyshnivsky](https://github.com/oleksavyshnivsky)
 - Persian by [sadra](https://github.com/sadra)
-- Turkish by Xanrer Kazuki
+- Turkish by Bilgenur Üçgül, Alisalih Üçgül
 
 ## 3rd Party Libraries / Icons
 
