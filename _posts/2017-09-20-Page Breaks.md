@@ -27,8 +27,8 @@ Headings from the third `###` to sixth `######` level have no alternate underlin
 and yield HTML elements `<h3>` through `<h6>`, respectively.
 
 To add automatic pagination before headings,
-open the [themes folder](About-Themes/), 
-and edit the [respective CSS file](Add-Custom-CSS/). 
+open the [themes folder](../About-Themes/), 
+and edit the [respective CSS file](../Add-Custom-CSS/). 
 
 ~~~~ css
 @media print, (overflow-block: paged) or (overflow-block: optional-paged)
@@ -100,7 +100,7 @@ Markdown continues.
 ### HTML and Central CSS
 
 If manual page breaks are needed frequently,
-it makes more sense to use an [external stylesheet](Add-Custom-CSS/)
+it makes more sense to use an [external stylesheet](../Add-Custom-CSS/)
 for better maintenance and less clutter.
 
 ~~~~ markdown
@@ -170,7 +170,7 @@ after the final break.
 <p>after the final break.</p>
 ~~~~
 
-The only thing required is [some custom CSS](Add-Custom-CSS/).
+The only thing required is [some custom CSS](../Add-Custom-CSS/).
 
 ~~~~ css
 @media print, (overflow-block: paged) or (overflow-block: optional-paged)
