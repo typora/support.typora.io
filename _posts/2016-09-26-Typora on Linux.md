@@ -55,6 +55,13 @@ sudo apt-get update
 sudo apt-get install typora
 ```
 
+## Download deb file manually
+
+You can also manually download and install the deb package file, following those steps:
+
+1. The `deb` file is located at `https://typora.io/linux/typora_${version}_amd64.deb`, for example: `https://typora.io/linux/typora_0.9.96_amd64.deb`. Just downlad the deb installer at that url.
+2. Double click the deb file to start intsall on Ubuntu / Debian.
+
 ## Other Distributions
 
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
