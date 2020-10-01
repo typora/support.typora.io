@@ -1,4 +1,4 @@
-# Typora Wiki Website
+# Typora Wiki Website - An Amazing Project
 
 <http://support.typora.io>
 
