@@ -2,7 +2,7 @@
 
 <http://support.typora.io>
 
-Knowledge base for Typora, as well as examples of using Typora with static site generators like Jekyll.
+This website is the knowledge for Typora, as wll as examples of using Typora with static site generators like Jekyll
 
 Jekyll theme forked from [jekyllthemes](https://github.com/mattvh/jekyllthemes/) and [jekyllDecent](https://github.com/jwillmer/jekyllDecent), MIT License.
 
