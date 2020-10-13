@@ -12,7 +12,7 @@ typora-copy-images-to: ../media/version-control
 
 On macOS, Typora integrates with the native version control function powered by the operation system.
 
-You could simply choose `File` > `Revert To` > `Browse All Versions` from main menu to browse and revert to certain version. More detail can be found [here](https://support.apple.com/kb/PH25757?viewlocale=en_US&locale=en_US).
+You could simply choose `File` > `Revert To` > `Browse All Versions` from main menu to browse and revert to certain version. More detail can be found [here](https://support.apple.com/guide/mac-help/mh40710/mac).
 
 ![Snip20170228_6](/media/version-control/Snip20170228_6.png)
 
