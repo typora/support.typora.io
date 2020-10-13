@@ -35,6 +35,8 @@ Open the preference panel and click "Open Theme Folder" button.
 
 ![typora-preference-mac](/media/about-themes/Snip20160921_1.png)
 
+On macOS, usually it is `/Users/{username}/Library/Application Support/abnerworks.Typora/themes/whitey.css`.
+
 ### Windows/Linux
 
 Open preference panel from `File` → `Preference` from menubar, then click "Open Theme Folder":
