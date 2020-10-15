@@ -10,6 +10,8 @@ typora-copy-images-to: ../media/custom-font
 
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
+## Change Font
+
 Custom fonts in Typora are set by CSS. For example, appending the following in `base.user.css` under theme folder
 
 ```css
@@ -67,3 +69,32 @@ A quicker way to change font size is in the preferences panel. On macOS, "font s
 This option requires support from the theme(s) you use. If you are making a theme css, use `rem` as the font unit to make sure this option works.
 
 <img alt="2" src="/media/custom-font/2.png" style="zoom:50%" />
+
+## Change Font for Souce Code Mode
+
+You can use 
+
+```css
+#typora-source {
+  font-family: monospace;
+  font-size: inherit.
+  --monospace: monospace; /* for code blocks and inline code inside source code mode */
+}
+```
+
+to change font for source code mode.
+
+## Change Font for Code Blocks
+
+```css
+body {
+  --monospace: monospace /* for all code blocks, inline code, and source code mode */
+}
+
+// or
+
+#md-fences {
+  /* for code block only */
+}
+```
+
