@@ -56,7 +56,7 @@ By default, Typora will **Preserve sequential whitespace in editing view and ign
 If you do want to insert sequential whitespace that Other markdown engines support, you could
 
 - Escape whitespace, input `\` before every whitespace
-- Use HTML entity `&nbps;`.
+- Use HTML entity `&nbsp;`.
 
 ## `Enter` key in Typora
 
