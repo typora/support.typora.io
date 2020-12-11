@@ -13,6 +13,14 @@ Typora has 6 built-in themes, which can be selected using under the **Themes men
 
 Typora uses CSS to style everything. Each theme shown in the Themes menu is one `.css` file under "Typora's theme folder". So you can add/modify themes by adding/modifying corresponding css files under "Typora's theme folder".
 
+## Use Themes Under Light Mode and Dark Mode
+
+You can set separate themes for light mode and dark mode (on macOS / Windows). When the system’s color scheme changed, the corresponvsinf theme you chose will be applied.
+
+<img src="/media/new-97/Screen Shot 2020-12-05 at 17.01.49.png" alt="Screen Shot 2020-12-05 at 17.01.49" style="zoom:50%;" />
+
+Your theme can also use media query for [prefers color scheme](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme) to write a responsive theme for both light mode and dark mode.
+
 ## Naming Rule
 
 When writing your own theme, you need to use this file naming rule for theme css: do not use capitalized letters, and nonalphabet characters except `-`. Replace any whitespace with `-`, and Typora will convert them to a readable label in menu item. For example, for `my-first-typora-theme.css`, Typora will show “My First Typora Theme” under the “Themes” menu.
@@ -20,6 +28,8 @@ When writing your own theme, you need to use this file naming rule for theme css
 ## Get Typora Themes
 
 We have an official website [Typora Theme Gallery](http://theme.typora.io) for designers/developers to share their custom themes with others. You can download themes from there.
+
+<img src="/media/new-97/Screen Shot 2020-12-05 at 22.09.28.png" alt="Screen Shot 2020-12-05 at 22.09.28" style="zoom:50%;" />
 
 ## Custom Themes Installation
 
