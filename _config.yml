@@ -36,6 +36,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       cover_img: "http://typora.io/img/twitter-sum.png"
-      twitter_card: summary
+      twitter_card: "summary"
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
