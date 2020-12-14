@@ -9,7 +9,11 @@
   <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:url" content="{{ page.url }}">
   <meta name="twitter:description" content="{{ content | strip_html | truncatewords: 100 }}">
-  <meta name="twitter:image:src" content="{{ page.cover_img | default: http://typora.io/img/twitter-sum.png}}">
+  <meta name="twitter:image:src" content="{{ page.cover_img }}">
+  <meta property="og:url" content="{{ page.url }}" />
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:description" content="{{ content | strip_html | truncatewords: 100 }}" />
+  <meta name="og:image" content="{{ page.cover_img }}">
 
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <!--link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield%7CMerriweather:300italic,700,300,700italic%7COpen+Sans:400,700" rel="stylesheet" type="text/css">

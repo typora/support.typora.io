@@ -30,5 +30,11 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      cover_img: "http://typora.io/img/twitter-sum.png"
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
