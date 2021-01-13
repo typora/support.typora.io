@@ -48,7 +48,7 @@ Typora is a documented-base app, so for macOS, the system provides built-in func
 
 For example, you can use command + click on titlebar to quickly open parent folders of current file in Typora (and in other macOS app as well):
 
-<video src="/media/macOS/titlebar.mp4"> </video>
+<video src="/media/macOS/titlebar.mp4" controls style="width:100%"> </video>
 
 ### Version Control and Recovery
 
@@ -92,7 +92,7 @@ You can config them under system preferences.
 
 After config, text substitution will be working in Typora. For features like smart dashes, smart quote and text replacement, you can also enable / disable them from Typora’s `Edit` → `Substitutions` menu.
 
-<video src="/media/macOS/Screen Recording 2020-12-07 at 00.07.54.mov"> </video>
+<video src="/media/macOS/Screen Recording 2020-12-07 at 00.07.54.mov" style="width:100%" controls> </video>
 
 ### Services
 
