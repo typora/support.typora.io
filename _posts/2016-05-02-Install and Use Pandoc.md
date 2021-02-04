@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Install and Use Pandoc
-category: basic
+category: how-to
 author: typora.io
 tags: [pandoc, tutorial, docx]
 typora-root-url: ../
