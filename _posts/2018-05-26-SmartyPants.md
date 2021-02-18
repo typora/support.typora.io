@@ -69,5 +69,5 @@ When **Convert on Input** is enabled, this option will also be enabled automatic
 
 Typora does **not** support further text replament rules (e.g: `->` to `→`, or `(C)` to `©`) out of the box. To do this:
 
-- On macOS, we recommand you to do settings in `System Preferences` → `Keyboard` → `Text`. And enable "Text Replacement" in Typora's menu. Then Typora can use your text replacement rules.
+- On macOS, we recommend you to do settings in `System Preferences` → `Keyboard` → `Text`. And enable "Text Replacement" in Typora's menu. Then Typora can use your text replacement rules.
 - On Windows/Linux, we recommand you to use 3rd party apps for the configuration of text replacement. You could choose from [this list](https://alternativeto.net/software/textexpander/).
