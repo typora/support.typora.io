@@ -49,6 +49,10 @@ A table must have table headers and at least one row and one column.
 
 Press `Command/Ctrl+Enter` to quickly insert an empty row under the current table row, or use the Context menu (right click).
 
+In newer version, you can just add rows by pressing “Tab Key”.
+
+<img src="/media/new-10/CleanShot 2021-04-05 at 23.43.07.gif" alt="CleanShot 2021-04-05 at 23.43.07" style="zoom:50%;" />
+
 ### Delete Row in Table
 
 The delete line command or delete table row (Shift+Ctrl+L or Shift+Command+L on macOS) will delete current table row in a table, or use the Context menu (right click).

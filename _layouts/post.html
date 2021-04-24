@@ -30,7 +30,7 @@
   <link rel='icon' href='/assets/img/favicon-64.png' sizes='64x64'>
   <link rel='icon' href='/assets/img/favicon-128.png' sizes='128x128'>
   <script>
-  if (window.location.protocol != "https:"){
+  if (window.location.host.indexOf("typora.io") > -1 && window.location.protocol != "https:"){
       window.location.protocol = "https";
   }
   </script>
@@ -147,7 +147,9 @@
     <h1>{{ page.title }}</h1>
     <section class="post-meta">
     <time>{{ page.date | date: "%B %e, %Y" }}</time>
+    {% if page.author %}
     by
+    {% endif %}
     <span>{{ page.author }}</span>
     </section>
   </header>
@@ -163,6 +165,19 @@
   <footer id="post-footer" style="background-color: rgb(51, 51, 51); padding-top:50px; padding-bottom:50px; text-align:center;font-size:13px;">
       hosted on <a href="https://github.com/typora/wiki-website">Github</a>.
   </footer>
+  <script>
+    var backBtn = document.querySelector("#title-bar-feature-btn");
+    if(backBtn) {
+      backBtn.onclick = function(event){
+        if(window.history.length > 1 && 
+          document.referrer.indexOf(window.location.host) !== -1) {
+            console.log(" window.history.back")
+            event.preventDefault();
+            window.history.back();
+        }
+      }
+    }
+  </script>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

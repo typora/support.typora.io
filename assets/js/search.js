@@ -194,7 +194,7 @@ function fetchStore(){
 
 function bindSearchEvents(){
   var input = document.querySelector("#search-box");
-  input.addEventListener("keyup", function(e){
+  input && input.addEventListener("keyup", function(e){
     if(e.keyCode == 13) {
       searchTerm = input.value.replace(/\n/g, ' ').trim();
       if(history.pushState) {

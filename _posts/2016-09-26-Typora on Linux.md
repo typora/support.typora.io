@@ -139,3 +139,7 @@ echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
 ```
 
 see related discussion in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
+#### Shortcut for Heading 5 is not working
+
+Please check if you uses fcitx (e.g. for typing Chinese)? `Ctrl + 5` is the global shortcut key for fcitx to reload its config. Deleting that global shortcut should make ctrl+5 work in Typora. (Thanks to https://github.com/typora/typora-issues/issues/867#issuecomment-647082881).
+

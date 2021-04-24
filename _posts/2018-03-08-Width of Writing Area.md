@@ -5,6 +5,7 @@ author: typora.io
 category: how-to
 tags: [style]
 typora-root-url: ../
+typora-copy-images-to: ../media/width
 ---
 
 > Some of following CSS style will work for latest version of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).
@@ -27,4 +28,8 @@ To change the width of source code mode:
   max-width: auto; /*or 1000px*/
 }
 ```
+
+| width                                                        | narrow                                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![Screen Shot 2021-04-19 at 22.57.29](/media/width/Screen Shot 2021-04-19 at 22.57.29.png) | ![Screen Shot 2021-04-19 at 22.57.58](/media/width/Screen Shot 2021-04-19 at 22.57.58.png) |
 

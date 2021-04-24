@@ -9,7 +9,7 @@ typora-root-url: ../
 
 TL;DR:
 
-Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v1.16), please download and run the installer from **[Pandoc Download Page](https://github.com/jgm/pandoc/releases/latest)**.
+Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v1.16), please download and run the installer from **[Pandoc Dsownload Page](https://github.com/jgm/pandoc/releases/latest)**.
 
 You may need to restart Typora after install Pandoc if you receive an error that Typora cannot find Pandoc.
 
@@ -22,8 +22,6 @@ In Typora, import function and export function for some file formats (including 
 Please note that installation of Pandoc is optional for Typora, if you do not need advanced import/export support in Typora, then you do not have to install Pandoc on your computer.
 
 This document will show how to install Pandoc and use Typora with Pandoc for full import/export functions.
-
-
 
 ## What is Pandoc
 

@@ -5,7 +5,11 @@ category: basic
 author: typora.io
 tags: [markdown, mermaid, flowchart, sequence]
 typora-root-url: ../
+typora-copy-images-to: ../media/diagrams
 ---
+
+* Outline
+{:toc}
 
 Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel. 
 
@@ -20,12 +24,24 @@ This feature uses [js-sequence](https://bramp.github.io/js-sequence-diagrams/), 
 Alice->Bob: Hello Bob, how are you?
 Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
-​```
+```
 ~~~
 
-![js-sequence](/media/diagrams/js-sequence.png)
+<img src="/media/diagrams/js-sequence.png" alt="js-sequence" style="zoom:50%;" />
 
 For more details, please see [this syntax explanation](https://bramp.github.io/js-sequence-diagrams/#syntax).
+### Sequence Diagrams Options
+
+You could change CSS variable `--sequence-theme` to set theme for sequence diagrams, supported value are `simple` (default) and `hand`. For example, add following CSS in [Custom CSS](https://support.typora.io/Add-Custom-CSS/), and you will get:
+```css
+:root {
+  --sequence-theme: hand
+}
+```
+
+| --sequence-theme: simple                                     | --sequence-theme: hand                                       |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="/media/diagrams/Screen Shot 2021-04-05 at 23.38.52.png" alt="Screen Shot 2021-04-05 at 23.38.52" style="zoom:50%;" /> | <img src="/media/diagrams/js-sequence-hand.png" alt="Screen Shot 2021-03-13 at 23.56.07" style="zoom:50%;" /> |
 
 # Flowcharts
 
@@ -44,8 +60,7 @@ cond(no)->op
 ​```
 ~~~
 
-![flowchart](/media/diagrams/flowchart.png)
-
+<img src="/media/diagrams/flowchart.png" alt="flowchart" style="zoom:50%;" />
 # Mermaid
 
 Typora also has integration with [mermaid](https://mermaid-js.github.io/mermaid/#/), which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts. 
@@ -70,8 +85,7 @@ For more details see [these instructions](https://mermaid-js.github.io/mermaid/#
 ​```
 ~~~
 
-![mermaid-sequence](/media/diagrams/mermaid-sequence.png)
-
+<img src="/media/diagrams/mermaid-sequence.png" alt="mermaid-sequence" style="zoom:50%;" />
 ## Flowcharts
 
 For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/flowchart).
@@ -157,8 +171,7 @@ classDiagram
 ```
 ~~~
 
-![class-diagram](/media/new-80/class-diagram.png)
-
+<img src="/media/new-80/class-diagram.png" alt="class-diagram" style="zoom:50%;" />
 ## State Diagrams
 
 For more details see [these instructions](https://mermaidjs.github.io/#/stateDiagram).
@@ -176,8 +189,7 @@ stateDiagram
 ```
 ~~~
 
-![state-diagram](/media/new-80/state-diagram.png)
-
+<img src="/media/new-80/state-diagram.png" alt="state-diagram" style="zoom:50%;" />
 ## Pie Charts
 
 ~~~gfm
@@ -190,4 +202,53 @@ pie
 ```
 ~~~
 
-![pie-chart](/media/new-80/pie-chart.png)
+<img src="/media/new-80/pie-chart.png" alt="pie-chart" style="zoom:50%;" />
+## Mermaid Options
+
+### Overview
+
+You can change Mermaid options by adding [Custom CSS](https://support.typora.io/Add-Custom-CSS/), supported options include:
+
+```css
+:root {
+  --mermaid-theme: default; /*or base, dark, forest, neutral, night */
+  --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+  --mermaid-sequence-numbers: off; /* or "on", see https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequencenumbers*/
+  --mermaid-flowchart-curve: linear /* or "basis", see https://github.com/typora/typora-issues/issues/1632*/;
+  --mermaid--gantt-left-padding: 75; /* see https://github.com/typora/typora-issues/issues/1665*/
+}
+```
+
+Please note that if you export document with other themes than currently used one, some mermaid options will not be applied to exported HTML / PDF / Image. For example, if you currently use them Github, but while export to PDF, you set theme YYY for PDF export, and YYY.css defines `--mermaid-sequence-numbers: on`, then the `--mermaid-sequence-numbers: on` would not be applied to exported PDF.
+
+### Mermaid Theme
+
+Added `--mermaid-theme` css variable to quickly define a mermaid theme that fits your theme, the value can be `base`, `default`, `dark`, `forest`, `neutral`, `night` (the one used in night theme), for example:
+
+| CSS                                | Mermaid Demo                                                 |
+| ---------------------------------- | ------------------------------------------------------------ |
+| `:root {--mermaid-theme:dark;}`    | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.08.46.png" alt="Screen Shot 2020-12-05 at 17.08.46" style="zoom:50%;" /> |
+| `:root {--mermaid-theme:forest;}`  | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.09.42.png" alt="Screen Shot 2020-12-05 at 17.09.42" style="zoom:50%;" /> |
+| `:root {--mermaid-theme:neutral;}` | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.10.11.png" alt="Screen Shot 2020-12-05 at 17.10.11" style="zoom:50%;" /> |
+
+### Auto Numbering
+
+Add `--mermaid-sequence-numbers: on;` in [Custom CSS](https://support.typora.io/Add-Custom-CSS/) will enable auto numbering for sequence in mermaid:
+
+| --mermaid-sequence-numbers:off                               | --mermaid-sequence-numbers:on                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="/media/new-10/Screen Shot 2021-04-05 at 23.08.37.png" alt="Screen Shot 2021-04-05 at 23.08.37" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.20.31.png" alt="Screen Shot 2021-04-05 at 23.20.31" style="zoom:50%;" /> |
+
+### Flowchart Curve
+
+Add `--mermaid-flowchart-curve: basis` to get other type of curves.
+
+| --mermaid-flowchart-curve: linear;                           | --mermaid-flowchart-curve: basis                             | --mermaid-flowchart-curve: natural;                          | --mermaid-flowchart-curve: step;                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="/media/new-10/Screen Shot 2021-04-05 at 23.25.41.png" alt="Screen Shot 2021-04-05 at 23.25.41" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.30.11.png" alt="Screen Shot 2021-04-05 at 23.30.11" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.28.06.png" alt="Screen Shot 2021-04-05 at 23.28.06" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.28.52.png" alt="Screen Shot 2021-04-05 at 23.28.52" style="zoom:50%;" /> |
+
+### Gantt Padding
+
+| --mermaid--gantt-left-padding:75                             | --mermaid--gantt-left-padding:200                            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="/media/new-10/Screen Shot 2021-04-05 at 23.33.31.png" alt="Screen Shot 2021-04-05 at 23.33.31" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.33.00.png" alt="Screen Shot 2021-04-05 at 23.33.00" style="zoom:50%;" /> |
