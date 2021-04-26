@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Convert & Reformat Markdown
-category: draft-how-to
+category: how-to
 author: typora.io
 tags: [markdown, reformat, pretty]
 typora-root-url: ../
