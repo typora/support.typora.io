@@ -53,6 +53,12 @@ Download the `pandoc-*-window.msi` from Pandoc's [download page](https://github
 
 ![pandoc-win](/media/pandoc/pandoc-win.PNG)
 
+## Config Pandoc Path
+
+If Typora still shows "Require Pandoc to Continue" even after installed pandoc, please try restart Typora. If typora still cannot find pandoc after restart, you can manunlly input pandoc path on `Preferences Panel` → `Export` → `General`.
+
+![pandoc path](/media/export/Screen%20Shot%202021-01-18%20at%2022.51.30.png)
+
 ## Use Pandoc
 
 After Pandoc is installed, then you can import supported file types by clicking File -> Import from the menu bar, or simply drag and drop a file into Typora. There are also new Export functions available from the menu bar. Pandoc will run in background for those tasks and then exit automatically, so you may not notice it.
