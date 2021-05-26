@@ -10,7 +10,7 @@ typora-root-url: ../
 
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
-Typora use [CodeMirror](http://codemirror.net) for syntax highlight in code fences. Code fences in Typora use `cm-s-inner` as their theme class.
+Typora uses [CodeMirror](http://codemirror.net) for syntax highlight in code fences. Code fences in Typora use `cm-s-inner` as their theme class.
 
 To port a CodeMirror theme into Typora, for example [material.css](https://codemirror.net/theme/material.css):
 
