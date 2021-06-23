@@ -167,7 +167,7 @@ For Linux / Windows users, please set the path of PicGo binary in Typora's prefe
 
 ### Custom
 
-You could config a custom command to upload images, using tools that is not listed in above options, or event write your own tools / scripts. Typora will append all images that needs to be uploaded after the custom command you filled. 
+You could config a custom command to upload images, using tools that is not listed in above options, or even write your own tools / scripts. Typora will append all images that needs to be uploaded after the custom command you filled. 
 
 Then, Typora will fetch image urls from the last N lines of the standard output of your custom command. (N is the number of images to upload).
 
