@@ -31,6 +31,7 @@ date: 2018-02-10
 - Indonesia by [snatalius](https://github.com/snatalius)
 - Vietnamese by [1234hdpa](https://github.com/1234hdpa)
 - Swedish by [Sandskär](https://github.com/passar), [FelixZY](https://github.com/FelixZY)
+- Swiss German by [Indeximal](https://github.com/Indeximal)
 - Catalan by [jmigual](https://github.com/jmigual)
 - Danish by [archfrog](https://github.com/archfrog)
 - Persian by [sadra](https://github.com/sadra)
