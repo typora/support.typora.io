@@ -100,6 +100,14 @@ You can also manually download and install the deb package file, following those
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
 2. Try to install `apt-get` on your distribution, and then install typora.
 
+## Wayland
+
+For wayland, please append flags when launching Typora (see <https://blogs.igalia.com/msisov/2020/11/20/chrome-chromium-on-wayland-the-waylandification-project/>).
+
+```
+--enable-features=UseOzonePlatform --ozone-platform=wayland
+```
+
 ## Distribution Support
 
 Typora for Linux is tested only on Ubuntu. So, if you have a problem with other distributions, please email us at [hi@typora](http://mailto:hi@typora.io).
