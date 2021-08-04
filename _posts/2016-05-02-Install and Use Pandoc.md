@@ -9,7 +9,7 @@ typora-root-url: ../
 
 TL;DR:
 
-Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v1.16), please download and run the installer from **[Pandoc Dsownload Page](https://github.com/jgm/pandoc/releases/latest)**.
+Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v2.0), please download and run the installer from **[Pandoc Dsownload Page](https://github.com/jgm/pandoc/releases/latest)**.
 
 You may need to restart Typora after install Pandoc if you receive an error that Typora cannot find Pandoc.
 
@@ -17,7 +17,7 @@ For Windows users, if Typora is still saying it cannot find Pandoc, you may need
 
 # Pandoc Integration
 
-In Typora, import function and export function for some file formats (including docx, odt, rtf, epub, LaTeX and wiki) are powered by a 3rd party software named Pandoc. Those features require Pandoc (≥ v1.16) to be installed.
+In Typora, import function and export function for some file formats (including docx, odt, rtf, epub, LaTeX and wiki) are powered by a 3rd party software named Pandoc. Those features require Pandoc (≥ v2.0) to be installed.
 
 Please note that installation of Pandoc is optional for Typora, if you do not need advanced import/export support in Typora, then you do not have to install Pandoc on your computer.
 
@@ -67,7 +67,7 @@ After Pandoc is installed, then you can import supported file types by clicking 
 
 #### Which version of Pandoc is supported?
 
-Versions ≥ 1.16 are required. The latest version, the better. So updating Pandoc is encouraged if your Pandoc version is too old.
+Versions ≥ 2.0 are required. The latest version, the better. So updating Pandoc is encouraged if your Pandoc version is too old.
 
 #### Can Typora work without Pandoc?
 
