@@ -4,6 +4,7 @@ title: Smart Punctuation (SmartyPants)
 author: typora.io
 category: how-to
 tags: [markdown, smartypantys, quotes, dashes]
+typora-copy-images-to: ../media/smart-pants
 typora-root-url: ../
 ---
 
@@ -11,7 +12,11 @@ typora-root-url: ../
 
 ## Smart Quotes 
 
-You can find the option `Smart Quotes` from menu bar or from preferences panel. When it is enabled, Typora will convert `'` and `"` to curly quotes. For example, if you input:
+You can find the option `Smart Quotes` from menu bar or from preferences panel. 
+
+<img src="/media/smart-pants/Screen Shot 2021-08-14 at 22.50.43.png" alt="Screen Shot 2021-08-14 at 22.50.43" style="zoom:50%;" />
+
+When it is enabled, Typora will convert `'` and `"` to curly quotes. For example, if you input:
 
 ```
 "It's a 'word' in a quoted sentence."
@@ -25,7 +30,11 @@ it will become:
 
 On Windows/Linux version, you could find more quote pair patterns in Preferences Panel, like "«abc» ", etc.
 
+<img src="/media/smart-pants/Screen Shot 2021-08-14 at 22.53.40.png" alt="Screen Shot 2021-08-14 at 22.53.40" style="zoom:50%;" />
+
 On macOS version, you could set quote patterns in `System Preferences` → `Keyboard` → `Text`. If it is changed, Typora will need a restart to apply it.
+
+<img src="/media/smart-pants/Screen Shot 2021-08-14 at 22.52.36.png" alt="Screen Shot 2021-08-14 at 22.52.36" style="zoom:50%;" />
 
 ## Smart Dashes
 
