@@ -116,6 +116,19 @@ The latest version of Typora supports syntax highlight of following languages (i
 - julia
 - stylus
 - COBOL
+- crystal
+- ASN.1
+- gherkin
+- smalltalk
+- turtle
+- glsl
+- apl
+- ABAP
+- Q
+- V
+- forth
+- nim
+- solidity
 
 Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
 
