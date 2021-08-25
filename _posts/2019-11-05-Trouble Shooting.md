@@ -13,7 +13,7 @@ typora-root-url: ../
 
 Please enable related features in preferences panel.
 
- #### How to downgrade
+#### How to downgrade
 
 You cuold find History builds here:
 
@@ -33,6 +33,21 @@ Please refer [#2923](https://github.com/typora/typora-issues/issues/2923), clean
 #### Cannot save / close / quit / export on macOS 10.15
 
 Please refer [#2895](https://github.com/typora/typora-issues/issues/2895), cleaning existing config / cache of Typora using 3rd app such as AppCleaner, and then restart Typora will get everything working again.
+
+#### How to uninstall Typora
+
+You can remove following manually:
+
+```
+~/Applications/Typora.app
+~/Library/Application Support/abnerworks.Typora/
+~/Library/Caches/abnerworks.Typora/
+~/Library/Preferences/abnerworks.Typora.plist
+```
+
+#### Typora window is blank after launch.
+
+Try remove `~/Library/Caches/abnerworks.Typora/`, or reboot your macOS.
 
 ## Windows
 
