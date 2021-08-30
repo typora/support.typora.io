@@ -136,7 +136,7 @@ As a file based Markdown editor, Typora does not have concepts like "default wor
 
 For Windows / Linux version, you can set this in `Preferences Panel` → `General` → `On Launch`.
 
-![image](https://user-images.githubusercontent.com/1621242/131282465-d9dea909-1ad5-4401-97ff-2a1603b49e62.png)
+![image](https://user-images.githubusercontent.com/1621242/131283200-36c2c2fc-16d4-4257-89f4-dadf778f5406.png)
 
 For macOS version, you can do following:
 
