@@ -126,11 +126,26 @@ You could click the "Search" icon on side panel on macOS or just scroll top on s
 
 Typora does not support `#tags` natively, but if you use `#tags` in your article, you could search "#tags" in global search to find all matched files.
 
-## Set Default Folder
+## Set Default Folder on Launch
 
 As a file based Markdown editor, Typora does not have concepts like "default working folder", but if you want Typora to load certain folder on launch, you could set a folder in Typora's "launch options".
 
 <img src="/media/files/Screen Shot 2019-01-06 at 22.39.31.png" style="zoom:50%;" />
+
+## Reopen Last File on Launch
+
+For Windows / Linux version, you can set this in `Preferences Panel` → `General` → `On Launch`.
+
+![image](https://user-images.githubusercontent.com/1621242/131282465-d9dea909-1ad5-4401-97ff-2a1603b49e62.png)
+
+For macOS version, you can do following:
+
+1. Choose Apple menu > System Preferences, then click General. Open General preferences.
+2. Uncheck “Close windows when quitting an app.”
+
+<img src="https://user-images.githubusercontent.com/1621242/131282682-a6c4a25c-c6b5-403c-ad5e-ad5918a99386.png" style="zoom:50%;" />
+
+You can read more on [Prevent apps and windows from reopening](https://support.apple.com/en-us/HT204005)
 
 ## JumpList (Windows)
 
