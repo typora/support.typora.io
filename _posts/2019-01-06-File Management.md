@@ -141,7 +141,7 @@ For Windows / Linux version, you can set this in `Preferences Panel` → `Genera
 For macOS version, you can do following:
 
 1. Choose Apple menu > System Preferences, then click General. Open General preferences.
-2. Uncheck “Close windows when quitting an app.”
+2. **Uncheck** “Close windows when quitting an app.”
 
 <img src="https://user-images.githubusercontent.com/1621242/131282682-a6c4a25c-c6b5-403c-ad5e-ad5918a99386.png" style="zoom:50%;" />
 
