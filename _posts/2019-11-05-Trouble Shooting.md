@@ -15,7 +15,7 @@ Please enable related features in preferences panel.
 
 #### How to downgrade
 
-You cuold find History builds here:
+You can find old release builds here:
 
 - macOS: https://typora.io/dev_release.html
 - Linux / Windows: https://typora.io/windows/dev_release.html

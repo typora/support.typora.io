@@ -15,7 +15,7 @@ typora-root-url: ../
 
 In newer version of Typora (≥ 0.9.9.32 on macOS or 0.9.84  on Windows / Linux), we added a “upload image” function to upload images to a cloud image storage via 3rd apps or scripts.
 
-Its motivation is that, since markdown files is just plain text files, when you embed images, the markdown files does not “own” those images, but just keep a weak reference to used external image files. When you move or share markdown files, those images should also be moved or shared, which brings maintaince costs. But if those images are hosted online, you can move or share markdown files freely without maintaining the reference between text plain and the images it used.
+Its motivation is that, since markdown files is just plain text files, when you embed images, the markdown files does not “own” those images, but just keep a weak reference to used external image files. When you move or share markdown files, those images should also be moved or shared, which brings maintenance costs. But if those images are hosted online, you can move or share markdown files freely without maintaining the reference between text plain and the images it used.
 
 Typora now supports apps like iPic, uPic, PicGo, etc, which is able to upload your images into [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), [Github](www.github.com), or other image hosting services.
 
@@ -61,7 +61,7 @@ If it shows "Validation Failed", you need to check the reason from the raw outpu
 
 ![ipic](/media/image-upload/ipic.jpg)
 
-[iPic][ttps://itunes.apple.com/app/id1101244278] is a **freemium** app which allows you to upload local images into various cloud service, including [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), etc, and return you a web url of the uploaded image for public access. 
+[iPic][https://itunes.apple.com/app/id1101244278] is a **freemium** app which allows you to upload local images into various cloud service, including [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), etc, and return you a web url of the uploaded image for public access. 
 
 [Download](https://itunes.apple.com/app/id1101244278)
 

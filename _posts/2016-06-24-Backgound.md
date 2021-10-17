@@ -61,7 +61,7 @@ body {
   background-color: #8F9D9A;
 }
 
-/**Other CSS to adjuest UI components*/
+/**Other CSS to adjust UI components*/
 ```
 
 Produces:

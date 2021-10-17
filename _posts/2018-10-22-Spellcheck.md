@@ -55,9 +55,9 @@ Click “Install dictionary file only for Typora“ from the pulldown button whe
 
 ### Linux and older Windows
 
-Click “Install language Support“ when error notification of spellcheck is shown, Typora will display the license info of the dictionary file, and then after click “download“ button, typora will download the dictionary file. You could see the download progress from the status bar.
+Click “Install language Support“ when error notification of spellcheck is shown, Typora will display the license info of the dictionary file, and then after click “download“ button, Typora will download the dictionary file. You could see the download progress from the status bar.
 
-You could download needed language manually from <https://dict.typora.io/>, and put them under folder `{typora-user-folder}\dictionaries`, you could find the location of `{typora-user-folder}` by opening “theme folder“ from preferences panels, and then open its parent folder. On Linux it looks like `~/.config/Typora`, and on Windows it looks like `C:/user/{yout-user-name}/appData/Roaming/Typora`.
+You could download needed language manually from <https://dict.typora.io/>, and put them under folder `{typora-user-folder}\dictionaries`, you could find the location of `{typora-user-folder}` by opening “theme folder“ from preferences panels, and then open its parent folder. On Linux it looks like `~/.config/Typora`, and on Windows it looks like `C:/user/{your-user-name}/appData/Roaming/Typora`.
 
 #### License info
 

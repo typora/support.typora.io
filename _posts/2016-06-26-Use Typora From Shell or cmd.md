@@ -28,7 +28,7 @@ To set Typora as the default markdown editor:
 
 1. Select one of your markdown files
 2. Open context menu and choose
-    - _Properties_ and then click on _Change_ buttong, as shown in **Figure 1**
+    - _Properties_ and then click on _Change_ button, as shown in **Figure 1**
     - _Open with -> Choose another app_, as shown in **Figure 2**
 3. Choose _Typora_ or _Typora Launcher_ in **How do you want to open this file?** and set a checkmark for _Always use this app to open .md files._
 
@@ -38,7 +38,7 @@ To set Typora as the default markdown editor:
 
 
 **Figure 2 - Application chooser window**  
-![Figure 2 - Applicaiton chooser](/media/use-from-shell/Snip20180704_2.png)  
+![Figure 2 - Application chooser](/media/use-from-shell/Snip20180704_2.png)  
 
 ## Linux
 
