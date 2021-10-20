@@ -57,7 +57,7 @@ On macOS, you can press `Esc` key to open inline preview for inline math, auto-c
 | Delete Word                                     | Ctrl + Shift + D           | Command + Shift + D                 |
 | Jump to Top                                     | Ctrl + Home                | Command + ↑                         |
 | Jump to Selection                               | Ctrl + J                   | Command + J                         |
-| Jump to Buttom                                  | Ctrl + End                 | Command + ↓                         |
+| Jump to Bottom                                  | Ctrl + End                 | Command + ↓                         |
 | Find                                            | Ctrl + F                   | Command + F                         |
 | Find Next                                       | F3 / Enter                 | Command + G / Enter                 |
 | Find Previous                                   | Shift + F3 / Shift + Enter | Command + Shift + G / Shift + Enter |
@@ -104,7 +104,7 @@ On macOS, you can press `Esc` key to open inline preview for inline math, auto-c
 | Source Code Mode                | Ctrl + /               | Command + /           |
 | Focus Mode                      | F8                     | F8                    |
 | Typewriter Mode                 | F9                     | F9                    |
-| Toggler Fullscreen              | F11                    | Command + Option + F  |
+| Toggle Fullscreen               | F11                    | Command + Option + F  |
 | Actual Size                     | Ctrl + Shift + 0       | *(Not Supported)*     |
 | Zoom In                         | Ctrl + Shift + =       | *(Not Supported)*     |
 | Zoom Out                        | Ctrl + Shift + -       | *(Not Supported)*     |

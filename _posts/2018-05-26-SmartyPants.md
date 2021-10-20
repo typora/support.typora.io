@@ -44,23 +44,23 @@ You can find the option `Smart Dashes` from menu bar or from preferences panel. 
 
 ## Escape quotes and dashes
 
-You could use `\"` and `\-` to escape quotes and dashes to prevent them from beging converted.
+You could use `\"` and `\-` to escape quotes and dashes to prevent them from being converted.
 
 ## "Convert on Input" and "Convert on Rendering"
 
 Those options controls how punctuations are converted.
 
-When **Convert on Input** is enabled, quotes and dashes are converted *immediately* when user is typing, and **converted one will be saved in the Markdown source code**.  If example, if smart dashes are enabled, and after user input `...`, he will got `… ` in both edit/preview view and source code. And user can cancel the inproper convert by `undo` operation.
+When **Convert on Input** is enabled, quotes and dashes are converted *immediately* when user is typing, and **converted one will be saved in the Markdown source code**.  As example, if smart dashes are enabled, and after user input `...`, he will get `… ` in both edit/preview tab and source code. And user can cancel the improper convert by `undo` operation.
 
-When **Convert on Rendering** is enabled, when user input ASCII quotes and dashes, **the original ASCII will be saved in the source mode**, but in edit/preview view, Typora will render them as curly quotes or unicode dashes.  
+When **Convert on Rendering** is enabled, typing in ASCII quotes and dashes **will save the original ASCII code on source mode**, but in edit/preview tab, Typora will render them as curly quotes or unicode dashes.  
 
-The both ignore the convertion when user input in YAML/code/math blocks or in source code mode.
+Both ignore convertion when user input in YAML/code/math blocks or in source code mode.
 
 ## Remap Unicode Punctuation on Parse
 
 When smart dashes are enabled for "Convert on Input", if user input `<!-- comment -->` it will become `<!— comments —> ` since `--` are converted. 
 
-To prevent such sutuation, Typora introduce this option. When it is enabled, Typora will remap unicode alternatives of markdown syntax as their ASCII one, e.g:
+To prevent such situation, Typora introduce this option. When it is enabled, Typora will remap unicode alternatives of markdown syntax as their ASCII one, e.g:
 
 | Input                                              | Parsed as                 |
 | -------------------------------------------------- | ------------------------- |
@@ -79,4 +79,4 @@ When **Convert on Input** is enabled, this option will also be enabled automatic
 Typora does **not** support further text replacement rules (e.g: `->` to `→`, or `(C)` to `©`) out of the box. To do this:
 
 - On macOS, we recommend you to do settings in `System Preferences` → `Keyboard` → `Text`. And enable "Text Replacement" in Typora's menu. Then Typora can use your text replacement rules.
-- On Windows/Linux, we recommand you to use 3rd party apps for the configuration of text replacement. You could choose from [this list](https://alternativeto.net/software/textexpander/).
+- On Windows/Linux, we recommend you to use 3rd party apps for the configuration of text replacement. You could choose from [this list](https://alternativeto.net/software/textexpander/).

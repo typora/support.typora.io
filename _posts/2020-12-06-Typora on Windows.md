@@ -22,7 +22,7 @@ Typora supports [jump list](https://www.dummies.com/computers/operating-systems/
 
 If Typora is set as the default markdown editor, then in cmd.exe, then typing `.\example.md` or `start example.md` will open this markdown file.
 
-If you add `typora.exe` in `PATH`, you can also use `typora .` orr `typora example.md` to open current folder or target file in Typora.
+If you add `typora.exe` in `PATH`, you can also use `typora .` or `typora example.md` to open current folder or target file in Typora.
 
 You can find more details [here](https://support.typora.io/Use-Typora-From-Shell-or-cmd/).
 
@@ -59,7 +59,7 @@ You can also [add a shortcut key](https://support.typora.io/Shortcut-Keys/#windo
 
 Typora supports dark mode on Windows 10, you can simply choose a dark theme under dark mode.
 
-Or, you can set separate themes for light mode and dark mode. When the system’s color scheme changed, the corresponvsinf theme you chose will be applied.
+Or, you can set separate themes for light mode and dark mode. When the system’s color scheme changed, the corresponding theme you chose will be applied.
 
 <img src="/media/windows/Screenshot 2020-12-08 234125.png" alt="Screenshot 2020-12-08 234125" style="zoom:38%;" />
 

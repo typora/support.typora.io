@@ -15,7 +15,7 @@ Typora uses CSS to style everything. Each theme shown in the Themes menu is one 
 
 ## Use Themes Under Light Mode and Dark Mode
 
-You can set separate themes for light mode and dark mode (on macOS / Windows). When the system’s color scheme changed, the corresponvsinf theme you chose will be applied.
+You can set separate themes for light mode and dark mode (on macOS / Windows). When the system’s color scheme changed, the corresponding theme you chose will be applied.
 
 <img src="/media/new-97/Screen Shot 2020-12-05 at 17.01.49.png" alt="Screen Shot 2020-12-05 at 17.01.49" style="zoom:50%;" />
 

@@ -47,11 +47,11 @@ Markdown uses email-style > characters for block quoting. They are presented as:
 ``` markdown
 > This is a blockquote with two paragraphs. This is first paragraph.
 >
-> This is second pragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+> This is second paragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 
 
-> This is another blockquote with one paragraph. There is three empty line to seperate two blockquote.
+> This is another blockquote with one paragraph. There is three empty line to separate two blockquotes.
 ```
 
 In Typora, typing ‘>’ followed by your quote contents will generate a quote block. Typora will insert a proper ‘>’ or line break for you. Nested block quotes (a block quote inside another block quote) by adding additional levels of ‘>’.

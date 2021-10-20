@@ -114,9 +114,9 @@ Use your iPhone, iPad, or iPod touch to scan documents, draw sketch, or take a p
 
 You can use touch bar for context aware quick editing.
 
-![Screen Shot 2020-12-06 at 22.07.32](file:///Users/abner/Sites/typewiki/media/macOS/Screen Shot 2020-12-06 at 22.07.32.png?lastModify=1607354481)
+![Screen Shot 2020-12-06 at 22.07.32](/media/macOS/Screen Shot 2020-12-06 at 22.07.32.png?lastModify=1607354481)
 
-![Screen Shot 2020-12-06 at 22.08.21](file:///Users/abner/Sites/typewiki/media/macOS/Screen Shot 2020-12-06 at 22.08.21.png?lastModify=1607354481)
+![Screen Shot 2020-12-06 at 22.08.21](/media/macOS/Screen Shot 2020-12-06 at 22.08.21.png?lastModify=1607354481)
 
 <img src="/media/macOS/Screen Shot 2020-12-07 at 23.23.58.png" alt="Screen Shot 2020-12-07 at 23.23.58" />
 

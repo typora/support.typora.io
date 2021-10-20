@@ -47,7 +47,7 @@ But if you’re not OK with the warning, you can do followings:
 3. Paste repo definition into this file:
 
    ```shell
-   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] htps://typora.io/linux ./
+   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://typora.io/linux ./
    ```
 
 4. Now you can install Typora:
@@ -69,7 +69,7 @@ sudo apt-get upgrade
 ## NixOS
 
 ```bash
-# install typora to the curent user's profile
+# install typora to the current user's profile
 nix-env -i typora
 ```
 
@@ -92,8 +92,8 @@ sudo apt-get install typora
 
 You can also manually download and install the deb package file, following those steps:
 
-1. The `deb` file is located at `https://typora.io/linux/typora_${version}_amd64.deb`, for example: `https://typora.io/linux/typora_0.9.96_amd64.deb`. Just downlad the deb installer at that url.
-2. Double click the deb file to start intsall on Ubuntu / Debian.
+1. The `deb` file is located at `https://typora.io/linux/typora_${version}_amd64.deb`, for example: `https://typora.io/linux/typora_0.9.96_amd64.deb`. Just download the deb installer at that url.
+2. Double click the deb file to start installing on Ubuntu / Debian.
 
 ## Other Distributions
 
@@ -160,7 +160,7 @@ Try install `libgconf-2-4` first.
 
 #### NSS out-of-date
 
-If you recieve following error when launching Typora:
+If you receive following error when launching Typora:
 
 ```
 [7465:7499:0911/174740.042852:FATAL:nss_util.cc(632)] NSS_VersionCheck("3.26") failed. NSS >= 3.26 is required. Please upgrade to the latest NSS, and if you still get this error, contact your distribution maintainer.

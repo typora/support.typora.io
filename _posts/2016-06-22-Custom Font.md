@@ -70,7 +70,7 @@ This option requires support from the theme(s) you use. If you are making a them
 
 <img alt="2" src="/media/custom-font/2.png" style="zoom:50%" />
 
-## Change Font for Souce Code Mode
+## Change Font for Source Code Mode
 
 You can use 
 

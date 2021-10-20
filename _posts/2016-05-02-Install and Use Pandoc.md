@@ -9,7 +9,7 @@ typora-root-url: ../
 
 TL;DR:
 
-Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v2.0), please download and run the installer from **[Pandoc Dsownload Page](https://github.com/jgm/pandoc/releases/latest)**.
+Typora requires [Pandoc](http://pandoc.org/) for some of its advanced features. If you don't have Pandoc (or have a version older than v2.0), please download and run the installer from **[Pandoc Download Page](https://github.com/jgm/pandoc/releases/latest)**.
 
 You may need to restart Typora after install Pandoc if you receive an error that Typora cannot find Pandoc.
 
@@ -55,7 +55,7 @@ Download the `pandoc-*-window.msi` from Pandoc's [download page](https://github
 
 ## Config Pandoc Path
 
-If Typora still shows "Require Pandoc to Continue" even after installed pandoc, please try restart Typora. If typora still cannot find pandoc after restart, you can manunlly input pandoc path on `Preferences Panel` → `Export` → `General`.
+If Typora still shows "Require Pandoc to Continue" even after installed pandoc, please try restart Typora. If typora still cannot find pandoc after restart, you can manually input pandoc path on `Preferences Panel` → `Export` → `General`.
 
 ![pandoc path](/media/export/Screen%20Shot%202021-01-18%20at%2022.51.30.png)
 
@@ -92,7 +92,7 @@ Exporting by Typora is also powered by Pandoc, yet Typora will not convert direc
 
 #### Can all block/inline element types be exported correctly?
 
-Exporting Task lists are not supported yet. Underline and highlight for `.docx` is supported only if they are not used inside or outside other inline styles. Underlining and highlights are not support for OpenOffice(`.odt`). Embeddeding .gif files is not support for LaTeX. Other block or inline elements can be exported, but the styles cannot be 100% matched when imported or exported.
+Exporting Task lists are not supported yet. Underline and highlight for `.docx` is supported only if they are not used inside or outside other inline styles. Underlining and highlights are not support for OpenOffice(`.odt`). Embedding .gif files is not support for LaTeX. Other block or inline elements can be exported, but the styles cannot be 100% matched when imported or exported.
 
 #### How to uninstall Pandoc for mac?
 
