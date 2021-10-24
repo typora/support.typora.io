@@ -66,13 +66,6 @@ After installing Typora, the `typora` package will be managed by `apt-get`, so w
 sudo apt-get upgrade
 ```
 
-## NixOS
-
-```bash
-# install typora to the current user's profile
-nix-env -i typora
-```
-
 ## Mint
 
 ```sh
