@@ -228,8 +228,8 @@ Added `--mermaid-theme` css variable to quickly define a mermaid theme that fits
 | CSS                                | Mermaid Demo                                                 |
 | ---------------------------------- | ------------------------------------------------------------ |
 | `:root {--mermaid-theme:dark;}`    | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.08.46.png" alt="Screen Shot 2020-12-05 at 17.08.46" style="zoom:50%;" /> |
-| `:root {--mermaid-theme:forest;}`  | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.09.42.png" alt="Screen Shot 2020-12-05 at 17.09.42" style="zoom:50%;" /> |
-| `:root {--mermaid-theme:neutral;}` | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.10.11.png" alt="Screen Shot 2020-12-05 at 17.10.11" style="zoom:50%;" /> |
+| `:root {--mermaid-theme:neutral;}` | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.09.42.png" alt="Screen Shot 2020-12-05 at 17.09.42" style="zoom:50%;" /> |
+| `:root {--mermaid-theme:forest;}`  | <img src="/media/new-97/Screen Shot 2020-12-05 at 17.10.11.png" alt="Screen Shot 2020-12-05 at 17.10.11" style="zoom:50%;" /> |
 
 ### Auto Numbering
 
