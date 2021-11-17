@@ -5,6 +5,7 @@ author: typora.io
 category: reference
 tags: [EULA, Term of Service]
 typora-root-url: ../
+
 ---
 
 > Please read this End User License Agreement (a.k.a “EULA”, "License Agreement") before You purchase a License Key for the Software and subsequently download and use the Software.
@@ -20,8 +21,9 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 - "**We**" a.k.a. "us", or "typora.io". Developer(s) of Typora.
 - **“Documentation”** the detailed information about the Software, its features and the system requirements as made available on the website of typora.io, as amended from time to time.
 - **“Open Source Software”** any software that requires as a condition of use, copying, modification and/or distribution of such software that such software or other software incorporated into, derived from or distributed with such software (a) be disclosed or distributed in source code form, and (b) be licensed for the purpose of making and/or distributing derivative works, and (c) be redistributable at no charge;
-- **“Beta version”** the license for the Software for public testing. This is currently the only available version. You could find if current Typora is in beta version or not from "Help" -> "About" dialog.
+- **“Beta version”** the license for the Software for public testing before version 1.0.
 - **“Stable version”** versions with version number equal or greater than 1.0, exclude Beta versions.
+- **“Dev version”** versions with version number ending with ""-dev", those versions are used for public testing purpose after v1.0.
 - **“Full version”** the license for the Software for the term specified on the webpage of the store where You purchase the license, or in any applicable agreement concerning the purchase of the license (as stand-alone product or as part of a subscription) to Use the Software. This license is when Typora reaches v1.0.
 - **“Trial version”** the license for the Software for the term of N days to Use the Stable version of Software for the sole purpose of testing and evaluating the Software. (N will be decided by us in future). This license is when Typora reaches v1.0.
 - **“Updates”** any modified versions and updates of, and additions to the Software (excluding upgrades of the Software);
@@ -49,13 +51,14 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 
 1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: https://support.typora.io/System-Requirements. The system requirements may be changed in future updates.
 2. You shall Use the Beta version, Full version, or Trial version in accordance with applicable laws and shall not:
-     1. Use the Trial version on any system where the Trial version was previously Used and expired;
-     2. rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;
-     3. assign the License Key, the Full version or the Trial version without prior written approval of us;
-     4. Use the Beta version, Full version or Trial version for any unlawful or illegal activity, or to facilitate an unlawful or illegal activity;
-     5. delete or alter any disclaimers, warnings, copyright or other proprietary notices accompanying the Software; or
-     6. adapt (except as otherwise provided in this EULA), decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the Software and the License Key or any parts thereof, except to the extent permitted by applicable law.
-     7. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
+   1. Use the Trial version on any system where the Trial version was previously Used and expired;
+   2. rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;
+   3. assign the License Key, the Full version or the Trial version without prior written approval of us;
+   4. Use the Beta version, Full version or Trial version for any unlawful or illegal activity, or to facilitate an unlawful or illegal activity;
+   5. After 15 days evaluation passed, continue uses versions after 1.0 for commercial usage, without a license code;
+   6. delete or alter any disclaimers, warnings, copyright or other proprietary notices accompanying the Software; or
+   7. adapt (except as otherwise provided in this EULA), decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the Software and the License Key or any parts thereof, except to the extent permitted by applicable law.
+   8. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
 
