@@ -90,7 +90,7 @@ You can also manually download and install the deb package file, following those
 
 ## Other Distributions
 
-1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz), [Typora-linux-ia32.tar.gz](https://typora.io/linux/Typora-linux-ia32.tar.gz).
+1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
 2. Try to install `apt-get` on your distribution, and then install typora.
 
 ## Wayland
