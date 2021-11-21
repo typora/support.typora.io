@@ -127,4 +127,4 @@ You will need to may more license code for this reason.
 
 ## I have other questions...
 
-Please contact <hi@typora.io>.
+Please contact <hi@typora.io>. If your question is about activation and orders, please attach the information you have, like that email address you used when purchase, and / or license code you used for activation, etc.
