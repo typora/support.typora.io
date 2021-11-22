@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typora Activation
+title: Activate Typora
 author: typora.io
 category: basic
 tags: [purchase, activation, faq]
@@ -13,6 +13,7 @@ Table of Contents:
 
 * Outline
 {:toc}
+
 # Basic
 
 ## Pre-conditions and Important Notes
@@ -128,3 +129,5 @@ You will need to may more license code for this reason.
 ## I have other questions...
 
 Please contact <hi@typora.io>. If your question is about activation and orders, please attach the information you have, like that email address you used when purchase, and / or license code you used for activation, etc.
+
+For purchase / order related question, please check [Purchase Typora](/purchase).
