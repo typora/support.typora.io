@@ -8,6 +8,8 @@ typora-root-url: ../
 typora-copy-images-to: ../media/activation
 ---
 
+> For purchase / order related questions, please [click here](/purchase).
+
 Table of Contents:
 
 

@@ -27,7 +27,11 @@ title: Typora Support
 	<ul class="category basic-posts"> 
 		{% for post in site.categories.new %}
 		{% unless post.draft %}
+		{% if post.title contains 'beta' %}
 		{% assign title = post.title %}
+		{% else %}
+		{% assign title = post.title | append: ' 🎉' %}
+		{% endif %}
 		<li>
 			<div class="article">
 				<article class="article" itemscope itemtype="http://schema.org/BlogPosting">
