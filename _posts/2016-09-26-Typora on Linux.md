@@ -85,7 +85,7 @@ sudo apt-get install typora
 
 You can also manually download and install the deb package file, following those steps:
 
-1. Find download link from <https://typora.io/windows/dev_release.html> and download the Linux version.
+1. Find download link from <https://typora.io/releases/all> and download the Linux version.
 2. Double click the deb file to start installing on Ubuntu / Debian.
 
 ## Other Distributions
