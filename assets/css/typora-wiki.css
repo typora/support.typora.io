@@ -161,10 +161,11 @@
     font-family: 'open sans',arial,sans-serif;
     letter-spacing: .1em;
     font-weight: 300;
+    text-decoration: none;
 }
 
-#post-footer a {
-    text-decoration: underline;
+#post-footer a:hover {
+  text-decoration: underline;
 }
 
 .highlight code {
