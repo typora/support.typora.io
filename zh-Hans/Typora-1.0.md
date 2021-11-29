@@ -1,6 +1,8 @@
 ## Typora 1.0
 
-2021年11月23日 Typora.io
+2021年11月23日 Typora.io  
+
+感谢 Frederick Zhang 提供的翻译
 
 > Typora1.0终于来了！ 🎉🎉🎉🎉
 
