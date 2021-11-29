@@ -20,7 +20,7 @@
 
 - 在Windows&Linux上支持了ARM架构.
 
-  ![Screen Shot 2021-11-23 at 23.42.00](https://gitee.com/ubitx/public/raw/master/202111290950965.png)
+  ![Screen Shot 2021-11-23 at 23.42.00](https://support.typora.io/media/new-1.0/Screen%20Shot%202021-11-23%20at%2023.42.00.png)
 
 #### 数学公式
 
@@ -32,7 +32,7 @@ Typora现在提供了两个选项来控制有关行为。
 
   | auto apply `displaylines` env                                | disable auto apply `displaylines` env                        |
   | ------------------------------------------------------------ | ------------------------------------------------------------ |
-  | ![Screen Shot 2021-11-23 at 23.34.06](https://gitee.com/ubitx/public/raw/master/202111291004510.png) 启用后，你可以使用`//`或`//newline`在数学公式中断行，就像在MathJax 2.x一样。 | ![Screen Shot 2021-11-23 at 23.34.59](https://gitee.com/ubitx/public/raw/master/202111291006601.png) 禁用此选项后，你需要使用`\displaylines{}`，之后`\`将被视为换行，因为MathJax 3.x还不支持自动换行（[见此](https://github.com/mathjax/MathJax/issues/2312))。 |
+  | ![Screen Shot 2021-11-23 at 23.34.06](https://support.typora.io/media/new-1.0/Screen%20Shot%202021-11-23%20at%2023.34.06.png) 启用后，你可以使用`//`或`//newline`在数学公式中断行，就像在MathJax 2.x一样。 | ![Screen Shot 2021-11-23 at 23.34.59](https://support.typora.io/media/new-1.0/Screen%20Shot%202021-11-23%20at%2023.34.59.png) 禁用此选项后，你需要使用`\displaylines{}`，之后`\`将被视为换行，因为MathJax 3.x还不支持自动换行（[见此](https://github.com/mathjax/MathJax/issues/2312))。 |
 
 - 允许物理包在数学中重新定义`div`宏。
 
@@ -77,12 +77,12 @@ Typora现在提供了两个选项来控制有关行为。
 
   - 还有很多......
 
-![img](https://gitee.com/ubitx/public/raw/master/202111291057509.png)
+![img](https://support.typora.io/media/new-1.0/CCHiRYKUAAA9LIc.png)
 
 Typora的早期测试版本
 
 
-![img](https://gitee.com/ubitx/public/raw/master/202111290950404.png)Typora v1.0 (实现了隐藏侧边栏和字数统计)
+![img](https://support.typora.io/media/new-1.0/Screen%20Shot%202021-11-23%20at%2023.30.26.png)Typora v1.0 (隐藏侧边栏和字数统计可以)
 
 ## [软件激活](https://support.typora.io/What's-New-1.0/#purchase--activate-typora)
 
