@@ -26,7 +26,7 @@ Activation **requires net connection**, so you will need access to [store.typora
 
 Once you used a license code, **same email address** should be used for future activations, so, please confirm you inputed your valid email address.
 
-When you activate Typora, the Typora copy in your account on your current machine is activated. If you switch to different accounts, or different devices, you will need to activate typora for this account. One license code can be used to activate 3 devices at most at one time, different accounts on one machine is counted as separated devices.
+When you activate Typora, the Typora copy in your account on your current machine is activated. If you switch to different accounts, or different devices, you will need to activate typora for this account. One license code can be used to activate 3 devices at most at one time, different accounts and operation system on one machine is counted as separated devices.
 
 ## Register / Activate Typora
 
@@ -124,9 +124,15 @@ If you used to have activated Typora, but now, find it become deactivated unexpe
 - One license code can be used at most on 3 machines at one time. So if you activated Typora on the 4th devices, the oldest activated devices will get deactivated automatically. You can detective Typora on devices you don't need anymore, then re-activate Typora on this devices, or you should buy more license code if you want to use Typora on more than 3 devices.
 - If you switch to new accounts on the same machine, you will need to activate Typora for this user. One license code can be used to activate 3 devices at most at one time, different accounts on one machine is counted as separated devices.
 
+## How many devices can I use at the same time for one licese ?
+
+At most 3 different devices, devices means different devices, different operation systems and VMs in one devices, different accounts in one operation system. 
+
 ## What if I have more than 3 devices?
 
-You will need to may more license code for this reason.
+If you have more than 3 devices **at one time**, you will need to may more license code for this reason. 
+
+If you moived from old devices to new devices, you can [deactive](#deactivate-typora) on the old / unused devices.
 
 ## What is allowed or not allowed when using Typora ?
 
