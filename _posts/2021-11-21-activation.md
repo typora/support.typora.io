@@ -93,7 +93,7 @@ If you purchased Typora from another reseller, please contact them instead.
 
 ## I cannot activate Typora
 
-### Error message "Please input a valid license code".
+### Error message "Please input a valid license code."
 
 Please check if your license code is valid. The license code has a format in the style of XXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
 
@@ -103,11 +103,11 @@ If you have forgotten your license code, see ["How to retrieve my license code i
 
 After using a license code, **the same email address** MUST be used for the same license code on future activations. You will need to enter the email address twice for confirmation. If those two entries are not the same this error will be displayed, so please check if you have entered your email address correctly.
 
-### Error message "This license code has been used with a different email address".
+### Error message "This license code has been used with a different email address."
 
 After using a license code, **the same email address** MUST be used for the same license code in future activations.  This error appears if the email address you use is not the same email address that was used when activating Typora with the license code for the first time.
 
-### Error message "Failed to access the license server. Please check your network or try to access it later."
+### Error message "Failed to access the license server. Please check your network or try again later."
 
 Typora activation requires a network connection, so:
 
