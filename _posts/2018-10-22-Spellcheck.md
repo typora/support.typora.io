@@ -37,7 +37,7 @@ You could click on the “warning“ icon and follow the instructions to downloa
 
 ### Windows 8/10
 
-Typora use the system spellcheck on Windows ≥ 8 by default, but you could still choose to use the built-in spellcheck module in Typora, instead of install language support for whole system, just click the pulldown button, and select “Install dictionary file only for Typora“.
+Typora uses the system spellcheck on Windows ≥ 8 by default, but you could still choose to use the built-in spellcheck module in Typora, instead of install language support for whole system, just click the pulldown button, and select “Install dictionary file only for Typora“.
 
 ![CleanShot 2018-10-22 at 21.57.11@2x](/media/spellcheck/CleanShot 2018-10-22 at 21.57.11@2x.png)
 
