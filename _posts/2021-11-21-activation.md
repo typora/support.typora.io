@@ -20,30 +20,30 @@ Table of Contents:
 
 ## Pre-conditions and Important Notes
 
-To activate Typora, you will need to [purchase Typora](https://store.typora.io/) first, after purchase, a license code will be send to your email address which you can use to activate Typora.
+To activate Typora, you will need to [purchase a license](https://store.typora.io/) first. After your purchase a license code will be sent to your email address, which you can use to activate Typora.
 
-Activation **requires net connection**, so you will need access to [store.typora.io](https://store.typora.io) to continue the activation.
+Activation **requires internet connection**, so you will need access to [store.typora.io](https://store.typora.io) to proceed with activation.
 
-Once you used a license code, **same email address** should be used for future activations, so, please confirm you inputed your valid email address.
+Once you have used a license code, you will need to use the **same email address** for future activations, so please make sure that you have entered a valid email address.
 
-When you activate Typora, the Typora copy in your account on your current machine is activated. If you switch to different accounts, or different devices, you will need to activate typora for this account. One license code can be used to activate 3 devices at most at one time, different accounts and operation system on one machine is counted as separated devices.
+Activating Typora activates your account's copy of Typora on your current machine. If you switch to other accounts or other devices, you will need to activate Typora for those new accounts or devices. One license code can be used to activate a maximum of 3 devices at a time, and different accounts and operating systems on one machine are considered separate devices.
 
 ## Register / Activate Typora
 
-You can activate Typora in `License Panel`, on macOS, you can open `License Panel` from menubar: `Typora` → `My License…`, on Windows / Linux, you can open `License Panel` from menubar: `Help` → `My License…`.
+You can activate Typora in the `License Panel`. On macOS, you can open the `License Panel` from the menu bar: `Typora` → `My license…`. On Windows / Linux, you can open the `License panel` from the menu bar: `Help` → `My license…`.
 
 <div  style="text-align:center">
   <figure style="margin:0;display:inline-block;">
     <img src="/media/activation/Screen Shot 2021-11-21 at 21.07.33.png" alt="open license panel on macOS" style="zoom:50%;" />	
-    <figcaption><center><i>open license panel on macOS</i></center></figcaption>
+    <figcaption><center><i>Open License Panel on macOS</i></center></figcaption>
   </figure>
   <figure  style="margin:0;display:inline-block;">
     <img src="/media/activation/Screen Shot 2021-11-21 at 21.22.48.png" alt="open license panel on Windows / Linux" style="zoom:50%;" />	
-    <figcaption><center><i>open license panel on Windows / Linux</i></center></figcaption>
+    <figcaption><center><i>Open License panel on Windows / Linux</i></center></figcaption>
   </figure>
 </div>
 
-On the `License Panel`, click `Enter License` button, and then input your email address and license code, and click `Activate` button.
+Once in the `License Panel` click the `Enter License` button, then enter your e-mail address and license code and click the `Activate` button.
 
 <div  style="text-align:center">
   <figure style="margin:0;display:inline-block;width: 49%;">
@@ -56,24 +56,24 @@ On the `License Panel`, click `Enter License` button, and then input your email 
   </figure>
 </div>
 
-And your Typora will be activated!
+Afterwards, Typora will be up and running!
 
-## How to check my activation status
+## How to check activation status
 
 ### Check if Typora is activated or not
 
-You can [open `License Panel`](#register--activate-typora) to see if your typora is activated. To open it, on macOS, please click menu item `Typora` → `My License…`, on Windows / Linux, please click menu item `Help` → `My License…`.
+You can [open the `License Panel`](#register--activate-typora) to see if your typora is activated. To open it, on macOS, click on the menu option `Typora` → `My License…`, and on Windows / Linux, click on the menu option `Help` → `My License…`.
 
 ### View associated email and license code
 
-You can [open `License Panel`](#register--activate-typora) and click `View License` button to see your associated email address and license code for activated Typora copy.
+You can [open the `License Panel`](#register--activate-typora) and click the `View License` button to view both your associated email address and the license code of the activated copy of Typora.
 
 ## Deactivate Typora
 
-If you can access an activated Typora, you can deactivate it in the following way:
+If you have access to an activated copy of Typora, you can deactivate it as follows:
 
-1. [Open `License Panel`](#register--activate-typora) from `Typora` → `My License…` menu item or `Help` → `My License…` menu item.
-2. Click `Deactivate` button, and click `OK` on the confirm dialog.
+1. [Open the `License Panel`](#register--activate-typora) from the `Typora` → `My License…` menu option or the `Help` → `My License…` menu option.
+2. Click the `Deactivate` button, and click `OK` in the confirmation dialog.
 
 <img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
 
