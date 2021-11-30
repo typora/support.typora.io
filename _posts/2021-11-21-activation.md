@@ -115,7 +115,13 @@ Please check your network connection, especially check if you can access [store.
 
 Please check if there are firewalls that may block Typora from accessing the internet.
 
-If everything is fine, just wait for some minutes and try again later.
+If you use proxy or VPN, try disable them.
+
+![remove proxy](/media/activation/Local-Area-Network-Settings.png)
+
+If you are on Windows, please try remove `HTTP_PROXY` and `HTTPS_PROXY` from your system enviorment variables.
+
+If you tried all above steps, please wait for some minutes and try again later.
 
 ## My Typora get deactivated unexpectedly.
 
