@@ -83,69 +83,69 @@ If you cannot access the device, you can simply activate Typora on a new device 
 
 # FAQ
 
-## How to retrieve my license code if I forgot it ?
+## How to retrieve my license code if I forgot it?
 
-One license key is sent to your email address after the purchase, so you could just search it in your mail box and check spam if you can not find it.
+A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
 
-If you purchased Typora on our website (typora.io), then the license code is delivered via FastSpring, and you can find your orders and license code [here](https://typora.onfastspring.com/account) with the mail address you used for purchase. It will send you an login url to your mail box. If you do not receive it, please wait for a while and check your spam mails.
+If you purchased Typora on our website (typora.io), the license code is sent to you via FastSpring, so you can find your orders and license code [here](https://typora.onfastspring.com/account) with the email address you used for purchase. An access url will be sent to your mailbox. If you do not receive it, please wait a while and check your spam emails.
 
-If you purchase Typora from other distributor, please contact them instead.
+If you purchased Typora from another reseller, please contact them instead.
 
 ## I cannot activate Typora
 
-### Error message "Please input a valid license code"
+### Error message "Please input a valid license code".
 
-Please check if your license code is valid or not, license code are using formats like XXXXXX-XXXXXX-XXXXXX-XXXXXX with uppercase letters and numbers.
+Please check if your license code is valid. The license code has a format in the style of XXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
 
-If you forgot your license code, please refer ["How to retrieve my license code if I forgot it ?"](#how-to-retrieve-my-license-code-if-i-forgot-it-).
+If you have forgotten your license code, see ["How to retrieve my license code if I forgot it?"] (#how-to-retrieve-my-license-code-if-I-forgot-it).
 
-### Error message "Email address confirmation does not match"
+### Error message "Email address confirmation does not match."
 
-Because once you used a license code, **same email address** MUST be used for the same license code in future activations. So you will need to input email address twice for confirmation. If those two input is not the same, this error will be shown, so please check and correct your email address when met with this error.
+After using a license code, **the same email address** MUST be used for the same license code on future activations. You will need to enter the email address twice for confirmation. If those two entries are not the same this error will be displayed, so please check if you have entered your email address correctly.
 
-### Error message "This license code has been used with a different email address."
+### Error message "This license code has been used with a different email address".
 
-Because once you used a license code, **same email address** MUST be used for the same license code in future activations. This errors shows if the email address you use did not math the email address that that has been used when activating Typora with the license code at the first time.
+After using a license code, **the same email address** MUST be used for the same license code in future activations.  This error appears if the email address you use is not the same email address that was used when activating Typora with the license code for the first time.
 
-### Error message "Failed to access the license server. Please check your network or try gain later."
+### Error message "Failed to access the license server. Please check your network or try to access it later."
 
-Activation Typora requires network connection, so
+Typora activation requires a network connection, so:
 
-Please check your network connection, especially check if you can access [store.typora.io](https://store.typora.io).
+- Please check your network connection, especially check if you can access [store.typora.io](https://store.typora.io).
 
-Please check if there are firewalls that may block Typora from accessing the internet.
+- Check for firewalls that may block Typora's access to the Internet.
 
-If you use proxy or VPN, try disable them.
+- If you use a proxy or VPN, try disabling them.
 
-![remove proxy](/media/activation/Local-Area-Network-Settings.png)
+  ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
 
-If you are on Windows, please try remove `HTTP_PROXY` and `HTTPS_PROXY` from your system enviorment variables.
+- If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
 
-If you tried all above steps, please wait for some minutes and try again later.
+- If you have tried all of the above steps, wait a few minutes and try again later.
 
-## My Typora get deactivated unexpectedly.
+## My Typora has been unexpectedly deactivated.
 
-If you used to have activated Typora but find out that it has unexpectedly become deactivated, usually the reason can be:
+If you have activated Typora but find that it has been unexpectedly disabled, usually the reason may be:
 
-- One license code can be used at most on 3 machines at one time. So if you activated Typora on the 4th devices, the oldest activated devices will get deactivated automatically. You can detective Typora on devices you don't need anymore, then re-activate Typora on this devices, or you should buy more license code if you want to use Typora on more than 3 devices.
-- If you switch to new accounts on the same machine, you will need to activate Typora for this user. One license code can be used to activate 3 devices at most at one time, different accounts on one machine is counted as separated devices.
+- That you have activated Typora on a fourth device, since a license code can be used on at most 3 devices at a time. Therefore, if you have activated Typora on a fourth device, the oldest device will be deactivated automatically. You can deactivate Typora on the devices you no longer need and then re-activate Typora on these devices, or you must purchase more license codes if you want to use Typora on more than 3 devices.
+- If you switch to new accounts on the same computer, you will need to activate Typora for this user. One license code can be used to activate a maximum of 3 devices at a time. Different accounts on one machine are counted as separate devices.
 
-## How many devices can I use at the same time for one licese ?
+## How many devices can I use at the same time for one license?
 
-At most 3 different devices, devices means different devices, different operation systems and VMs in one devices, different accounts in one operation system. 
+A maximum of 3 devices. Devices means different devices, different operating systems and VMs on a device, different accounts on an operating system...
 
 ## What if I have more than 3 devices?
 
-If you have more than 3 devices **at one time**, you will need to may more license code for this reason. 
+If you want to activate more than 3 devices **at the same time**, you will need to purchase more license codes. 
 
-If you moved from old devices to new devices, you can [deactivate typora](#deactivate-typora) on the old / unused devices.
+If you have switched from old to new devices, you can [deactivate typora](#deactivate-typora) on old / unused devices.
 
-## What is allowed or not allowed when using Typora ?
+## What is allowed or not allowed when using Typora?
 
 Please refer to our [End User License Agreement](https://support.typora.io/License-Agreement/).
 
 ## I have other questions...
 
-Please contact <hi@typora.io>. If your question is about activation and orders, please attach information such as the email address used for the purchase, license code you used for activation, etc.
+Please contact <hi@typora.io>. If your question is about activation and orders, please attach information such as the email address used for purchase, the license code you used for activation, etc.
 
-For purchase / order related question, please check [Purchase Typora](/purchase).
+For purchase or order related questions, please refer to [Purchase Typora](/purchase).
