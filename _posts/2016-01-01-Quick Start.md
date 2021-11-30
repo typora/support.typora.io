@@ -17,7 +17,7 @@ Thank you for choosing **Typora**. This document will help you to start Typora.
 
 ## Live Preview
 
-**Typora** use the feature: *Live Preview*, meaning that you could see these inline styles after you finish typing, and see block styles when you type or after you press `Enter` key or focus to another paragraph. Just try to type some markdown in typora, and you would see how it works.
+**Typora** uses the feature: *Live Preview*, meaning that you could see these inline styles after you finish typing, and see block styles when you type or after you press `Enter` key or focus to another paragraph. Just try to type some markdown in typora, and you would see how it works.
 
 **Note**: Markdown tags for inline styles, such as `**` will be hidden or displayed smartly. Markdown tags for block level styles, such as `###` or `- [x]` will be hidden once the block is rendered.
 
