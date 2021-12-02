@@ -115,7 +115,7 @@ Typora activation requires a network connection, so:
 
 - Check for **firewalls** that may block Typora's access to the Internet.
 
-- If you use a proxy or VPN, try disabling them, then restart Typora.
+- If you use a proxy or VPN, try disabling them, and then reboot.
 
   ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
 
