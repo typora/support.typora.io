@@ -111,15 +111,17 @@ After using a license code, **the same email address** MUST be used for the same
 
 Typora activation requires a network connection, so:
 
-- Please check your network connection, especially check if you can access [store.typora.io](https://store.typora.io).
+- Please check your **network** connection, especially check if you can access [store.typora.io](https://store.typora.io).
 
-- Check for firewalls that may block Typora's access to the Internet.
+- Check for **firewalls** that may block Typora's access to the Internet.
 
-- If you use a proxy or VPN, try disabling them.
+- If you use a proxy or VPN, try disabling them, then restart Typora.
 
   ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
 
 - If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
+
+  <img src="/media/activation/Screen Shot 2021-12-02 at 21.53.49.png" alt="Screen Shot 2021-12-02 at 21.53.49" style="zoom:50%;" />
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
