@@ -20,30 +20,30 @@ Table of Contents:
 
 ## Pre-conditions and Important Notes
 
-To activate Typora, you will need to [purchase Typora](https://store.typora.io/) first, after purchase, a license code will be send to your email address which you can use to activate Typora.
+To activate Typora, you will need to [purchase a license](https://store.typora.io/) first. After your purchase a license code will be sent to your email address, which you can use to activate Typora.
 
-Activation **requires net connection**, so you will need access to [store.typora.io](https://store.typora.io) to continue the activation.
+Activation **requires internet connection**, so you will need access to [store.typora.io](https://store.typora.io) to proceed with activation.
 
-Once you used a license code, **same email address** should be used for future activations, so, please confirm you inputed your valid email address.
+Once you have used a license code, you will need to use the **same email address** for future activations, so please make sure that you have entered a valid email address.
 
-When you activate Typora, the Typora copy in your account on your current machine is activated. If you switch to different accounts, or different devices, you will need to activate typora for this account. One license code can be used to activate 3 devices at most at one time, different accounts and operation system on one machine is counted as separated devices.
+Activating Typora activates your account's copy of Typora on your current machine. If you switch to other accounts or other devices, you will need to activate Typora for those new accounts or devices. One license code can be used to activate a maximum of 3 devices at a time, and different accounts and operating systems on one machine are considered separate devices.
 
 ## Register / Activate Typora
 
-You can activate Typora in `License Panel`, on macOS, you can open `License Panel` from menubar: `Typora` → `My License…`, on Windows / Linux, you can open `License Panel` from menubar: `Help` → `My License…`.
+You can activate Typora in the `License Panel`. On macOS, you can open the `License Panel` from the menu bar: `Typora` → `My license…`. On Windows / Linux, you can open the `License panel` from the menu bar: `Help` → `My license…`.
 
 <div  style="text-align:center">
   <figure style="margin:0;display:inline-block;">
     <img src="/media/activation/Screen Shot 2021-11-21 at 21.07.33.png" alt="open license panel on macOS" style="zoom:50%;" />	
-    <figcaption><center><i>open license panel on macOS</i></center></figcaption>
+    <figcaption><center><i>Open License Panel on macOS</i></center></figcaption>
   </figure>
   <figure  style="margin:0;display:inline-block;">
     <img src="/media/activation/Screen Shot 2021-11-21 at 21.22.48.png" alt="open license panel on Windows / Linux" style="zoom:50%;" />	
-    <figcaption><center><i>open license panel on Windows / Linux</i></center></figcaption>
+    <figcaption><center><i>Open License panel on Windows / Linux</i></center></figcaption>
   </figure>
 </div>
 
-On the `License Panel`, click `Enter License` button, and then input your email address and license code, and click `Activate` button.
+Once in the `License Panel` click the `Enter License` button, then enter your e-mail address and license code and click the `Activate` button.
 
 <div  style="text-align:center">
   <figure style="margin:0;display:inline-block;width: 49%;">
@@ -56,96 +56,96 @@ On the `License Panel`, click `Enter License` button, and then input your email 
   </figure>
 </div>
 
-And your Typora will be activated!
+Afterwards, Typora will be up and running!
 
-## How to check my activation status
+## How to check activation status
 
 ### Check if Typora is activated or not
 
-You can [open `License Panel`](#register--activate-typora) to see if your typora is activated. To open it, on macOS, please chick menu item `Typora` → `My License…`, on Windows / Linux, please click menu item `Help` → `My License…`.
+You can [open the `License Panel`](#register--activate-typora) to see if your typora is activated. To open it, on macOS, click on the menu option `Typora` → `My License…`, and on Windows / Linux, click on the menu option `Help` → `My License…`.
 
 ### View associated email and license code
 
-You can [open `License Panel`](#register--activate-typora) and click `View License` button to see your associated email address and license code for activated Typora copy.
+You can [open the `License Panel`](#register--activate-typora) and click the `View License` button to view both your associated email address and the license code of the activated copy of Typora.
 
 ## Deactivate Typora
 
-If you can access an activated Typora, you can deactivate it in following way:
+If you have access to an activated copy of Typora, you can deactivate it as follows:
 
-1. [Open `License Panel`](#register--activate-typora) from `Typora` → `My License…` menu item or `Help` → `My License…` menu item.
-2. Click `Deactivate` button, and click `OK` on the confirm dialog.
+1. [Open the `License Panel`](#register--activate-typora) from the `Typora` → `My License…` menu option or the `Help` → `My License…` menu option.
+2. Click the `Deactivate` button, and click `OK` in the confirmation dialog.
 
 <img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
 
-If you cannot access the device, you can simplify activate Typora on new devices, we will automatically deactivated the oldest activated devices for your license code.
+If you cannot access the device, you can simply activate Typora on a new device and we will automatically deactivate the oldest activated device for your license code.
 
 ---
 
 # FAQ
 
-## How to retrieve my license code if I forgot it ?
+## How to retrieve my license code if I forgot it?
 
-One license key is sent to your email address after the purchase, so you could just search it in your mail box and check spam if you could not find them.
+A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
 
-If you purchased Typora on our website (typora.io), then the license code delivered via FastSpring, and you can find your orders and license code at [here](https://typora.onfastspring.com/account) with the mail address you used for purchase. It will send you an login url to your mail box. If you do not receive it, please wait for a while and check your spam mails.
+If you purchased Typora on our website (typora.io), the license code is sent to you via FastSpring, so you can find your orders and license code [here](https://typora.onfastspring.com/account) with the email address you used for purchase. An access url will be sent to your mailbox. If you do not receive it, please wait a while and check your spam emails.
 
-If you purchase Typora from other distributor, please contact them instead.
+If you purchased Typora from another reseller, please contact them instead.
 
 ## I cannot activate Typora
 
-### Error message "Please input a valid license code"
+### Error message "Please input a valid license code."
 
-Please check if your license code is valid or not, license code are using formats like XXXXXX-XXXXXX-XXXXXX-XXXXXX with uppercase letters and numbers.
+Please check if your license code is valid. The license code has a format in the style of XXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
 
-If you forgot your license code, please refer ["How to retrieve my license code if I forgot it ?"](#how-to-retrieve-my-license-code-if-i-forgot-it-).
+If you have forgotten your license code, see ["How to retrieve my license code if I forgot it?"] (#how-to-retrieve-my-license-code-if-I-forgot-it).
 
-### Error message "Email address confirmation does not match"
+### Error message "Email address confirmation does not match."
 
-Because once you used a license code, **same email address** MUST be used for the same license code in future activations. So you will need to input email address twice for confirmation. If those two input is not the same, this error will shown. So please check and correct your email address when met this error.
+After using a license code, **the same email address** MUST be used for the same license code on future activations. You will need to enter the email address twice for confirmation. If those two entries are not the same this error will be displayed, so please check if you have entered your email address correctly.
 
 ### Error message "This license code has been used with a different email address."
 
-Because once you used a license code, **same email address** MUST be used for the same license code in future activations. This errors shows if the email address you use did not math the email address that that has been used when activating Typora with the license code at the first time.
+After using a license code, **the same email address** MUST be used for the same license code in future activations.  This error appears if the email address you use is not the same email address that was used when activating Typora with the license code for the first time.
 
-### Error message "Failed to access the license server. Please check your network or try gain later."
+### Error message "Failed to access the license server. Please check your network or try again later."
 
-Activation Typora requires network connection, so
+Typora activation requires a network connection, so:
 
-Please check your network connection, especially check if you can access [store.typora.io](https://store.typora.io).
+- Please check your network connection, especially check if you can access [store.typora.io](https://store.typora.io).
 
-Please check if there are firewalls that may block Typora from accessing the internet.
+- Check for firewalls that may block Typora's access to the Internet.
 
-If you use proxy or VPN, try disable them.
+- If you use a proxy or VPN, try disabling them.
 
-![remove proxy](/media/activation/Local-Area-Network-Settings.png)
+  ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
 
-If you are on Windows, please try remove `HTTP_PROXY` and `HTTPS_PROXY` from your system enviorment variables.
+- If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
 
-If you tried all above steps, please wait for some minutes and try again later.
+- If you have tried all of the above steps, wait a few minutes and try again later.
 
-## My Typora get deactivated unexpectedly.
+## My Typora has been unexpectedly deactivated.
 
-If you used to have activated Typora, but now, find it become deactivated unexpectedly, usually the reason can be:
+If you have activated Typora but find that it has been unexpectedly disabled, usually the reason may be:
 
-- One license code can be used at most on 3 machines at one time. So if you activated Typora on the 4th devices, the oldest activated devices will get deactivated automatically. You can detective Typora on devices you don't need anymore, then re-activate Typora on this devices, or you should buy more license code if you want to use Typora on more than 3 devices.
-- If you switch to new accounts on the same machine, you will need to activate Typora for this user. One license code can be used to activate 3 devices at most at one time, different accounts on one machine is counted as separated devices.
+- That you have activated Typora on a fourth device, since a license code can be used on at most 3 devices at a time. Therefore, if you have activated Typora on a fourth device, the oldest device will be deactivated automatically. You can deactivate Typora on the devices you no longer need and then re-activate Typora on these devices, or you must purchase more license codes if you want to use Typora on more than 3 devices.
+- If you switch to new accounts on the same computer, you will need to activate Typora for this user. One license code can be used to activate a maximum of 3 devices at a time. Different accounts on one machine are counted as separate devices.
 
-## How many devices can I use at the same time for one licese ?
+## How many devices can I use at the same time for one license?
 
-At most 3 different devices, devices means different devices, different operation systems and VMs in one devices, different accounts in one operation system. 
+A maximum of 3 devices. Devices means different devices, different operating systems and VMs on a device, different accounts on an operating system...
 
 ## What if I have more than 3 devices?
 
-If you have more than 3 devices **at one time**, you will need to may more license code for this reason. 
+If you want to activate more than 3 devices **at the same time**, you will need to purchase more license codes. 
 
-If you moived from old devices to new devices, you can [deactive](#deactivate-typora) on the old / unused devices.
+If you have switched from old to new devices, you can [deactivate typora](#deactivate-typora) on old / unused devices.
 
-## What is allowed or not allowed when using Typora ?
+## What is allowed or not allowed when using Typora?
 
 Please refer to our [End User License Agreement](https://support.typora.io/License-Agreement/).
 
 ## I have other questions...
 
-Please contact <hi@typora.io>. If your question is about activation and orders, please attach the information you have, like that email address you used when purchase, and / or license code you used for activation, etc.
+Please contact <hi@typora.io>. If your question is about activation and orders, please attach information such as the email address used for purchase, the license code you used for activation, etc.
 
-For purchase / order related question, please check [Purchase Typora](/purchase).
+For purchase or order related questions, please refer to [Purchase Typora](/purchase).
