@@ -38,7 +38,7 @@ Headers use 1-6 hash (`#`) characters at the start of the line, corresponding to
 ###### This is an H6
 ```
 
-In Typora, input ‘#’s followed by title content, and press `Return` key will create a header. Or type ⌘1 to ⌘6 as a shortcut.
+In Typora, input `#` followed by title content, and press `Return` key will create a header. Or type ⌘1 to ⌘6 as a shortcut.
 
 ### Blockquotes
 
@@ -54,7 +54,7 @@ Markdown uses email-style > characters for block quoting. They are presented as:
 > This is another blockquote with one paragraph. There is three empty line to separate two blockquotes.
 ```
 
-In Typora, typing ‘>’ followed by your quote contents will generate a quote block. Typora will insert a proper ‘>’ or line break for you. Nested block quotes (a block quote inside another block quote) by adding additional levels of ‘>’.
+In Typora, typing `>` followed by your quote contents will generate a quote block. Typora will insert a proper `>` or line break for you. Nested block quotes (a block quote inside another block quote) by adding additional levels of `>`.
 
 ### Lists
 
@@ -94,7 +94,7 @@ You can change the complete/incomplete state by clicking on the checkbox before 
 
 Typora only supports fences in GitHub Flavored Markdown, not the original code block style.
 
-Using fences is easy: type  \`\`\` and press `return`. Add an optional language identifier after \`\`\` and Typora runs it through syntax highlighting:
+Using fences is easy: type ` ``` ` and press `Return`. Add an optional language identifier after ` ``` ` and Typora runs it through syntax highlighting:
 
 ``` markdown
 Here's an example:
@@ -194,7 +194,7 @@ You can create footnotes like this[^fn1] and this[^fn2].
 [^fn2]: Here is the *text* of the second **footnote**.
 ```
 
-Hover over the ‘fn1’ or 'fn2' superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
+Hover over the `fn1` or `fn2` superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
 
 Hover over the footnote superscripts to see content of the footnote.
 
