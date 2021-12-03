@@ -115,13 +115,21 @@ Typora activation requires a network connection, so:
 
 - Check for **firewalls** that may block Typora's access to the Internet.
 
-- If you use a proxy or VPN, try disabling them, and then reboot.
+- If you can visit <https://store.typora.io> without VPN or proxy, then: 
 
-  ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
+  - Disabling  VPN or proxy, and then reboot.
 
-- If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
+    ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
 
-  <img src="/media/activation/Screen Shot 2021-12-02 at 21.53.49.png" alt="Screen Shot 2021-12-02 at 21.53.49" style="zoom:50%;" />
+  - If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
+
+    <img src="/media/activation/Screen Shot 2021-12-02 at 21.53.49.png" alt="Screen Shot 2021-12-02 at 21.53.49" style="zoom:50%;" />
+
+- If you CANNOT visit <https://store.typora.io> without VPN or proxy, then:
+
+  - Please follow [here](/Launch-Arguments/#luanch-typora-with-proxy-windows--linux) to launch Typora with Proxy
+
+  - We are also now working on a mirror server in China, sorry but please be paitent on it.
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
