@@ -111,7 +111,7 @@ After using a license code, **the same email address** MUST be used for the same
 
 Typora activation requires a network connection, so:
 
-- (**For Chinese User**) 如果你是中国国内用户，请更新或下载 1.0.3，然后打开 偏好设置 → 通用 → Typora 服务使用国内服务器
+- (**For Chinese User**) 如果你是中国国内用户，请更新或（从官网重新）下载 1.0.3，然后打开 偏好设置 → 通用 → Typora 服务使用国内服务器
 
   <img src="/media/activation/Screen Shot 2021-12-03 at 23.11.11.png" alt="Screen Shot 2021-12-03 at 23.11.11" style="zoom:50%;" />
 
