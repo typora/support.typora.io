@@ -117,7 +117,7 @@ Typora activation requires a network connection, so:
 
 - Please check your **network** connection, especially check if you can access [store.typora.io](https://store.typora.io).
 
-- Check for **firewalls** that may block Typora's access to the Internet.
+- Check for **firewalls** that may block Typora's access to the Internet or local disk. You can also try disable your firewall and run Typora in Administer mode.
 
 - If you can visit <https://store.typora.io> without VPN or proxy, then: 
 
