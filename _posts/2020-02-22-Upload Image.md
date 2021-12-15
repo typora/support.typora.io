@@ -57,8 +57,6 @@ If it shows "Validation Failed", you need to check the reason from the raw outpu
 
 ### iPic (macOS, Freemium)
 
-
-
 ![ipic](/media/image-upload/ipic.jpg)
 
 [iPic][https://itunes.apple.com/app/id1101244278] is a **freemium** app which allows you to upload local images into various cloud service, including [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), etc, and return you a web url of the uploaded image for public access. 
@@ -225,33 +223,39 @@ If your Markdown files contains lots of local images, and you want to upload all
 
 # Troubleshooting
 
-- **"Please set an image uploader in Preferences Panel before using this function."**
+#### "Please set an image uploader in Preferences Panel before using this function."
 
-  In order to make "image upload" functional, you must set an image uploader in Preferences Panel following the [configuration](#configuration) section,  
+In order to make "image upload" functional, you must set an image uploader in Preferences Panel following the [configuration](#configuration) section.
 
-- **Image Upload Failed**
+#### "command not find"
 
-  When upload image failed, Typora will print the error message when calling the 3rd app you configured as image upload provider. You could find the cause from the error message.
+If you sent custom command for example "node upload-image xxx" to upload file, you may met error with message "/bin/bash xxx command not find", that is because your custom command binary is not in your system path.
 
-  If you cannot know the cause, you could try validate the image upload option by clicking the "Test Uploader" button in preferences panel, and if it success or not. Also, you may try if you upload images using those app without Typora, and check if it can succeed or not.
+For example, if the error message is "node command not find", then please use `which node` in terminal to decide your node path, then replace `node` with fulle `node` path.
 
-  If you find those app cannot upload images successfully, you could contact to their maintainer for further support. 
+#### Image Upload Failed
 
-- **Garbled console output on Windows**
+When upload image failed, Typora will print the error message when calling the 3rd app you configured as image upload provider. You could find the cause from the error message.
 
-  If you use, custom command, and after clicking "Test Uploader" button in preferences panel, and its console output is Garbled characters, you may try to force the process to use UTF8 encoding, by prepending `@chcp 65001 >nul & cmd /d/s/c ` before your custom command.
+If you cannot know the cause, you could try validate the image upload option by clicking the "Test Uploader" button in preferences panel, and if it success or not. Also, you may try if you upload images using those app without Typora, and check if it can succeed or not.
 
-- **[PicGo ERROR]: Error: API v1 is deprecated, please refer to https://doc.sm.ms/ for v2 API documentation.**
+If you find those app cannot upload images successfully, you could contact to their maintainer for further support. 
 
-  It is caused by PicGo's support issue of its default image hosting service: sm.ms, please refer [PicGo/PicGo-Core#30](https://github.com/PicGo/PicGo-Core/issues/30), or use other image service other than the default one
+#### Garbled console output on Windows
 
-- **Fail to parse result image path from**
+If you use, custom command, and after clicking "Test Uploader" button in preferences panel, and its console output is Garbled characters, you may try to force the process to use UTF8 encoding, by prepending `@chcp 65001 >nul & cmd /d/s/c ` before your custom command.
 
-  Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
+#### [PicGo ERROR]: Error: API v1 is deprecated, please refer to https://doc.sm.ms/ for v2 API documentation.
 
-- **EPERM: operation not permitted mkdir "\*\*/upload"**
+It is caused by PicGo's support issue of its default image hosting service: sm.ms, please refer [PicGo/PicGo-Core#30](https://github.com/PicGo/PicGo-Core/issues/30), or use other image service other than the default one
 
-  This should be fixed in 0.9.87, please upgrade Typora.
+#### Fail to parse result image path from
+
+Like [#3309](https://github.com/typora/typora-issues/issues/3309), Typora requires the return url of an image to start with `http://`, `https://`, or `file://`. Other protocols are not supported. Also, in HTML / Markdown, image `src` without protocols, are treated like relative path.
+
+#### EPERM: operation not permitted mkdir "\*\*/upload"
+
+This should be fixed in 0.9.87, please upgrade Typora.
 
 # Migration from older Typora version
 
