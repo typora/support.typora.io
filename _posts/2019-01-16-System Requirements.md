@@ -18,10 +18,8 @@ Typora works on
 ## Hardware
 
 - Windows
-  An Intel Pentium 4 processor or later that's SSE2 capable
   1G of RAM
 - Mac
-  An Intel processor that's 64-bit
   1G of RAM
 - Linux
-  An Intel Pentium 4 processor or later that's SSE2 capable
+  1G of RAM

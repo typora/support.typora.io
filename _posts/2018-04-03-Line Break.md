@@ -5,6 +5,7 @@ author: typora.io
 category: how-to
 tags: [style, markdown]
 typora-root-url: ../
+typora-copy-images-to: ../media/whitespace
 ---
 
 ## Recommended Practices in Typora
@@ -87,4 +88,6 @@ Almost all Markdown engines will parse them as hard line break in the output.
 
 ## Change Related Settings in Typora
 
-We provide related settings in `Preference Panel` or `Edit` -> `Whitespace and  Line Breaks` from menu bar.
+We provide related settings in `Preference Panel` → `Markdown` → `Whitespace / LineBreak`,  or `Edit` -> `Whitespace and  Line Breaks` from menu bar.
+
+<img src="/media/whitespace/Screen Shot 2021-12-11 at 16.03.29.png" alt="Screen Shot 2021-12-11 at 16.03.29" style="zoom:50%;" />
