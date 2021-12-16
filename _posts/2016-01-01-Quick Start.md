@@ -23,7 +23,7 @@ Thank you for choosing **Typora**. This document will help you to start Typora.
 
 ## Markdown For Typora
 
-**Typora** is using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), For more detail, please open [Markdown Reference](Markdown%20Reference.md).
+**Typora** is using [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/), For more detail, please open [Markdown Reference](/Markdown-Reference/).
 
 To see full markdown Syntax references and extra usage, please check `Help`->`Markdown Reference` in menu bar.
 
