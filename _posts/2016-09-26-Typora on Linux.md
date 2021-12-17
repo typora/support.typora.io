@@ -182,3 +182,8 @@ Please check if you uses fcitx (e.g. for typing Chinese)? `Ctrl + 5` is the glob
 
 Try launch typora with extra arguments `--disable-gpu`.
 
+#### Text not displayed in dialogs
+
+![text not displayed in open file dialog](/media/typora-linux/no-text-error.png)
+
+Please refer <https://github.com/electron-userland/electron-builder/issues/5217#issuecomment-700707564>
