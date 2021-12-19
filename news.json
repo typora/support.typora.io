@@ -1,0 +1,13 @@
+---
+---
+{% assign counter = '0' %}
+{% for post in site.posts %}
+{% if post.tags contains 'news' and counter < '1' %}
+{
+  "title": {{ post.title | jsonify}},
+  "url": {{ post.url | jsonify}},
+  "date": {{ post.date | jsonify}}
+}
+{% capture counter %}{{ counter | plus:'1' }}{% endcapture %}
+{% endif %}
+{% endfor %}
