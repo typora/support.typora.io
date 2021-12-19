@@ -164,6 +164,10 @@
     text-decoration: none;
 }
 
+#list-contents h3 {
+  text-align: center;
+}
+
 #post-footer a:hover {
   text-decoration: underline;
 }

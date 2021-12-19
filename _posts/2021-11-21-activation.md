@@ -2,7 +2,7 @@
 layout: post
 title: Activate Typora
 author: typora.io
-category: basic
+category: purchase
 tags: [purchase, activation, faq]
 typora-root-url: ../
 typora-copy-images-to: ../media/activation

@@ -2,7 +2,7 @@
 layout: post
 title: Older macOS Support
 author: typora.io
-category: basic
+category: how-to
 tags: [macOS]
 typora-root-url: ../
 ---
