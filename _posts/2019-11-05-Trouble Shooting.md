@@ -43,7 +43,12 @@ You can remove following manually:
 ~/Library/Application Support/abnerworks.Typora/
 ~/Library/Caches/abnerworks.Typora/
 ~/Library/Preferences/abnerworks.Typora.plist
+~/Library/Saved Application State/abnerworks.Typora.savedState
 ```
+
+#### Typora always open a large file and hang on start
+
+Please remove `~/Library/Saved Application State/abnerworks.Typora.savedState/` manually to prevent Typora from reopening last crashed files for next launch.
 
 #### Typora window is blank after launch.
 
