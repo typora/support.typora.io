@@ -77,7 +77,7 @@ Yes. Only import and export (other than HTML/PDF file types) needs it.
 
 Import supports files with these extensions: .docx, .latex, .tex, .ltx, .rst, .rest, .org, .wiki, .dokuwiki, .textile, .opml, .epub.
 
-Export supports file formats of: HTML, PDF (these two does not need Typora), Docx, odt, rtf, Epub, LaTeX, Media Wiki.
+Export supports file formats of: HTML, PDF (these two do not need Typora), Docx, odt, rtf, Epub, LaTeX, Media Wiki.
 
 Pandoc itself supports more file types which Typora does not yet integrate. It has more details [here](http://pandoc.org/).
 
