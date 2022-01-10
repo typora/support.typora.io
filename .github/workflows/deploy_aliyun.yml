@@ -1,0 +1,25 @@
+---
+name: 'deploy'
+
+# yamllint disable-line rule:truthy
+on:
+  push:
+    branches:
+      - gh-pages
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cloning repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Push to dokku
+        uses: dokku/github-action@master
+        with:
+          # specify the `main` branch as the remote branch to push to
+          branch: 'main'
+          git_remote_url: 'ssh://dokku@dokku.typoraio.cn/wiki'
+          ssh_private_key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
