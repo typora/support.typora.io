@@ -31,6 +31,6 @@ jobs:
           npm i -g dokku-pages
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
-          dokku-pages deploy -g dokku@dokku.typoraio.cn:wiki --minimal -d dist
+          dokku-pages deploy -g dokku@106.15.186.16:wiki --minimal -d dist
           rm -rf dist
       
