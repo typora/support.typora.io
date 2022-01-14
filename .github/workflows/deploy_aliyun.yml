@@ -29,6 +29,8 @@ jobs:
       - name: Push
         run: |
           npm i -g dokku-pages
+          git config --global user.email "hi@typora.io"
+          git config --global user.name "Typora"
           dokku-pages deploy -g dokku@dokku.typoraio.cn:wiki --minimal -d dist
           rm -rf dist
       
