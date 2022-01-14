@@ -15,11 +15,17 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
-
-      - name: Push to dokku
-        uses: dokku/github-action@master
+          
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
         with:
-          # specify the `main` branch as the remote branch to push to
-          branch: 'main'
-          git_remote_url: 'ssh://dokku@dokku.typoraio.cn/wiki'
-          ssh_private_key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
+          key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }} 
+    
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.1
+
+      #https://github.com/benwinding/dokku-pages
+      - name: Push
+        run: |
+          npm i -g dokku-pages
+          dokku-pages deploy -g dokku@dokku.typoraio.cn:wiki --minimal
