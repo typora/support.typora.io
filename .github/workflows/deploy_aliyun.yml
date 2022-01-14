@@ -29,4 +29,6 @@ jobs:
       - name: Push
         run: |
           npm i -g dokku-pages
-          dokku-pages deploy -g dokku@dokku.typoraio.cn:wiki --minimal
+          dokku-pages deploy -g dokku@dokku.typoraio.cn:wiki --minimal -d dist
+          rm -rf dist
+      
