@@ -27,6 +27,7 @@ jobs:
       
       - name: Test SSH
         run: |
+          chmod +rwx /home/runner/.ssh/id_rsa
           echo "$SSH_KEY" > /home/runner/.ssh/id_rsa
           ssh -vT -o StrictHostKeyChecking=no dokku@106.15.186.16
         shell: bash
