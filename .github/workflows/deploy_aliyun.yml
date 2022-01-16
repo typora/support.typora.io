@@ -44,7 +44,7 @@ jobs:
           # A string containing a set of flags to set on push
           git_push_flags: -f
           # The dokku app's git repository url (in SSH format)
-          git_remote_url: dokku@106.15.186.16:wiki
+          git_remote_url: ssh://dokku@106.15.186.16:22/wiki
           # The name of the review app to create or destroy
           #review_app_name: # optional, default is 
           # The results of running `ssh-keyscan -t rsa $HOST`
