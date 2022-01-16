@@ -27,9 +27,11 @@ jobs:
       
       - name: Test SSH
         run: |
+          ssh-add  
           chmod +w /home/runner/.ssh/id_rsa
           echo "$SSH_KEY" > /home/runner/.ssh/id_rsa
           chmod 400 /home/runner/.ssh/id_rsa
+          ssh-add  
           ssh -vT -o StrictHostKeyChecking=no dokku@106.15.186.16
         shell: bash
         env:
