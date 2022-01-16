@@ -27,6 +27,30 @@ jobs:
     
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
+        
+      - name: Dokku
+        # You may pin to the exact commit or the version.
+        # uses: dokku/github-action@ad4a87c76347c217e3e5f183510a119e9a0a90f8
+        uses: dokku/github-action@v1.0.1
+        with:
+          # The branch to deploy when pushing to Dokku (default: master)
+          branch: master
+          # The command to run for the action (default: detected from GITHUB_REF)
+          #ci_branch_name: # optional, default is 
+          # The commit sha that will be pushed (default: detected from GITHUB_SHA)
+          #ci_commit: # optional, default is 
+          # The command to run for the action (default: deploy)
+          #command: # optional, default is deploy
+          # A string containing a set of flags to set on push
+          git_push_flags: -f
+          # The dokku app's git repository url (in SSH format)
+          git_remote_url: dokku@106.15.186.16:wiki
+          # The name of the review app to create or destroy
+          #review_app_name: # optional, default is 
+          # The results of running `ssh-keyscan -t rsa $HOST`
+          # ssh_host_key: # optional, default is 
+          # A private SSH key that has push acces to your Dokku instance
+          ssh_private_key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
 
       #https://github.com/benwinding/dokku-pages
       - name: Push
