@@ -48,7 +48,7 @@ jobs:
           # The name of the review app to create or destroy
           #review_app_name: # optional, default is 
           # The results of running `ssh-keyscan -t rsa $HOST`
-          # ssh_host_key: # optional, default is 
+          ssh_host_key: ${{ secrets.KNOWN_HOSTS }}
           # A private SSH key that has push acces to your Dokku instance
           ssh_private_key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
 
