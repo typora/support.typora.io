@@ -24,9 +24,6 @@ jobs:
           name: id_rsa
           if_key_exists: replace
           known_hosts: unnecessary
-      
-      - name: test
-        run:  ssh -t -q dokku@106.15.186.16 exit
     
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
