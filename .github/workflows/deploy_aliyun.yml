@@ -34,6 +34,8 @@ jobs:
           npm i -g dokku-pages
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
+          git remote add a dokku@106.15.186.16:wiki
+          git push -u a master
           dokku-pages deploy -g dokku@106.15.186.16:wiki --minimal -d dist
           rm -rf dist
       
