@@ -21,6 +21,12 @@ jobs:
         with:
           key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          name: id_rsa
+          if_key_exists: replace
+          known_hosts: unnecessary
+      
+      - name: test
+        run:  ssh dokku@106.15.186.16
     
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
