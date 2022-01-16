@@ -25,7 +25,10 @@ jobs:
           if_key_exists: replace
           known_hosts: unnecessary
       
-      - run: ssh -vT -o StrictHostKeyChecking=no dokku@106.15.186.16
+      - name: Test SSH
+        run: |
+          echo "$SSH_KEY" > /home/runner/.ssh/id_rsa
+          ssh -vT -o StrictHostKeyChecking=no dokku@106.15.186.16
         shell: bash
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
