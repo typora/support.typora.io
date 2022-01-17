@@ -20,10 +20,10 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.ALIYUN_SERVER_ACCESS_TOKEN }}
-          # known_hosts: ${{ secrets.KNOWN_HOSTS }}
+          known_hosts: ${{ secrets.KNOWN_HOSTS }}
           name: id_rsa
           if_key_exists: replace
-          known_hosts: unnecessary
+          # known_hosts: unnecessary
       
       - name: Test SSH
         run: |
