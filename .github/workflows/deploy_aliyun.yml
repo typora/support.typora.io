@@ -45,7 +45,6 @@ jobs:
           ruby-version: 2.6 # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - run: |
-          bundle install --deployment
           git add Gemfile.lock
           git commit -m "add Gemfile.lock"
 
