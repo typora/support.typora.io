@@ -30,6 +30,7 @@ jobs:
           echo "add pem"
           touch /home/runner/.ssh/github.pem
           echo "$PEM_KEY" > /home/runner/.ssh/github.pem
+          chmod 400 /home/runner/.ssh/github.pem
           echo "ssh -vT"
           ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem root@106.15.186.16
           echo "chmod"
