@@ -41,14 +41,17 @@ jobs:
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v2.5.1
-
-      #https://github.com/benwinding/dokku-pages
-      - name: Push
+        
+      - name: Setup Ruby environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6.9 # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+         
+      - name: Deploy
         run: |
-          npm i -g dokku-pages
-          dokku-pages deploy -g dokku@106.15.186.16:wiki --minimal -d dist
-          rm -rf dist
+          git add -f Gemfile.lock
+          git commit -m "add Gemfile.lock"
+          git checkout -b master
+          git push -f -u a master
       
