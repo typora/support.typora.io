@@ -49,6 +49,7 @@ jobs:
           git config --global user.name "Typora"
           git add -f Gemfile.lock
           git commit -m "add Gemfile.lock"
+          git checkout master
 
       - name: Dokku
         # You may pin to the exact commit or the version.
@@ -58,7 +59,7 @@ jobs:
           # The branch to deploy when pushing to Dokku (default: master)
           branch: master
           # The command to run for the action (default: detected from GITHUB_REF)
-          #ci_branch_name: # optional, default is 
+          ci_branch_name: master 
           # The commit sha that will be pushed (default: detected from GITHUB_SHA)
           #ci_commit: # optional, default is 
           # The command to run for the action (default: deploy)
