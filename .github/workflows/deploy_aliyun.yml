@@ -32,7 +32,7 @@ jobs:
           echo "$PEM_KEY" > /home/runner/.ssh/github.pem
           chmod 400 /home/runner/.ssh/github.pem
           echo "ssh -vT"
-          ssh -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
+          ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
         shell: bash
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
@@ -61,7 +61,7 @@ jobs:
           # The name of the review app to create or destroy
           #review_app_name: # optional, default is 
           # The results of running `ssh-keyscan -t rsa $HOST`
-          ssh_host_key: ${{ secrets.KNOWN_HOSTS }}
+          # ssh_host_key: ${{ secrets.KNOWN_HOSTS }}
           # A private SSH key that has push acces to your Dokku instance
           ssh_private_key: ${{ secrets.ALIYUN_PEM }}
 
