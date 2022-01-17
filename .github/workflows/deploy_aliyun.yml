@@ -25,72 +25,30 @@ jobs:
           if_key_exists: replace
           # known_hosts: unnecessary
       
-      - name: Test SSH
+      - name: SETUP
         run: |
+          git config --global user.email "hi@typora.io"
+          git config --global user.name "Typora"
           touch /home/runner/.ssh/github.pem
           echo "$PEM_KEY" > /home/runner/.ssh/github.pem
           chmod 400 /home/runner/.ssh/github.pem
           # ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
-        shell: bash
+          cp /home/runner/.ssh/github.pem /home/runner/.ssh/id_rsa_ec2
+          ssh-keygen -y -f /home/runner/.ssh/github.pem > /home/runner/.ssh/id_rsa_ec2.pub
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa_ec2
+          git remote add a dokku@106.15.186.16:wiki
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
-      
-      - name: Setup Ruby environment
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6 # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-         
-      - name: Deploy
-        run: |
-          git config --global user.email "hi@typora.io"
-          git config --global user.name "Typora"
-          git add -f Gemfile.lock
-          git commit -m "add Gemfile.lock"
-          git checkout -b master
-          cp /home/runner/.ssh/github.pem /home/runner/.ssh/id_rsa_ec2
-          ssh-keygen -y -f /home/runner/.ssh/github.pem > /home/runner/.ssh/id_rsa_ec2.pub
-          eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/id_rsa_ec2
-          git remote add a dokku@106.15.186.16:wiki
-          git push -f -u a master
-          
-
-      - name: Dokku
-        # You may pin to the exact commit or the version.
-        uses: dokku/github-action@ad4a87c76347c217e3e5f183510a119e9a0a90f8
-        # uses: dokku/github-action@v1.0.1
-        with:
-          # The branch to deploy when pushing to Dokku (default: master)
-          branch: master
-          # The command to run for the action (default: detected from GITHUB_REF)
-          ci_branch_name: master 
-          # The commit sha that will be pushed (default: detected from GITHUB_SHA)
-          #ci_commit: # optional, default is 
-          # The command to run for the action (default: deploy)
-          #command: # optional, default is deploy
-          # A string containing a set of flags to set on push
-          git_push_flags: -f
-          # The dokku app's git repository url (in SSH format)
-          git_remote_url: ssh://dokku@106.15.186.16:22/wiki
-          # The name of the review app to create or destroy
-          # review_app_name: # optional, default is 
-          # The results of running `ssh-keyscan -t rsa $HOST`
-          # ssh_host_key: ${{ secrets.KNOWN_HOSTS }}
-          # A private SSH key that has push acces to your Dokku instance
-          ssh_private_key: ${{ secrets.ALIYUN_PEM }}
 
       #https://github.com/benwinding/dokku-pages
       - name: Push
         run: |
           npm i -g dokku-pages
-          git remote add a dokku@106.15.186.16:wiki
-          git checkout master
-          git push -f -u a master
           dokku-pages deploy -g dokku@106.15.186.16:wiki --minimal -d dist
           rm -rf dist
       
