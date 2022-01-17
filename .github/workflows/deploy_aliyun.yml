@@ -27,8 +27,10 @@ jobs:
       
       - name: Test SSH
         run: |
-          echo "ssh-add"
-          ssh-add 
+          echo "add pem"
+          echo "$PEM_KEY" > /home/runner/.ssh/github.pem
+          echo "ssh -vT"
+          ssh -vT -i github.pem StrictHostKeyChecking=no root@106.15.186.16
           echo "chmod"
           chmod +w /home/runner/.ssh/id_rsa
           echo "$SSH_KEY" > /home/runner/.ssh/id_rsa
@@ -40,6 +42,7 @@ jobs:
         shell: bash
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
+          PEM_KEY: ${{secrets.ALIYUN_PEM}}
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
