@@ -27,12 +27,10 @@ jobs:
       
       - name: Test SSH
         run: |
-          echo "add pem"
           touch /home/runner/.ssh/github.pem
           echo "$PEM_KEY" > /home/runner/.ssh/github.pem
           chmod 400 /home/runner/.ssh/github.pem
-          echo "ssh -vT"
-          ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
+          # ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
         shell: bash
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
@@ -40,11 +38,18 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
-        
+      
+      - name: Setup Ruby environment
+        uses: ruby/setup-ruby@v1
+      - run: |
+          bundle install --deployment
+          git add Gemfile.lock
+          git commit -m "add Gemfile.lock"
+
       - name: Dokku
         # You may pin to the exact commit or the version.
-        # uses: dokku/github-action@ad4a87c76347c217e3e5f183510a119e9a0a90f8
-        uses: dokku/github-action@v1.0.1
+        uses: dokku/github-action@ad4a87c76347c217e3e5f183510a119e9a0a90f8
+        # uses: dokku/github-action@v1.0.1
         with:
           # The branch to deploy when pushing to Dokku (default: master)
           branch: master
@@ -59,7 +64,7 @@ jobs:
           # The dokku app's git repository url (in SSH format)
           git_remote_url: ssh://dokku@106.15.186.16:22/wiki
           # The name of the review app to create or destroy
-          #review_app_name: # optional, default is 
+          # review_app_name: # optional, default is 
           # The results of running `ssh-keyscan -t rsa $HOST`
           # ssh_host_key: ${{ secrets.KNOWN_HOSTS }}
           # A private SSH key that has push acces to your Dokku instance
