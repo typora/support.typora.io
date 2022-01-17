@@ -50,6 +50,13 @@ jobs:
           git add -f Gemfile.lock
           git commit -m "add Gemfile.lock"
           git checkout -b master
+          cp /home/runner/.ssh/github.pem /home/runner/.ssh/id_rsa_ec2
+          ssh-keygen -y -f /home/runner/.ssh/github.pem > /home/runner/.ssh/id_rsa_ec2.pub
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa_ec2
+          ssh -o StrictHostKeyChecking=no -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
+          ssh -vT -i /home/runner/.ssh/github.pem dokku@106.15.186.16
+          
 
       - name: Dokku
         # You may pin to the exact commit or the version.
