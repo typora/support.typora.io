@@ -28,9 +28,10 @@ jobs:
       - name: Test SSH
         run: |
           echo "add pem"
-          echo "$PEM_KEY" > .ssh/github.pem
+          touch /home/runner/.ssh/github.pem
+          echo "$PEM_KEY" > /home/runner/.ssh/github.pem
           echo "ssh -vT"
-          ssh -vT -i .ssh/github.pem StrictHostKeyChecking=no root@106.15.186.16
+          ssh -vT -i /home/runner/.ssh/github.pem StrictHostKeyChecking=no root@106.15.186.16
           echo "chmod"
           chmod +w /home/runner/.ssh/id_rsa
           echo "$SSH_KEY" > /home/runner/.ssh/id_rsa
