@@ -38,6 +38,7 @@ jobs:
           eval "$(ssh-agent -s)"
           ssh-add ~/.ssh/id_rsa_ec2
           git remote add a dokku@106.15.186.16:wiki
+          git checkout -b master
           git push -f -u a master
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
