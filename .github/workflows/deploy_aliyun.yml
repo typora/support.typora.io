@@ -47,5 +47,5 @@ jobs:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
           
-      - name: SETUP
+      - name: PUSH
         run: git push -f -u a master
