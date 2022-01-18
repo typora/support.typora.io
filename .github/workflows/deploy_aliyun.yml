@@ -27,7 +27,7 @@ jobs:
       
       - name: SETUP
         run: |
-          var="source \"https://rubygems.org\""
+          var="source \"https://gems.ruby-china.com/\""
           sed -i "1s/.*/$var/" Gemfile
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
