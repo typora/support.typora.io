@@ -38,20 +38,7 @@ jobs:
           eval "$(ssh-agent -s)"
           ssh-add ~/.ssh/id_rsa_ec2
           git remote add a dokku@106.15.186.16:wiki
+          git push -f -u a master
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
-        
-      - name: Setup Ruby environment
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 2.6.9 # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-         
-      - name: Deploy
-        run: |
-          git add -f Gemfile.lock
-          git commit -m "add Gemfile.lock"
-          git checkout -b master
-          git push -f -u a master
-      
