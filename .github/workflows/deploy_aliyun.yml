@@ -27,6 +27,8 @@ jobs:
       
       - name: SETUP
         run: |
+          var="source \"https://rubygems.org\""
+          sed -i "1s/.*/$var/" Gemfile
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
           touch /home/runner/.ssh/github.pem
