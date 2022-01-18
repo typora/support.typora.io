@@ -27,10 +27,7 @@ jobs:
       
       - name: SETUP
         run: |
-          var="source \"https://gems.ruby-china.com/\""
-          sed -i "1s/.*/$var/" Gemfile
-          git config --global user.email "hi@typora.io"
-          git config --global user.name "Typora"
+          # SETUP SSH
           touch /home/runner/.ssh/github.pem
           echo "$PEM_KEY" > /home/runner/.ssh/github.pem
           chmod 400 /home/runner/.ssh/github.pem
@@ -39,9 +36,16 @@ jobs:
           ssh-keygen -y -f /home/runner/.ssh/github.pem > /home/runner/.ssh/id_rsa_ec2.pub
           eval "$(ssh-agent -s)"
           ssh-add ~/.ssh/id_rsa_ec2
+          # SETUP GIT
+          git config --global user.email "hi@typora.io"
+          git config --global user.name "Typora"
           git remote add a dokku@106.15.186.16:wiki
+          sed -i 's/rubygems.org/gems.ruby-china.com/g' Gemfile
+          git commit -am "update Gemfile"
           git checkout -b master
-          git push -f -u a master
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
+          
+      - name: SETUP
+        run: git push -f -u a master
