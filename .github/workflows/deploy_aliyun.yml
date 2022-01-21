@@ -38,7 +38,7 @@ jobs:
           # SETUP GIT
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
-          git remote add a dokku@dokku.typora.io.cn:wiki
+          git remote add a dokku@dokku.typoraio.cn:wiki
           sed -i 's/rubygems.org/gems.ruby-china.com/g' Gemfile
           git commit -am "update Gemfile"
           git checkout -b master
