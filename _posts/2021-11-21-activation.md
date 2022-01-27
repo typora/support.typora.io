@@ -129,11 +129,6 @@ Typora activation requires a network connection, so:
 
     <img src="/media/activation/Screen Shot 2021-12-02 at 21.53.49.png" alt="Screen Shot 2021-12-02 at 21.53.49" style="zoom:50%;" />
 
-- If you CANNOT visit <https://store.typora.io> without VPN or proxy, then:
-
-  - Please follow [here](/Launch-Arguments/#luanch-typora-with-proxy-windows--linux) to launch Typora with Proxy
-  - We are also now working on a mirror server in China, sorry but please be paitent on it.
-
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
 ## My Typora has been unexpectedly deactivated.
