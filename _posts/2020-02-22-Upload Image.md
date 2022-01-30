@@ -163,6 +163,32 @@ For Linux / Windows users, please set the path of PicGo binary in Typora's prefe
 - PicGo.app and PicGo-Core use different config files, but you can copy the json object under `picBed` key in the config file of PicGo.app into PicGo's config file.
 - PicGo.app provides other features, like upload history, auto rename, etc.
 
+### Upgit (Open source & lightweight native, for Windows / Linux / macOS)
+
+![upgit](https://cdn.jsdelivr.net/gh/pluveto/upgit/logo.png)
+
+[Upgit](https://github.com/pluveto/upgit) is a native & lightweight tool to help you upload images to a github repository.
+
+Usage:
+
+(1) Download it from [Release](https://github.com/pluveto/upgit/releases).
+
+(2) Rename it to `upgit` (For Windows users, `upgit.exe`), save it to somewhere you like.
+
+(3)  Configure it with `~/.upgit.config.toml` or `[UPGIT_DIRECTORY]/config.toml` in following [this sample config file](https://github.com/pluveto/upgit/blob/main/config.sample.toml).
+
+(4) Select *File > Preferences...*
+
+![image-20220128204217802](https://cdn.jsdelivr.net/gh/pluveto/0images@master/2022/01/upgit_20220128_1643373863.png)
+
+Move to *Image*. Choose *Custom Command* as your *Image Uploader*.
+
+Input *upgit* program location into *Command* textbox.
+
+![image-20220128204418723](https://cdn.jsdelivr.net/gh/pluveto/0images@master/2022/01/upgit_20220128_1643373868.png)
+
+Now enjoy it!
+
 ### Custom
 
 You could config a custom command to upload images, using tools that is not listed in above options, or even write your own tools / scripts. Typora will append all images that needs to be uploaded after the custom command you filled. 
