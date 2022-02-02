@@ -15,20 +15,17 @@ Table of Contents:
 
 * Outline
 {:toc}
-
-# Basic
-
-## Pre-conditions and Important Notes
+# Pre-conditions and Important Notes
 
 To activate Typora, you will need to [purchase a license](https://store.typora.io/) first. After your purchase a license code will be sent to your email address, which you can use to activate Typora.
 
-Activation **requires internet connection**, so you will need access to [store.typora.io](https://store.typora.io) to proceed with activation.
+Please note that Typora allow you to **use one email to purchase Typora while activated it another email address**. Once you have used a license code, you will need to use the **same email address** for future activations, so please make sure that you have entered a valid email address.
 
-Once you have used a license code, you will need to use the **same email address** for future activations, so please make sure that you have entered a valid email address.
+Activation **requires internet connection**, so you will need access to [store.typora.io](https://store.typora.io) to proceed with activation.
 
 Activating Typora activates your account's copy of Typora on your current machine. If you switch to other accounts or other devices, you will need to activate Typora for those new accounts or devices. One license code can be used to activate a maximum of 3 devices at a time, and different accounts and operating systems on one machine are considered separate devices.
 
-## Register / Activate Typora
+# Register / Activate Typora
 
 You can activate Typora in the `License Panel`. On macOS, you can open the `License Panel` from the menu bar: `Typora` → `My license…`. On Windows / Linux, you can open the `License panel` from the menu bar: `Help` → `My license…`.
 
@@ -55,10 +52,27 @@ Once in the `License Panel` click the `Enter License` button, then enter your e-
     <figcaption><center><i>Enter email address and license code</i></center></figcaption>
   </figure>
 </div>
-
 Afterwards, Typora will be up and running!
 
-## How to check activation status
+# Find My License
+
+## Via the email purchased the license
+
+A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
+
+If you purchased Typora on our website (typora.io), the license code is sent to you via FastSpring, so you can find your orders and license code on <https://typora.onfastspring.com/account> with the email address you used for purchase. An access url will be sent to your mailbox. 
+
+If you do not receive it, please submit a request at <https://fastspring.com/consumer-support-form/>. (Please wait the webpage to load completely and scroll down to fill the form).
+
+If you purchased Typora from another reseller, please contact them instead.
+
+## Via the email used the license
+
+If you once activated your license, you can open <http://store.typora.io/my> and fill the email account which you was used to activated Typora.
+
+Then you will receive an email with a magic link. Click that link to open Typora's "My License" page, and you will see your license code and activation status.
+
+# Check activation status
 
 ### Check if Typora is activated or not
 
@@ -68,7 +82,9 @@ You can [open the `License Panel`](#register--activate-typora) to see if your ty
 
 You can [open the `License Panel`](#register--activate-typora) and click the `View License` button to view both your associated email address and the license code of the activated copy of Typora.
 
-## Deactivate Typora
+# Deactivate Typora
+
+### Deactivate from activated devices
 
 If you have access to an activated copy of Typora, you can deactivate it as follows:
 
@@ -77,7 +93,35 @@ If you have access to an activated copy of Typora, you can deactivate it as foll
 
 <img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
 
-If you cannot access the device, you can simply activate Typora on a new device and we will automatically deactivate the oldest activated device for your license code.
+### Deactivate when activating on new devices
+
+In some Typora versions, when you activate Typora while your license code already exceeds the limit, it will prompt a dialog to allow you to deactivate oldest activation automatically.
+
+### Deactivate from Web UI
+
+If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details below.
+
+# Manage My License
+
+If you want to retrieve license code from email address you used to activate Typora, you can open <https://store.typora.io/my> and fill your email address.
+
+Then, please check the email sent from us and click "My License" button to open the license management page.
+
+<img src="/media/activation/Screen Shot 2022-02-02 at 10.58.27.png" alt="Screen Shot 2022-02-02 at 10.58.27" style="zoom:50%;" />
+
+In above page,
+
+`1` shows your license code. 
+
+`2` shows details of your activated devices.
+
+`3` allows to deactivate Typora on that machine when it is not accessible.
+
+By clicking `4`, you will lead to a page to see your order details and invoice (You will need to input email address again in case your license code was originally purchased by others).
+
+If you have questions about the orders, please fill the form after clicking `5`.
+
+Please notice that also "used" license will be shown in this page, if you purchased without activating it, please check your mail box or goes to <https://typora.onfastspring.com/account> instead.
 
 ---
 
@@ -85,11 +129,7 @@ If you cannot access the device, you can simply activate Typora on a new device 
 
 ## How to retrieve my license code if I forgot it?
 
-A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
-
-If you purchased Typora on our website (typora.io), the license code is sent to you via FastSpring, so you can find your orders and license code [here](https://typora.onfastspring.com/account) with the email address you used for purchase. An access url will be sent to your mailbox. If you do not receive it, please wait a while and check your spam emails.
-
-If you purchased Typora from another reseller, please contact them instead.
+Please check [Find My License](#fine-my-license).
 
 ## I cannot activate Typora
 
