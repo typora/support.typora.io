@@ -185,7 +185,7 @@ Typora activation requires a network connection, so:
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
-- **Or, you could try [offline activation](/offline-activation/)**.
+- Or, you could try [offline activation](/offline-activation/) with Typora ≥ [1.1.0 dev](https://typora.io/releases/dev).
 
 ## My Typora has been unexpectedly deactivated.
 
