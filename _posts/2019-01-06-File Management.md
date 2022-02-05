@@ -108,6 +108,10 @@ Please note that only last **one** file operation in Typora is undoable, on Wind
 
 You could use hyperlink syntax ( `[label](src)` ) to create links that links to other files/folder, the `src` part can be either absolute path or relative path, for example: `[Readme](readme.md)`.
 
+(Typora ≥ 1.1) If target file does not exist, Typora will guide you to create the file automatically.
+
+(Typora ≥ 1.1) If you want to jump to target position of other files, you could append anchor after file target. For example, `[Readme](readme.md#header-1)` allows to jump to "header 1" position of `readme.md`. You can follow [internal links](/Links/#internal-links) about how to write an anchor.
+
 ## Open Quickly
 
 The quick open panel can be popped up by pressing <kbd>Command+Shift+O</kbd> (*on macOS*) or <kbd>Ctrl+P</kbd> (*on Windows/Linux*), or click "Open Quickly" from `File` menu.
