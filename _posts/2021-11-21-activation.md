@@ -15,7 +15,9 @@ Table of Contents:
 
 * Outline
 {:toc}
-# Pre-conditions and Important Notes
+# Activation
+
+## Pre-conditions and Important Notes
 
 To activate Typora, you will need to [purchase a license](https://store.typora.io/) first. After your purchase a license code will be sent to your email address, which you can use to activate Typora.
 
@@ -25,7 +27,7 @@ Activation **requires internet connection**, so you will need access to [store.t
 
 Activating Typora activates your account's copy of Typora on your current machine. If you switch to other accounts or other devices, you will need to activate Typora for those new accounts or devices. One license code can be used to activate a maximum of 3 devices at a time, and different accounts and operating systems on one machine are considered separate devices.
 
-# Register / Activate Typora
+## Register / Activate Typora
 
 You can activate Typora in the `License Panel`. On macOS, you can open the `License Panel` from the menu bar: `Typora` → `My license…`. On Windows / Linux, you can open the `License panel` from the menu bar: `Help` → `My license…`.
 
@@ -54,9 +56,23 @@ Once in the `License Panel` click the `Enter License` button, then enter your e-
 </div>
 Afterwards, Typora will be up and running!
 
-# Find My License
+## Offline Activation
 
-## Via the email purchased the license
+It requires Typora ≥ 1.1.0-dev.
+
+<img src="/media/activation/Screen Shot 2022-02-02 at 20.43.53.png" alt="Screen Shot 2022-02-02 at 20.43.53" style="zoom:50%;" />
+
+Once you generated an `Activation Token`, that will occupy one available seats for the license (one license has up to 3 activated devices at one time) for at least 6 month, because we cannot know if you are using that device or not since it is offline.
+
+In other words, **devices that is activated by offline activation cannot be deactivated in at least 6 month**, and will be counted in the 3 devices limit for one license code, unless it was back to internet again.
+
+If you want to use offline activation, [please see details here](/offline-activation).
+
+# License and Activation Status
+
+## Find My License
+
+### Via the email purchased the license
 
 A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
 
@@ -66,13 +82,13 @@ If you do not receive it, please submit a request at <https://fastspring.com/con
 
 If you purchased Typora from another reseller, please contact them instead.
 
-## Via the email used the license
+### Via the email used the license
 
 If you once activated your license, you can open <http://store.typora.io/my> and fill the email account which you was used to activated Typora.
 
 Then you will receive an email with a magic link. Click that link to open Typora's "My License" page, and you will see your license code and activation status.
 
-# Check activation status
+## Check activation status
 
 ### Check if Typora is activated or not
 
@@ -82,26 +98,7 @@ You can [open the `License Panel`](#register--activate-typora) to see if your ty
 
 You can [open the `License Panel`](#register--activate-typora) and click the `View License` button to view both your associated email address and the license code of the activated copy of Typora.
 
-# Deactivate Typora
-
-### Deactivate from activated devices
-
-If you have access to an activated copy of Typora, you can deactivate it as follows:
-
-1. [Open the `License Panel`](#register--activate-typora) from the `Typora` → `My License…` menu option or the `Help` → `My License…` menu option.
-2. Click the `Deactivate` button, and click `OK` in the confirmation dialog.
-
-<img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
-
-### Deactivate when activating on new devices
-
-In some Typora versions, when you activate Typora while your license code already exceeds the limit, it will prompt a dialog to allow you to deactivate oldest activation automatically.
-
-### Deactivate from Web UI
-
-If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details below.
-
-# Manage My License
+## Manage My License
 
 If you want to retrieve license code from email address you used to activate Typora, you can open <https://store.typora.io/my> and fill your email address.
 
@@ -122,6 +119,25 @@ By clicking `4`, you will lead to a page to see your order details and invoice (
 If you have questions about the orders, please fill the form after clicking `5`.
 
 Please notice that also "used" license will be shown in this page, if you purchased without activating it, please check your mail box or goes to <https://typora.onfastspring.com/account> instead.
+
+# Deactivate Typora
+
+### Deactivate from activated devices
+
+If you have access to an activated copy of Typora, you can deactivate it as follows:
+
+1. [Open the `License Panel`](#register--activate-typora) from the `Typora` → `My License…` menu option or the `Help` → `My License…` menu option.
+2. Click the `Deactivate` button, and click `OK` in the confirmation dialog.
+
+<img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
+
+### Deactivate when activating on new devices
+
+In some Typora versions, when you activate Typora while your license code already exceeds the limit, it will prompt a dialog to allow you to deactivate oldest activation automatically.
+
+### Deactivate from Web UI
+
+If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details below.
 
 ---
 
@@ -163,13 +179,13 @@ Typora activation requires a network connection, so:
 
   - Disabling  VPN or proxy, and then reboot.
 
-    ![remove proxy](/media/activation/Local-Area-Network-Settings.png)
-
   - If you are using Windows, try removing `HTTP_PROXY` and `HTTPS_PROXY` from your system environment variables.
 
-    <img src="/media/activation/Screen Shot 2021-12-02 at 21.53.49.png" alt="Screen Shot 2021-12-02 at 21.53.49" style="zoom:50%;" />
+- If you use self signed certification, or you find `unhandledRejection Error: unable to get local issuer certificate` in the log, you could set `NODE_TLS_REJECT_UNAUTHORIZED=0` in environment.
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
+
+- **Or, you could try [offline activation](/offline-activation/)**.
 
 ## My Typora has been unexpectedly deactivated.
 
