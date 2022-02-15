@@ -60,3 +60,10 @@ Sometimes you may just want to change font family for all themes, or change font
 ## Writing My Own Theme
 
 Please see [Write Custom Theme for Typora](http://theme.typora.io/doc/Write-Custom-Theme/).
+
+## Debug Theme CSS
+
+You can open Chrome/Safari DevTools to debug element styles.
+
+- On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybrid edit view, then click "Inspect Elements" from context menu.
+- On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
