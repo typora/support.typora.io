@@ -66,7 +66,7 @@ Once you generated an `Activation Token`, that will occupy one available seats f
 
 In other words, **devices that is activated by offline activation cannot be deactivated in at least 6 month**, and will be counted in the 3 devices limit for one license code, unless it was back to internet again.
 
-If you want to use offline activation, [please see details here](/offline-activation).
+If you want to use offline activation, [please see details here](/Offline-Activation).
 
 # License and Activation Status
 
@@ -185,7 +185,7 @@ Typora activation requires a network connection, so:
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
-- Or, you could try [offline activation](/offline-activation/) with Typora ≥ [1.1.0 dev](https://typora.io/releases/dev).
+- Or, you could try [offline activation](/Offline-Activation/) with Typora ≥ [1.1.0 dev](https://typora.io/releases/dev).
 
 ## My Typora has been unexpectedly deactivated.
 
