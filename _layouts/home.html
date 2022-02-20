@@ -90,8 +90,8 @@
   if(location.host == "support.typora.com.cn") {
       document.querySelectorAll('[data-has-mirror]').forEach(a => {
         var href = a.href;
-        if(href.indexOf("store.typora.io") > 0) href = "https://typora.com.cn/";
-        else if(href.indexOf("https://typora.io") > -1) href = "https://typora.com.cn/";
+        if(href.indexOf("store.typora.io") > 0) href = "https://typoraio.cn /";
+        else if(href.indexOf("https://typora.io") > -1) href = "https://typoraio.cn /";
         else href = href.replace("typora.io", "typora.com.cn");
         a.href = href;
       });

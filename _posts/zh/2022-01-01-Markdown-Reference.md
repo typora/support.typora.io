@@ -1,20 +1,27 @@
-# Markdown For Typora
+---
+layout: post
+title: Typora 的 Markdown 语法
+author: typora.io
+typora-root-url: ../
+permalink: /zh/Markdown-Reference/
+---
 
 ## 概述
 
-**Markdown** 由 [Daring Fireball](http://daringfireball.net/)创建，原始指南在 [这里](http://daringfireball.net/projects/markdown/syntax)。但是，它的语法因不同的解析器或编辑器而异。**Typora** 正在使用 [GitHub Flavored Markdown][GFM]。
+**Markdown** 由 [Daring Fireball](http://daringfireball.net/) 创建，原始指南在 [这里](http://daringfireball.net/projects/markdown/syntax)。但是，它的语法因不同的解析器或编辑器而异。**Typora** 正在使用 [GitHub Flavored Markdown][GFM]。
 
 **大纲**
 
-[TOC]
+* Outline
+{:toc}
 
 ## 块元素
 
 ### 段落和换行符
 
-段落只是一行或多行连续的文本。在markdown源代码中，段落由多个空行分隔。在Typora中，您只需按下 `Return` 即可创建新段落。
+段落只是一行或多行连续的文本。在 markdown 源代码中，段落由多个空行分隔。在Typora中，您只需按下 `Return` 即可创建新段落。
 
-按 `Shift` + `Return` 可创建单个换行符。但是，大多数markdown解析器将忽略单行中断，要使其他markdown解析器识别您的换行符，可以在行尾留下两个空格，或者插入 `<br/>`.
+按 `Shift` + `Return` 可创建单个换行符。但是，大多数 markdown 解析器将忽略单行中断，要使其他 markdown 解析器识别您的换行符，可以在行尾留下两个空格，或者插入 `<br/>`.
 
 ### 标题
 
@@ -32,7 +39,7 @@
 
 ### 引用文字
 
-Markdown使用电子邮件样式>字符进行块引用。它们表示为：
+Markdown 使用电子邮件样式>字符进行块引用。它们表示为：
 
 ``` markdown
 > 这是一个有两段的块引用。这是第一段。
@@ -50,7 +57,7 @@ Markdown使用电子邮件样式>字符进行块引用。它们表示为：
 
 输入 `* list item 1` 将创建一个无序列表，该 `*` 符号可以替换为 `+` 或 `-`. 
 
-输入 `1. list item 1` 将创建一个有序列表，其markdown源代码如下：
+输入 `1. list item 1` 将创建一个有序列表，其 markdown 源代码如下：
 
 ``` markdown
 ## 无序列表
@@ -80,7 +87,7 @@ Markdown使用电子邮件样式>字符进行块引用。它们表示为：
 
 ### （栅栏式）代码块
 
-Typora仅支持Github Flavored Markdown中的栅栏式代码块。不支持markdown中的原始代码块。
+Typora仅支持 Github Flavored Markdown 中的栅栏式代码块。不支持 markdown 中的原始代码块。
 
 使用栅栏式代码块很简单：输入\`\`\`之后输入一个可选的语言标识符，然后按`return`键后输入代码，我们将通过语法高亮显示它：
 
@@ -115,7 +122,7 @@ $$
 $$
 
 
-在markdown源文件中，数学公式块是由'$$'标记包装的 *LaTeX* 表达式：
+在 markdown 源文件中，数学公式块是由'$$'标记包装的 *LaTeX* 表达式：
 
 ``` markdown
 $$
@@ -133,9 +140,9 @@ $$
 
 创建表后，焦点在该表上将弹出一个表格工具栏，您可以在其中调整表格，对齐或删除表格。您还可以使用上下文菜单来复制和添加/删除列/行。
 
-可以跳过以下描述，因为表格的markdown源代码是由typora自动生成的。
+可以跳过以下描述，因为表格的 markdown 源代码是由typora自动生成的。
 
-在markdown源代码中，它们看起来像这样：
+在 markdown 源代码中，它们看起来像这样：
 
 ``` markdown
 | First Header  | Second Header |
@@ -144,7 +151,7 @@ $$
 | Content Cell  | Content Cell  |
 ```
 
-您还可以在表格中包括内联Markdown语法，例如链接，粗体，斜体或删除线。
+您还可以在表格中包括内联 Markdown 语法，例如链接，粗体，斜体或删除线。
 
 最后，通过在标题行中包含冒号：您可以将文本定义为左对齐，右对齐或居中对齐：
 
@@ -200,7 +207,7 @@ Typora 支持, [sequence](https://bramp.github.io/js-sequence-diagrams/), [flowc
 
 ### 链接
 
-Markdown支持两种类型的链接：内联和引用。
+Markdown 支持两种类型的链接：内联和引用。
 
 在这两种样式中，链接文本都写在[方括号]内。
 
@@ -222,7 +229,7 @@ This is [an example](http://example.com/"Title") inline link. (`<p>This is <a hr
 
 **您可以将常规括号内的 href 设置为文档内的某一个标题**，这将创建一个书签，允许您在单击后跳转到该部分。例如：
 
-Command(在Windows上：Ctrl) + 单击 [此链接](#块元素) 将跳转到标题 `块元素`处。 要查看如何编写，请移动光标或按住 `⌘` 键单击以将元素展开为Markdown源代码。
+Command(在Windows上：Ctrl) + 单击 [此链接](#块元素) 将跳转到标题 `块元素`处。 要查看如何编写，请移动光标或按住 `⌘` 键单击以将元素展开为 Markdown 源代码。
 
 #### 参考链接 
 
@@ -251,11 +258,11 @@ This is [an example][id] reference-style link.
 [Google]: http://google.com/
 ```
 
-在typora中单击链接将其展开以进行编辑，command+单击将在Web浏览器中打开超链接。
+在typora中单击链接将其展开以进行编辑，command + 单击将在 Web 浏览器中打开超链接。
 
 ### URL网址
 
-Typora允许您将URL作为链接插入，用 `<`括号括起来`>`。
+Typora允许您将 URL 作为链接插入，用 `<`括号括起来`>`。
 
 `<i@typora.io>` 成为 <i@typora.io>.
 
@@ -271,13 +278,13 @@ Typora也将自动链接标准URL。例如： www.google.com.
 ![替代文字](/path/to/img.jpg "可选标题")
 ```
 
-您可以使用拖放操作从图像文件或浏览器来插入图像。并通过单击图像修改markdown源代码。如果图像在拖放时与当前编辑文档位于同一目录或子目录中，则将使用相对路径。
+您可以使用拖放操作从图像文件或浏览器来插入图像。并通过单击图像修改 markdown 源代码。如果图像在拖放时与当前编辑文档位于同一目录或子目录中，则将使用相对路径。
 
 有关图像的更多提示，请阅读 <http://support.typora.io//Images/>
 
 ### 强调（斜体）
 
-Markdown将星号 (`*`) 和下划线(`_`) 视为强调的指示。用一个 `*` or `_` 包裹文本将使用HTML  `<em>` 标签包裹文本。例如：
+Markdown 将星号 (`*`) 和下划线(`_`) 视为强调的指示。用一个 `*` or `_` 包裹文本将使用HTML  `<em>` 标签包裹文本。例如：
 
 ``` markdown
 *单个星号*
@@ -321,7 +328,7 @@ __双重下划线__
 
 __双重下划线__
 
-Typora建议使用 `**` 号。
+Typora 建议使用 `**` 号。
 
 ### 代码
 
@@ -375,7 +382,7 @@ GFM通过添加语法来创建删除线文本，标准的Markdown中缺少该文
 
 ## HTML
 
-您可以使用HTML来设置纯Markdown不支持的内容，例如， `<span style="color:red">this text is red</span>` 用于添加红色文本。
+您可以使用HTML来设置纯 Markdown 不支持的内容，例如， `<span style="color:red">this text is red</span>` 用于添加红色文本。
 
 ### 嵌入内容
 
@@ -393,7 +400,7 @@ GFM通过添加语法来创建删除线文本，标准的Markdown中缺少该文
 <video src="xxx.mp4" />
 ```
 
-### 其他HTML支持
+### 其他 HTML 支持
 
 你可以在 [这里](http://support.typora.io/HTML/)找到细节。
 
