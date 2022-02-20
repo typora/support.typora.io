@@ -87,12 +87,12 @@
 
 </script>
 <script>
-  if(location.host == "support.typora.com.cn") {
+  if(location.host == "support.typora.com.cn" || location.host == "support.typoraio.cn") {
       document.querySelectorAll('[data-has-mirror]').forEach(a => {
         var href = a.href;
-        if(href.indexOf("store.typora.io") > 0) href = "https://typoraio.cn /";
-        else if(href.indexOf("https://typora.io") > -1) href = "https://typoraio.cn /";
-        else href = href.replace("typora.io", "typora.com.cn");
+        if(href.indexOf("store.typora.io") > 0) href = "https://typoraio.cn/";
+        else if(href.indexOf("https://typora.io") > -1) href = "https://typoraio.cn/";
+        else href = href.replace("typora.io", "typoraio.cn");
         a.href = href;
       });
     }
