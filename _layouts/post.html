@@ -2,7 +2,11 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>{{ page.title }}</title>
+    {% if site.url contains ".cn" %}
+      <title>{{ page.title }} - Typora 支持文档</title>
+    {% else %}
+      <title>{{ page.title }} - Typora Support</title>
+    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="twitter:card" content="{{ page.twitter_card }}" />
     <meta name="twitter:site" content="@typora" />

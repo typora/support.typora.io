@@ -1,6 +1,7 @@
 --- 
 layout: home 
 title: Typora Support
+homepage: true
 ---
 
 <div id="search">
@@ -19,6 +20,7 @@ title: Typora Support
 		</li>
 	</ul>
 </div>
+{% if site.url contains ".cn" %}
 <div id="other-langs" style="display:none">
 	{% for post in site.posts %}
 		{% if post.url contains '/zh/' %}
@@ -26,6 +28,7 @@ title: Typora Support
 		{% endif %}
 	{% endfor %}
 </div>
+{% endif %}
 <div id="search-contents" style="display: none;"><ul id="search-results" class="category">
 	<li>Searching...</li>
 </ul></div>
@@ -244,7 +247,7 @@ title: Typora Support
 
 <script>
 	var langDom = document.querySelector("#other-langs");
-	if(location.host.indexOf(".cn") > -1) {
+	if(langDom && location.host.indexOf(".cn") > -1) {
 		document.querySelectorAll(".title").forEach(t => {
 			var href = t.querySelector("a").getAttribute("href");
 			var cnSpan = href && langDom.querySelector(`[data-href="/zh${href}"]`);
