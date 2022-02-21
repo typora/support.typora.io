@@ -6,7 +6,7 @@ typora-root-url: ../
 permalink: /zh/Markdown-Reference/
 ---
 
-[English Original Version](/Markdown-Reference/)
+[English Original Version](/Markdown-Reference/) [Help Improve the Translation](https://github.com/typora/wiki-website)
 
 ## 概述
 
