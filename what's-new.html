@@ -4,6 +4,14 @@ title: What's New
 redirect_from: /What's-New/
 ---
 
+<div id="other-langs" style="display:none">
+	{% for post in site.posts %}
+		{% if post.url contains '/zh/' %}
+			<span data-title="{{ post.title }}" data-href="{{ post.url }}" ><a itemprop="name" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></span>
+		{% endif %}
+	{% endfor %}
+</div>
+
 <div id="list-contents">
   <h3>Change Log</h3>
   <ul class="category basic-posts">
@@ -21,7 +29,7 @@ redirect_from: /What's-New/
             <span class="title"
               ><a
                 itemprop="name"
-                href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}"
+                href="{{ post.url }}"
                 title="{{ title }}"
                 >{{ title }}</a
               ></span
@@ -49,7 +57,7 @@ redirect_from: /What's-New/
             <span class="title"
               ><a
                 itemprop="name"
-                href="{{ post.url | prepend: site.github.url | prepend: site.baseurl}}"
+                href="{{ post.url }}"
                 title="{{ title }}"
                 >{{ title }}</a
               ></span
@@ -62,3 +70,18 @@ redirect_from: /What's-New/
     {% endunless %} {% endfor %}
   </ul>
 </div>
+
+<script>
+	var langDom = document.querySelector("#other-langs");
+	if(location.host.indexOf(".cn") > -1) {
+		document.querySelectorAll(".title").forEach(t => {
+			var href = t.querySelector("a").getAttribute("href");
+			var cnSpan = href && langDom.querySelector(`[data-href="/zh${href}"]`);
+			if(cnSpan) {
+				t.innerHTML = cnSpan.innerHTML;
+			}
+		});
+	} else {
+		langDom.remove();
+	}
+</script>

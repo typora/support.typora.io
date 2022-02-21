@@ -6,6 +6,8 @@ typora-root-url: ../
 permalink: /zh/Markdown-Reference/
 ---
 
+[English Original Version](/Markdown-Reference/)
+
 ## 概述
 
 **Markdown** 由 [Daring Fireball](http://daringfireball.net/) 创建，原始指南在 [这里](http://daringfireball.net/projects/markdown/syntax)。但是，它的语法因不同的解析器或编辑器而异。**Typora** 正在使用 [GitHub Flavored Markdown][GFM]。
