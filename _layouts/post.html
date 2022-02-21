@@ -54,8 +54,10 @@
   <body>
     <style type="text/css">
       body {
-        font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman",
+        {% unless page.url contains '/zh/' %}
+          font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman",
           "STSong", Serif;
+		    {% endunless %}
         font-weight: 300;
         min-height: 100vh;
         display: flex;
