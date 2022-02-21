@@ -20,7 +20,6 @@ homepage: true
 		</li>
 	</ul>
 </div>
-{% if site.url contains ".cn" %}
 <div id="other-langs" style="display:none">
 	{% for post in site.posts %}
 		{% if post.url contains '/zh/' %}
@@ -28,7 +27,6 @@ homepage: true
 		{% endif %}
 	{% endfor %}
 </div>
-{% endif %}
 <div id="search-contents" style="display: none;"><ul id="search-results" class="category">
 	<li>Searching...</li>
 </ul></div>
