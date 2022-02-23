@@ -53,6 +53,16 @@ Download the `pandoc-*-window.msi` from Pandoc's [download page](https://github
 
 ![pandoc-win](/media/pandoc/pandoc-win.PNG)
 
+#### Install via Winget
+
+For Windows 11 users, you could also install via `winget install pandoc` in cmd.
+
+### Install for Linux
+
+You could install pandoc via `sudo apt install pandoc` in terminal.
+
+> If you are using the [Snap](/Snap/) version of Typora, the pandoc is  included in the snap.
+
 ## Config Pandoc Path
 
 If Typora still shows "Require Pandoc to Continue" even after installed pandoc, please try restart Typora. If typora still cannot find pandoc after restart, you can manually input pandoc path on `Preferences Panel` → `Export` → `General`.
@@ -68,6 +78,12 @@ After Pandoc is installed, then you can import supported file types by clicking 
 #### Which version of Pandoc is supported?
 
 Versions ≥ 2.0 are required. The latest version, the better. So updating Pandoc is encouraged if your Pandoc version is too old.
+
+You can check your pandoc version via
+
+```sh
+pandoc --version
+```
 
 #### Can Typora work without Pandoc?
 

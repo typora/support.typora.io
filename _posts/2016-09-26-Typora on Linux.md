@@ -93,6 +93,12 @@ You can also manually download and install the deb package file, following those
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
 2. Try to install `apt-get` on your distribution, and then install typora.
 
+## Snap Version
+
+You could also install Typora via `snap install typora`.
+
+Please notice the [limitation of snap version](/Snap/#limitations-for-the-snap-version).
+
 ## Wayland
 
 For wayland, please append flags when launching Typora (see <https://blogs.igalia.com/msisov/2020/11/20/chrome-chromium-on-wayland-the-waylandification-project/>).
