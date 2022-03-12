@@ -131,10 +131,6 @@ If you have access to an activated copy of Typora, you can deactivate it as foll
 
 <img src="/media/activation/Screen Shot 2021-11-21 at 21.57.37.png" alt="Screen Shot 2021-11-21 at 21.57.37" style="zoom:50%;" />
 
-### Deactivate when activating on new devices
-
-In some Typora versions, when you activate Typora while your license code already exceeds the limit, it will prompt a dialog to allow you to deactivate oldest activation automatically.
-
 ### Deactivate from Web UI
 
 If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details below.
@@ -176,8 +172,6 @@ After using a license code, **the same email address** MUST be used for the same
 Typora activation requires a network connection, so:
 
 - (**For Chinese User**) 如果您是中国国内用户，请打开 偏好设置 → 通用 → Typora 服务使用国内服务器，如果看不到该选项，请更新或（从官网重新）下载最新版本。
-
-  <img src="/media/activation/Screen Shot 2021-12-03 at 23.11.11.png" alt="Screen Shot 2021-12-03 at 23.11.11" style="zoom:50%;" />
 
 - Please check your **network** connection, especially check if you can access [store.typora.io](https://store.typora.io).
 
