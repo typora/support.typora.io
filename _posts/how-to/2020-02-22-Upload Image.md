@@ -32,13 +32,7 @@ Typora now supports apps like iPic, uPic, PicGo, etc, which is able to upload yo
 
 # Configuration
 
-You can enable and config image uploader in preferences panel, we provide integrations with following apps / tools:
-
-- iPic (macOS)
-- uPic (macOS)
-- PicGo.app (macOS / Windows / Linux, Simplified Chinese language only)
-- PicGo (Command Line) (Windows / Linux)
-- Custom (macOS / Windows / Linux)
+You can enable and config image uploader in preferences panel.
 
 <img src="/media/image-upload/main.png" alt="main" style="zoom:50%;" />
 
