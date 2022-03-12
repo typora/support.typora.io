@@ -149,6 +149,14 @@ Please check [Find My License](#fine-my-license).
 
 ## I cannot activate Typora
 
+### Error message "Your activated devices has exceeded the maximum limits."
+
+For one license, you can have at most 3 activated devices at the same time. If you do need more than 3 devices, you will need to [purchase more license](https://store.typora.io).
+
+Or, you can [deactivated unused devices](/activation/#deactivate-typora). If you cannot access your old machines, you can open <https://store.typora.io/my>, fill the email you used for activation the license, then check and deactivate unused devices there.
+
+<img src="/media/activation/Screen Shot 2022-03-12 at 12.25.10.png" alt="Screen Shot 2022-03-12 at 12.25.10" style="zoom:50%;" />
+
 ### Error message "Please input a valid license code."
 
 Please check if your license code is valid. The license code has a format in the style of XXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
