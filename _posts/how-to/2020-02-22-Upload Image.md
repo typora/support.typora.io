@@ -6,6 +6,7 @@ author: typora.io
 category: how-to
 tags: [image, upload, cloud]
 typora-root-url: ../../
+typora-copy-images-to: ../../media/image-upload
 ---
 
 * Outline
@@ -59,7 +60,7 @@ If it shows "Validation Failed", you need to check the reason from the raw outpu
 
 ![ipic](/media/image-upload/ipic.jpg)
 
-[iPic][https://itunes.apple.com/app/id1101244278] is a **freemium** app which allows you to upload local images into various cloud service, including [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), etc, and return you a web url of the uploaded image for public access. 
+[iPic](https://itunes.apple.com/app/id1101244278) is a **freemium** app which allows you to upload local images into various cloud service, including [Imgur](http://imgur.com/), [Flickr](https://www.flickr.com/),[ Amazon S3](https://aws.amazon.com/s3/), etc, and return you a web url of the uploaded image for public access. 
 
 [Download](https://itunes.apple.com/app/id1101244278)
 
@@ -84,6 +85,16 @@ Or Download from github [release](https://github.com/gee1k/uPic/releases).
 To use uPic as the image uploader service, you just need to install iPic app from the instructions above, then config its image host following instructions [here](https://blog.svend.cc/upic/en/). And select "uPic" as "image uploader" in preferences panel of Typora, then you can upload images to preferred cloud image storage using uPic.
 
 uPic also has a detailed English [Document](https://blog.svend.cc/upic/en/).
+
+### Picsee (macOS, Freemium)
+
+![logo](/media/image-upload/picsee.png)
+
+[Picsee](https://enpicsee.chitaner.com/) is an image viewer & organizer on macOS.
+
+You could install it from [Mac App Store](https://apps.apple.com/app/id1454805783). To configure Picsee to upload your images, please refer:
+
+[Document](https://enpicsee.chitaner.com/blog/Typora_imageCloud_config.html) [中文文档](https://picsee.chitaner.com/blog/Typora_imageCloud_config.html)
 
 ### PicGo-Core (Command line) (OpenSource)
 
