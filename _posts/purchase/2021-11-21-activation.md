@@ -149,7 +149,9 @@ Please check [Find My License](#fine-my-license).
 
 For one license, you can have at most 3 activated devices at the same time. If you do need more than 3 devices, you will need to [purchase more license](https://store.typora.io).
 
-Or, you can [deactivated unused devices](/activation/#deactivate-typora). If you cannot access your old machines, you can open <https://store.typora.io/my>, fill the email you used for activation the license, then check and deactivate unused devices there.
+Or, you can [deactivated unused devices](/activation/#deactivate-typora) from the `Typora` → `My License…` menu option or the `Help` → `My License…` menu option. 
+
+If you cannot access your old machines, you can open <https://store.typora.io/my>, fill the email you used for activation the license, then check and deactivate unused devices there.
 
 <img src="/media/activation/Screen Shot 2022-03-12 at 12.25.10.png" alt="Screen Shot 2022-03-12 at 12.25.10" style="zoom:50%;" />
 
