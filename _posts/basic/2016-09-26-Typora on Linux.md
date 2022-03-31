@@ -190,6 +190,6 @@ Try launch typora with extra arguments `--disable-gpu`.
 
 #### Text not displayed in dialogs
 
-![text not displayed in open file dialog](/media/typora-linux/no-text-error.png)
+![text not displayed in open file dialog](https://user-images.githubusercontent.com/26056183/89756594-a3094c80-db00-11ea-943c-f214fea0c5ef.png)
 
 Please refer <https://github.com/electron-userland/electron-builder/issues/5217#issuecomment-700707564>
