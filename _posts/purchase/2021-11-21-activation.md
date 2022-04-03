@@ -76,12 +76,6 @@ If you want to use offline activation, [please see details here](/Offline-Activa
 
 A license key is sent to your email address after purchase, so you just need to search your mailbox and check the Spam folder if you can't find it.
 
-If you purchased Typora on our website (typora.io), the license code is sent to you via FastSpring, so you can find your orders and license code on <https://typora.onfastspring.com/account> with the email address you used for purchase. An access url will be sent to your mailbox. 
-
-If you do not receive it, please submit a request at <https://fastspring.com/consumer-support-form/>. (Please wait the webpage to load completely and scroll down to fill the form).
-
-If you purchased Typora from another reseller, please contact them instead.
-
 ### Via the email used the license
 
 If you once activated your license, you can open <http://store.typora.io/my> and fill the email account which you was used to activated Typora.

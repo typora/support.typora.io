@@ -26,4 +26,6 @@ By clicking `4`, you will lead to a page to see your order details and invoice (
 
 If you have questions about the orders, please fill the form after clicking `5`.
 
-Please notice that also "used" license will be shown in this page, if you purchased without activating it, please check your mail box or goes to <https://typora.onfastspring.com/account> instead.
+Please notice that only "used" license will be shown in this page, if you purchased without activating it, then please check your mail box. 
+
+We use [2Checkout (Verifone)](https://www.2checkout.com/) and [FastSpring](https://fastspring.com/) to sell our products, so you could also goes to <https://secure.2co.com/myaccount> or <https://typora.onfastspring.com/account> to find orders you made based on the email address that you did the payment.
