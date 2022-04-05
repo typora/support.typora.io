@@ -54,6 +54,17 @@ Please remove `~/Library/Saved Application State/abnerworks.Typora.savedState/` 
 
 Try remove `~/Library/Caches/abnerworks.Typora/`, or reboot your macOS.
 
+#### "Save" button is gray / disabled on macOS 12.3
+
+Please try following workarounds:
+
+1. Resize the Save As dialog and check. 
+2. If the problem persists, pan around with the dialog and check if the Save button appears.
+
+(refer https://helpx.adobe.com/in/illustrator/kb/unable-to-save-files-macOS.html)
+
+Or you can try upgrade to 12.3.1 (https://ask.libreoffice.org/t/cannot-save-libre-office-documents-in-mac-os-monterey/76056)
+
 ## Windows
 
 #### Typora window is blank / black
