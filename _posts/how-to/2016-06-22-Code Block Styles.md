@@ -8,7 +8,7 @@ thumbnail: code-block-style.png
 typora-root-url: ../../
 ---
 
-[日本語 (ja)](/ja/Markdown-Reference/)
+[日本語 (ja)](/ja/Code-Block-Styles/)
 
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
