@@ -8,6 +8,8 @@ typora-root-url: ../../
 typora-copy-images-to: ../../media/custom-font
 ---
 
+[日本語 (ja)](/ja/Custom-Font/)
+
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
 
 ## Change Font
