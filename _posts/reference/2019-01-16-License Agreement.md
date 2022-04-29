@@ -85,7 +85,22 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 1. We and any third party that has been involved in the creation, production, or delivery of the Software are under no circumstances liable for consequential or indirect damages (including damage for loss of profit, business interruption, loss of data, and the like arising out of the use or inability to use the Software).
 2. The limitations of liability referred to in clause 8.1 shall not apply in the event that: (i) any negligence on the part of Typora leads to death or physical injury or (ii) damages arise from the intent, willful misconduct or gross negligence of us or the management of us.
 
-## 9. Termination
+## 9. Governing law
+
+1. These Terms are governed by the law of the place where the Owner is based (Shanghai, China), as disclosed in the relevant section of this document, without regard to conflict of laws principles.
+2. However, regardless of the above, if the User qualifies as a European Consumer and has their habitual residence in a country where the law provides for a higher consumer protection standard, such higher standards shall prevail, unless there are conflicts with the governing laws and orders of PRC.
+
+## 10. Venue of jurisdiction
+
+1. The exclusive competence to decide on any controversy resulting from or connected to these Terms lies with the courts of the place where the Owner is based (Shanghai, China), as displayed in the relevant section of this document.
+
+## 11. Dispute resolution
+
+1. Users may bring any disputes to the Owner who will try to resolve them amicably.
+2. While Users' right to take legal action shall always remain unaffected, in the event of any controversy regarding the use of this Application or the Service, Users are kindly asked to contact the Owner at the contact details provided in our website.
+3. The User may submit the complaint including a brief description and if applicable, the details of the related order, purchase, or account, to the Owner’s email address specified in our website.
+
+## 12. Termination
 
 1. This EULA will continue to be in force until the expiry or termination of the Full version or Trial version.
 2. The Full version or Trial version will terminate automatically at the end of the applicable license term, unless renewed or Activated prior to the end of the applicable license term.
@@ -93,6 +108,6 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 4. Upon termination of the Full version or Trial version, You shall cease all use of the Software and shall destroy all copies thereof.
 5. You acknowledge that the provisions of this EULA, which by their nature are intended to survive termination, will remain in effect after termination of this EULA.
 
-## 10. Feedback
+## 13. Feedback
 
 We welcome any comment, question and communication at hi@typora.io
