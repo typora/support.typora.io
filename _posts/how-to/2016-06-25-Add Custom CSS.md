@@ -7,6 +7,8 @@ tags: [style, tutorial]
 typora-root-url: ../../
 ---
 
+[日本語 (ja)](/ja/Add-Custom-CSS/)
+
 > TIP: This feature requires Typora later than 0.9.12 on Windows or 0.9.9.5.1 on macOS.
 
 ## Open Theme Folder

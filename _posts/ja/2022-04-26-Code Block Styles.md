@@ -1,25 +1,23 @@
 ---
 layout: post
-title: Code Block Styles/Themes
+title: コードブロックのスタイル/テーマ
 author: typora.io
-category: how-to
-tags: [style, code fences]
-thumbnail: code-block-style.png
-typora-root-url: ../../
+typora-root-url: ../
+permalink: /ja/Code-Block-Styles/
 ---
 
-[日本語 (ja)](/ja/Code-Block-Styles/)
+[English Original Version](/Code-Block-Styles/) [Help Improve the Translation](https://github.com/typora/wiki-website)
 
-> TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).
+> ヒント: これらの CSS スニペットをどこに置くかについては、[カスタム CSS の追加](/Add-Custom-CSS/) を参照してください。
 
-Typora uses [CodeMirror](http://codemirror.net) for syntax highlight in code fences. Code fences in Typora use `cm-s-inner` as their theme class.
+Typora はコードフェンスのシンタックスハイライトに [CodeMirror](http://codemirror.net) を使用します。 Typora のコードフェンスはテーマクラスとして `cm-s-inner` を使用します。
 
-To port a CodeMirror theme into Typora, for example [material.css](https://codemirror.net/theme/material.css):
+CodeMirror のテーマを Typora に移植する場合、たとえば [material.css](https://codemirror.net/theme/material.css) テーマは、以下のようにします。
 
-1. copy and paste into `base.user.css` or `[theme].user.css` under theme folder, and replace their CodeMirror theme class name with `cm-s-inner`, for instance, change the original `.cm-s-material` into `.cm-s-inner`.
-2. Before rendered by CodeMirror, the code fences has struct like `<pre class="md-fences"></pre>`. So, please also apply basic styles like font-family, color, and background into the `.md-fences` selector. 
+1. [material.css](https://codemirror.net/theme/material.css) ファイルをコピーして、テーマフォルダの下の `base.user.css` または `[theme].user.css` に貼り付け、CodeMirror のテーマクラス名を `cm-s-inner` に変更します。 たとえば、元の `.cm-s-material` は `.cm-s-inner` に変更します。
+2. CodeMirror でレンダリングする前のコードフェンスは、`<pre class="md-fences"></pre>` のような構造になっています。 このため、font-family、color、background などの基本的なスタイルも `.md-fences` のセレクターに適用してください。 
 
-So the final CSS would be:
+したがって、最終的な CSS ファイルは以下のようになります。
 
 ```css
 /** ported from https://codemirror.net/theme/material.css **/
@@ -89,8 +87,11 @@ So the final CSS would be:
 }
 ```
 
-And result is: ![Snip20160623_11](/media/code-block-style/Snip20160623_11.png)
+そして結果は、以下の図のようになります。
 
-You can write your own CSS styles for syntax highlight following the example above.
+![Snip20160623_11](/media/code-block-style/Snip20160623_11.png)
 
-Please note that `cm-s-inner` would only apply to code fences: it won't affect the markdown syntax in source code mode. And not all CSS properties would be applied to code fences in source code mode.
+上記の例に従って、シンタックスハイライト用の独自の CSS スタイルを作成できます。
+
+`cm-s-inner` はコードフェンスにのみ適用され、ソースコードモードでの Markdown シンタックスに影響を与えないことに注意してください。 また、すべての CSS プロパティがソースコードモードのコードフェンスに適用されるわけではありません。
+

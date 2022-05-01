@@ -1,16 +1,14 @@
 ---
 layout: post
-title: Language Support in Code Fences
+title: コードフェンスのサポート言語
 author: typora.io
-category: reference
-tags: [code fences]
-typora-root-url: ../../
-date: 2016-10-20
+typora-root-url: ../
+permalink: /ja/Code-Fences-Language-Support/
 ---
 
-[日本語 (ja)](/ja/Code-Fences-Language-Support/)
+[English Original Version](/Code-Fences-Language-Support/) [Help Improve the Translation](https://github.com/typora/wiki-website)
 
-The latest version of Typora supports syntax highlight of following languages (in lower case):
+最新版の Typora は、以下の言語のシンタックスハイライトをサポートしています (小文字)。
 
 - asp (alias: aspx, asp.net)
 - javascript (alias: js, text/javascript)
@@ -132,11 +130,11 @@ The latest version of Typora supports syntax highlight of following languages (i
 - nim
 - solidity
 
-Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
+注意: <code>```{lang}</code> で指定する言語は、Typora では大文字と小文字を区別しません。
 
-### My language is not listed above...
+### 私の使用言語が上記に記載されていません...
 
-Typora uses [CodeMirror](http://codemirror.net/) for syntax highlighting in code fences, so if the language you want is not supported in Typora, please:
+Typora はコードフェンスのシンタックスハイライトに [CodeMirror](http://codemirror.net/) を使用しているため、必要な言語が Typora でサポートされていない場合は、次のようにしてください。
 
-1. Check whether the language is supported on <http://codemirror.net/mode/> or not. If it is, send us an email, and we will add  it.
-2. If the language is not supported on <http://codemirror.net/mode/>, please check <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> for adding syntax highlight on CodeMirror. After it is supported by CodeMirror, Typora will follow.
+1. その言語が <http://codemirror.net/mode/> でサポートされているかどうかを確認します。 対応している場合は、メールでご連絡いただければ、追加いたします。
+2. <http://codemirror.net/mode/> で対応していない言語の場合、その言語が CodeMirror でシンタックスハイライトされるように <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> に追加されたことを確認してください。 CodeMirror でその言語がサポートされた後に、Typora が追随する予定です。

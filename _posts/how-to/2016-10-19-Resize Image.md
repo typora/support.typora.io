@@ -8,6 +8,8 @@ typora-root-url: ../../
 
 ---
 
+[日本語 (ja)](/ja/Resize-Image/)
+
 Typora allows you to use `<img>` tag for displaying images, which can also be used to adjust the size of images.
 
 For example, you could specify the `width` or `height` attribute of an `<img>` tag, or set the width/height in its `style` attribute:
