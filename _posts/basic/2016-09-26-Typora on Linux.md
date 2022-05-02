@@ -35,7 +35,7 @@ But if you’re not OK with the warning, you can do followings:
 1. Download the key and save it locally somewhere.
 
    ```shell
-   curl https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > /usr/share/keyrings/typora.gpg
+   curl https://typora.io/linux/public-key.asc | gpg --dearmor > /usr/share/keyrings/typora.gpg
    ```
 
 2. Create repo file `typora.list` in `/etc/apt/sources.list.d`.
