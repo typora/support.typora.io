@@ -12,6 +12,19 @@ This document shows some “native” features on Windows platform that you may 
 
 * Outline
 {:toc}
+
+### Advanced Install
+
+You can append following command arguments for `typora-setup.exe` when installing Typora:
+
+**/SILENT, /VERYSILENT** Instructs Setup to be silent or very silent. When Setup is silent the wizard and the background window are not displayed but the installation progress window is. When a setup is very silent this installation progress window is not displayed. 
+
+**/ALLUSERS** Instructs Setup to install in administrative install mode. Only has an effect when the [Setup] section directive PrivilegesRequiredOverridesAllowed allows the commandline override.
+
+**/CURRENTUSER** Instructs Setup to install in non administrative install mode. Only has an effect when the [Setup] section directive PrivilegesRequiredOverridesAllowed allows the commandline override.
+
+Full supported command line arguments for installer.exe are listed [here](https://jrsoftware.org/ishelp/index.php?topic=setupcmdline).
+
 ### JumpList
 
 Typora supports [jump list](https://www.dummies.com/computers/operating-systems/windows-10/how-to-use-taskbar-jump-lists-in-windows-10/) on windows, which include quick actions (new file), recent files and recent folders, you can also pin most used folders or files for quick access.
