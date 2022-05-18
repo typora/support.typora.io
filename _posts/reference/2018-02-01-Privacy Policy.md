@@ -35,12 +35,13 @@ When error/exception happens, and if you allow send anonymous usage data, we wil
 
 #### 3rd Party Apps & Services
 
-Typora can call and execute other apps for higher usability,  which may collect information used to identify you,  no matter you enable "Send Anonymous Usage Info" or not.
+Typora can call and execute other apps for higher usability,  which may or may not collect information used to identify you,  no matter you enable "Send Anonymous Usage Info" or not.
 
-The 3rd party apps that Typora may launch includes:
+The 3rd party apps and services that Typora may launch includes:
 
-+ [iPic](https://en.toolinbox.net/iPic/) (optional installation on macOS). It may be automatically launched by Typora when you choose to upload images into could server via iPic. Target image path or data will be provided to iPic from Typora during this process.
++ 3rd image uploader apps or user's custom scripts (based on your configuration in preferences panel) may be launched by Typora, when you choose to upload images explicitly, or images are configured to be updated automatically. Target image path or data will be passed to them from Typora during this process. They will not be launched without user's configuration.
 + [Pandoc](https://pandoc.org/) (optional installation). It may be automatically launched by Typora when you import/export docx, epub, LaTeX, and other file formats. Data of your current file will be provided to Pandoc from Typora in a converted format that Pandoc accepts.
++ User's custom scripts (based on your configuration in preferences panel) may be executed by Typora for export based on your settings. File path may be passed to them for them to run the export task. They will not be launched without user's configuration.
 
 None of them will be installed automatically by Typora, nor launched automatically when user is not doing related operations. 
 
