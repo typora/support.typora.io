@@ -7,6 +7,10 @@ tags: [windows, linux]
 typora-root-url: ../../
 ---
 
+* Outline
+{:toc}
+
+
 ## Summary
 
 ### Open Advanced Config File
