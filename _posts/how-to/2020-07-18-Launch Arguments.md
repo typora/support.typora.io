@@ -7,8 +7,6 @@ tags: [cmd]
 typora-root-url: ../../
 ---
 
-> Note: This is wiki is only for Windows / Linux version, requires Typora ≥ 0.9.92
-
 You can launch Typora.exe with extra arguments, for example:
 
 ```cmd

@@ -10,7 +10,7 @@ typora-copy-images-to: ../../media/activation
 
 ## Precondition
 
-It requires Typora ≥ [1.1.0-dev](https://typora.io/releases/dev), and you will need another computer with network connection to download the activation token.
+You will need another computer with network connection to download the activation token.
 
 Please notice that, offline-activation is only prepared for the case that Typora cannot access to our activation server successfully. 
 

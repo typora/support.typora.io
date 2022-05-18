@@ -17,9 +17,7 @@ There is a system-wide preference to change available search engines in the cont
 
 ![Snip20160815_11](/media/add-search-service/Snip20160815_11.png)
 
-# Windows
-
-*(This requires Typora ≥ v0.9.16)*
+# Windows / Linux
 
 1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
 

@@ -58,8 +58,6 @@ Afterwards, Typora will be up and running!
 
 ## Offline Activation
 
-It requires Typora ≥ 1.1.0-dev.
-
 <img src="/media/activation/Screen Shot 2022-02-02 at 20.43.53.png" alt="Screen Shot 2022-02-02 at 20.43.53" style="zoom:50%;" />
 
 Once you generated an `Activation Token`, that will occupy one available seats for the license (one license has up to 3 activated devices at one time) for at least 6 month, because we cannot know if you are using that device or not since it is offline.

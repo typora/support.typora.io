@@ -12,6 +12,9 @@ This document shows some “native” features on Windows platform that you may 
 
 * Outline
 {:toc}
+### Install without Administer Privilege
+
+If you do not have administer privilege on Windows, you can still run `typora-setup.exe`  and click "Install for current user only" to install it without admin privilege.
 
 ### Advanced Install
 
