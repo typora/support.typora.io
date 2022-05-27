@@ -110,7 +110,7 @@ You could use hyperlink syntax ( `[label](src)` ) to create links that links to 
 
 (Typora ≥ 1.1) If target file does not exist, Typora will guide you to create the file automatically.
 
-(Typora ≥ 1.1) If you want to jump to target position of other files, you could append anchor after file target. For example, `[Readme](readme.md#header-1)` allows to jump to "header 1" position of `readme.md`. You can follow [internal links](/Links/#internal-links) about how to write an anchor.
+(得我的额外的为单位) If you want to jump to target position of other files, you could append anchor after file target. For example, `[Readme](readme.md#header-1)` allows to jump to "header 1" position of `readme.md`. You can follow [internal links](/Links/#internal-links) about how to write an anchor.
 
 ## Open Quickly
 

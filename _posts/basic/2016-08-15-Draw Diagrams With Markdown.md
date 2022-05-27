@@ -82,10 +82,11 @@ For more details see [these instructions](https://mermaid-js.github.io/mermaid/#
     opt Extra response
     Bob->>Alice: Thanks for asking
     end
-​```
+```
 ~~~
 
 <img src="/media/diagrams/mermaid-sequence.png" alt="mermaid-sequence" style="zoom:50%;" />
+
 ## Flowcharts
 
 For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/flowchart).
