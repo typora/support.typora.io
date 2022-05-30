@@ -1,7 +1,8 @@
 ---
 permalink: /zh/Add-Custom-CSS/
-category:
-
+layout: post
+title: [添加自定义 CSS 样式]
+author: [loveAvocado]
 
 ---
 
