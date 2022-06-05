@@ -7,6 +7,8 @@ tags: [style, tutorial]
 typora-root-url: ../../
 ---
 
+[日本語 (ja)](/ja/About-Themes/)
+
 ## Change Themes
 
 Typora has 6 built-in themes, which can be selected using under the **Themes menu** in the menu bar. You can also download, install, modify or write your own custom theme to stylize Typora.
