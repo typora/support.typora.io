@@ -193,3 +193,13 @@ Try launch typora with extra arguments `--disable-gpu`.
 ![text not displayed in open file dialog](https://user-images.githubusercontent.com/26056183/89756594-a3094c80-db00-11ea-943c-f214fea0c5ef.png)
 
 Please refer <https://github.com/electron-userland/electron-builder/issues/5217#issuecomment-700707564>
+
+#### Save-as or Save file dialog cannot be displayed
+
+When you save or save-as file, the dialog does not pop up and in terminal, you got 
+
+```
+(typora:114856): Gtk-WARNING **: 15:47:01.744: Can't open portal file chooser: GDBus.Error:org.freedesktop.portal.Error.InvalidArgument: invalid filter: no filters
+```
+
+Then, you can try run Typora with `GTK_USE_PORTAL=0 typora`
