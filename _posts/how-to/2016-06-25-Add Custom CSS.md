@@ -47,3 +47,18 @@ You can open Chrome/Safari DevTools to debug element styles.
 
 - On macOS, you could check `Help` -> `Enable Debug` menu item, then right click anywhere in Typora's hybrid edit view, then click "Inspect Elements" from context menu.
 - On Windows/Linux, you could open DevTools from `View` -> `Toggle DevTools` menu item.
+
+## Common Style Customization
+
+- [Font](/Custom-Font/)
+- [Typeset](/Typeset/)
+- [Background](/Backgound/)
+- [Code Blocks](/Code-Block-Styles/)
+- [Headers](/Auto-Numbering/)
+- [Width od Writing Area](/Width-of-Writing-Area/)
+- [List Styles](/List-Style/)
+- [Task List](/Task-List/)
+- [Text Direction](/RTL/) (RTL)
+- [Diagrams](https://support.typora.io/Draw-Diagrams-With-Markdown/#mermaid-options)
+- [Focus Mode](/Change-Styles-in-Focus-Mode/)
+- [Table of Contents](/TOC-levels/)
