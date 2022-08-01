@@ -37,6 +37,7 @@ function doSearch(searchTerm) {
 
   document.getElementById('search-box').setAttribute("value", searchTerm);
   if(idx) {
+    searchTerm = searchTerm.split(/\s/).map(s => `+${s}`).join(" ");
     displaySearchResults(idx.search(searchTerm), window.store);
   } 
 }
