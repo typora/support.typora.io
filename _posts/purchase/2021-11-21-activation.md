@@ -183,6 +183,13 @@ Typora activation requires a network connection, so:
 
 - Or, you could try [offline activation](/Offline-Activation/) with Typora ≥ [1.1.0 dev](https://typora.io/releases/dev).
 
+### Error message "Failed to write your license to local machine"
+
+For Windows version, activation requires Typora to access your Windows Registery (It can be done without Administrator priviledge). This error means Typroa failed to access your Windows Registery, please try:
+
+- Reboot your Winodws PC.
+- If still not working after reboot, please try launch Typora with Administrator mode, or check if your Firewall or Security App would block Typora from writing activation info into your Windows Registery or not.
+
 ## My Typora has been unexpectedly deactivated.
 
 If you have activated Typora but find that it has been unexpectedly disabled, usually the reason may be:
