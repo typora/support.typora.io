@@ -129,6 +129,7 @@ permalink: /ja/Code-Fences-Language-Support/
 - forth
 - nim
 - solidity
+- smarty
 
 注意: <code>```{lang}</code> で指定する言語は、Typora では大文字と小文字を区別しません。
 

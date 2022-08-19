@@ -131,6 +131,7 @@ The latest version of Typora supports syntax highlight of following languages (i
 - forth
 - nim
 - solidity
+- smarty
 
 Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
 
