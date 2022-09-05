@@ -17,8 +17,7 @@ Please enable related features in preferences panel.
 
 You can find old release builds here:
 
-- macOS: https://typora.io/dev_release.html
-- Linux / Windows: https://typora.io/windows/dev_release.html
+<https://typora.io/releases/all>
 
 #### Recovered old / unsaved data
 
@@ -77,6 +76,10 @@ This may caused by compatibility issue between Electron / Chromium and certain G
 
   Adding option `"flags": [["disable-gpu"]]` in
   `c:\Users\\AppData\Roaming\Typora\conf\conf.user.json` helped. Thanks a lot!
+
+#### Typora exit after launch on Windows 7
+
+The version 1.4.3 does not support Windows 7 yet, please download to [1.3.8 (x64)](https://download.typora.io/windows/typora-setup-x64-1.3.8.exe) or [1.3.8 (ia32)](https://download.typora.io/windows/typora-setup-ia32-1.3.8.exe). 
 
 ## Linux
 
