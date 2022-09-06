@@ -57,10 +57,11 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-​```
+```
 ~~~
 
 <img src="/media/diagrams/flowchart.png" alt="flowchart" style="zoom:50%;" />
+
 # Mermaid
 
 Typora also has integration with [mermaid](https://mermaid-js.github.io/mermaid/#/), which supports sequence diagrams, flowcharts, Gantt charts, class and state diagrams, and pie charts. 
@@ -137,7 +138,7 @@ For more details see [these instructions](https://mermaid-js.github.io/mermaid/#
         Describe gantt syntax               :after doc1, 3d
         Add gantt diagram to demo page      : 20h
         Add another diagram to demo page    : 48h
-​```
+```
 ~~~
 
 ![mermaid-Gantt](/media/diagrams/mermaid-Gantt-chart.png)
@@ -204,7 +205,59 @@ pie
 ~~~
 
 <img src="/media/new-80/pie-chart.png" alt="pie-chart" style="zoom:50%;" />
-## Mermaid Options
+
+## Requirement Diagram
+
+A Requirement diagram provides a visualization for requirements and their connections, to each other and other documented elements. The modeling specs follow those defined by SysML v1.6. 
+
+You can find details [here](https://mermaid-js.github.io/mermaid/#/requirementDiagram).
+
+````markdown
+```mermaid
+requirementDiagram
+
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
+```
+````
+
+<img src="/media/diagrams/Screen%20Shot%202022-09-06%20at%2022.03.59.png" alt="Screen Shot 2022-09-06 at 22.03.59" style="zoom:50%;" />
+
+## Gitgraph Diagrams
+
+A Git Graph is a pictorial representation of git commits and git actions(commands) on various branches. 
+
+You can find details [here](https://mermaid-js.github.io/mermaid/#/gitgraph).
+
+````markdown
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       checkout develop
+       commit
+       commit
+       checkout main
+       merge develop
+       commit
+       commit
+```
+````
+
+<img src="/media/new-1.4/Screen%20Shot%202022-08-19%20at%2016.07.24.png" alt="Screen Shot 2022-08-19 at 16.07.24" style="zoom:50%;" />
+
+## Global Mermaid Options
 
 ### Overview
 
@@ -253,3 +306,17 @@ Add `--mermaid-flowchart-curve: basis` to get other type of curves.
 | --mermaid--gantt-left-padding:75                             | --mermaid--gantt-left-padding:200                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.33.31.png" alt="Screen Shot 2021-04-05 at 23.33.31" style="zoom:50%;" /> | <img src="/media/new-10/Screen Shot 2021-04-05 at 23.33.00.png" alt="Screen Shot 2021-04-05 at 23.33.00" style="zoom:50%;" /> |
+
+## Inline Mermaid Config
+
+You can add `%%{init: [options]}%%` in the first line of mermaid diagram to config mermaid details like below:
+
+<img src="/media/new-1.4/Screen%20Shot%202022-08-19%20at%2016.04.36.png" alt="Screen Shot 2022-08-19 at 16.04.36" style="zoom:50%;" />
+
+You can find full document on <https://mermaid-js.github.io/mermaid/#/./directives>.
+
+# Save-as / Copy on Diagrams
+
+You can right click on a diagram to save it as SVG, PNG or JPG files to your local disk.
+
+Also, you can right click on a diagram to copy it in your clipboard.
