@@ -72,9 +72,23 @@ You could click "Open Folder..." item in the menu of file sidebar to open or swi
 
 ### Sort Files
 
-User can sort files by alphabet, natural order[^nature-sort] or modified date. Sort type can be changed from menu of file sidebar.
+User can sort files by alphabet, natural order[^nature-sort], modified date and creation date. Sort type can be changed from menu of file sidebar, action for each button is:
 
-![Screen Shot 2018-10-23 at 00.28.46](/media/new-59/Screen Shot 2018-10-23 at 00.28.46.png)
+![sort](/media/files/sort.png)
+
+1. Enable / Disable `Group by Folder`. 
+
+   When enabled in file tree view, all folders will be displayed before files. When disabled in file tree view, folders and files are mixed and sorted. 
+
+   When enabled in file list view, articles will be grouped by their parent folder and sorted within same folder. When disabled in file list view, articles are sorted across different folders.
+
+2. Sort by `natural order` ascending / descending.
+
+3. Sort by `alphabet order` ascending / descending.
+
+4. Sort by `modified date ` ascending / descending.
+
+5. Sort by `created date` ascending / descending.
 
 [^nature-sort]: We will sort by file name naturally, for example: 1-xxx, 2-xxx, 10-xxx instead of in alphabet order (1-xxx, 10-xxx, 2-xxx).
 
