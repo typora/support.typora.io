@@ -24,7 +24,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 - **“Beta version”** the license for the Software for public testing before version 1.0.
 - **“Stable version”** versions with version number equal or greater than 1.0, exclude Beta versions.
 - **“Dev version”** versions with version number ending with ""-dev", those versions are used for public testing purpose after v1.0.
-- **“Full version”** the license for the Software for the term specified on the webpage of the store where You purchase the license, or in any applicable agreement concerning the purchase of the license (as stand-alone product or as part of a subscription) to Use the Software. This license is when Typora reaches v1.0.
+- **“Full version”** the license for the Software for the term specified on the webpage of the store where You purchase the license, or in any applicable agreement concerning the purchase of the license (as stand-alone product or as part of a subscription) to Use the Software.
 - **“Trial version”** the license for the Software for the term of N days to Use the Stable version of Software for the sole purpose of testing and evaluating the Software. (N will be decided by us in future). This license is when Typora reaches v1.0.
 - **“Updates”** any modified versions and updates of, and additions to the Software (excluding upgrades of the Software);
 - **"Major Update"** updates that introduce major version number changes, for example, from 1.x to 2.x is a  Major Update, from 1.1.x to 1.2.x is not.
@@ -61,6 +61,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
    8. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
+5. You are allowed to use Full version on any devices you own, manage or have privilege to install and run apps on it. You are allowed to use the Full version for personal purposes, commercial purposes, and other purposes excluding clause 4.2.
 
 ## 5. Maintenance and support
 

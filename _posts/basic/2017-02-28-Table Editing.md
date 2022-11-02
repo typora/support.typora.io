@@ -55,7 +55,7 @@ In newer version, you can just add rows by pressing “Tab Key”.
 
 ### Delete Row in Table
 
-The delete line command or delete table row (Shift+Ctrl+L or Shift+Command+L on macOS) will delete current table row in a table, or use the Context menu (right click).
+The delete line command (Shift+Alt+Ctrl/Command+L) or delete table row command  (Shift+Ctrl/Command+Backspace) will delete current table row in a table, or use the Context menu (right click).
 
 ### Add/Delete Column in Table
 

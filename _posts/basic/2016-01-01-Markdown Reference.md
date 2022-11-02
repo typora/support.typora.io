@@ -28,9 +28,9 @@ A paragraph is simply one or more consecutive lines of text. In markdown source 
 
 Press `Shift` + `Return` to create a single line break. Most other markdown parsers will ignore single line breaks, so in order to make other markdown parsers recognize your line break, you can leave two spaces at the end of the line, or insert `<br/>`.
 
-### Headers
+### Headings
 
-Headers use 1-6 hash (`#`) characters at the start of the line, corresponding to header levels 1-6. For example:
+Headings use 1-6 hash (`#`) characters at the start of the line, corresponding to heading levels 1-6. For example:
 
 ``` markdown
 # This is an H1
@@ -40,7 +40,7 @@ Headers use 1-6 hash (`#`) characters at the start of the line, corresponding to
 ###### This is an H6
 ```
 
-In Typora, input ‘#’s followed by title content, and press `Return` key will create a header. Or type ⌘1 to ⌘6 as a shortcut.
+In Typora, input ‘#’s followed by title content, and press `Return` key will create a heading. Or type ⌘1 to ⌘6 as a shortcut.
 
 ### Blockquotes
 
@@ -98,22 +98,22 @@ Typora only supports fences in GitHub Flavored Markdown, not the original code b
 
 Using fences is easy: type  \`\`\` and press `return`. Add an optional language identifier after \`\`\` and Typora runs it through syntax highlighting:
 
-``` markdown
+````markdown
 Here's an example:
 
-​```
+```
 function test() {
   console.log("notice the blank line before this function?");
 }
-​```
+```
 
 syntax highlighting:
-​```ruby
+```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-​```
 ```
+````
 
 ### Math Blocks
 
@@ -212,7 +212,7 @@ Typora now supports [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/). 
 
 ### Table of Contents (TOC)
 
-Enter `[toc]` and press the `Return` key to create a  “Table of Contents” section. The TOC extracts all headers from the document, and its contents are updated automatically as you add to the document.
+Enter `[toc]` and press the `Return` key to create a  “Table of Contents” section. The TOC extracts all headings from the document, and its contents are updated automatically as you add to the document.
 
 ## Span Elements
 
