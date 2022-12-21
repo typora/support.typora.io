@@ -41,8 +41,7 @@ date: 2018-02-10
 - Ukrainian by [oleksavyshnivsky](https://github.com/oleksavyshnivsky)
 - Hebrew by [RealA10N](https://github.com/RealA10N)
 - Romanian by [Mooyeee](https://github.com/Mooyeee)
-
-The list above may be obsolete, you could check all available languages or change the locale of Typora in preference panel.
+- Norwegian by [coderinthenorth](https://github.com/coderinthenorth)
 
 ## How to Contribute
 
