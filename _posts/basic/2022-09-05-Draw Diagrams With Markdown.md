@@ -68,7 +68,7 @@ Typora also has integration with [mermaid](https://mermaid-js.github.io/mermaid/
 
 ## Sequence Diagrams
 
-For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/sequenceDiagram).
+For more details see [these instructions](https://mermaid.js.org/syntax/sequenceDiagram.html).
 
 ~~~gfm
 ```mermaid
@@ -90,7 +90,7 @@ For more details see [these instructions](https://mermaid-js.github.io/mermaid/#
 
 ## Flowcharts
 
-For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/flowchart).
+For more details see [these instructions](https://mermaid.js.org/syntax/flowchart.html).
 
 ~~~gfm
 ```mermaid
@@ -99,14 +99,14 @@ A[Hard edge] -->B(Round edge)
     B --> C{Decision}
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
-​```
+```
 ~~~
 
 ![mermaid-flowchart](/media/diagrams/mermaid-flowchart.png)
 
 ## Gantt Charts
 
-For more details see [these instructions](https://mermaid-js.github.io/mermaid/#gantt).
+For more details see [these instructions](https://mermaid.js.org/syntax/gantt.html).
 
 ~~~gfm
 ```mermaid
@@ -145,7 +145,7 @@ For more details see [these instructions](https://mermaid-js.github.io/mermaid/#
 
 ## Class Diagrams
 
-For more details see [these instructions](https://mermaid-js.github.io/mermaid/#/classDiagram).
+For more details see [these instructions](https://mermaid.js.org/syntax/classDiagram.html).
 
 ~~~gfm
 ```mermaid
@@ -176,7 +176,7 @@ classDiagram
 <img src="/media/new-80/class-diagram.png" alt="class-diagram" style="zoom:50%;" />
 ## State Diagrams
 
-For more details see [these instructions](https://mermaidjs.github.io/#/stateDiagram).
+For more details see [these instructions](https://mermaid.js.org/syntax/stateDiagram.html).
 
 ~~~gfm
 ```mermaid
@@ -237,7 +237,7 @@ requirementDiagram
 
 A Git Graph is a pictorial representation of git commits and git actions(commands) on various branches. 
 
-You can find details [here](https://mermaid-js.github.io/mermaid/#/gitgraph).
+You can find details [here](https://mermaid.js.org/syntax/gitgraph.html).
 
 ````markdown
 ```mermaid
@@ -256,6 +256,42 @@ gitGraph
 ````
 
 <img src="/media/new-1.4/Screen%20Shot%202022-08-19%20at%2016.07.24.png" alt="Screen Shot 2022-08-19 at 16.07.24" style="zoom:50%;" />
+
+## C4 Diagrams (plantUML compatible)
+
+Mermaid's c4 diagram syntax is compatible with plantUML. 
+
+You can find details [here](https://mermaid.js.org/syntax/c4c.html).
+
+## Mindmap
+
+(This feature requires Typora ≥ 1.5.0) A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas.
+
+You can find details [here](https://mermaid.js.org/syntax/mindmap.html).
+
+````gfm
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+````
+
+<img src="./media/diagrams/Screenshot 2023-01-04 at 22.21.05.png" alt="Screenshot 2023-01-04 at 22.21.05" style="zoom:50%;" />
 
 ## Global Mermaid Options
 
