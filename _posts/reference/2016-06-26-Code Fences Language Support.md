@@ -12,126 +12,125 @@ date: 2016-10-20
 
 The latest version of Typora supports syntax highlight of following languages (in lower case):
 
+- ABAP
+- apl
+- ASN.1
 - asp (alias: aspx, asp.net)
-- javascript (alias: js, text/javascript)
-- json
-- typescript
+- assembly (alias: asm, nasm, gas)
+- bhdl
+- c (alias: clike)
+- c# (alias: csharp)
+- c++ (alias: cpp, cc)
+- ceylon
 - clojure
+- cmake
+- COBOL
 - coffeescript (alias: coffee)
-- css
-- less
-- scss
-- gfm (github flavored markdown)
-- markdown
-- xml
-- haskell
-- html (alias: htmlmixed)
-- lua
 - commonlisp (alias: lisp)
-- pascal
-- perl
-- php (and php+html)
+- cql (alias: cassandra)
+- crystal
+- css
+- cypher
 - cython
-- python
-- ruby
-- shell (alias: sh, bash)
-- sql
+- d
+- dart
+- diff
+- django
+- dockerfile
+- dtd (alias: xml-dtd)
+- dylan
+- elixir
+- elm
+- embeddedjs (alias: ejs)
+- erb
+- erlang
+- F#
+- forth
+- fortran
+- gfm (github flavored markdown)
+- gherkin
+- glsl
+- go
+- groovy
+- handlebars
+- haskell
+- haxe
+- html (alias: htmlmixed)
+- http
+- hxml
+- idl
+- jade
+- java
+- javascript (alias: js, text/javascript)
+- jinja2
+- json
+- jsp
+- jsx (alias: react)
+- julia
+- kotlin
+- less
+- livescript
+- lua
+- makefile
+- mariadb
+- markdown
+- mbox
 - mssql
 - mysql
-- mariadb
-- cql (alias: cassandra)
+- nginx
+- nim
+- nsis
+- objective-c (alias: obj-c, objc)
+- ocaml
+- octave (alias: matlab)
+- oz
+- pascal
+- perl
+- pgp (alias: asciiarmor, pgp-keys)
+- php (and php+html)
 - plsql
+- powershell
+- properties (alias: ini)
+- protobuf
+- pseudocode
+- python
+- Q
+- r (alias: rlang, r-lang)
+- rst (alias: restructuredtext)
+- ruby
+- rust
+- SAS
+- scala
+- scheme
+- scss
+- shell (alias: sh, bash)
+- smalltalk
+- smarty
+- solidity
+- spreadsheet
+- sql
+- squirrel
+- stylus
+- swift
+- tcl
 - tex (and stex, latex)
 - tiddlywiki (alias: wiki)
+- tiki (alias: tikiwiki, tiki-wiki)
+- toml
+- turtle
+- twig
+- typescript
+- V
 - vb (alias: basic)
 - vbscript
 - velocity
 - verilog
-- xquery
-- yaml
-- go
-- groovy
-- nginx
-- oz
-- octave (alias: matlab)
-- c (alias: clike)
-- c++ (alias: cpp, cc)
-- objective-c (alias: obj-c, objc)
-- scala
-- c# (alias: csharp)
-- java
-- squirrel
-- ceylon
-- kotlin
-- swift
-- r (alias: rlang, r-lang)
-- d
-- diff
-- erlang
-- http
-- jade
-- rst (alias: restructuredtext)
-- rust
-- jinja2
-- jsp
-- erb
-- embeddedjs (alias: ejs)
-- powershell
-- dockerfile
-- jsx (alias: react)
 - vue (alias: vue.js, vue-template)
-- nsis
-- tiki (alias: tikiwiki, tiki-wiki)
-- properties (alias: ini)
-- livescript
-- assembly (alias: asm, nasm, gas)
-- toml
-- ocaml
-- F#
-- elm
-- elixir
-- spreadsheet
-- pgp (alias: asciiarmor, pgp-keys)
-- cmake
-- cypher
-- dart
-- django
-- dtd (alias: xml-dtd)
-- dylan
-- handlebars
-- idl
 - web-idl
+- xml
+- xquery
 - yacas
-- mbox
-- bhdl
-- julia
-- haxe
-- hxml
-- fortran
-- protobuf
-- makefile
-- tcl
-- scheme
-- twig
-- SAS
-- pseudocode
-- julia
-- stylus
-- COBOL
-- crystal
-- ASN.1
-- gherkin
-- smalltalk
-- turtle
-- glsl
-- apl
-- ABAP
-- Q
-- V
-- forth
-- nim
-- solidity
-- smarty
+- yaml
 
 Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
 
@@ -140,4 +139,4 @@ Note: The language you specify in <code>```{lang}</code> is case insensitive in 
 Typora uses [CodeMirror](http://codemirror.net/) for syntax highlighting in code fences, so if the language you want is not supported in Typora, please:
 
 1. Check whether the language is supported on <http://codemirror.net/mode/> or not. If it is, send us an email, and we will add  it.
-2. If the language is not supported on <http://codemirror.net/mode/>, please check <https://github.com/codemirror/CodeMirror/wiki/Mode-wish-list> for adding syntax highlight on CodeMirror. After it is supported by CodeMirror, Typora will follow.
+2. If the language is not supported on <http://codemirror.net/mode/>, please check the the [discussion forum for CodeMirror](https://discuss.codemirror.net/) to see if that language is under consideration. After it is supported by CodeMirror, Typora will follow.
