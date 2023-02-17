@@ -5,6 +5,7 @@ author: typora.io
 category: basic
 tags: [shortcut keys]
 typora-root-url: ../../
+redirect_from: "Custom-Key-Binding"
 ---
 
 * Outline
