@@ -38,7 +38,7 @@ Typora does not provide quick look plugin for now, but you can use [QLMarkdown](
 
 ### Older macOS Support
 
-The latest version of Typora supports macOS ≥ 10.14, for older macOS support, please check https://support.typora.io/Older-macOS-Support/
+The latest version of Typora supports macOS ≥ 11.0, for older macOS support, please check https://support.typora.io/Older-macOS-Support/
 
 ## File
 
