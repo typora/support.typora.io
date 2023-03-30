@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "4.2.0"
-gem "sass-embedded", "1.60.0"
+gem "jekyll-sass-converter", "~> 2.0"
 gem "jekyll-redirect-from"
 gem "kramdown"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
