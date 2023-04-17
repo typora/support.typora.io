@@ -168,6 +168,16 @@ For Linux / Windows users, please set the path of PicGo binary in Typora's prefe
 - PicGo.app and PicGo-Core use different config files, but you can copy the json object under `picBed` key in the config file of PicGo.app into PicGo's config file.
 - PicGo.app provides other features, like upload history, auto rename, etc.
 
+### PicList (Chinese Language Only)
+
+![PicList](https://imgx.horosama.com/admin_uploads/2022/10/2022_10_05_633d79e401694.png)
+
+[PicList](https://piclist.cn/) is an image uploading tools developed on top of PicGo, it offers functionality to delete your remote images, and many other features as well.
+
+This option requires Typora ≥ 1.6.0,  for older Typora versions, please check <https://piclist.cn/app.html#%E5%A6%82%E4%BD%95%E5%9C%A8typora%E4%B8%AD%E4%BD%BF%E7%94%A8>. And when Typora upload images using PicGo, PicGo will be launched and kept running.
+
+For Linux / Windows users, please set the path of PicGo binary in Typora's preferences setting after install it.
+
 ### Upgit (Open source & lightweight native, for Windows / Linux / macOS)
 
 ![upgit](https://cdn.jsdelivr.net/gh/pluveto/upgit/logo.png)

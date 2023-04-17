@@ -76,6 +76,8 @@ This may caused by compatibility issue between Electron / Chromium and certain G
 
   Adding option `"flags": [["disable-gpu"]]` in
   `c:\Users\\AppData\Roaming\Typora\conf\conf.user.json` helped. Thanks a lot!
+  
+- Uninstall Typora, delete `C:\Users\{username}\AppData\Roaming\Typora`, then reinstall Typora.
 
 #### Typora exit after launch on Windows 7
 
