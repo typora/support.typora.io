@@ -73,6 +73,8 @@ If Typora still shows "Require Pandoc to Continue" even after installed pandoc, 
 
 After Pandoc is installed, then you can import supported file types by clicking File -> Import from the menu bar, or simply drag and drop a file into Typora. There are also new Export functions available from the menu bar. Pandoc will run in background for those tasks and then exit automatically, so you may not notice it.
 
+You can find pandoc examples [here](https://pandoc.org/demos.html#examples).
+
 ## FAQ
 
 #### Which version of Pandoc is supported?
@@ -121,3 +123,7 @@ Follow [Pandoc's official instructions](http://pandoc.org/installing.html):
 Contact us <hi@typora.io>, and please provide a sample `.md` file, so we can reproduce the bug. 
 
 If you have a bug/feature request for Pandoc, you please contact its community via [pandoc-discuss](https://groups.google.com/forum/#!forum/pandoc-discuss).
+
+#### How to export with special config / need? 
+
+Please check the [export document](/Export/). 
