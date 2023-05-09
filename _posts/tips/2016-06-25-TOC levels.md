@@ -2,7 +2,7 @@
 layout: post
 title: Control TOC Levels
 author: typora.io
-category: how-to
+category: tips
 tags: [style]
 typora-root-url: ../../
 ---
