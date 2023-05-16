@@ -129,7 +129,16 @@ permalink: /ja/Code-Fences-Language-Support/
 - forth
 - nim
 - solidity
+- htaccess
+- postgresql
+- hive
+- stata
+- systemverilog
 - smarty
+- yara
+- pug
+- svelte
+- PEG.js
 
 注意: <code>```{lang}</code> で指定する言語は、Typora では大文字と小文字を区別しません。
 
