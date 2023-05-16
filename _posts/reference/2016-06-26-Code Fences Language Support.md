@@ -55,6 +55,8 @@ The latest version of Typora supports syntax highlight of following languages (i
 - handlebars
 - haskell
 - haxe
+- htaccess
+- hive
 - html (alias: htmlmixed)
 - http
 - hxml
@@ -85,14 +87,17 @@ The latest version of Typora supports syntax highlight of following languages (i
 - octave (alias: matlab)
 - oz
 - pascal
+- PEG.js
 - perl
 - pgp (alias: asciiarmor, pgp-keys)
 - php (and php+html)
 - plsql
 - powershell
+- postgresql
 - properties (alias: ini)
 - protobuf
 - pseudocode
+- pug
 - python
 - Q
 - r (alias: rlang, r-lang)
@@ -110,8 +115,11 @@ The latest version of Typora supports syntax highlight of following languages (i
 - spreadsheet
 - sql
 - squirrel
+- stata
 - stylus
+- svelte
 - swift
+- systemverilog
 - tcl
 - tex (and stex, latex)
 - tiddlywiki (alias: wiki)
@@ -131,6 +139,7 @@ The latest version of Typora supports syntax highlight of following languages (i
 - xquery
 - yacas
 - yaml
+- yara
 
 Note: The language you specify in <code>```{lang}</code> is case insensitive in Typora.
 
