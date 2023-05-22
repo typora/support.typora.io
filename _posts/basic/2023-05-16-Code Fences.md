@@ -78,7 +78,7 @@ You can control whether Typora should auto wrap line lines, or provide horizonta
 
 After version 1.5, by default, shift + Tab and Shift + [ will outdent selected lines in code blocks. 
 
-You can change the option `Use Shift+Tab to auto indent selected code` to let selected lines to be [auto indented](#auto-indent-content).
+You can change the option `Use Shift+Tab to auto indent selected code` to let selected lines to be [auto indented](#auto-indent-contents).
 
 ### Indent Size for Code
 
@@ -98,7 +98,7 @@ From version 1.6, you can now set default code language for code blocks from `Pr
 
 You can also choose **Last Used** to auto apply last used code language when insert new code blocks.
 
-# Code Block Styles/Themes
+### Code Block Styles/Themes
 
 You can custom code block styles [following this document](/Code-Block-Styles/).
 
