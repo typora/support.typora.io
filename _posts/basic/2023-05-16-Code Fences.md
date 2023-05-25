@@ -86,7 +86,11 @@ This option controls how many whitespace a tab is rendered in code block.
 
 ### Default Code Language
 
-From version 1.6, you can now set default code language for code blocks from `Preferences Panel` → `Code Fences`. And Typora provides some apply options:
+From version 1.6, you can now set default code language for code blocks from `Preferences Panel` → `Code Fences`. 
+
+<img src="/media/code/default-lang.png" alt="Screenshot 2023-05-25 at 10.51.51" style="zoom:50%;" />
+
+And Typora provides some apply options:
 
 - Apply default code language when add code fences from menubar, context menu, or from shortcut keys.
 - Apply default code language when add code fences by input markdown syntax <code>```</code>. You can press **Backspace** key or **Undo** to delete auto applied code language.
