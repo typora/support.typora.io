@@ -1,66 +1,70 @@
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Open Sans Regular'),url('./github/400.woff') format('woff')
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Open Sans Regular"), url("./github/400.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Open Sans Italic'),url('./github/400i.woff') format('woff')
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Open Sans Italic"), url("./github/400i.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Open Sans Bold'),url('./github/700.woff') format('woff')
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Open Sans Bold"), url("./github/700.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Open Sans Bold Italic'),url('./github/700i.woff') format('woff')
+  font-family: "Open Sans";
+  font-style: italic;
+  font-weight: bold;
+  src: local("Open Sans Bold Italic"), url("./github/700i.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Merriweather Light'),url('./Merriweather/Merriweather-Light.ttf') format('truetype')
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Merriweather Light"),
+    url("./Merriweather/Merriweather-Light.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    font-weight: normal;
-    src: local('Merriweather Light Italic'),url('./Merriweather/Merriweather-LightItalic.ttf') format('truetype')
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Merriweather Light Italic"),
+    url("./Merriweather/Merriweather-LightItalic.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: bold;
-    src: local('Merriweather Regular'),url('./Merriweather/Merriweather-Regular.ttf') format('truetype')
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Merriweather Regular"),
+    url("./Merriweather/Merriweather-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Merriweather';
-    font-style: italic;
-    font-weight: bold;
-    src: local('Merriweather Italic'),url('./Merriweather/Merriweather-Italic.ttf') format('truetype')
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: bold;
+  src: local("Merriweather Italic"),
+    url("./Merriweather/Merriweather-Italic.ttf") format("truetype");
 }
 
 .nav {
-    position: relative;
-    width: 100%;
-    top: 0px;
-    border-bottom: 1px dashed #999999;
-    min-height: 80px;
-    padding-top: 15px;
+  position: relative;
+  width: 100%;
+  top: 0px;
+  border-bottom: 1px dashed #999999;
+  min-height: 80px;
+  padding-top: 15px;
 }
 
 .gallery {
@@ -72,8 +76,11 @@
 
 .product-name,
 .product-name a {
-    font-family: 'Century Gothic', sans-serif;
-    font-size: 2em;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 2em;
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
 }
 
 .category {
@@ -88,13 +95,14 @@
 }
 
 .category li {
-    margin-bottom: 8px;
-    list-style-type: none;
+  margin-bottom: 8px;
+  list-style-type: none;
 }
 
 .category .article {
   text-align: left;
-  font-family: 'Merriweather','Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+  font-family: "Merriweather", "Hiragino Sans GB", "Microsoft YaHei",
+    "WenQuanYi Micro Hei", sans-serif;
   font-weight: 300;
 }
 
@@ -131,7 +139,7 @@
   float: right;
   font-size: 12px;
   text-transform: uppercase;
-  color: rgba(0,0,0,0.2);
+  color: rgba(0, 0, 0, 0.2);
   margin-top: 7px;
   margin-bottom: 0;
 }
@@ -141,27 +149,27 @@
 }
 
 .nav .pure-menu-list {
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style: none;
-    display: inline-block;
-    max-width: 100%;
-    overflow-x: hidden;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #content {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 #post-footer,
 #post-footer a {
-    color: #eee;
-    font-family: 'open sans',arial,sans-serif;
-    letter-spacing: .1em;
-    font-weight: 300;
-    text-decoration: none;
+  color: #eee;
+  font-family: "open sans", arial, sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  text-decoration: none;
 }
 
 #list-contents h3 {
@@ -173,11 +181,11 @@
 }
 
 .highlight code {
-    display: block;
+  display: block;
 }
 
 .math * {
-    color: inherit !important;
+  color: inherit !important;
 }
 
 code.highlighter-rouge * {
@@ -191,7 +199,7 @@ blockquote {
 }
 
 img {
-	width: auto;
+  width: auto;
   max-width: 90%;
   margin: 0 auto;
   display: block;
@@ -252,7 +260,7 @@ video {
 
 #search-box {
   border: none;
-  border-bottom: 1px solid #9E9E9E;
+  border-bottom: 1px solid #9e9e9e;
   margin-bottom: 10px;
   line-height: 24px;
   display: block;
@@ -261,7 +269,7 @@ video {
 
 #search-box:focus {
   outline: none;
-  border-color: #3F51B5;
+  border-color: #3f51b5;
 }
 
 .search-button {
