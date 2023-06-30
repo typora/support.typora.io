@@ -10,8 +10,9 @@ typora-copy-images-to: ../../media/diagrams
 
 * Outline
 {:toc}
+# Precondition
 
-Typora supports some Markdown extensions for diagrams, once they are enabled from preference panel. 
+Typora supports some Markdown extensions for diagrams, to use this feature, first **please enable Diagrams in Preferences Panel → Markdown section**.
 
 When exporting as HTML, PDF, epub, docx, those rendered diagrams will also be included, but diagrams features are not supported when exporting markdown into other file formats in current version. Besides, you should also notice that diagrams is not supported by standard Markdown, CommonMark or GFM. Therefore, we still recommend you to insert an image of these diagrams instead of write them in Markdown directly.
 
