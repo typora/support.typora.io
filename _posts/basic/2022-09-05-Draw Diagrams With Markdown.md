@@ -312,6 +312,14 @@ You can change Mermaid options by adding [Custom CSS](https://support.typora.io/
 
 Please note that if you export document with other themes than currently used one, some mermaid options will not be applied to exported HTML / PDF / Image. For example, if you currently use them Github, but while export to PDF, you set theme YYY for PDF export, and YYY.css defines `--mermaid-sequence-numbers: on`, then the `--mermaid-sequence-numbers: on` would not be applied to exported PDF.
 
+### Diagram Alignment
+
+You can add below custom CSS following [Add Custom CSS](/Add-Custom-CSS/) to left align your diagram.
+
+```css
+.md-diagram-panel-preview {text-align:left;}
+```
+
 ### Mermaid Theme
 
 Added `--mermaid-theme` css variable to quickly define a mermaid theme that fits your theme, the value can be `base`, `default`, `dark`, `forest`, `neutral`, `night` (the one used in night theme), for example:

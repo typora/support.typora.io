@@ -7,6 +7,14 @@ tags: [diagram, mermaid, sequence]
 typora-root-url: ../../
 ---
 
+## Left Align Diagrams
+
+You can add below custom CSS following [Add Custom CSS](/Add-Custom-CSS/) to left align your diagram.
+
+```css
+.md-diagram-panel-preview {text-align:left;}
+```
+
 ## Config [Sequence](/Draw-Diagrams-With-Markdown/#sequence-diagrams) Diagrams
 
 Please [refer here for introductions about sequence diagram](/Draw-Diagrams-With-Markdown/#sequence-diagrams).
