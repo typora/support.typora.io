@@ -118,6 +118,20 @@ You could undo last file operation such as move, rename or delete (only on macOS
 
 Please note that only last **one** file operation in Typora is undoable, on Windows/Linux, delete file is not undoable, and it may fail in some case (for example, file exists at target file when undo move file operation). 
 
+### Remove Folder from Recent Locations
+
+You can hover on folders under "Recent Locations" in files sidebar, and click "trash" icon to remove the folder from the list.
+
+<img src="/media/files/Screenshot 2023-07-04 at 16.40.25.png" alt="Screenshot 2023-07-04 at 16.40.25" style="zoom:50%;" />
+
+### Pin Folders
+
+You can hover on folders under "Recent Locations" in files sidebar, and click "Pin" icon to pin the folder into the list. Pinned folder will also be included in `File` → `Open Recent` menubar and [Open Quickly](#open-quickly).
+
+<img src="/media/files/Screenshot 2023-07-04 at 16.42.22.png" alt="Screenshot 2023-07-04 at 16.42.22" style="zoom:50%;" />
+
+
+
 ## Links to File
 
 You could use hyperlink syntax ( `[label](src)` ) to create links that links to other files/folder, the `src` part can be either absolute path or relative path, for example: `[Readme](readme.md)`.
@@ -143,6 +157,19 @@ You could click the "Search" icon on side panel on macOS or just scroll top on s
 #### Tags
 
 Typora does not support `#tags` natively, but if you use `#tags` in your article, you could search "#tags" in global search to find all matched files.
+
+## Recent Files / Folders
+
+Recent files / folders are recorded when you use Typora to open a file or folder. You can access recent files / folder from
+
+- Menubar →  `File` → `Open Recent`.
+- [Open Quickly](#open-quickly) Panel.
+- [Action Panel](#switch-folder) from files sidebar.
+- Context menu when click right Typora icon on Dock (macOS) or Taskbar (Windows).
+
+If you do not want a folder to get flushed or removed automatically, you can [pin this folder](#pin-folders).
+
+To clear recent files / folders, you can click `File` → `Open Recent` → `Clear Items` from menu bar to clear all history records. Please click "Clear Recent and Pinned Folders / Files" or select "Also clear pinned folders" if you want to clear recent files / folders and pinned folders.
 
 ## Set Default Folder on Launch
 
