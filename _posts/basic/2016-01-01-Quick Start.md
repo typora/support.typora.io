@@ -19,7 +19,7 @@ Thank you for choosing **Typora**. This document will help you to start Typora.
 
 **Typora** uses the feature: *Live Preview*, meaning that you can see these inline styles after you finish typing, and see block styles when you type or after you press `Enter` key or focus on another paragraph. Just try to type some markdown in Typora, and you will see how it works.
 
-**Note**: Markdown tags for inline styles, such as `**` will be hidden or displayed smartly. Markdown tags for block level styles, such as `###` or `- [x]` will be hidden once the block is rendered.
+**Note**: Markdown tags for inline styles, such as `**` will be hidden or displayed smartly. Markdown tags for block-level styles, such as `###` or `- [x]` will be hidden once the block is rendered.
 
 ## Markdown For Typora
 
@@ -53,11 +53,11 @@ Typora has three types of sidebar:
 2. File Tree (display loaded folder in tree hierarchy)
 3. File List (display files in loaded folder as lists)
 
-In file tree mode, currently only folder and files that are supported by Typora (Markdown file, text file, etc) are displayed.
+In file tree mode, currently, only folders and files that are supported by Typora (Markdown file, text file, etc.) are displayed.
 
 ### Global Search
 
-You could click the "Search" icon on the side panel on macOS or just scroll top on the side panel on Windows/Linux version of Typora to show global search input. Or use hotkey <kbd>Command(Ctrl) + Shift + F</kbd> to open the global search.
+You could click the "Search" icon on the side panel on macOS or just scroll top on the side panel on the Windows/Linux version of Typora to show global search input. Or use hotkey <kbd>Command(Ctrl) + Shift + F</kbd> to open the global search.
 
 ## Outline
 
@@ -73,7 +73,7 @@ We created Typora and want to make it your default markdown editor, thus copy an
 
 However, after selecting "**Copy Markdown source by default**", Typora will copy selected text in HTML/markdown format (When pasting, rich editors will accept the HTML format, while plain text / code editor will accept the markdown source code format).
 
-To **copy Markdown source code** explicitly, please use the shortcut key `shift+cmd+c` or `Copy as Markdown` from menu. To **Copy as HTML Code**, please select `Copy as HTML Code` from the menu.
+To **copy Markdown source code** explicitly, please use the shortcut key `shift+cmd+c` or `Copy as Markdown` from the menu. To **Copy as HTML Code**, please select `Copy as HTML Code` from the menu.
 
 ## Smart Paste
 
@@ -87,7 +87,7 @@ Please refer to `Help` → `Custom Themes` from the menu bar.
 
 ## Publish
 
-As of version 1.7 Typora supports the following export formats:
+As of version 1.7, Typora supports the following export formats:
 
 **File Formats**
 
@@ -120,7 +120,7 @@ Please see [Use Typora from Shell or Cmd](/Use-Typora-From-Shell-or-cmd/).
 
 <https://support.typora.io/>
 
-## And More ?
+## And More?
 
 For more questions or feedback, please contact us by:
 
