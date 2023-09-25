@@ -96,7 +96,7 @@ As of version 1.7, Typora supports the following export formats:
 - HTML (without styles)
 - Image (.png)
 
-**Application specific**
+**Application-specific**
 
 Application-specific software requires Pandoc to be installed. Please read how to [Install and Use Pandoc](/Install-and-Use-Pandoc/).
 
