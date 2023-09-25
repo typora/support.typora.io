@@ -12,7 +12,7 @@ typora-root-url: ../../../
 
 ## Overview
 
-**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** try to follow [GitHub Flavored Markdown][GFM], but may still have small incompatibilities.
+**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** tries to follow [GitHub Flavored Markdown][GFM], but may still have small incompatibilities.
 
 Table of Contents
 
@@ -44,23 +44,23 @@ In Typora, input ‘#’s followed by title content, and press `Return` key will
 
 ### Blockquotes
 
-Markdown uses email-style > characters for block quoting. They are presented as:
+Markdown uses email-style > characters for blockquoting. They are presented as:
 
 ``` markdown
-> This is a blockquote with two paragraphs. This is first paragraph.
+> This is a blockquote with two paragraphs. This is the first paragraph.
 >
 > This is second paragraph. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
 
 
-> This is another blockquote with one paragraph. There is three empty line to separate two blockquotes.
+> This is another blockquote with one paragraph. There are three empty lines to separate two blockquotes.
 ```
 
 In Typora, typing ‘>’ followed by your quote contents will generate a quote block. Typora will insert a proper ‘>’ or line break for you. Nested block quotes (a block quote inside another block quote) by adding additional levels of ‘>’.
 
 ### Lists
 
-Typing `* list item 1` will create an unordered list. (The `*` symbol can be replace with `+` or `-`.)
+Typing `* list item 1` will create an unordered list. (The `*` symbol can be replaced with `+` or `-`.)
 
 Typing `1. list item 1` will create an ordered list.
 
@@ -119,7 +119,7 @@ puts markdown.to_html
 
 You can render *LaTeX* mathematical expressions using **MathJax**.
 
-To add a mathematical expression, enter `$$` and press the 'Return' key. This will trigger an input field which accepts *Tex/LaTex* source. For example:
+To add a mathematical expression, enter `$$` and press the 'Return' key. This will trigger an input field that accepts *Tex/LaTex* source. For example:
 
 
 $$
@@ -196,9 +196,9 @@ You can create footnotes like this[^fn1] and this[^fn2].
 [^fn2]: Here is the *text* of the second **footnote**.
 ```
 
-Hover over the ‘fn1’ or 'fn2' superscript to see content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
+Hover over the ‘fn1’ or 'fn2' superscript to see the content of the footnote. You can use whatever unique identified you like as the footnote marker (e.g. "fn1").
 
-Hover over the footnote superscripts to see content of the footnote.
+Hover over the footnote superscripts to see the content of the footnote.
 
 ### Horizontal Rules
 
@@ -216,7 +216,7 @@ Enter `[toc]` and press the `Return` key to create a  “Table of Contents” se
 
 ## Span Elements
 
-Span elements will be parsed and rendered right after typing. Moving the cursor in middle of those span elements will expand those elements into markdown source. Below is an explanation of the syntax for each span element.
+Span elements will be parsed and rendered right after typing. Moving the cursor in the middle of those span elements will expand those elements into the markdown source. Below is an explanation of the syntax for each span element.
 
 ### Links
 
@@ -241,12 +241,12 @@ This is [an example](http://example.com/"Title") inline link. (`<p>This is <a hr
 
 #### Internal Links
 
-To create an internal link that creates a 'bookmark' that allow you to jump to that section after clicking on it, use the name of the header element as the href. For example:
+To create an internal link that creates a 'bookmark' that allows you to jump to that section after clicking on it, use the name of the header element as the href. For example:
 
-Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to header `Block Elements`. 
+Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to the header `Block Elements`. 
 
 ``` markdown
-Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to header `Block Elements`. 
+Hold down Cmd (on Windows: Ctrl) and click on [this link](#block-elements) to jump to the header `Block Elements`. 
 ```
 
 #### Reference Links
@@ -296,13 +296,13 @@ Images have similar syntax as links, but they require an additional `!` char bef
 
 You are able to use drag and drop to insert an image from an image file or your web browser. You can modify the markdown source code by clicking on the image. A relative path will be used if the image that is added using drag and drop is in same directory or sub-directory as the document you're currently editing.
 
-If you’re using markdown for building websites, you may specify a URL prefix for the image preview on your local computer with property `typora-root-url` in YAML Front Matter. For example, Enter `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matter, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in Typora.
+If you’re using markdown for building websites, you may specify a URL prefix for the image preview on your local computer with the property `typora-root-url` in YAML Front Matter. For example, Enter `typora-root-url:/User/Abner/Website/typora.io/` in YAML Front Matter, and then `![alt](/blog/img/test.png)` will be treated as `![alt](file:///User/Abner/Website/typora.io/blog/img/test.png)` in Typora.
 
 ![drag and drop image](http://typora.io/img/drag-img.gif)
 
 ### Emphasis
 
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of emphasis. Text wrapped with one `*` or `_` will be wrapped with an HTML `<em>` tag. For example:
+Markdown treats asterisks (`*`) and underscores (`_`) as emphasis indicators. Text wrapped with one `*` or `_` will be wrapped with an HTML `<em>` tag. For example:
 
 ``` markdown
 *single asterisks*
@@ -394,7 +394,7 @@ To use this feature, please enable it first in the `Markdown` tab of the prefere
 
 ## HTML
 
-You can use HTML to style content what pure Markdown does not support. For example, use `<span style="color:red">this text is red</span>` to add text with red color.
+You can use HTML to style content where pure Markdown does not support. For example, use `<span style="color:red">this text is red</span>` to add text with red color.
 
 ### Underlines
 
