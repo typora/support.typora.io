@@ -149,7 +149,7 @@ If you cannot access your old machines, you can open <https://store.typora.io/my
 
 ### Error message "Please input a valid license code."
 
-Please check if your license code is valid. The license code has a format in the style of XXXXXXXX-XXXXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
+Please check if your license code is valid. The license code has a format in the style of XXXXXX-XXXXXX-XXXXXX-XXXXXX-XXXXXX, with capital letters and numbers.
 
 If you have forgotten your license code, see ["How to retrieve my license code if I forgot it?"] (#how-to-retrieve-my-license-code-if-I-forgot-it).
 
