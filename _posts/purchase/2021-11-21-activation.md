@@ -157,6 +157,8 @@ If you have forgotten your license code, see ["How to retrieve my license code i
 
 After using a license code, **the same email address** MUST be used for the same license code on future activations. You will need to enter the email address twice for confirmation. If those two entries are not the same this error will be displayed, so please check if you have entered your email address correctly.
 
+Please contact <hi@typora.io> **if you filled a wrong email address by accident**.
+
 ### Error message "This license code has been used with a different email address."
 
 After using a license code, **the same email address** MUST be used for the same license code in future activations.  This error appears if the email address you use is not the same email address that was used when activating Typora with the license code for the first time.
