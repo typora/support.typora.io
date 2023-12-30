@@ -79,7 +79,9 @@ In [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markd
 | cell1   | cell2 | cell3 | cell4  |
 ```
 
-In Typora, you can simply change text alignment under a column by selecting the related alignment icon from table tooltip.
+In Typora, you can simply change text alignment under a column by selecting the related alignment icon from table tooltip like following:
+
+<img src="/media/table-editing/CleanShot 2023-12-30 at 18.24.09@2x.png" alt="CleanShot 2023-12-30 at 18.24.09@2x" style="zoom:50%;" />
 
 With alignment set, Typora will add attribute like `style="text-align: left"` to the current column (`<td>`), but the final alignment can still be changed by CSS rules in current theme or custom CSS.
 
