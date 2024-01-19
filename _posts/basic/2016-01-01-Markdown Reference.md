@@ -214,6 +214,12 @@ Typora now supports [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/). 
 
 Enter `[toc]` and press the `Return` key to create a  “Table of Contents” section. The TOC extracts all headings from the document, and its contents are updated automatically as you add to the document.
 
+### Callouts / Github Style Alerts
+
+To use this feature, please enable in preferences panel first.
+
+[See here for more details](/What's-New-1.8/).
+
 ## Span Elements
 
 Span elements will be parsed and rendered right after typing. Moving the cursor in the middle of those span elements will expand those elements into the markdown source. Below is an explanation of the syntax for each span element.

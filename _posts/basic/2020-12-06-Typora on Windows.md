@@ -46,22 +46,9 @@ You can find more details [here](https://support.typora.io/Use-Typora-From-Shell
 
 [Reference](https://gist.github.com/alexdevero/a079e3fc24adf759a26b4b5318921dc4)
 
-To add “Markdown File” item from Context Menu → New in explorer. You can download and open [this reg file](/media/add_new_markdown.reg).
+You can click following button in Typora preferences panel, and wait for a while or log out your Windows.
 
-Or, create an txt file, adding following content, rename it to *.reg, then click it to register its content.
-
-```properties
-Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\.md]
-@="markdown"
-
-[HKEY_CLASSES_ROOT\.md\ShellNew]
-"NullFile"=""
-
-[HKEY_CLASSES_ROOT\markdown]
-@="Blank Markdown file"
-```
+<img src="/media/new-1.8/Snipaste_2023-12-14_18-22-51.png" alt="Snipaste_2023-12-14_18-22-51" style="zoom:50%;" />
 
 ### Pin Window
 

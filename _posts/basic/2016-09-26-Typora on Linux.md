@@ -88,6 +88,12 @@ You can also manually download and install the deb package file, following those
 1. Find download link from <https://typora.io/releases/all> and download the Linux version.
 2. Double click the deb file to start installing on Ubuntu / Debian.
 
+## ChromeOS / Chrome Book
+
+Firstly, you will need to enable Linux on Chromebook, following “Turn on Linux” part on https://support.google.com/chromebook/answer/9145439?hl=en
+
+Then, input commands from https://typora.io/#linux into the newly opened terminal window.
+
 ## Other Distributions
 
 1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
