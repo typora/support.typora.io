@@ -7,7 +7,7 @@ tags: [macOS]
 typora-root-url: ../../
 ---
 
-The latest version of Typora supports macOS ≥ 10.14, for older macOS, 10.11 and 10.12 are not in active support. Support for macOS ≤ 10.10 has ended.
+The latest version of Typora supports macOS ≥ 11.0, for older macOS, support has ended.
 
 You could find and download available working versions here:
 
