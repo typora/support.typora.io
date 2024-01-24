@@ -125,7 +125,9 @@ If you have access to an activated copy of Typora, you can deactivate it as foll
 
 ### Deactivate from Web UI
 
-If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details below.
+If you cannot access the device, you can deactivate machines via <https://store.typora.io/my>. You could see details like below.
+
+<img src="/media/activation/Screen Shot 2022-02-02 at 10.58.27.png" alt="Screen Shot 2022-02-02 at 10.58.27" style="zoom:50%;" />
 
 ---
 
