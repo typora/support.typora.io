@@ -234,7 +234,7 @@ requirementDiagram
 
 <img src="/media/diagrams/Screen%20Shot%202022-09-06%20at%2022.03.59.png" alt="Screen Shot 2022-09-06 at 22.03.59" style="zoom:50%;" />
 
-## Gitgraph Diagrams
+## Gitgraph Diagrams / Commit Flow
 
 A Git Graph is a pictorial representation of git commits and git actions(commands) on various branches. 
 
@@ -293,6 +293,42 @@ mindmap
 ````
 
 <img src="./media/diagrams/Screenshot 2023-01-04 at 22.21.05.png" alt="Screenshot 2023-01-04 at 22.21.05" style="zoom:50%;" />
+
+
+
+## Timeline
+
+See <https://mermaid.js.org/syntax/timeline.html> for detail.
+
+<img src="/media/new-1.6/Screenshot 2023-05-10 at 22.46.25.png" alt="Screenshot 2023-05-10 at 22.46.25" style="zoom:50%;" />
+
+## Quadrant Chart
+
+See <https://mermaid.js.org/syntax/quadrantChart.html> for details.
+
+<img src="/media/new-1.7/Screenshot 2023-08-20 at 11.53.47.png" alt="Screenshot 2023-08-20 at 11.53.47" style="zoom:50%;" />
+
+## Sankey diagrams
+
+See <https://mermaid.js.org/syntax/sankey.html> for details.
+
+<img src="/media/new-1.7/Screenshot 2023-08-20 at 11.55.40.png" alt="Screenshot 2023-08-20 at 11.55.40" style="zoom:50%;" />
+
+## ZenUML
+
+See <https://mermaid.js.org/syntax/zenuml.html> for details.
+
+<img src="/media/new-1.7/Screenshot 2023-08-29 at 21.13.14.png" alt="Screenshot 2023-08-29 at 21.13.14" style="zoom:50%;" />
+
+Please notice that zenuml is not first class diagram in mermaid, it may lack some features, like dark themes, etc.
+
+## XY Chart
+
+You can find more details here → https://mermaid.js.org/syntax/xyChart.html.
+
+You can now draw charts like this:
+
+<img src="/media/new-1.8/Screenshot 2023-12-13 at 19.23.18.png" alt="Screenshot 2023-12-13 at 19.23.18" style="zoom:50%;" />
 
 ## Global Mermaid Options
 
