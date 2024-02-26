@@ -266,7 +266,7 @@ You can find details [here](https://mermaid.js.org/syntax/c4c.html).
 
 ## Mindmap
 
-(This feature requires Typora ≥ 1.5.0) A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas.
+A mind map is a diagram used to visually organize information into a hierarchy, showing relationships among pieces of the whole. It is often created around a single concept, drawn as an image in the center of a blank page, to which associated representations of ideas such as images, words and parts of words are added. Major ideas are connected directly to the central concept, and other ideas branch out from those major ideas.
 
 You can find details [here](https://mermaid.js.org/syntax/mindmap.html).
 

@@ -16,7 +16,7 @@ Typora is deeply integrated with the macOS desktop environment, like other nativ
 
 ### Apple Silicon
 
-Typora (≥ 0.9.9.36) is now native on Apple Silicon Mac devices.
+Typora is now native on Apple Silicon Mac devices.
 
 ### Open From Terminal 
 

@@ -14,7 +14,7 @@ typora-copy-images-to: ../../media/image-upload
 
 # Summary
 
-In newer version of Typora (≥ 0.9.9.32 on macOS or 0.9.84  on Windows / Linux), we added a “upload image” function to upload images to a cloud image storage via 3rd apps or scripts.
+In newer version of Typora, we added a “upload image” function to upload images to a cloud image storage via 3rd apps or scripts.
 
 Its motivation is that, since markdown files is just plain text files, when you embed images, the markdown files does not “own” those images, but just keep a weak reference to used external image files. When you move or share markdown files, those images should also be moved or shared, which brings maintenance costs. But if those images are hosted online, you can move or share markdown files freely without maintaining the reference between text plain and the images it used.
 
@@ -172,9 +172,7 @@ For Linux / Windows users, please set the path of PicGo binary in Typora's prefe
 
 ![PicList](https://imgx.horosama.com/admin_uploads/2022/10/2022_10_05_633d79e401694.png)
 
-[PicList](https://piclist.cn/) is an image uploading tools developed on top of PicGo, it offers functionality to delete your remote images, and many other features as well.
-
-This option requires Typora ≥ 1.6.0,  for older Typora versions, please check <https://piclist.cn/app.html#%E5%A6%82%E4%BD%95%E5%9C%A8typora%E4%B8%AD%E4%BD%BF%E7%94%A8>. And when Typora upload images using PicGo, PicGo will be launched and kept running.
+[PicList](https://piclist.cn/) is an image uploading tools developed on top of PicGo, it offers functionality to delete your remote images, and many other features as well. And when Typora upload images using PicGo, PicGo will be launched and kept running.
 
 For Linux / Windows users, please set the path of PicGo binary in Typora's preferences setting after install it.
 

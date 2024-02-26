@@ -20,7 +20,7 @@ alias typora="open -a typora"
 
 in your `.bash_profile` or other configuration file, then you would be able to simply type `typora xxx.md`  instead.
 
-(Requires Typora ≥ 1.1) If you want to use command line to not only open existing files, but also creating new files when target `.md` file does not exists, you could add
+If you want to use command line to not only open existing files, but also creating new files when target `.md` file does not exists, you could add
 
 ```shell
 alias typora="/Applications/Typora.app/Contents/MacOS/Typora"
@@ -49,7 +49,7 @@ To set Typora as the default markdown editor:
 **Figure 2 - Application chooser window**  
 ![Figure 2 - Application chooser](/media/use-from-shell/Snip20180704_2.png)  
 
-(Requires Typora ≥ 1.1) You could also add typora.exe in PATH, then use `typora xxx.md` to open markdown file, or create new one if target file does not exists.
+You could also add typora.exe in PATH, then use `typora xxx.md` to open markdown file, or create new one if target file does not exists.
 
 ## Linux
 
