@@ -109,7 +109,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 ## 12. Termination
 
 1. This EULA will continue to be in force until the expiry or termination of the Full version or Trial version.
-2. The Full version or Trial version will terminate automatically at the end of the applicable license term, unless renewed or Activated prior to the end of the applicable license term.
+2. Trial version will terminate automatically at the end of the applicable license term, unless renewed or Activated prior to the end of the applicable license term.
 3. We are entitled to terminate the Full version or Trial version by blocking the License Key during the license term with immediate effect and without prior notice in the event You fail to comply with the terms in this EULA, in the event You fail to pay Your (subscription) fee for the License Key within the applicable payment term, or in the event Typora is required to do so by law or an order of an applicable court.
 4. Upon termination of the Full version or Trial version, You shall cease all use of the Software and shall destroy all copies thereof.
 5. You acknowledge that the provisions of this EULA, which by their nature are intended to survive termination, will remain in effect after termination of this EULA.
