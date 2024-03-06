@@ -1,5 +1,5 @@
 ---
-name: 'deploy'
+name: 'deploy-aliyun'
 
 # yamllint disable-line rule:truthy
 on:
