@@ -134,8 +134,6 @@ We use macOS's system feature to customize Typora's key bindings on macOS.
 
 ### Windows / Linux
 
-> Tip: This requires a version of Typora ≥ v0.9.16.
-
 1. Open `Menu`  →  `Preference` in Typora, then click "Open Advanced Settings".
 
    ![sshot-1](/media/custom-key-binding/sshot-1.png)

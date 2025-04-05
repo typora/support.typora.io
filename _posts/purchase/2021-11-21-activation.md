@@ -185,7 +185,7 @@ Typora activation requires a network connection, so:
 
 - If you have tried all of the above steps, wait a few minutes and try again later.
 
-- Or, you could try [offline activation](/Offline-Activation/) with Typora ≥ [1.1.0 dev](https://typora.io/releases/dev).
+- Or, you could try [offline activation](/Offline-Activation/).
 
 ### Error message "Failed to write your license to local machine"
 

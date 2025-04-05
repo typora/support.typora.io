@@ -23,4 +23,4 @@ This option can be set in preferences panel:
 
 Note: on **macOS**, if "Close windows when quitting an app" is unchecked, then unclosed app from last launch will still be opened automatically.
 
-<img src="/media/launch/Screen Shot 2021-12-19 at 22.45.50.png" alt="Screen Shot 2021-12-19 at 22.45.50" style="zoom:50%;" />
+<img src="/media/launch/截屏2025-04-05 20.37.37.png" alt="截屏2025-04-05 20.37.37" style="zoom:50%;" />
