@@ -49,7 +49,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 ## 4. Permitted use and restrictions
 
 1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: https://support.typora.io/System-Requirements. The system requirements may be changed in future updates.
-2. You shall Use the Beta version, Full version, or Trial version in accordance with applicable laws and shall not:
+2. You shall Use the Beta version, Full version, or Trial version in accordance with applicable laws, and without prior written approval of us, you shall not:
    1. Use the Trial version on any system where the Trial version was previously Used and expired;
    2. rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;
    3. assign the License Key, the Full version or the Trial version without prior written approval of us;
@@ -61,6 +61,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
 5. You are allowed to use Full version on any devices you own, manage or have privilege to install and run apps on it. You are allowed to use the Full version for personal purposes, commercial purposes, and other purposes excluding clause 4.2.
+6. We reserve every rights, including ending customer support, revoke your license code, or take future legal steps if you break the restrictions.
 
 ## 5. Maintenance and support
 
