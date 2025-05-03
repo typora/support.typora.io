@@ -9,76 +9,30 @@ typora-root-url: ../../
 
 Installation instructions for different flavours of Linux.
 
+> If you are a user in China, replace all `https://typora.io/` with `https://typoraio.cn/`.  
+> 如果你是中国的用户，请将所有 `https://typora.io/` 替换为 `https://typoraio.cn/`。
+
 ## Debian/Ubuntu
 
-```bash
-# or use
-# wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
-wget -qO - https://typoraio.cn/linux/public-key.asc | sudo tee /etc/apt/trusted.gpg.d/typora.asc
+```shell
+# download the key
+curl https://typora.io/linux/public-key.asc | sudo gpg --dearmor -o /usr/share/keyrings/typora.gpg
 
 # add Typora's repository
-sudo add-apt-repository 'deb https://typora.io/linux ./'
-sudo apt-get update
+echo "deb [signed-by=/usr/share/keyrings/typora.gpg] https://typora.io/linux ./" | sudo tee /etc/apt/sources.list.d/typora.list
+sudo apt update
 
 # install typora
-sudo apt-get install typora
+sudo apt install typora
 ```
-
-### Alternative for `apt-key`
-
-When you try to add an APT repository key using `apt-key` (first line in previous command line) on Debian, Ubuntu and Linux distributions based on these, you'll see the following message: "*Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8))*".
-
-The easiest way would be just to ignore it.
-
-But if you’re not OK with the warning, you can do the following:
-
-1. Download the key and save it locally somewhere.
-
-   ```shell
-   curl https://typora.io/linux/public-key.asc | gpg --dearmor > /usr/share/keyrings/typora.gpg
-   ```
-
-2. Create the repo file `typora.list` in `/etc/apt/sources.list.d`.
-
-   ```shell
-   sudo vim /etc/apt/sources.list.d/typora.list
-   ```
-
-3. Paste the repo definition into this file:
-
-   ```shell
-   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://typora.io/linux ./
-   ```
-
-4. Now you can install Typora:
-
-   ```shell
-   sudo apt-get update
-   sudo apt-get install typora
-   ```
 
 ### Upgrade Typora
 
-After installing Typora, the `typora` package will be managed by `apt-get`, so when your system updates installed packages, or you execute `apt-get upgrade`, Typora will be updated to the latest version.
+After installing Typora, the `typora` package will be managed by `apt`, so when your system updates installed packages, or you execute `apt upgrade`, Typora will be updated to the latest version.
 
 ```bash
 # upgrade all packages include Typora
-sudo apt-get upgrade
-```
-
-## Mint
-
-```sh
-# or use
-# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
-wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
-
-# add Typora's repository
-echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
-sudo apt-get update
-
-# install typora
-sudo apt-get install typora
+sudo apt upgrade
 ```
 
 ## Download deb file manually
@@ -96,8 +50,7 @@ Then, input commands from https://typora.io/#linux into the newly opened termina
 
 ## Other Distributions
 
-1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
-2. Try to install `apt-get` on your distribution and then install Typora.
+Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
 
 ## Snap Version
 
@@ -175,16 +128,6 @@ Aborted
 then:
 1. Ensure `xenial-security` updates are included in *Software & Updates*.
 2. run `sudo apt-get update && sudo apt-get install libnss3`
-
-#### Malformed input, repository not added
-
-You can add a repository by:
-
-```sh
-echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
-```
-
-See related discussion in <https://github.com/typora/typora-issues/issues/2065#issuecomment-455877843>. 
 
 #### Shortcut for Heading 5 is not working
 
