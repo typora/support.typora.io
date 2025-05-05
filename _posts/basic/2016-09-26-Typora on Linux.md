@@ -96,7 +96,7 @@ Then, input commands from https://typora.io/#linux into the newly opened termina
 
 ## Other Distributions
 
-1. Download the binary package [Typora-linux-x64.tar.gz](https://typora.io/linux/Typora-linux-x64.tar.gz).
+1. Download the binary package [Typora-linux-x64.tar.gz](https://download.typora.io/linux/Typora-linux-x64.tar.gz).
 2. Try to install `apt-get` on your distribution and then install Typora.
 
 ## Snap Version
