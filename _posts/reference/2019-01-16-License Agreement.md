@@ -54,10 +54,11 @@ You may not accept this EULA if You are not of legal age to form a binding contr
    2. rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;
    3. assign the License Key, the Full version or the Trial version without prior written approval of us;
    4. Use the Beta version, Full version or Trial version for any unlawful or illegal activity, or to facilitate an unlawful or illegal activity;
-   5. Use beta version, or after 15 days evaluation passed, continue uses Trial versions after 1.0 for commercial usage, without a license code;
+   5. Use beta version or Trial version for commercial usage, without a license code.
    6. delete or alter any disclaimers, warnings, copyright or other proprietary notices accompanying the Software; or
    7. adapt (except as otherwise provided in this EULA), decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the Software and the License Key or any parts thereof, except to the extent permitted by applicable law.
-   8. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
+   8. Use Beta or Trail version for more than allowed evaluation period, which is 15 days.
+   9. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
 5. You are allowed to use Full version on any devices you own, manage or have privilege to install and run apps on it. You are allowed to use the Full version for personal purposes, commercial purposes, and other purposes excluding clause 4.2.
