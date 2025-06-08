@@ -57,7 +57,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
    5. Use beta version or Trial version for commercial usage, without a license code.
    6. delete or alter any disclaimers, warnings, copyright or other proprietary notices accompanying the Software; or
    7. adapt (except as otherwise provided in this EULA), decompile, reverse engineer, disassemble, attempt to derive the source code of, modify or create derivative works of the Software and the License Key or any parts thereof, except to the extent permitted by applicable law.
-   8. Use Beta or Trail version for more than allowed evaluation period, which is 15 days.
+   8. Use Beta or Trial version for more than allowed evaluation period, which is 15 days.
    9. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
