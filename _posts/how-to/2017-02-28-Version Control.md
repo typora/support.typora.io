@@ -24,7 +24,7 @@ Windows 10 also have version control support on system level ([reference](http:/
 
 Typora on Window/Linux does not provide version control feature, but can save drafts timely to prevent data lost, when Typora exit or crashed without saving file, or you accidentally quite Typora without saving your writings.
 
-You could open preference panel, under "Editor" section, click the "Recover Unsaved Drafts" button to found some writing drafts auto saved by Typora.
+You could open preference panel, under "File" section, click the "Recover Unsaved Drafts" button to found some writing drafts auto saved by Typora.
 
 ![Snip20170228_7](/media/version-control/Snip20170228_7.png)
 
