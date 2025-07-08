@@ -12,16 +12,24 @@ Installation instructions for different flavours of Linux.
 ## Debian/Ubuntu
 
 ```bash
-# or use
-# wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
-wget -qO - https://typoraio.cn/linux/public-key.asc | sudo tee /etc/apt/trusted.gpg.d/typora.asc
+# Add your key
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://downloads.typora.io/typora.gpg | sudo tee /etc/apt/keyrings/typora.gpg > /dev/null
 
-# add Typora's repository
-sudo add-apt-repository 'deb https://typora.io/linux ./'
+# Add the repo securely
+echo "deb [signed-by=/etc/apt/keyrings/typora.gpg] https://downloads.typora.io/linux ./" | sudo tee /etc/apt/sources.list.d/typora.list
 sudo apt-get update
 
 # install typora
 sudo apt-get install typora
+```
+
+### Migration from old key
+
+If you once installed Typora below version 1.11, you need to remove the old keys before above steps. The old `typora.asc` was considered unsafe as it uses SHA1 as digest algorithms.
+
+```shell
+sudo rm /etc/apt/trusted.gpg.d/typora.asc
 ```
 
 ### Alternative for `apt-key`
@@ -47,7 +55,7 @@ But if you’re not OK with the warning, you can do the following:
 3. Paste the repo definition into this file:
 
    ```shell
-   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://typora.io/linux ./
+   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://downloads.typora.io/linux ./
    ```
 
 4. Now you can install Typora:
@@ -71,10 +79,10 @@ sudo apt-get upgrade
 ```sh
 # or use
 # sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
-wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+wget -qO - https://downloads.typora.io/linux/public-key.asc | sudo apt-key add -
 
 # add Typora's repository
-echo -e "\ndeb https://typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
+echo -e "\ndeb https://downloads.typora.io/linux ./" | sudo tee -a /etc/apt/sources.list
 sudo apt-get update
 
 # install typora
