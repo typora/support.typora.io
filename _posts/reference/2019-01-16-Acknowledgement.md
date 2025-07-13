@@ -7,7 +7,7 @@ tags:
 - acknowledgement
 - credits
 - oss
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2024-02-28
 ---
 

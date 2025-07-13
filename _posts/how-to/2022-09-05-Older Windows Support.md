@@ -5,7 +5,7 @@ author: typora.io
 category: how-to
 tags:
 - windows
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2023-05-11
 ---
 

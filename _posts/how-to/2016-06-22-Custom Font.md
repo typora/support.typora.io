@@ -6,7 +6,7 @@ category: how-to
 tags:
 - style
 - font
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/custom-font"
 last_modified_at: 2022-04-27
 ---

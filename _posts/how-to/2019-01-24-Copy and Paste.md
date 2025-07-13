@@ -6,7 +6,7 @@ category: how-to
 tags:
 - copy
 - clipboard
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/clipboard"
 last_modified_at: 2022-03-01
 ---

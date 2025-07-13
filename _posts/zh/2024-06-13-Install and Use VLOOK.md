@@ -3,7 +3,7 @@ layout: post
 title: 安装与使用 VLOOK
 author: typora.io
 permalink: "/zh/Install-and-Use-VLOOK/"
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/vlook"
 last_modified_at: 2025-01-10
 ---

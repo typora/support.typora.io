@@ -9,7 +9,7 @@ tags:
 - quotes
 - dashes
 typora-copy-images-to: "../../media/smart-pants"
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2022-03-01
 ---
 

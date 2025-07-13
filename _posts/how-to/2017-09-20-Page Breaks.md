@@ -12,7 +12,7 @@ tags:
 - pagination
 - CSS
 - HTML
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/page-breaks"
 last_modified_at: 2022-03-01
 ---

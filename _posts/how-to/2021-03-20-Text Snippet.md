@@ -7,7 +7,7 @@ tags:
 - snippets
 - text
 - shortcut
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2022-03-01
 ---
 

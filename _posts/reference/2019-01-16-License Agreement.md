@@ -6,7 +6,7 @@ category: reference
 tags:
 - EULA
 - Term of Service
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2025-06-08
 ---
 

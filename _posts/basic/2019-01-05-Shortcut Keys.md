@@ -5,7 +5,7 @@ author: typora.io
 category: basic
 tags:
 - shortcut keys
-typora-root-url: "../../"
+typora-root-url: ../../
 redirect_from: Custom-Key-Binding
 last_modified_at: 2025-04-05
 ---

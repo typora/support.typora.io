@@ -6,7 +6,7 @@ category: how-to
 tags:
 - search
 - contextmenu
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2022-05-18
 ---
 

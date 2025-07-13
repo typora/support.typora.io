@@ -6,7 +6,7 @@ category: how-to
 tags:
 - style
 - tutorial
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2022-07-03
 ---
 

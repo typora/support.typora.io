@@ -7,7 +7,7 @@ tags:
 - launch
 - folder
 - project
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/launch"
 last_modified_at: 2025-04-05
 ---

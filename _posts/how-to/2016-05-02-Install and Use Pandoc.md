@@ -7,7 +7,7 @@ tags:
 - pandoc
 - tutorial
 - docx
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2024-03-29
 ---
 

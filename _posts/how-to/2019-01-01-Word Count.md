@@ -6,7 +6,7 @@ category: how-to
 tags:
 - word
 - statistics
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/word-count"
 last_modified_at: 2022-03-01
 ---

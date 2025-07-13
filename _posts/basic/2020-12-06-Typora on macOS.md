@@ -6,7 +6,7 @@ category: basic
 tags:
 - macOS
 - OS X
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/macOS"
 last_modified_at: 2025-01-17
 ---

@@ -7,7 +7,7 @@ tags:
 - diagram
 - mermaid
 - sequence
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2023-07-05
 ---
 

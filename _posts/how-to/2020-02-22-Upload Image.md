@@ -8,7 +8,7 @@ tags:
 - image
 - upload
 - cloud
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/image-upload"
 last_modified_at: 2025-02-15
 ---

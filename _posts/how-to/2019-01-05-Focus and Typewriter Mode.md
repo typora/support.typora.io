@@ -7,7 +7,7 @@ tags:
 - view
 - typewriter
 - focus
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/focus-and-typewriter"
 last_modified_at: 2022-03-01
 ---

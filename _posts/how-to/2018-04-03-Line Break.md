@@ -6,7 +6,7 @@ category: how-to
 tags:
 - style
 - markdown
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/whitespace"
 last_modified_at: 2022-07-29
 ---

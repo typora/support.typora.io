@@ -5,7 +5,7 @@ author: typora.io
 category: reference
 tags:
 - Terms and Conditions
-typora-root-url: "../../"
+typora-root-url: ../../
 date: 2018-02-01
 last_modified_at: 2022-05-18
 ---

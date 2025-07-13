@@ -5,7 +5,7 @@ author: typora.io
 category: reference
 tags:
 - system
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2023-02-22
 ---
 

@@ -7,7 +7,7 @@ tags:
 - purchase
 - activation
 - faq
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/activation"
 last_modified_at: 2022-04-03
 ---

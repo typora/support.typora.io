@@ -5,7 +5,7 @@ author: typora.io
 category: reference
 tags:
 - i18n
-typora-root-url: "../../"
+typora-root-url: ../../
 date: 2018-02-10
 last_modified_at: 2022-12-21
 ---

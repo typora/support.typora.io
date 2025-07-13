@@ -6,7 +6,7 @@ category: how-to
 tags:
 - dev
 - shell
-typora-root-url: "../../"
+typora-root-url: ../../
 date: 2016-09-26
 last_modified_at: 2024-02-26
 ---

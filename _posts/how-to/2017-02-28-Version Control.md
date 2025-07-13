@@ -7,7 +7,7 @@ tags:
 - auto-save
 - history
 - version
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/version-control"
 last_modified_at: 2025-06-09
 ---

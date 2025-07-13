@@ -7,7 +7,7 @@ tags:
 - code
 - fences
 - code block
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/code"
 last_modified_at: 2025-01-17
 ---

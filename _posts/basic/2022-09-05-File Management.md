@@ -6,7 +6,7 @@ category: basic
 tags:
 - files
 - search
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/files"
 last_modified_at: 2025-01-17
 ---

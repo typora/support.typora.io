@@ -5,7 +5,7 @@ author: typora.io
 category: basic
 tags:
 - Windows
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/windows"
 last_modified_at: 2025-01-17
 ---

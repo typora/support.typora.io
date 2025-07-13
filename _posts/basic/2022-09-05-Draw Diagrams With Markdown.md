@@ -8,7 +8,7 @@ tags:
 - mermaid
 - flowchart
 - sequence
-typora-root-url: "../../"
+typora-root-url: ../../
 typora-copy-images-to: "../../media/diagrams"
 last_modified_at: 2025-01-17
 ---

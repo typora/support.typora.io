@@ -5,7 +5,7 @@ author: typora.io
 category: reference
 tags:
 - code fences
-typora-root-url: "../../"
+typora-root-url: ../../
 date: 2016-10-20
 last_modified_at: 2023-05-16
 ---

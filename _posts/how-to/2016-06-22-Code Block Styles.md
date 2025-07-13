@@ -7,7 +7,7 @@ tags:
 - style
 - code fences
 thumbnail: code-block-style.png
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2022-04-27
 ---
 

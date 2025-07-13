@@ -6,7 +6,7 @@ category: basic
 tags:
 - spellcheck
 - i18n
-typora-root-url: "../../"
+typora-root-url: ../../
 last_modified_at: 2025-01-17
 ---
 
