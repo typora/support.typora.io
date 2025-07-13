@@ -128,7 +128,7 @@
       }
 
       h1 {
-        font-size: 3.6rem;
+        font-size: 3rem;
         letter-spacing: -2px;
         text-indent: -3px;
       }
@@ -148,6 +148,7 @@
         font-style: italic;
         text-align: center;
         color: #7a7a7a;
+        font-size: 15px;
       }
 
       div.highlighter-rouge {
@@ -184,10 +185,32 @@
         </ul>
       </div>
       <h1>{{ page.title }}</h1>
-      <section class="post-meta">
-        <time>{{ page.date | date: "%B %e, %Y" }}</time>
-        {% if page.author %} by {% endif %}
-        <span>{{ page.author }}</span>
+      <section class="post-meta" style="display: flex; flex-direction: column; gap:6px">
+        <div style="display: flex; flex-direction: row; justify-content: center; gap:4px">
+          <div>Published</div>
+          <div>·</div>
+          <div><time>{{ page.date | date: "%B %e, %Y" }}</time></div>
+        </div>
+
+        {% if page.last_modified_at and page.last_modified_at != page.date %}
+        {% assign modified_date = page.last_modified_at | date: "%B %e, %Y" %}
+        {% assign published_date = page.date | date: "%B %e, %Y" %}
+        {% unless modified_date == published_date %}
+         <div style="display: flex; flex-direction: row; justify-content: center; gap:4px">
+          <div>Updated</div>
+          <div>·</div>
+          <div><time>{{ modified_date | date: "%B %e, %Y" }}</time></div>
+        </div>
+        {% endunless %}
+        {% endif %}
+
+        {% if page.author %} 
+        <div style="display: flex; flex-direction: row; justify-content: center; gap:4px">
+          <div>Author</div>
+          <div>·</div>
+          <div>{{ page.author }}</div>
+        </div>
+        {% endif %}
       </section>
     </header>
 
