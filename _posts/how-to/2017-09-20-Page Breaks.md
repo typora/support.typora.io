@@ -4,10 +4,17 @@ title: Page Breaks
 date: 2017-09-20
 update: 2019-11-16
 category: how-to
-author: [jonathan.is, Crissov]
-tags: [markdown, pagination, CSS, HTML]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/page-breaks
+author:
+- jonathan.is
+- Crissov
+tags:
+- markdown
+- pagination
+- CSS
+- HTML
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/page-breaks"
+last_modified_at: 2022-03-01
 ---
 
 Automatic Page Breaks

@@ -2,8 +2,9 @@
 layout: post
 title: 画像のサイズを変更する
 author: typora.io
-typora-root-url: ../
-permalink: /ja/Resize-Image/
+typora-root-url: "../"
+permalink: "/ja/Resize-Image/"
+last_modified_at: 2022-06-04
 ---
 
 [English Original Version](/Resize-Image/) [Help Improve the Translation](https://github.com/typora/wiki-website)

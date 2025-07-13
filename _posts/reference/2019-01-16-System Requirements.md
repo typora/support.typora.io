@@ -3,8 +3,10 @@ layout: post
 title: System Requirements
 author: typora.io
 category: reference
-tags: [system]
-typora-root-url: ../../
+tags:
+- system
+typora-root-url: "../../"
+last_modified_at: 2023-02-22
 ---
 
 Typora works on

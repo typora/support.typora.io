@@ -3,8 +3,10 @@ layout: post
 title: Older macOS Support
 author: typora.io
 category: how-to
-tags: [macOS]
-typora-root-url: ../../
+tags:
+- macOS
+typora-root-url: "../../"
+last_modified_at: 2024-01-21
 ---
 
 The latest version of Typora supports macOS ≥ 11.0, for older macOS, support has ended.

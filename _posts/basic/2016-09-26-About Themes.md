@@ -3,8 +3,11 @@ layout: post
 title: About Themes
 author: typora.io
 category: basic
-tags: [style, tutorial]
-typora-root-url: ../../
+tags:
+- style
+- tutorial
+typora-root-url: "../../"
+last_modified_at: 2025-01-17
 ---
 
 [日本語 (ja)](/ja/About-Themes/)

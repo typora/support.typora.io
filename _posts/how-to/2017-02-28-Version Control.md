@@ -3,9 +3,13 @@ layout: post
 title: Version Control and Recovery
 author: typora.io
 category: how-to
-tags: [auto-save, history, version]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/version-control
+tags:
+- auto-save
+- history
+- version
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/version-control"
+last_modified_at: 2025-06-09
 ---
 
 ## macOS

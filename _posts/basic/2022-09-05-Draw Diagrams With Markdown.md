@@ -3,9 +3,14 @@ layout: post
 title: Draw Diagrams With Markdown
 category: basic
 author: typora.io
-tags: [markdown, mermaid, flowchart, sequence]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/diagrams
+tags:
+- markdown
+- mermaid
+- flowchart
+- sequence
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/diagrams"
+last_modified_at: 2025-01-17
 ---
 
 * Outline

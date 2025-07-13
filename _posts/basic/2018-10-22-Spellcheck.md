@@ -3,8 +3,11 @@ layout: post
 title: Spellcheck
 author: typora.io
 category: basic
-tags: [spellcheck, i18n]
-typora-root-url: ../../
+tags:
+- spellcheck
+- i18n
+typora-root-url: "../../"
+last_modified_at: 2025-01-17
 ---
 
 ## macOS

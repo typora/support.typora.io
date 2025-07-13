@@ -3,8 +3,12 @@ layout: post
 title: Install and Use Pandoc
 category: how-to
 author: typora.io
-tags: [pandoc, tutorial, docx]
-typora-root-url: ../../
+tags:
+- pandoc
+- tutorial
+- docx
+typora-root-url: "../../"
+last_modified_at: 2024-03-29
 ---
 
 TL;DR:

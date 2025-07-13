@@ -4,8 +4,11 @@ title: Quick Start
 date: 2006-01-01
 category: basic
 author: typora.io
-tags: [quick-start, tutorial]
-typora-root-url: ../../
+tags:
+- quick-start
+- tutorial
+typora-root-url: "../../"
+last_modified_at: 2025-01-17
 ---
 
 # Welcome

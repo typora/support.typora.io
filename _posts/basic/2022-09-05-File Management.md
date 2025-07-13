@@ -3,9 +3,12 @@ layout: post
 title: File Management
 author: typora.io
 category: basic
-tags: [files, search]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/files
+tags:
+- files
+- search
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/files"
+last_modified_at: 2025-01-17
 ---
 
 >  This document may get updated after more or better file management features being introduced in future.

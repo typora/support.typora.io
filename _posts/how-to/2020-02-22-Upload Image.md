@@ -4,9 +4,13 @@ title: Upload Images
 redirect_from: "/upload-image/"
 author: typora.io
 category: how-to
-tags: [image, upload, cloud]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/image-upload
+tags:
+- image
+- upload
+- cloud
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/image-upload"
+last_modified_at: 2025-02-15
 ---
 
 * Outline

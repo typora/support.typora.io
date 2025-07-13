@@ -3,9 +3,15 @@ layout: post
 title: Install and Use VLOOK™ Themes and Plugins
 category: how-to
 author: typora.io
-tags: [themes, plugins, export, html, vlook]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/vlook
+tags:
+- themes
+- plugins
+- export
+- html
+- vlook
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/vlook"
+last_modified_at: 2025-01-10
 ---
 
 [中文说明](/zh/Install-and-Use-VLOOK/)

@@ -3,8 +3,10 @@ layout: post
 title: Control TOC Levels
 author: typora.io
 category: tips
-tags: [style]
-typora-root-url: ../../
+tags:
+- style
+typora-root-url: "../../"
+last_modified_at: 2023-05-09
 ---
 
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).

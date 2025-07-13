@@ -3,8 +3,12 @@ layout: post
 title: Diagram Options
 author: typora.io
 category: tips
-tags: [diagram, mermaid, sequence]
-typora-root-url: ../../
+tags:
+- diagram
+- mermaid
+- sequence
+typora-root-url: "../../"
+last_modified_at: 2023-07-05
 ---
 
 ## Left Align Diagrams

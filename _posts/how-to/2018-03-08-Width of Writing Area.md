@@ -3,9 +3,11 @@ layout: post
 title: Change Width of Writing Area
 author: typora.io
 category: how-to
-tags: [style]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/width
+tags:
+- style
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/width"
+last_modified_at: 2022-03-01
 ---
 
 > Some of following CSS style will work for latest version of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).

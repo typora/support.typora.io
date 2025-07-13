@@ -3,8 +3,11 @@ layout: post
 title: Trouble Shooting
 author: typora.io
 category: basic
-tags: [FAQ, tutorial]
-typora-root-url: ../../
+tags:
+- FAQ
+- tutorial
+typora-root-url: "../../"
+last_modified_at: 2025-01-17
 ---
 
 # Common

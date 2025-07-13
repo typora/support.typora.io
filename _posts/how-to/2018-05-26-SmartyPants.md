@@ -3,9 +3,14 @@ layout: post
 title: Smart Punctuation (SmartyPants)
 author: typora.io
 category: how-to
-tags: [markdown, smartypantys, quotes, dashes]
-typora-copy-images-to: ../../media/smart-pants
-typora-root-url: ../../
+tags:
+- markdown
+- smartypantys
+- quotes
+- dashes
+typora-copy-images-to: "../../media/smart-pants"
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 > *Note*: Both `Smart Quotes` and `Smart Dashes` are ignored in YAML/code/math block or in source code mode. 

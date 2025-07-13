@@ -3,8 +3,11 @@ layout: post
 title: Typora becomes a MathJax Supporter
 author: typora.io
 category: announcement
-tags: [news, announcement]
-typora-root-url: ../../
+tags:
+- news
+- announcement
+typora-root-url: "../../"
+last_modified_at: 2022-03-02
 ---
 
 We are proud to announce that we will financially support [MathJax](https://www.mathjax.org/) from 2022. [MathJax](https://www.mathjax.org/) is the open source math rendering engine used by Typora, and by many other websites and projects as well.

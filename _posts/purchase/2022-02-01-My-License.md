@@ -3,9 +3,13 @@ layout: post
 title: Manage My License
 author: typora.io
 category: purchase
-tags: [purchase, activation, faq]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/activation
+tags:
+- purchase
+- activation
+- faq
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/activation"
+last_modified_at: 2022-04-03
 ---
 
 If you want to retrieve license code from email address you used to activate Typora, you can open <https://store.typora.io/my> and fill your email address.

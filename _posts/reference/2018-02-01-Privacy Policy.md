@@ -3,9 +3,11 @@ layout: post
 title: Privacy Policy
 author: typora.io
 category: reference
-tags: [Terms and Conditions]
-typora-root-url: ../../
+tags:
+- Terms and Conditions
+typora-root-url: "../../"
 date: 2018-02-01
+last_modified_at: 2022-05-18
 ---
 
 [typora.io](http://typora.io) built Typora as a Commercial software. This SOFTWARE is provided by typora.io and is intended for use as is.

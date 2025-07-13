@@ -3,8 +3,10 @@ layout: post
 title: Change Background
 author: typora.io
 category: how-to
-tags: [style]
-typora-root-url: ../../
+tags:
+- style
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 > NOTE: Some of following CSS style will only work for recent versions of Typora (>= 0.9.9.6 on macOS, and >=0.9.13 on Windows).

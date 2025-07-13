@@ -3,8 +3,10 @@ layout: post
 title: Launch Arguments (Windows / Linux)
 author: typora.io
 category: how-to
-tags: [cmd]
-typora-root-url: ../../
+tags:
+- cmd
+typora-root-url: "../../"
+last_modified_at: 2024-06-20
 ---
 
 You can launch Typora.exe with extra arguments, for example:

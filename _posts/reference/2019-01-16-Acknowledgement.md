@@ -3,8 +3,12 @@ layout: post
 title: Acknowledgement
 author: typora.io
 category: reference
-tags: [acknowledgement, credits, oss]
-typora-root-url: ../../
+tags:
+- acknowledgement
+- credits
+- oss
+typora-root-url: "../../"
+last_modified_at: 2024-02-28
 ---
 
 **Typora** is developed by [@LeeAbner](https://twitter.com/LeeAbner). All rights reserved. 

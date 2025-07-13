@@ -3,9 +3,13 @@ layout: post
 title: Convert & Reformat Markdown
 category: how-to
 author: typora.io
-tags: [markdown, reformat, pretty]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/reformat
+tags:
+- markdown
+- reformat
+- pretty
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/reformat"
+last_modified_at: 2022-03-01
 ---
 
 Typora does not have built-in markdown convert, reformat or lint function, but there’s some workarounds:

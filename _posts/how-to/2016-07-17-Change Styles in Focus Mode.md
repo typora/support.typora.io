@@ -3,8 +3,10 @@ layout: post
 title: Change Styles in Focus Mode
 author: typora.io
 category: how-to
-tags: [style]
-typora-root-url: ../../
+tags:
+- style
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 **TL;DR**

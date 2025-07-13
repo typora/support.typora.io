@@ -3,8 +3,12 @@ layout: post
 title: Text Snippets
 category: how-to
 author: typora.io
-tags: [snippets, text, shortcut]
-typora-root-url: ../../
+tags:
+- snippets
+- text
+- shortcut
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 Typora currently does not support text snippets, you may refer to system built-in, or 3rd app solution for this.

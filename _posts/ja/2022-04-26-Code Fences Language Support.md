@@ -2,8 +2,9 @@
 layout: post
 title: コードフェンスのサポート言語
 author: typora.io
-typora-root-url: ../
-permalink: /ja/Code-Fences-Language-Support/
+typora-root-url: "../"
+permalink: "/ja/Code-Fences-Language-Support/"
+last_modified_at: 2023-05-16
 ---
 
 [English Original Version](/Code-Fences-Language-Support/) [Help Improve the Translation](https://github.com/typora/wiki-website)

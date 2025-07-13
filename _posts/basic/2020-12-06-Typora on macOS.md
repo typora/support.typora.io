@@ -3,9 +3,12 @@ layout: post
 title: Typora on macOS
 author: typora.io
 category: basic
-tags: [macOS, OS X]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/macOS
+tags:
+- macOS
+- OS X
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/macOS"
+last_modified_at: 2025-01-17
 ---
 
 Typora is deeply integrated with the macOS desktop environment, like other native apps on macOS. The simplicity and extendable functions provided by macOS are also available in Typora.

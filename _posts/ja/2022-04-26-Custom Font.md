@@ -2,8 +2,9 @@
 layout: post
 title: カスタムフォント
 author: typora.io
-typora-root-url: ../
-permalink: /ja/Custom-Font/
+typora-root-url: "../"
+permalink: "/ja/Custom-Font/"
+last_modified_at: 2022-04-27
 ---
 
 [English Original Version](/Custom-Font/) [Help Improve the Translation](https://github.com/typora/wiki-website)

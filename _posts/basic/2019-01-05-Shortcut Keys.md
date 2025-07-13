@@ -3,9 +3,11 @@ layout: post
 title: Shortcut Keys
 author: typora.io
 category: basic
-tags: [shortcut keys]
-typora-root-url: ../../
-redirect_from: "Custom-Key-Binding"
+tags:
+- shortcut keys
+typora-root-url: "../../"
+redirect_from: Custom-Key-Binding
+last_modified_at: 2025-04-05
 ---
 
 * Outline

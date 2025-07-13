@@ -3,8 +3,11 @@ layout: post
 title: End User License Agreement
 author: typora.io
 category: reference
-tags: [EULA, Term of Service]
-typora-root-url: ../../
+tags:
+- EULA
+- Term of Service
+typora-root-url: "../../"
+last_modified_at: 2025-06-08
 ---
 
 > Please read this End User License Agreement (a.k.a “EULA”, "License Agreement") before You purchase a License Key for the Software and subsequently download and use the Software.

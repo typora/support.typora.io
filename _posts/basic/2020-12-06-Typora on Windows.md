@@ -3,9 +3,11 @@ layout: post
 title: Typora on Windows
 author: typora.io
 category: basic
-tags: [Windows]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/windows
+tags:
+- Windows
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/windows"
+last_modified_at: 2025-01-17
 ---
 
 This document shows some “native” features on Windows platform that you may use on your PC environment.

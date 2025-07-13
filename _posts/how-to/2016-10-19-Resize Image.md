@@ -3,9 +3,10 @@ layout: post
 title: Resize Images
 author: typora.io
 category: how-to
-tags: [image]
-typora-root-url: ../../
-
+tags:
+- image
+typora-root-url: "../../"
+last_modified_at: 2022-04-27
 ---
 
 [日本語 (ja)](/ja/Resize-Image/)

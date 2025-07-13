@@ -2,8 +2,9 @@
 layout: post
 title: コードブロックのスタイル/テーマ
 author: typora.io
-typora-root-url: ../
-permalink: /ja/Code-Block-Styles/
+typora-root-url: "../"
+permalink: "/ja/Code-Block-Styles/"
+last_modified_at: 2022-04-27
 ---
 
 [English Original Version](/Code-Block-Styles/) [Help Improve the Translation](https://github.com/typora/wiki-website)

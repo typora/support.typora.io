@@ -3,9 +3,13 @@ layout: post
 title: Offline Activation
 author: typora.io
 category: tips
-tags: [purchase, activation, faq]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/activation
+tags:
+- purchase
+- activation
+- faq
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/activation"
+last_modified_at: 2022-05-18
 ---
 
 ## Precondition

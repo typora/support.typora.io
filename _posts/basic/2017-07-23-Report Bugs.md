@@ -3,8 +3,12 @@ layout: post
 title: Report Bugs
 author: typora.io
 category: basic
-tags: [auto-save, history, version]
-typora-root-url: ../../
+tags:
+- auto-save
+- history
+- version
+typora-root-url: "../../"
+last_modified_at: 2025-01-17
 ---
 
 ## Where to find us?

@@ -3,9 +3,11 @@ layout: post
 title: Strict Mode
 category: how-to
 author: typora.io
-tags: [markdown]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/strict-mode
+tags:
+- markdown
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/strict-mode"
+last_modified_at: 2022-03-01
 ---
 
 You could enable **strict mode** to tell Typora to follow [GFM's spec](https://github.github.com/gfm/) more strictly. You could disable it if you want the parser to be more “fault tolerant”.

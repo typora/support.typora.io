@@ -3,9 +3,13 @@ layout: post
 title: Code Fences
 author: typora.io
 category: basic
-tags: [code, fences, code block]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/code
+tags:
+- code
+- fences
+- code block
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/code"
+last_modified_at: 2025-01-17
 ---
 
 **Table of Contents**

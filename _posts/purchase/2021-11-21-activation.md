@@ -3,9 +3,13 @@ layout: post
 title: Activate Typora
 author: typora.io
 category: purchase
-tags: [purchase, activation, faq]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/activation
+tags:
+- purchase
+- activation
+- faq
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/activation"
+last_modified_at: 2025-04-05
 ---
 
 > For purchase / order related questions, please [click here](/purchase).

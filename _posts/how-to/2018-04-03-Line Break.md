@@ -3,9 +3,12 @@ layout: post
 title: Whitespace and Line Breaks
 author: typora.io
 category: how-to
-tags: [style, markdown]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/whitespace
+tags:
+- style
+- markdown
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/whitespace"
+last_modified_at: 2022-07-29
 ---
 
 ## Recommended Practices in Typora

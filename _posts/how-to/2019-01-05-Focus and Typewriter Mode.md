@@ -3,9 +3,13 @@ layout: post
 title: Focus Mode and Typewriter Mode
 author: typora.io
 category: how-to
-tags: [view, typewriter, focus]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/focus-and-typewriter
+tags:
+- view
+- typewriter
+- focus
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/focus-and-typewriter"
+last_modified_at: 2022-03-01
 ---
 
 ## Focus Mode

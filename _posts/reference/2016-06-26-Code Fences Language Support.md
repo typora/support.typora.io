@@ -3,9 +3,11 @@ layout: post
 title: Language Support in Code Fences
 author: typora.io
 category: reference
-tags: [code fences]
-typora-root-url: ../../
+tags:
+- code fences
+typora-root-url: "../../"
 date: 2016-10-20
+last_modified_at: 2023-05-16
 ---
 
 [日本語 (ja)](/ja/Code-Fences-Language-Support/)

@@ -3,9 +3,10 @@ layout: post
 title: Older Windows Support
 author: typora.io
 category: how-to
-tags: [windows]
-typora-root-url: ../../
-
+tags:
+- windows
+typora-root-url: "../../"
+last_modified_at: 2023-05-11
 ---
 
 You could find and download available working versions here:

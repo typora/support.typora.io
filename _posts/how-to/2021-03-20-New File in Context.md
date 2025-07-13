@@ -3,8 +3,11 @@ layout: post
 title: Add New “Markdown” Item in Context Menu
 category: how-to
 author: typora.io
-tags: [windows, macOS]
-typora-root-url: ../../
+tags:
+- windows
+- macOS
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 ## Windows

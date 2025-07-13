@@ -3,9 +3,12 @@ layout: post
 title: Custom Fonts
 author: typora.io
 category: how-to
-tags: [style, font]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/custom-font
+tags:
+- style
+- font
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/custom-font"
+last_modified_at: 2022-04-27
 ---
 
 [日本語 (ja)](/ja/Custom-Font/)

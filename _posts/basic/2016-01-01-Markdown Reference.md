@@ -4,8 +4,11 @@ title: Markdown Reference
 date: 2016-01-01
 category: basic
 author: typora.io
-tags: [markdown, tutorial]
-typora-root-url: ../../../
+tags:
+- markdown
+- tutorial
+typora-root-url: "../../../"
+last_modified_at: 2025-01-17
 ---
 
 [中文说明](/zh/Markdown-Reference/)

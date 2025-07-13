@@ -3,9 +3,13 @@ layout: post
 title: Launch Options
 author: typora.io
 category: how-to
-tags: [launch, folder, project]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/launch
+tags:
+- launch
+- folder
+- project
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/launch"
+last_modified_at: 2025-04-05
 ---
 
 > If you are looking for Launch Arguments, please check [here](/Launch-Arguments/).

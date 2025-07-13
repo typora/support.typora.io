@@ -2,8 +2,9 @@
 layout: post
 title: カスタム CSS を追加する
 author: typora.io
-typora-root-url: ../
-permalink: /ja/Add-Custom-CSS/
+typora-root-url: "../"
+permalink: "/ja/Add-Custom-CSS/"
+last_modified_at: 2022-04-27
 ---
 
 [English Original Version](/Add-Custom-CSS/) [Help Improve the Translation](https://github.com/typora/wiki-website)

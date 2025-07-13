@@ -4,8 +4,10 @@ title: Auto Numbering for Headings
 date: 2016-06-06
 category: how-to
 author: typora.io
-tags: [style]
-typora-root-url: ../../
+tags:
+- style
+typora-root-url: "../../"
+last_modified_at: 2022-03-01
 ---
 
 > TIP: To know where to put those CSS snippets, please see [Add Custom CSS](/Add-Custom-CSS/).

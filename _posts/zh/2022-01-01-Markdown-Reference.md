@@ -2,8 +2,9 @@
 layout: post
 title: Typora 的 Markdown 语法
 author: typora.io
-typora-root-url: ../
-permalink: /zh/Markdown-Reference/
+typora-root-url: "../"
+permalink: "/zh/Markdown-Reference/"
+last_modified_at: 2022-02-21
 ---
 
 [English Original Version](/Markdown-Reference/) [Help Improve the Translation](https://github.com/typora/wiki-website)

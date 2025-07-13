@@ -3,8 +3,11 @@ layout: post
 title: Install Typora on Linux
 author: typora.io
 category: basic
-tags: [linux, tutorial]
-typora-root-url: ../../
+tags:
+- linux
+- tutorial
+typora-root-url: "../../"
+last_modified_at: 2025-07-08
 ---
 
 Installation instructions for different flavours of Linux.

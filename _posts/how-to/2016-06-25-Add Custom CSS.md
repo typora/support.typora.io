@@ -3,8 +3,11 @@ layout: post
 title: Add Custom CSS
 author: typora.io
 category: how-to
-tags: [style, tutorial]
-typora-root-url: ../../
+tags:
+- style
+- tutorial
+typora-root-url: "../../"
+last_modified_at: 2022-07-03
 ---
 
 [日本語 (ja)](/ja/Add-Custom-CSS/)

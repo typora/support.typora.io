@@ -3,9 +3,13 @@ layout: post
 title: Delete Range
 category: how-to
 author: typora.io
-tags: [selection, delete, editing]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/delete-range
+tags:
+- selection
+- delete
+- editing
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/delete-range"
+last_modified_at: 2022-03-01
 ---
 
 * Outline

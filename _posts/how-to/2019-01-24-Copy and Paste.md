@@ -3,9 +3,12 @@ layout: post
 title: Copy and Paste
 author: typora.io
 category: how-to
-tags: [copy, clipboard]
-typora-root-url: ../../
-typora-copy-images-to: ../../media/clipboard
+tags:
+- copy
+- clipboard
+typora-root-url: "../../"
+typora-copy-images-to: "../../media/clipboard"
+last_modified_at: 2022-03-01
 ---
 
 ## How Clipboard Works

@@ -2,8 +2,9 @@
 layout: post
 title: テーマについて
 author: typora.io
-typora-root-url: ../
-permalink: /ja/About-Themes/
+typora-root-url: "../"
+permalink: "/ja/About-Themes/"
+last_modified_at: 2022-06-05
 ---
 
 [English Original Version](/About-Themes/) [Help Improve the Translation](https://github.com/typora/wiki-website)
