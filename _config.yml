@@ -9,16 +9,11 @@ highlighter: null
 plugins:
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
-
-# Enable safe mode for GitHub Pages compatibility
-safe: false
 
 # GitHub Pages supported plugins
 whitelist:
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-last-modified-at
 jekyll-redirect-from: true
 
 markdown: kramdown
