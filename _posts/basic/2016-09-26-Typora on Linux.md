@@ -7,7 +7,7 @@ tags:
 - linux
 - tutorial
 typora-root-url: "../../"
-last_modified_at: 2025-07-08
+last_modified_at: 2025-07-13
 ---
 
 Installation instructions for different flavours of Linux.
@@ -35,38 +35,18 @@ If you once installed Typora below version 1.11, you need to remove the old keys
 sudo rm /etc/apt/trusted.gpg.d/typora.asc
 ```
 
-### Alternative for `apt-key`
+### [Unsafe] Install without keys
 
-When you try to add an APT repository key using `apt-key` (first line in previous command line) on Debian, Ubuntu and Linux distributions based on these, you'll see the following message: "*Warning: apt-key is deprecated. Manage keyring files in trusted.gpg.d instead (see apt-key(8))*".
+```bash
+# Create a new repo source file
+echo "deb [trusted=yes] https://downloads.typora.io/linux ./" | sudo tee /etc/apt/sources.list.d/typora.list
 
-The easiest way would be just to ignore it.
+# Update package lists
+sudo apt update
 
-But if you’re not OK with the warning, you can do the following:
-
-1. Download the key and save it locally somewhere.
-
-   ```shell
-   curl https://typora.io/linux/public-key.asc | gpg --dearmor > /usr/share/keyrings/typora.gpg
-   ```
-
-2. Create the repo file `typora.list` in `/etc/apt/sources.list.d`.
-
-   ```shell
-   sudo vim /etc/apt/sources.list.d/typora.list
-   ```
-
-3. Paste the repo definition into this file:
-
-   ```shell
-   deb [arch=amd64 signed-by=/usr/share/keyrings/typora.gpg] https://downloads.typora.io/linux ./
-   ```
-
-4. Now you can install Typora:
-
-   ```shell
-   sudo apt-get update
-   sudo apt-get install typora
-   ```
+# Install typora
+sudo apt install typora
+```
 
 ### Upgrade Typora
 
