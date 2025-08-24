@@ -1,0 +1,90 @@
+/* Algolia DocSearch Custom Styles for Typora Support */
+
+/* Container styling to match the original search design */
+#docsearch-container {
+  margin-top: -10px;
+}
+
+/* Style the DocSearch button to match the original design */
+.DocSearch-Button {
+  background: transparent;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  width: 100%;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.DocSearch-Button:hover {
+  border-color: #999;
+}
+
+.DocSearch-Button-Container {
+  display: flex;
+  align-items: center;
+}
+
+.DocSearch-Search-Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  color: #666;
+}
+
+.DocSearch-Button-Placeholder {
+  font-size: 14px;
+  color: #999;
+}
+
+.DocSearch-Button-Keys {
+  display: none; /* Hide keyboard shortcut hints */
+}
+
+/* Modal styling to match site theme */
+.DocSearch-Modal {
+  font-family: inherit;
+}
+
+/* Results styling */
+.DocSearch-Hit-title {
+  font-weight: 600;
+}
+
+.DocSearch-Hit-path {
+  color: #666;
+  font-size: 12px;
+}
+
+/* Customize the hit highlighting */
+mark {
+  background-color: #ffeb3b;
+  color: #333;
+  padding: 1px 2px;
+  border-radius: 2px;
+}
+
+/* Footer styling */
+.DocSearch-Footer {
+  border-top: 1px solid #eee;
+  padding-top: 16px;
+}
+
+/* Dark mode adjustments if needed */
+@media (prefers-color-scheme: dark) {
+  .DocSearch-Button {
+    background: #2a2a2a;
+    border-color: #555;
+    color: #fff;
+  }
+  
+  .DocSearch-Button-Placeholder {
+    color: #ccc;
+  }
+  
+  .DocSearch-Search-Icon {
+    color: #ccc;
+  }
+}
