@@ -55,52 +55,19 @@
             const browserLang = navigator.language || navigator.userLanguage;
             console.log('Browser language:', browserLang);
             
-            // 检查 URL 路径
-            const currentPath = window.location.pathname;
-            if (currentPath.includes('/ja/')) {
-                return 'ja';
-            }
-            if (currentPath.includes('/zh/')) {
-                return 'zh';
-            }
-            
             // 根据浏览器语言判断
             if (browserLang.startsWith('ja')) {
-                return 'ja';
+                return ['lang:en', 'lang:ja'];
             }
             if (browserLang.startsWith('zh')) {
-                return 'zh';
+                return ['lang:zh-Hans', 'lang:en'];
             }
             
-            return 'en';
+            return 'lang:en';
         }
-        
-        // 过滤搜索结果
-        function filterSearchResults(items) {
-            const userLang = getUserLanguage();
-            console.log('User language detected:', userLang);
-            
-            return items.filter(item => {
-                const url = item.url || '';
-                
-                // 总是包含英文结果（不包含 /ja/ 或 /zh/ 路径的结果）
-                const isEnglish = !url.includes('/ja/') && !url.includes('/zh/');
-                
-                // 根据用户语言包含相应的本地化结果
-                const isJapanese = url.includes('/ja/');
-                const isChinese = url.includes('/zh/');
-                
-                switch (userLang) {
-                    case 'ja':
-                        return isEnglish || isJapanese;
-                    case 'zh':
-                        return isEnglish || isChinese;
-                    default:
-                        return isEnglish; // 其他语言只显示英文结果
-                }
-            });
-        }
-        
+
+        const langFilter = getUserLanguage();
+
         // 初始化 DocSearch
         document.addEventListener('DOMContentLoaded', function() {
             const loadingStatus = document.getElementById('loading-status');
@@ -118,37 +85,12 @@
                     placeholder: 'Search documentation...',
                     debug: true, // 开启调试模式，方便查看问题
                     searchParameters: {
-                        facetFilters: [],
+                        facetFilters: [langFilter],
                         hitsPerPage: 20, // 每页显示20个结果
                         attributesToHighlight: ['hierarchy.lvl0', 'hierarchy.lvl1', 'hierarchy.lvl2', 'hierarchy.lvl3'],
-                        attributesToSnippet: ['content:40'] // 进一步增加内容片段长度
                     },
                     maxResultsPerGroup: 20, // 每组最多显示20个结果
                     resultsFooterComponent: null, // 移除底部组件避免遮挡
-                    transformItems(items) {
-                        console.log('Raw DocSearch results:', items.length, 'items');
-                        
-                        // 先进行语言过滤
-                        const filteredItems = filterSearchResults(items);
-                        console.log('Filtered DocSearch results:', filteredItems.length, 'items');
-                        
-                        // 然后处理 URL
-                        const processedItems = filteredItems.map((item) => {
-                            return {
-                                ...item,
-                                url: item.url.replace(/^https?:\/\/[^\/]+/, ''),
-                            };
-                        });
-                        
-                        // 调试输出
-                        console.log('Processed results:', processedItems.map(item => ({
-                            title: item.hierarchy?.lvl0 || item.hierarchy?.lvl1 || 'No title',
-                            url: item.url,
-                            content: item.content?.substring(0, 100) + '...'
-                        })));
-                        
-                        return processedItems;
-                    }
                 });
                 
                 // 隐藏加载状态
