@@ -1,5 +1,11 @@
 <!DOCTYPE html>
-<html>
+{% if page.url contains '/ja/' or site.url contains 'ja' %}
+<html lang="ja">
+{% elsif page.url contains '/zh/' %}
+<html lang="zh-Hans">
+{% else %}
+<html lang="en">
+{% endif %}
   <head>
     <meta charset="UTF-8" />
     {% if site.url contains ".cn" %}

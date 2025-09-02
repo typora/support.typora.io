@@ -7,7 +7,7 @@ tags:
 - Windows
 typora-root-url: ../../
 typora-copy-images-to: "../../media/windows"
-last_modified_at: 2025-01-17
+last_modified_at: 2025-09-02
 ---
 
 This document shows some “native” features on Windows platform that you may use on your PC environment.
@@ -70,3 +70,8 @@ Or, you can set separate themes for light mode and dark mode. When the system’
 
 You can find more details [here](http://support.typora.io/Dark-Mode/).
 
+### Line Ending
+
+You can change the default line endings between Unix style (`LF` or `\n`) and Windows style (`CRLF` or `\r\n`) in Settings → Editor → Default Line Ending.
+
+<img src="/media/windows/截屏2025-09-02 20.24.05.png" alt="截屏2025-09-02 20.24.05" style="zoom:50%;" />
