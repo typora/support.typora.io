@@ -11,7 +11,7 @@ last_modified_at: 2022-02-21
 
 ## 概述
 
-**Markdown** 由 [Daring Fireball](http://daringfireball.net/) 创建，原始指南在 [这里](http://daringfireball.net/projects/markdown/syntax)。但是，它的语法因不同的解析器或编辑器而异。**Typora** 正在使用 [GitHub Flavored Markdown][GFM]。
+**Markdown** 由 [John Gruber](http://daringfireball.net/) 创建，原始指南在 [这里](http://daringfireball.net/projects/markdown/syntax)。但是，它的语法因不同的解析器或编辑器而异。**Typora** 正在使用 [GitHub Flavored Markdown][GFM]。
 
 **大纲**
 
@@ -200,7 +200,7 @@ Typora 现在支持 [YAML Front Matter](http://jekyllrb.com/docs/frontmatter/) �
 
 ### 图表 (Sequence, Flowchart and Mermaid)
 
-Typora 支持, [sequence](https://bramp.github.io/js-sequence-diagrams/), [flowchart](http://flowchart.js.org/) and [mermaid](https://knsv.github.io/mermaid/#mermaid), 使用前要先从偏好设置面板启用该功能。
+Typora 支持, [sequence](https://bramp.github.io/js-sequence-diagrams/), [flowchart](http://flowchart.js.org/) and [mermaid](https://mermaid.js.org/), 使用前要先从偏好设置面板启用该功能。
 
 详细信息请参阅此 [文档](http://support.typora.io/Draw-Diagrams-With-Markdown/) 
 

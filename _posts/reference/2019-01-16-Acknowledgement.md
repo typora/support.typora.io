@@ -289,7 +289,7 @@ MIT License https://github.com/bramp/js-sequence-diagrams/blob/master/LICENCE
 
 MIT License https://github.com/adrai/flowchart.js/blob/master/license
 
-### [Mermaid](https://knsv.github.io/mermaid/#mermaid)
+### [Mermaid](https://mermaid.js.org/)
 
 MIT License https://github.com/knsv/mermaid/blob/master/LICENSE
 

@@ -15,7 +15,7 @@ last_modified_at: 2025-01-17
 
 ## Overview
 
-**Markdown** is created by [Daring Fireball](http://daringfireball.net/); the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** tries to follow [GitHub Flavored Markdown][GFM], but may still have small incompatibilities.
+**Markdown** is created by [John Gruber](http://daringfireball.net/), the original guideline is [here](http://daringfireball.net/projects/markdown/syntax). Its syntax, however, varies between different parsers or editors. **Typora** tries to follow [GitHub Flavored Markdown][GFM], but may still have small incompatibilities.
 
 Table of Contents
 

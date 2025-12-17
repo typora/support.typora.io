@@ -64,7 +64,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
    9. Exception: repackage (provide installation packages/scripts) Typora on Linux system is allowed if all contents (includes all binaries, resources files, scripts, etc) of Typora are not modified or deleted.
 3. We may modify the Software at any time at its sole discretion and without notice to You, for example to comply with applicable law or a court order, to avoid a third party infringement claim or to provide Updates and upgrades.
 4. Certain components of the Software are Open Source Software and licensed under the terms of the applicable license(s) of the Open Source Software. You shall adhere to these terms and conditions, which can be found via the webpage: http://support.typora.io/Acknowledgement/.
-5. You are allowed to use Full version on any devices you own, manage or have privilege to install and run apps on it. You are allowed to use the Full version for personal purposes, commercial purposes, and other purposes excluding clause 4.2.
+5. You are allowed to use Full version on any devices you own, manage or have privilege to install and run apps on it. Without extra permission from us, one license can activate Typora app on 3 devices at most at the same time (“device” refers to isolated environment, different operating systems, user accounts, virtual machines, physical devices, etc are accounted as different devices). You are allowed to use the Full version for personal purposes, commercial purposes, and other purposes excluding clause 4.2.
 6. We reserve every rights, including ending customer support, revoke your license code, or take future legal steps if you break the restrictions.
 
 ## 5. Maintenance and support
