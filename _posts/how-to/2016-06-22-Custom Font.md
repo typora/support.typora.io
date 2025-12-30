@@ -82,7 +82,7 @@ You can use
 ```css
 #typora-source {
   font-family: monospace;
-  font-size: inherit.
+  font-size: inherit;
   --monospace: monospace; /* for code blocks and inline code inside source code mode */
 }
 ```
@@ -93,7 +93,7 @@ to change font for source code mode.
 
 ```css
 body {
-  --monospace: monospace /* for all code blocks, inline code, and source code mode */
+  --monospace: monospace; /* for all code blocks, inline code, and source code mode */
 }
 
 // or
