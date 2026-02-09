@@ -51,7 +51,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 
 ## 4. Permitted use and restrictions
 
-1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: https://support.typora.io/System-Requirements. The system requirements may be changed in future updates.
+1. In order to be able to install the Software and receive Updates and upgrades, Your computer shall have access to the Internet and shall meet the system requirements described in the Documentation that can be found on the webpage: https://support.typora.io/System-Requirements. The system requirements may be changed in future updates. Typora works on a "normal" system environment, it may not run if necessary system library is missing, or, dangerous or abnormal modifications is made to the system.
 2. You shall Use the Beta version, Full version, or Trial version in accordance with applicable laws, and without prior written approval of us, you shall not:
    1. Use the Trial version on any system where the Trial version was previously Used and expired;
    2. rent, lease, lend, sell, redistribute, sublicense or otherwise commercially exploit the License Key, the Full version or the Trial version;

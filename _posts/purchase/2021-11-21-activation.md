@@ -207,7 +207,7 @@ If you have activated Typora but find that it has been unexpectedly disabled, us
 
 ## How many devices can I use at the same time for one license?
 
-A maximum of 3 devices. Devices means different devices, different operating systems and VMs on a device, different accounts on an operating system...
+A maximum of 3 devices. Devices means different devices, different operating systems and VMs on a device, different accounts on an operating system... Typora identify device by its UUID or machine id on Linux / Windows.
 
 ## What if I have more than 3 devices?
 
