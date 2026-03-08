@@ -1,5 +1,7 @@
 {
   "files.exclude": {
+    "**/_plugins": true,
+    "**/_site": true,
     "**/.jekyll-cache": true
   }
 }
