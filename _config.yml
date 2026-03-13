@@ -9,11 +9,13 @@ highlighter: null
 plugins:
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-last-modified-at
 
-# GitHub Pages supported plugins
+# Plugins used by our custom Jekyll build
 whitelist:
   - jekyll-redirect-from
   - jekyll-feed
+  - jekyll-last-modified-at
 jekyll-redirect-from: true
 
 markdown: kramdown
