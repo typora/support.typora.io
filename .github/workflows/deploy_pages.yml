@@ -31,6 +31,9 @@ jobs:
           ruby-version: '2.7.8'
           bundler-cache: true
 
+      - name: Refresh post modified dates
+        run: ruby update_modified_dates.rb
+
       - name: Build site
         run: bundle exec jekyll build --destination _site
 

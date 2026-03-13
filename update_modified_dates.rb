@@ -4,6 +4,14 @@ require 'yaml'
 require 'date'
 require 'time'
 
+def parse_date(value)
+  return nil if value.nil? || value.to_s.strip.empty?
+
+  Date.parse(value.to_s)
+rescue
+  nil
+end
+
 def extract_front_matter(content)
   # Check if file starts with YAML front matter
   return nil, content unless content.start_with?('---')
@@ -18,7 +26,11 @@ def extract_front_matter(content)
   content_lines = lines[(end_index + 2)..-1] || []
   
   begin
-    front_matter = YAML.load(front_matter_lines.join)
+    front_matter = YAML.safe_load(
+      front_matter_lines.join,
+      permitted_classes: [Date, Time],
+      aliases: true
+    )
     content_body = content_lines.join
     return front_matter, content_body
   rescue => e
@@ -65,16 +77,10 @@ def process_post(file_path)
     return
   end
   
-  # Skip if last_modified_at already exists
-  if front_matter['last_modified_at']
-    puts "  Skipping: last_modified_at already exists (#{front_matter['last_modified_at']})"
-    return
-  end
-  
   # Get published date from front matter or filename
   published_date = nil
   if front_matter['date']
-    published_date = Date.parse(front_matter['date'].to_s) rescue nil
+    published_date = parse_date(front_matter['date'])
   end
   
   unless published_date
@@ -95,14 +101,20 @@ def process_post(file_path)
   end
   
   git_modified_date = git_modified.to_date
+  current_modified_date = parse_date(front_matter['last_modified_at'])
   
-  # Only add last_modified_at if Git date is after published date
+  # Only add or update last_modified_at if Git date is after published date
   if git_modified_date <= published_date
     puts "  Skipping: Git modified date (#{git_modified_date}) is not after published date (#{published_date})"
     return
   end
+
+  if current_modified_date && git_modified_date <= current_modified_date
+    puts "  Skipping: Existing last_modified_at (#{current_modified_date}) is newer or equal"
+    return
+  end
   
-  # Add last_modified_at to front matter
+  # Add or update last_modified_at in front matter
   front_matter['last_modified_at'] = git_modified_date
   
   # Reconstruct the file content
@@ -114,7 +126,8 @@ def process_post(file_path)
   # Write back to file
   begin
     File.write(file_path, new_content)
-    puts "  ✓ Added last_modified_at: #{git_modified_date}"
+    action = current_modified_date ? "Updated" : "Added"
+    puts "  ✓ #{action} last_modified_at: #{git_modified_date}"
   rescue => e
     puts "  Error writing file: #{e.message}"
   end

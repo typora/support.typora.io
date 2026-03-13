@@ -27,9 +27,9 @@ ruby update_modified_dates.rb
 
 1. **Scan all posts** in the `_posts` directory
 2. **Check Git history** to find the last modification date for each file
-3. **Compare dates** - only add `last_modified_at` if Git modification date is **after** the published date
-4. **Skip files** that already have `last_modified_at` field
-5. **Add the field** to YAML front matter automatically
+3. **Compare dates** - only add or update `last_modified_at` if Git modification date is **after** the published date
+4. **Preserve newer YAML values** - skip files whose existing `last_modified_at` is already newer than or equal to Git history
+5. **Add or update the field** in YAML front matter automatically
 
 ## Example
 
@@ -65,9 +65,9 @@ last_modified_at: 2022-07-03
 
 ## Safety
 
-- **Safe to re-run** - skips files that already have `last_modified_at`
+- **Safe to re-run** - only changes files when Git history provides a newer modified date
 - **Preview changes** with `git diff` before committing
-- **Only adds dates** when Git modification is after publication date
+- **Only adds or updates dates** when Git modification is after publication date
 
 ## Manual Alternative
 
