@@ -15,6 +15,9 @@ jobs:
         uses: actions/checkout@v2
         with:
           fetch-depth: 0
+
+      - name: Generate llms.txt
+        run: ruby generate_llms_txt.rb
           
       - name: Install SSH Key
         uses: shimataro/ssh-key-action@v2
@@ -42,8 +45,10 @@ jobs:
           sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile
           sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile.lock
           grep "gems.ruby-china.com" Gemfile 
-          git commit -am "update Gemfile"
           git checkout -b master
+          git add Gemfile Gemfile.lock
+          git add -f llms.txt
+          git commit -m "build: prepare deploy artifacts"
         env:
           SSH_KEY: ${{secrets.ALIYUN_SERVER_ACCESS_TOKEN}}
           PEM_KEY: ${{secrets.ALIYUN_PEM}}
