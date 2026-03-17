@@ -27,3 +27,4 @@ Thumbs.db
 .idea/*
 .jekyll-cache
 _posts/_site
+.claude/settings.local.json
