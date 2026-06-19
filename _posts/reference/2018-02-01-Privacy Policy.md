@@ -20,6 +20,8 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 This Privacy Policy only applies for the usage of our software. Visiting our official homepage, support website, theme website, or other related websites, is not controlled by this Privacy Policy.
 
+If you are located in the European Union or the United Kingdom, please also see our [GDPR Compliance](/GDPR-Compliance/) statement, which explains your rights and how we comply with the GDPR.
+
 ### Information Collection and Use
 
 **Anonymous usage data will only be send when the option "Send Anonymous Usage Info" is enabled in preferences panel.** 
