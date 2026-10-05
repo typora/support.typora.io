@@ -139,7 +139,7 @@ If you cannot access the device, you can deactivate machines via <https://store.
 
 ## How to retrieve my license code if I forgot it?
 
-Please check [Find My License](#fine-my-license).
+Please check [Find My License](#find-my-license).
 
 ## I cannot activate Typora
 
