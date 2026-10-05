@@ -80,7 +80,7 @@ For better styling moving content between Typora and other Apps, please use "exp
 
 ## Copy as HTML Code
 
-When is action is selected, Typora will convert selected part into HTML, and put HMTL source code into "Plain Text" format of the clipboard. For developers, you may have chances to edit HTML file in source code editor, this menu action helps you to copy content from Typora into HTML source code.
+When this action is selected, Typora will convert the selected part into HTML, and put HTML source code into "Plain Text" format of the clipboard. For developers, you may have chances to edit HTML file in source code editor, this menu action helps you to copy content from Typora into HTML source code.
 
 <div  style="text-align:center">
   <figure style="">

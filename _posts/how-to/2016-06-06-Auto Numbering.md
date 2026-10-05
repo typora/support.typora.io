@@ -111,4 +111,4 @@ If you want `TOC` entities to be displayed auto-numbered, you could try [http://
 
 ### Auto-Numbering Outline panel
 
-To show auto-numbering in Typora's Outline panel, disable the collapsable outline panel in the  preferences panel and then try <https://pastebin.com/XmYgBbaz>. <!-- It seems to work whether or not the preference for collapsible outline panel is set or not. -->
+To show auto-numbering in Typora's Outline panel, disable the collapsible outline panel in the  preferences panel and then try <https://pastebin.com/XmYgBbaz>. <!-- It seems to work whether or not the preference for collapsible outline panel is set or not. -->

@@ -59,7 +59,7 @@ When **Convert on Input** is enabled, quotes and dashes are converted *immediate
 
 When **Convert on Rendering** is enabled, typing in ASCII quotes and dashes **will save the original ASCII code on source mode**, but in edit/preview tab, Typora will render them as curly quotes or unicode dashes.  
 
-Both ignore convertion when user input in YAML/code/math blocks or in source code mode.
+Both ignore conversion when user input in YAML/code/math blocks or in source code mode.
 
 ## Remap Unicode Punctuation on Parse
 

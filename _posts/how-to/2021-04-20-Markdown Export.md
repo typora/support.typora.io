@@ -31,7 +31,7 @@ Please note that in this process, your markdown file will be translated to an in
 For example:
 
 ```markdown
-[linke][typora] is a website
+[link][typora] is a website
 
 [typora]: http://www.typora.io
 ```
@@ -39,7 +39,7 @@ For example:
 May become following content after export.
 
 ```markdown
-[linke](http://www.typora.io) is a website
+[link](http://www.typora.io) is a website
 ```
 
 ## Format option for Markdown export
