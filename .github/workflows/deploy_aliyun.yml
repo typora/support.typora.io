@@ -42,9 +42,9 @@ jobs:
           git config --global user.email "hi@typora.io"
           git config --global user.name "Typora"
           git remote add a dokku@dokku.typoraio.cn:wiki
-          sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile
-          sed -i 's/rubygems\.org/gems.ruby-china.com/g' Gemfile.lock
-          grep "gems.ruby-china.com" Gemfile 
+          sed -i 's#rubygems\.org#mirrors.aliyun.com/rubygems#g' Gemfile
+          sed -i 's#rubygems\.org#mirrors.aliyun.com/rubygems#g' Gemfile.lock
+          grep "mirrors.aliyun.com/rubygems" Gemfile
           git checkout -b master
           git add Gemfile Gemfile.lock
           git add -f llms.txt
