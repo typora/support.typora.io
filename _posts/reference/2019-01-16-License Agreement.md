@@ -76,7 +76,7 @@ You may not accept this EULA if You are not of legal age to form a binding contr
 5. You could upgrade or downgrade Typora as you like, but we will delete older versions from our website after a long time period or we find it contains serious bugs.
 6. Any maintenance and support provided by us, including the provision of Updates and upgrades, will be provided in an adequate way on an “as is” basis without any warranty, as soon as reasonably practicable, subject to availability of personnel.
 7. For issues about Typora, please contact us and provide necessary information for us to locate the issue, please notice:
-   1. We are not able to provide further help without your cooperation, including providing basic or necessary informations for us to locate the issue or assist you, etc.
+   1. We are not able to provide further help without your cooperation, including providing basic or necessary information for us to locate the issue or assist you, etc.
    2. We will try to solve user’s issue, but we cannot guarantee all requests are satisfied, or our app will be bug-free on all devices.
    3. We reverse the right to refund your purchase, or revoke your license, if you insult, defame, or being extremely rude when communicating with us.
 

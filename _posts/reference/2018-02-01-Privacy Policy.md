@@ -69,7 +69,7 @@ For better user experience and prevent data lose from crash, if possible, Typora
 
 ### Feedbacks & Debug Contents
 
-You may send us, or we may suggest you to send us informations like system version, operation steps , sample markdown files, or other needed info when you reports bugs or gave feedbacks. You can refuse to provide those informations if you do not want to. 
+You may send us, or we may suggest you send us information like system version, operation steps, sample markdown files, or other needed info when you report bugs or give feedback. You can refuse to provide that information if you do not want to.
 
 All sample markdown files that user send to us, will only be used for debug and test purpose, we will not leak them to any other person who is not one of our development team without user's permission. We may keep and use them after we remove sensitive data or personal identical data, for regulation test purpose. But we will delete files from mail box and local machine after we fixed related bugs, if user require us doing so. 
 
